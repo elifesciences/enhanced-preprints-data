@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2d1 20170631//EN" "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="article" dtd-version="1.2d1" specific-use="production" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">MEDRXIV</journal-id>
+<journal-title-group>
+<journal-title>medRxiv</journal-title>
+<abbrev-journal-title abbrev-type="publisher">medRxiv</abbrev-journal-title>
+</journal-title-group>
+<publisher>
+<publisher-name>Cold Spring Harbor Laboratory</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1101/2022.05.03.22274606</article-id>
+<article-version>1.1</article-version>
+<article-categories>
+<subj-group subj-group-type="hwp-journal-coll">
+<subject>Epidemiology</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Validation of a Multi-ancestry Polygenic Risk Score and Age-Specific Risks of Prostate Cancer: A Meta-analysis Within Diverse Populations</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1679-9932</contrib-id>
+<name><surname>Chen</surname><given-names>Fei</given-names></name>
+<xref ref-type="aff" rid="a1">a</xref>
+<xref ref-type="author-notes" rid="n1">&#x2020;</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Darst</surname><given-names>Burcu F</given-names></name>
+<xref ref-type="aff" rid="a1">a</xref>
+<xref ref-type="aff" rid="a2">b</xref>
+<xref ref-type="author-notes" rid="n1">&#x2020;</xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2130-2887</contrib-id>
+<name><surname>Madduri</surname><given-names>Ravi K</given-names></name>
+<xref ref-type="aff" rid="a3">c</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Rodriguez</surname><given-names>Alex A</given-names></name>
+<xref ref-type="aff" rid="a3">c</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Sheng</surname><given-names>Xin</given-names></name>
+<xref ref-type="aff" rid="a1">a</xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1408-7907</contrib-id>
+<name><surname>Rentsch</surname><given-names>Christopher T</given-names></name>
+<xref ref-type="aff" rid="a4">d</xref>
+<xref ref-type="aff" rid="a5">e</xref>
+<xref ref-type="aff" rid="a6">f</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Andrews</surname><given-names>Caroline</given-names></name>
+<xref ref-type="aff" rid="a7">g</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Tang</surname><given-names>Wei</given-names></name>
+<xref ref-type="aff" rid="a8">h</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Kibel</surname><given-names>Adam S</given-names></name>
+<xref ref-type="aff" rid="a9">i</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Plym</surname><given-names>Anna</given-names></name>
+<xref ref-type="aff" rid="a9">i</xref>
+<xref ref-type="aff" rid="a10">j</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Cho</surname><given-names>Kelly</given-names></name>
+<xref ref-type="aff" rid="a11">k</xref>
+<xref ref-type="aff" rid="a12">l</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Jalloh</surname><given-names>Mohamed</given-names></name>
+<xref ref-type="aff" rid="a13">m</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Gueye</surname><given-names>Serigne Magueye</given-names></name>
+<xref ref-type="aff" rid="a13">m</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Niang</surname><given-names>Lamine</given-names></name>
+<xref ref-type="aff" rid="a13">m</xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8748-2879</contrib-id>
+<name><surname>Ogunbiyi</surname><given-names>Olufemi</given-names></name>
+<xref ref-type="aff" rid="a14">n</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Popoola</surname><given-names>Olufemi</given-names></name>
+<xref ref-type="aff" rid="a14">n</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Adebiyi</surname><given-names>Akindele O.</given-names></name>
+<xref ref-type="aff" rid="a14">n</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Aisuodionoe-Shadrach</surname><given-names>Oseremen I.</given-names></name>
+<xref ref-type="aff" rid="a15">o</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Ajibola</surname><given-names>Hafees O</given-names></name>
+<xref ref-type="aff" rid="a15">o</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Jamda</surname><given-names>Mustapha A</given-names></name>
+<xref ref-type="aff" rid="a15">o</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Oluwole</surname><given-names>Olabode P</given-names></name>
+<xref ref-type="aff" rid="a15">o</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Nwegbu</surname><given-names>Maxwell</given-names></name>
+<xref ref-type="aff" rid="a15">o</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Adusei</surname><given-names>Ben</given-names></name>
+<xref ref-type="aff" rid="a16">p</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Mante</surname><given-names>Sunny</given-names></name>
+<xref ref-type="aff" rid="a16">p</xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0649-3996</contrib-id>
+<name><surname>Darkwa-Abrahams</surname><given-names>Afua</given-names></name>
+<xref ref-type="aff" rid="a17">q</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Mensah</surname><given-names>James E.</given-names></name>
+<xref ref-type="aff" rid="a17">q</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Adjei</surname><given-names>Andrew Anthony</given-names></name>
+<xref ref-type="aff" rid="a17">q</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Diop</surname><given-names>Halimatou</given-names></name>
+<xref ref-type="aff" rid="a18">r</xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4650-3741</contrib-id>
+<name><surname>Lachance</surname><given-names>Joseph</given-names></name>
+<xref ref-type="aff" rid="a19">s</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Rebbeck</surname><given-names>Timothy R</given-names></name>
+<xref ref-type="aff" rid="a7">g</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Ambs</surname><given-names>Stefan</given-names></name>
+<xref ref-type="aff" rid="a8">h</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Gaziano</surname><given-names>J. Michael</given-names></name>
+<xref ref-type="aff" rid="a12">l</xref>
+<xref ref-type="aff" rid="a11">k</xref>
+<xref ref-type="aff" rid="a20">t</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Justice</surname><given-names>Amy C</given-names></name>
+<xref ref-type="aff" rid="a4">d</xref>
+<xref ref-type="aff" rid="a21">u</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Conti</surname><given-names>David V</given-names></name>
+<xref ref-type="aff" rid="a1">a</xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0097-9971</contrib-id>
+<name><surname>Haiman</surname><given-names>Christopher A</given-names></name>
+<xref ref-type="aff" rid="a1">a</xref>
+<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
+</contrib>
+<contrib contrib-type="author">
+<on-behalf-of>the VA Million Veteran Program</on-behalf-of>
+</contrib>
+<aff id="a1"><label>a</label><institution>Department of Population and Public Health Sciences, Center for Genetic Epidemiology, University of Southern California</institution>, Los Angeles, CA, <country>USA</country></aff>
+<aff id="a2"><label>b</label><institution>Public Health Sciences, Fred Hutchinson Cancer Research Center</institution>, Seattle, WA, <country>USA</country></aff>
+<aff id="a3"><label>c</label><institution>Argonne National Laboratory</institution>, IL, <country>USA</country></aff>
+<aff id="a4"><label>d</label><institution>Yale School of Medicine</institution>, New Haven, CT, <country>USA</country></aff>
+<aff id="a5"><label>e</label><institution>VA Conneticut Healthcare System</institution>, West Haven, CT, <country>USA</country></aff>
+<aff id="a6"><label>f</label><institution>London School of Hygiene and Tropical Medicine</institution>, London, <country>UK</country></aff>
+<aff id="a7"><label>g</label><institution>Harvard TH Chan School of Public Health and Division of Population Sciences, Dana Farber Cancer Institute</institution>, Boston, MA, <country>USA</country></aff>
+<aff id="a8"><label>h</label><institution>Laboratory of Human Carcinogenesis, Center for Cancer Research, National Cancer Institute</institution>, Bethesda, MD, <country>USA</country></aff>
+<aff id="a9"><label>i</label><institution>Department of Surgery, Urology Division, Brigham and Women&#x2019;s Hospital, Harvard Medical School</institution>, Boston, MA, <country>USA</country></aff>
+<aff id="a10"><label>j</label><institution>Department of Epidemiology, Harvard T.H. Chan School of Public Health</institution>, Boston, MA, <country>USA</country></aff>
+<aff id="a11"><label>k</label><institution>VA Boston Healthcare System</institution>, Boston, MA, <country>USA</country></aff>
+<aff id="a12"><label>l</label><institution>Division of Aging, Brigham and Women&#x2019;s Hospital</institution>, Boston, MA, <country>USA</country></aff>
+<aff id="a13"><label>m</label><institution>H&#x00F4;pital G&#x00E9;n&#x00E9;ral Idrissa Pouye</institution>, Dakar, <country>Senegal</country></aff>
+<aff id="a14"><label>n</label><institution>College of Medicine, University of Ibadan and University College Hospital</institution>, Ibadan, <country>Nigeria</country></aff>
+<aff id="a15"><label>o</label><institution>College of Health Sciences, University of Abuja, University of Abuja Teaching Hospital and Cancer Science Center</institution>, Abuja, <country>Nigeria</country></aff>
+<aff id="a16"><label>p</label><institution>37 Military Hospital</institution>, Accra, <country>Ghana</country></aff>
+<aff id="a17"><label>q</label><institution>Korle-Bu Teaching Hospital</institution>, Accra, <country>Ghana</country></aff>
+<aff id="a18"><label>r</label><institution>Laboratoires Bacteriologie et Virologie, H&#x00F4;pital Aristide Le Dantec</institution>, Dakar, <country>Senegal</country></aff>
+<aff id="a19"><label>s</label><institution>School of Biological Sciences, Georgia Institute of Technology</institution>, GA, <country>USA</country></aff>
+<aff id="a20"><label>t</label><institution>Department of Medicine, Harvard Medical School</institution>, Boston, MA, <country>USA</country></aff>
+<aff id="a21"><label>u</label><institution>VA Connecticut Healthcare System</institution>, West Haven, CT, <country>USA</country></aff>
+</contrib-group>
+<author-notes>
+<corresp id="cor1"><label>&#x002A;</label>Corresponding Author: Christopher A. Haiman, 1450 Biggy Street, Los Angeles, CA 90033 USA, 1-323-442-7755, <email>haiman@usc.edu</email></corresp>
+<fn id="n1" fn-type="equal"><label>&#x2020;</label><p>These authors contributed equally</p></fn>
+</author-notes>
+<pub-date pub-type="epub">
+<year>2022</year>
+</pub-date>
+<elocation-id>2022.05.03.22274606</elocation-id>
+<history>
+<date date-type="received">
+<day>03</day>
+<month>5</month>
+<year>2022</year>
+</date>
+<date date-type="rev-recd">
+<day>03</day>
+<month>5</month>
+<year>2022</year>
+</date>
+<date date-type="accepted">
+<day>03</day>
+<month>5</month>
+<year>2022</year>
+</date>
+</history>
+<permissions>
+<copyright-statement>&#x00A9; 2022, Posted by Cold Spring Harbor Laboratory</copyright-statement>
+<copyright-year>2022</copyright-year>
+<license license-type="creative-commons" xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This pre-print is available under a Creative Commons License (Attribution 4.0 International), CC BY 4.0, as described at <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link></license-p></license>
+</permissions>
+<self-uri xlink:href="22274606.pdf" content-type="pdf" xlink:role="full-text"/>
+<abstract>
+<title>Abstract</title>
+<sec>
+<title>Background</title>
+<p>We recently developed a multi-ancestry polygenic risk score (PRS) that effectively stratifies prostate cancer risk across populations. In this study, we validated the performance of the PRS in the multi-ancestry Million Veteran Program (MVP) and additional independent studies.</p></sec>
+<sec>
+<title>Methods</title>
+<p>Within each ancestry population, the association of PRS with prostate cancer risk was evaluated separately in each case-control study and then combined in a fixed-effects inverse-variance-weighted meta-analysis. We further assessed the effect modification by age and estimated the age-specific absolute risk of prostate cancer for each ancestry population.</p></sec>
+<sec>
+<title>Results</title>
+<p>The PRS was evaluated in 31,925 cases and 490,507 controls, including men from European (22,049 cases, 414,249 controls), African (8,794 cases, 55,657 controls), and Hispanic (1,082 cases, 20,601 controls) populations. Comparing men in the top decile (90-100&#x0025; of the PRS) to the average 40-60&#x0025; PRS category, the prostate cancer OR was increased 3.8-fold in European ancestry men (95&#x0025; CI=3.62-3.96), 2.8-fold in African ancestry men (95&#x0025; CI=2.59-3.03), and 3.2-fold in Hispanic men (95&#x0025; CI=2.64-3.92). The PRS did not discriminate risk of aggressive versus non-aggressive prostate cancer. However, the OR diminished with advancing age (European ancestry men in the top decile: &#x2264;55 years, OR=7.11; 55-60 years, OR=4.26; &#x003E;70 years, OR=2.79). Men in the top PRS decile reached 5&#x0025; absolute prostate cancer risk &#x223C;10 years younger than men in the 40-60&#x0025; PRS category.</p></sec>
+<sec>
+<title>Conclusions</title>
+<p>Our findings validate the multi-ancestry PRS as an effective prostate cancer risk stratification tool across populations. A clinical study of PRS is warranted to determine if the PRS could be used for risk-stratified screening and early detection.</p></sec>
+<sec>
+<title>Funding</title>
+<p>This work was supported by the National Cancer Institute at the National Institutes of Health (grant numbers U19 CA214253 to C.A.H., U01 CA257328 to C.A.H., U19 CA148537 to C.A.H., R01 CA165862 to C.A.H., K99 CA246063 to B.F.D, and T32CA229110 to F.C), the Prostate Cancer Foundation (grants 21YOUN11 to B.F.D. and 20CHAS03 to C.A.H.), the Achievement Rewards for College Scientists Foundation Los Angeles Founder Chapter to B.F.D, and the Million Veteran Program-MVP017. This research has been conducted using the UK Biobank Resource under application number 42195. This research is based on data from the Million Veteran Program, Office of Research and Development, and the Veterans Health Administration. This publication does not represent the views of the Department of Veteran Affairs or the United States Government.</p></sec>
+</abstract>
+<kwd-group kwd-group-type="author">
+<title>Keywords</title>
+<kwd>African ancestry</kwd>
+<kwd>Health disparities</kwd>
+<kwd>Hispanic</kwd>
+<kwd>Genetics</kwd>
+<kwd>Million Veteran Program</kwd>
+<kwd>Multi-ancestry</kwd>
+<kwd>Polygenic risk scores</kwd>
+<kwd>Prostate cancer</kwd>
+</kwd-group>
+<counts>
+<page-count count="38"/>
+</counts>
+</article-meta>
+<notes>
+<notes notes-type="competing-interest-statement">
+<title>Competing Interest Statement</title><p>The authors have declared no competing interest.</p></notes>
+<notes notes-type="financial-disclosure">
+<title>Funding Statement</title><p>This work was supported by the National Cancer Institute at the National Institutes of Health (grant numbers U19 CA214253 to C.A.H., U01 CA257328 to C.A.H., U19 CA148537 to C.A.H., R01 CA165862 to C.A.H., K99 CA246063 to B.F.D, and T32CA229110 to F.C), the Prostate Cancer Foundation (grants 21YOUN11 to B.F.D. and 20CHAS03 to C.A.H.), the Achievement Rewards for College Scientists Foundation Los Angeles Founder Chapter to B.F.D, and the Million Veteran Program-MVP017. This research has been conducted using the UK Biobank Resource under application number 42195. This research is based on data from the Million Veteran Program, Office of Research and Development and the Veterans Health Administration. This publication does not represent the views of the Department of Veteran Affairs or the United States Government.</p></notes>
+<notes notes-type="disclosures">
+<title>Author Declarations</title><p>I confirm all relevant ethical guidelines have been followed, and any necessary IRB and/or ethics committee approvals have been obtained.</p><p>Not Applicable</p><p>The details of the IRB/oversight body that provided approval or exemption for the research described are given below:</p><p>All study protocols were approved by each site's Institutional Review Board in accordance with the principles outlined in the Declaration of Helsinki.</p><p>I confirm that all necessary patient/participant consent has been obtained and the appropriate institutional forms have been archived, and that any patient/participant/sample identifiers included were not known to anyone (e.g., hospital staff, patients or participants themselves) outside the research group so cannot be used to identify individuals.</p><p>Not Applicable</p><p>I understand that all clinical trials and any other prospective interventional studies must be registered with an ICMJE-approved registry, such as ClinicalTrials.gov. I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively, please provide a statement in the trial ID field explaining why the study was not registered in advance).</p><p>Not Applicable</p><p>I have followed all appropriate research reporting guidelines and uploaded the relevant EQUATOR Network research reporting checklist(s) and other pertinent material as supplementary files, if applicable.</p><p>Not Applicable</p></notes>
+</notes>
+</front>
+<body>
+<sec id="s1">
+<title>Introduction</title>
+<p>Prostate cancer is the second leading cause of cancer death and represents one of the largest health disparities in the US, with African ancestry men having the highest incidence rates(<xref ref-type="bibr" rid="c1">1</xref>). Genetic factors play an important role in prostate cancer susceptibility(<xref ref-type="bibr" rid="c2">2</xref>, <xref ref-type="bibr" rid="c3">3</xref>) and racial/ethnic disparities in disease incidence(<xref ref-type="bibr" rid="c3">3</xref>). We recently developed a multi-ancestry polygenic risk score (PRS) that effectively stratifies prostate cancer risk across populations(<xref ref-type="bibr" rid="c3">3</xref>). The PRS could potentially be an effective tool to identify men across diverse populations at higher risk of developing prostate cancer and allow them to make more informed decisions regarding at what age(s) and how frequently to undergo PSA screening.</p>
+<p>In this investigation, we evaluated the previously developed multi-ancestry PRS in large independent samples of men from the Veteran Affairs Million Veteran Program (MVP; 21,078 cases and 284,177 controls, including 13,643 cases and 210,214 controls of European ancestry, 6,353 cases and 53,362 controls of African ancestry, and 1,082 cases and 20,601 controls from Hispanic populations)(<xref ref-type="bibr" rid="c4">4</xref>), the Men of African Descent and Carcinoma of the Prostate (MADCaP) Network (405 cases and 396 controls of African ancestry)(<xref ref-type="bibr" rid="c5">5</xref>), and the Maryland Prostate Cancer Case-Control Study (NCI-MD; 383 cases and 395 controls of African ancestry)(<xref ref-type="bibr" rid="c6">6</xref>) (<bold>Materials and Methods</bold>). We also included, through meta-analysis, independent replication studies of the multi-ancestry PRS conducted to date in European (UK Biobank and Mass General Brigham [MGB] Biobank) and African ancestry populations (California and Uganda Prostate Cancer Study [CA UG] and MGB Biobank; <bold>Materials and Methods</bold>)(<xref ref-type="bibr" rid="c3">3</xref>, <xref ref-type="bibr" rid="c7">7</xref>), bringing the total sample to 31,925 cases and 490,507 controls.</p>
+</sec>
+<sec id="s2">
+<title>Results</title>
+<p>The multi-ancestry PRS was strongly associated with prostate cancer risk in the three populations (<bold><xref rid="fig1" ref-type="fig">Figure 1</xref></bold> and <bold>Figure 1 &#x2013; source data 1</bold>). In European ancestry men, ORs were 3.78 (95&#x0025; CI=3.41-3.81) and 7.32 (95&#x0025; CI=6.76-7.92) for men in the top PRS decile (90-100&#x0025;) and top percentile (99-100&#x0025;), respectively, compared to men with average genetic risk (40-60&#x0025; PRS category). In African ancestry men, ORs were 2.80 (95&#x0025; CI=2.49-2.95) and 4.98 (95&#x0025; CI=4.27-5.79) for men in the top PRS decile and percentile, respectively. In Hispanic men, ORs were 3.22 (95&#x0025; CI=2.64-3.92) and 6.91 (95&#x0025;=4.97-9.60) for men in the top PRS decile and percentile, respectively. PRS associations within populations were generally consistent across individual replication studies (<bold><xref rid="fig1_S1" ref-type="fig">Figure 1 &#x2013; figure supplement 1</xref></bold>). The area under the curve (AUC) increased 0.136 on average across populations upon adding the PRS to a base model of age and principal components of ancestry (<bold><xref ref-type="table" rid="tblA1">Appendix 1 - Table 1</xref></bold>). Compared to the mean PRS in European ancestry controls, African ancestry controls had a mean PRS associated with a relative risk of 2.19 (95&#x0025; CI=2.17-2.21), while Hispanic controls had a relative risk of 1.16 (95&#x0025; CI=1.15-1.18), consistent with previous findings(<xref ref-type="bibr" rid="c3">3</xref>).</p>
+<fig id="fig1" position="float" fig-type="figure">
+<label>Figure 1.</label>
+<caption><title>Association between the multi-ancestry PRS of 269 variants and prostate cancer risk in men from European, African, and Hispanic populations.</title>
+<p>The European ancestry replication studies included MVP, the UK Biobank (Conti, Darst et al., <italic>Nature Genetics</italic>, 2021), and the Mass General Brigham Biobank (MGB; Plym et al., <italic>JNCI</italic>, 2021). The African ancestry replication studies included MVP, the California and Uganda Prostate Cancer Study (CA UG; Conti, Darst et al., <italic>Nature Genetics</italic>, 2021), the Men of African Descent and Carcinoma of the Prostate (MADCaP) Network, the Maryland Prostate Cancer Case-Control Study (NCI-MD), and MGB (Plym et al., <italic>JNCI</italic>, 2021). Replication in Hispanic men was conducted in MVP. Results from individual replication studies are shown in <bold><xref ref-type="fig" rid="fig1_S1">Figure 1 &#x2013; figure supplement 1</xref></bold>. The x-axis indicates the PRS category. Additional analysis was performed to evaluate the PRS association in men with extremely high genetic risk (99&#x0025;-100&#x0025;). The y-axis indicates odds ratio (OR) with error bars representing 95&#x0025; confidence interval (CI) for each PRS category compared to the 40-60&#x0025; PRS. The dotted horizontal line corresponds to an OR of 1. ORs and 95&#x0025; CIs for each decile are provided in <bold>Figure 1 &#x2013; source data 1</bold>.</p></caption>
+<graphic xlink:href="22274606v1_fig1.tif"/>
+</fig>
+<p>Previously, we found that PRS associations were significantly stronger in younger men (aged &#x2264;55 years) than in older men (aged &#x003E;55 years)(<xref ref-type="bibr" rid="c3">3</xref>). In the two large replication studies, UK Biobank and MVP, we further explored effect modification by age (<bold><xref rid="fig2" ref-type="fig">Figure 2</xref>, <xref rid="fig2_S1" ref-type="fig">Figure 2 &#x2013; figure supplement 1</xref></bold>, and <bold>Figure 2 &#x2013; source data 1</bold>). In European ancestry men, for the top PRS decile, the OR was 7.11 (95&#x0025; CI=5.82-8.70) in men aged &#x2264;55, 4.26 (95&#x0025; CI=3.77-4.81) in men aged 55-60, and 2.79 (95&#x0025; CI=2.50-3.11) in men aged &#x003E;70. The gradient in PRS risk by age was greater for men in the top PRS percentile, with ORs of 17.2 (95&#x0025; CI=13.0-22.8), 9.18 (95&#x0025; CI=7.52-11.2), and 5.43 (95&#x0025; CI=4.50-6.55) estimated for men &#x2264;55, 55-60, and &#x003E;70 years of age, respectively. Attenuation of PRS associations with age was also observed in African ancestry men, as the OR for men in the top PRS decile decreased from 3.75 (95&#x0025; CI=3.04-4.64) in men aged &#x2264;55 to 2.16 (95&#x0025; CI=1.76-4.68) in men aged &#x003E;70. For African ancestry men in the top PRS percentile, the OR decreased from 8.80 (95&#x0025; CI=6.16-12.6) in men aged &#x2264;55 to 2.87 (95&#x0025; CI=1.76-4.68) in men aged &#x003E;70. A similar trend was observed in Hispanic men (OR=6.37, 95&#x0025; CI=3.26-12.44 for men &#x2264;55 and OR=2.15, 95&#x0025; CI=1.39-3.32 for men &#x003E;70 in the top PRS decile). Compared to men in the 40-60&#x0025; PRS category, men from European, African, and Hispanic populations in the top PRS decile reached 5&#x0025; absolute risk of prostate cancer 12 years earlier (age 57 versus 69), 8 years earlier (age 55 versus 63), and 11 years earlier (age 60 versus 71), respectively (<bold><xref rid="tbl1" ref-type="table">Table 1</xref></bold> and <bold><xref rid="fig3" ref-type="fig">Figure 3</xref></bold>). For men in the top PRS percentile, 5&#x0025; absolute risk was reached by ages 51, 52, and 53 for European, African, and Hispanic populations, respectively.</p>
+<fig id="fig2" position="float" fig-type="figure">
+<label>Figure 2.</label>
+<caption><title>Association between the multi-ancestry PRS of 269 variants and prostate cancer risk stratified by age.</title>
+<p>PRS associations in men of European ancestry (A) were meta-analyzed from UK Biobank (6,852 cases and 193,117 controls) and MVP (13,643 cases and 210,214 controls; <bold><xref ref-type="fig" rid="fig2_S1">Figure 2 &#x2013; figure supplement 1</xref></bold>), whereas PRS associations in men of African ancestry (B) were estimated from MVP (6,353 cases and 53,362 controls). The x-axis indicates the PRS category. Additional analyses were performed to evaluate the PRS association in men with extremely high genetic risk (top percentile, 99&#x0025;-100&#x0025;). The y-axis indicates the odds ratio (OR) with error bars representing the 95&#x0025; confidence interval (CI) for each PRS category compared to the 40-60&#x0025; PRS category. The dotted horizontal line corresponds to an OR of 1. ORs and 95&#x0025; CIs for each PRS category are provided in <bold>Figure 2 &#x2013; source data 1</bold>.</p></caption>
+<graphic xlink:href="22274606v1_fig2.tif"/>
+</fig>
+<fig id="tbl1" orientation="portrait" position="float">
+<label>Table 1.</label>
+<caption><title>Age at which 5&#x0025; absolute risk of prostate cancer is reached in men from European, African, and Hispanic populations.</title>
+<p>Absolute risks of prostate cancer were estimated using age- and population-specific Surveillance, Epidemiology, and End Results (SEER) incidence rates, CDC National Center for Health Statistics mortality rates, and PRS associations from <bold>Supplementary File 2 - Table S1</bold> based on MVP and the UK Biobank.</p></caption>
+<graphic xlink:href="22274606v1_tbl1.tif"/>
+</fig>
+<fig id="fig3" position="float" fig-type="figure">
+<label>Figure 3.</label>
+<caption><title>Absolute risk of prostate cancer by PRS category in men from European (A), African (B), and Hispanic populations (C).</title>
+<p>The absolute risks were estimated using the age- and population-specific PRS associations from <bold>Figure 2 &#x2013; source data 1</bold>, the SEER incidence rates, and the CDC mortality rates corresponding to non-Hispanic White, Black, and Hispanic men. The dotted line indicates the 5&#x0025; absolute risk of prostate cancer.</p></caption>
+<graphic xlink:href="22274606v1_fig3.tif"/>
+</fig>
+<p>Similar to previous findings(<xref ref-type="bibr" rid="c3">3</xref>, <xref ref-type="bibr" rid="c7">7</xref>), the multi-ancestry PRS did not consistently differentiate aggressive and non-aggressive prostate cancer risk (<bold><xref ref-type="table" rid="tblA2">Appendix 1 - Table 2</xref></bold>). For men in the top PRS decile, ORs were 3.17 (95&#x0025; CI=2.77-3.63) and 3.71 (95&#x0025; CI=3.48-3.94) for aggressive and non-aggressive prostate cancer, respectively, in European ancestry men (P-heterogeneity=0.04) and 1.92 (95&#x0025; CI=1.17-3.15) and 3.30 (95&#x0025; CI=2.64-4.12), respectively, in Hispanic men (P-heterogeneity=0.05). In African ancestry men, the association was greater for aggressive (OR=3.31, 95&#x0025; CI=2.71-4.03) than non-aggressive disease (OR=2.66, 95&#x0025; CI=2.43-2.92), although confidence intervals overlapped (P-heterogeneity=0.05).</p>
+</sec>
+<sec id="s3">
+<title>Discussion</title>
+<p>Findings from this investigation provide further support for the PRS as a prostate cancer risk stratification tool in men from European, African, and Hispanic populations. Notably, this investigation provides the first evidence of replication of the multi-ancestry PRS in Hispanic men. Consistent with previous findings(<xref ref-type="bibr" rid="c3">3</xref>, <xref ref-type="bibr" rid="c7">7</xref>), we observed lower PRS performance in African versus European ancestry men, supporting the need to expand GWAS and fine-mapping efforts in African ancestry men. The stronger association of the PRS with prostate cancer risk observed for younger men supports previous studies(<xref ref-type="bibr" rid="c3">3</xref>), suggesting that the contribution of genetic factors to prostate cancer is greater at younger ages and that age needs to be considered when comparing PRS findings across studies and populations.</p>
+<p>The PRS is an effective risk stratification tool for prostate cancer at both ends of the risk spectrum. Current guidelines consider age, self-reported race, and a family history of prostate cancer in PSA screening decisions(<xref ref-type="bibr" rid="c8">8</xref>). Although the PRS generally did not differentiate aggressive versus non-aggressive prostate cancer, a substantial fraction of men who will develop aggressive tumors (&#x223C;40&#x0025;) are among a subset of men in the population with the highest PRS (top 20&#x0025;), while only &#x223C;7&#x0025; of men who will develop aggressive tumors are among the subset of men in the population with the lowest PRS (bottom 20&#x0025;), suggesting that reduced screening among low PRS men may reduce the overdiagnosis of prostate cancer. Indeed, previous studies in men of European ancestry support that PRS-stratified screening could significantly reduce the overdiagnosis of prostate cancer by 33&#x0025;-42&#x0025;, with the largest reduction observed in men with lower genetic risk(<xref ref-type="bibr" rid="c9">9</xref>-<xref ref-type="bibr" rid="c11">11</xref>). Risk-stratified screening studies are warranted in diverse populations to evaluate the clinical utility of the multi-ancestry PRS for early disease detection and when in a man&#x2019;s life genetic risk should be considered in the shared decision-making process for prostate cancer screening.</p>
+</sec>
+<sec id="s4">
+<title>Materials and Methods</title>
+<sec id="s4a">
+<title>Participants and Genetic Data</title>
+<p>We replicated the association between the multi-ancestry PRS and prostate cancer risk in three independent case-control samples from the VA Million Veteran Program (MVP), the Men of African Descent and Carcinoma of the Prostate (MADCaP) Network, and the Maryland Prostate Cancer Case-Control Study (NCI-MD), as described below. Previously, this multi-ancestry PRS was replicated by our group and others in the California and Uganda Prostate Cancer Study (CA UG, 1,586 cases and 1,047 controls of African ancestry), the UK Biobank (6,852 cases and 193,117 controls of European ancestry; updates to the UK Biobank led to slightly different sample sizes in the present study of 8,483 cases and 193,744 controls of European ancestry), and the Mass General Brigham Biobank (MGB, formerly known as the Partners Healthcare Biobank, 67 cases and 457 controls of African ancestry and 1,554 cases and 10,918 controls of European ancestry). Results from these studies are described in detail elsewhere(<xref ref-type="bibr" rid="c3">3</xref>, <xref ref-type="bibr" rid="c7">7</xref>). To provide a comprehensive assessment of the PRS validation, we meta-analyzed all replication studies, which included a total of 22,049 cases and 414,249 controls of European ancestry (UK Biobank, MGB, and MVP) and 8,794 cases and 55,657 controls of African ancestry (MGB, MADCaP, NCI-MD, and MVP). In men of Hispanic ancestry, the multi-ancestry PRS was only assessed in MVP (1,082 cases and 20,601 controls). All study protocols were approved by each site&#x2019;s Institutional Review Board in accordance with the principles outlined in the Declaration of Helsinki.</p>
+<sec id="s4a1">
+<title>MVP</title>
+<p>The design of the MVP has been previously described(<xref ref-type="bibr" rid="c4">4</xref>). Briefly, participants were recruited from approximately 60 Veteran Health Administration (VHA) facilities across the United States since 2011 with the current enrollment at &#x003E;800,000. Informed consent is obtained for all participants to provide a blood sample for genetic analysis and to access their full clinical and health data. A total of 485,856 samples from participants enrolled between 2011 and 2017 were genotyped on a custom Axiom array designed specifically for MVP (MVP 1.0). The genotyping array design and data quality controls were extensively described elsewhere(<xref ref-type="bibr" rid="c12">12</xref>). After excluding variants with high genotype missingness (&#x003E;5&#x0025;) and those deviated from the expected allele frequency observed in the reference populations, genotype data was imputed to the 1000 Genomes Project Phase 3 reference panel(<xref ref-type="bibr" rid="c13">13</xref>). In MVP, genetic ancestry was assessed using HARE(<xref ref-type="bibr" rid="c14">14</xref>), which assigned &#x003E;98&#x0025; of participants with genotype data to one of four non-overlapping population groups: non-Hispanic White (European), non-Hispanic Black (African), Hispanic, and non-Hispanic Asian. Due to the small number of non-Hispanic Asian individuals, they are excluded from the current analysis.</p>
+<p>We identified a total of 21,078 cases and 284,177 controls from MVP, of whom 13,643 cases and 210,214 controls were of European ancestry (73.3&#x0025;), 6,353 cases and 53,362 controls were of African ancestry (19.6&#x0025;), and 1,082 cases and 20,601 controls were Hispanic (7.1&#x0025;). Prostate cancer cases were identified from the Veterans Affairs Central Cancer Registry (VACCR), which collects cancer diagnosis, extent of disease and staging, first course of treatment, and outcomes from 132 VA medical centers. In this analysis, we only included cases from the VACCR who have a confirmed cancer diagnosis based on their diagnostic code, procedure code, and information from other clinical documents. Among the MVP participants without any prostate cancer diagnostic codes, we limited controls to those aged 45 to 95 years and had at least one prostate-specific antigen (PSA) test after enrollment. For prostate cancer cases, we obtained additional information on cancer staging and Gleason score to define aggressive prostate cancer phenotypes. Specifically, we defined aggressive prostate cancer as tumor stage T3/T4, regional lymph node involvement (N1), metastatic disease (M1), or Gleason score &#x2265;8.0, while non-aggressive cases were defined as tumor stage T1/T2 and Gleason score &#x003C;7.</p>
+</sec>
+<sec id="s4a2">
+<title>MADCaP</title>
+<p>The MADCaP Network dataset included 405 prostate cancer cases and 396 controls from sub-Saharan Africa, as previously described(<xref ref-type="bibr" rid="c5">5</xref>, <xref ref-type="bibr" rid="c15">15</xref>), with a substantial proportion of cases diagnosed at late stages. The MADCaP samples were genotyped on a customized array designed to capture common genetic variation in diverse African populations, and genotyping and quality control have been described in detail elsewhere(<xref ref-type="bibr" rid="c5">5</xref>). GWAS data were imputed using the 1000 Genomes Project Phase 3 reference panel(<xref ref-type="bibr" rid="c13">13</xref>).</p>
+</sec>
+<sec id="s4a3">
+<title>NCI-MD</title>
+<p>The NCI-MD Study included 383 prostate cancer cases identified from two Maryland hospitals and 395 population-based controls from Maryland and its neighboring states(<xref ref-type="bibr" rid="c16">16</xref>). About 87&#x0025; of the cases in this study were considered non-aggressive, with pathologically confirmed T1 or T2 tumor and a Gleason score &#x2264;7. All samples from this study were genotyped on the Illumina InfiniumOmni5Exome array and were imputed to the 1000 Genomes Project Phase 3 reference panel(<xref ref-type="bibr" rid="c13">13</xref>).</p>
+</sec>
+</sec>
+<sec id="s4b">
+<title>PRS Construction and Association Analyses</title>
+<p>PRSs were constructed by summing variant-specific weighted allelic dosages from 269 previously identified prostate cancer risk variants(<xref ref-type="bibr" rid="c3">3</xref>). Variants were weighted using the multi-ancestry conditional weights generated from our previous trans-ancestry genome-wide association study (GWAS) for prostate cancer (<xref ref-type="bibr" rid="c3">3</xref>). Variants and weights used to generate the PRS can be found in the PGS Catalog: <ext-link ext-link-type="uri" xlink:href="https://www.pgscatalog.org/publication/PGP000122/">https://www.pgscatalog.org/publication/PGP000122/</ext-link>.</p>
+<p>The association of PRS on prostate cancer risk was estimated separately in each ancestry population using an indicator variable for the percentile categories of the PRS distribution: [0-10&#x0025;], (10-20&#x0025;], (20-30&#x0025;], (30-40&#x0025;], (40-60&#x0025;], (60-70&#x0025;], (70-80&#x0025;], (80-90&#x0025;], and (90-100&#x0025;], where parentheses indicate greater than and square brackets indicate less than or equal to. Additional analysis was performed to obtain the association for the top 1&#x0025; PRS by splitting the top PRS decile into (90&#x0025;-99&#x0025;] and (99&#x0025;-100&#x0025;] categories. PRS thresholds were determined in the observed distribution among controls. In all replication studies, logistic regression was performed to estimate ORs corresponding to each PRS category, adjusting for age and the up to ten principal components of ancestry, with the (40-60&#x0025;] category as the reference. Age was defined as age at diagnosis for prostate cancer cases and age at last PSA testing (MVP) or age at study recruitment (MADCaP and NCI-MD) for controls.</p>
+<p>Discriminative ability was evaluated in MVP by estimating the area under the curve (AUC) for logistic regression models of prostate cancer that included covariates only (age and four principal components of ancestry) and for models that additionally included the PRS. All analyses were performed separately within each population.</p>
+<p>We performed a fixed-effects inverse-variance-weighted meta-analysis to combine the ORs and standard errors for each PRS decile from individual replication studies by ancestry using R package <italic>meta</italic>. This meta-analysis was conducted across the three studies of European ancestry, UK Biobank, MGB, and MVP, as well as across the four studies of African ancestry, MGB, MADCaP, NCI-MD, and MVP.</p>
+<p>In the two large replication studies, UK Biobank and MVP, logistic regression analyses were repeated stratifying both cases and controls at ages &#x2264;55, (55-60], (60-65], (65-70], and &#x003E;70, with adjustments for age (as a continuous variable) and the top principal components of ancestry.</p>
+<p>The PRS associations estimated in men of European ancestry from UK Biobank and MVP were meta-analyzed using a fixed-effects inverse-variance-weighted method. Heterogeneity between studies and across strata was assessed via a Q statistic between effects estimates with corresponding tests of significance.</p>
+<p>In the three ancestry populations from MVP, we also performed stratified analyses by disease aggressiveness, where cases were stratified as aggressive or non-aggressive and all controls were used in corresponding stratified analysis. Heterogeneity across strata was assessed via a Q statistic between effects estimates with corresponding tests of significance.</p>
+</sec>
+<sec id="s4c">
+<title>Estimation of Absolute Risk</title>
+<p>The absolute risk of prostate cancer was calculated for a given age for each PRS category in European, African, and Hispanic ancestry men(<xref ref-type="bibr" rid="c17">17</xref>-<xref ref-type="bibr" rid="c20">20</xref>). The approach constrains the PRS-specific absolute risks for a given age to be equivalent to the age-specific incidences for the entire population, such that age-specific incidence rates are calculated to increase or decrease based on the estimated risk of PRS category and the proportion of the population within the PRS category. The calculation accounts for competing causes of death.</p>
+<p>Specifically, for a given population and PRS category <italic>k</italic> (e.g., 80-90&#x0025;, 90-100&#x0025;), the absolute risk by age <italic>t</italic> is computed as: <inline-formula><alternatives><inline-graphic xlink:href="22274606v1_inline1.gif"/></alternatives></inline-formula>. This calculation consists of three components:</p>
+<list list-type="order">
+<list-item><p><bold><italic>P</italic></bold><sub><italic>ND</italic></sub>(<italic>t</italic>) is the probability of not dying from another cause of death by age <italic>t</italic> using age-specific mortality rates, <inline-formula><alternatives><inline-graphic xlink:href="22274606v1_inline2.gif"/></alternatives></inline-formula>. Age-specific mortality rates are provided from a reference cohort.</p></list-item>
+<list-item><p><italic>S</italic><sub><italic>k</italic></sub>(<italic>t</italic>) is the probability of surviving prostate cancer by age <italic>t</italic> in the PRS category <italic>k</italic> and uses the prostate cancer incidence by age <italic>t</italic> for category <inline-formula><alternatives><inline-graphic xlink:href="22274606v1_inline3.gif"/></alternatives></inline-formula>.</p></list-item>
+<list-item><p>The prostate cancer incidence by age <italic>t</italic> for PRS category <italic>k</italic> is <italic>I</italic><sub><italic>k</italic></sub>(<italic>t</italic>) and is calculated by multiplying the population prostate cancer incidence for the reference category, <italic>I</italic><sub>0</sub>(<italic>t</italic>) and the corresponding risk ratio, <italic>&#x03B2;</italic><sub><italic>ka</italic></sub>, for PRS category <italic>k</italic> and age category <italic>a</italic> (e.g. ages &#x2264;55, 55-60, 60-65, 65-70, and &#x003E;70) containing age <italic>t</italic>. These are estimated from the odds ratio obtained from the population-specific individual-level PRS analysis for each age-strata (African and Hispanic ancestry odds ratios from MVP and European ancestry odds ratios meta-analyzed from MVP and UK Biobank): <italic>I</italic><sub><italic>k</italic></sub>(<italic>t</italic>) &#x003D; <italic>I</italic><sub>0</sub>(<italic>t</italic>)exp (<italic>&#x03B2;</italic><sub><italic>ka</italic></sub>).</p></list-item>
+</list>
+<p>Prostate cancer incidence for age <italic>t</italic> for the reference category, <italic>I</italic><sub>0</sub>(<italic>t</italic>)&#x2019; is obtained by constraining the weighted average of the population cancer incidences for the PRS categories to the population age-specific prostate cancer incidence, <inline-formula><alternatives><inline-graphic xlink:href="22274606v1_inline4.gif"/></alternatives></inline-formula>, where <italic>f</italic><sub><italic>k</italic></sub> is the frequency of the PRS category <italic>k</italic> with <italic>f</italic><sub><italic>k</italic></sub> &#x003D; 0.1 for all non-reference categories in our primary PRS analysis by deciles (e.g., 0-10&#x0025;, 10-20&#x0025;, 20-30&#x0025;, etc.).</p>
+<p>By leveraging the definition that <italic>S</italic><sub><italic>k</italic></sub>(<italic>t</italic> &#x003D; 0) &#x003D; 1, for all <italic>k</italic>, the absolute risks were calculated iteratively by first getting <italic>I</italic><sub>0</sub>(<italic>t</italic> &#x003D; 1), then <italic>I</italic><sub><italic>k</italic></sub>(<italic>t</italic> &#x003D; 1), then <italic>S</italic><sub><italic>k</italic></sub>(<italic>t</italic> &#x003D; 1) and finally <italic>AR</italic><sub><italic>k</italic></sub> (<italic>t</italic> &#x003D; 1). Subsequent values were then calculated recursively for all <italic>t</italic>.</p>
+<p>For each population, absolute risks by age <italic>t</italic> were calculated using age- and population-specific prostate cancer incidence, <italic>&#x03BC;</italic>(<italic>t</italic>), from the Surveillance, Epidemiology, and End Results (SEER) Program (1999-2013) and age- and population-specific mortality rates, <italic>&#x03BC;</italic><sub><italic>D</italic></sub>(<italic>t</italic>), from the National Center for Health Statistics, CDC (1999-2013).</p>
+</sec>
+</sec>
+</body>
+<back>
+<sec sec-type="data-availability">
+<title>Data Availability</title>
+<p>This investigation included published results from the following studies under DOI numbers 10.1038/s41588-020-00748-0 and 10.1093/jnci/djab058. The MVP individual level data is available to approved VA researchers through standard mechanisms. Full GWAS summary statistics can be found in dbGaP (<ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/gap/">https://www.ncbi.nlm.nih.gov/gap/</ext-link>) under the MVP accession (phs001672).Publicly available data described in this manuscript can be found from the following websites: 1000 Genomes Project (<ext-link ext-link-type="uri" xlink:href="https://www.internationalgenome.org/">https://www.internationalgenome.org/</ext-link>); SEER (<ext-link ext-link-type="uri" xlink:href="https://seer.cancer.gov/">https://seer.cancer.gov/</ext-link>); National Center for Health Statistics, and CDC (<ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/nchs/index.htm">https://www.cdc.gov/nchs/index.htm</ext-link>).</p>
+</sec>
+<sec id="s5">
+<title>Competing Interests Statement</title>
+<p>The authors have no conflicts of interest to disclose.</p>
+</sec>
+<sec id="s6">
+<title>Data Availability Statement</title>
+<sec id="s6a">
+<title>Data availability</title>
+<p>This investigation included published results from the following studies under DOI numbers <underline>10.1038/s41588-020-00748-0</underline> and <underline>10.1093/jnci/djab058</underline>. The MVP individual level data is available to approved VA researchers through standard mechanisms. Full GWAS summary statistics can be found in dbGaP (<ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/gap/">https://www.ncbi.nlm.nih.gov/gap/</ext-link>) under the MVP accession (phs001672).Publicly available data described in this manuscript can be found from the following websites: 1000 Genomes Project (<ext-link ext-link-type="uri" xlink:href="https://www.internationalgenome.org/">https://www.internationalgenome.org/</ext-link>); SEER (<ext-link ext-link-type="uri" xlink:href="https://seer.cancer.gov/">https://seer.cancer.gov/</ext-link>); National Center for Health Statistics, and CDC (<ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/nchs/index.htm">https://www.cdc.gov/nchs/index.htm</ext-link>).</p>
+</sec>
+<sec id="s6b">
+<title>Code availability</title>
+<p>All analyses were performed using R statistical packages freely available at <ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/mirrors.html">https://cran.r-project.org/mirrors.html</ext-link>. The R code for the PRS association analysis was modified from the code available at <ext-link ext-link-type="uri" xlink:href="https://github.com/USCmec/Polfus_Darst_HGGA_2021/">https://github.com/USCmec/Polfus_Darst_HGGA_2021/</ext-link>. Source data for <xref rid="fig1" ref-type="fig">Figure 1</xref> and <xref rid="fig2" ref-type="fig">Figure 2</xref> are provided.</p>
+</sec>
+</sec>
+<ref-list>
+<title>References</title>
+<ref id="c1"><label>1.</label><mixed-citation publication-type="other"><name><surname>Howlander</surname> <given-names>N</given-names></name>, <name><surname>Noone</surname> <given-names>AM</given-names></name>, <name><surname>Krapcho</surname> <given-names>M</given-names></name>, <name><surname>Miller</surname> <given-names>D</given-names></name>, <name><surname>Brest</surname> <given-names>A</given-names></name>, <name><surname>Yu</surname> <given-names>M</given-names></name>, <etal>et al.</etal> <article-title>SEER Cancer Statistics Review, 1975-2017</article-title>. <source>Bethesda, MD: National Cancer Institute</source>; <year>2020</year>.</mixed-citation></ref>
+<ref id="c2"><label>2.</label><mixed-citation publication-type="journal"><name><surname>Mucci</surname> <given-names>LA</given-names></name>, <name><surname>Hjelmborg</surname> <given-names>JB</given-names></name>, <name><surname>Harris</surname> <given-names>JR</given-names></name>, <name><surname>Czene</surname> <given-names>K</given-names></name>, <name><surname>Havelick</surname> <given-names>DJ</given-names></name>, <name><surname>Scheike</surname> <given-names>T</given-names></name>, <etal>et al.</etal> <article-title>Familial Risk and Heritability of Cancer Among Twins in Nordic Countries</article-title>. <source>JAMA</source>. <year>2016</year>;<volume>315</volume>(<issue>1</issue>):<fpage>68</fpage>&#x2013;<lpage>76</lpage>.</mixed-citation></ref>
+<ref id="c3"><label>3.</label><mixed-citation publication-type="journal"><name><surname>Conti</surname> <given-names>DV</given-names></name>, <name><surname>Darst</surname> <given-names>BF</given-names></name>, <name><surname>Moss</surname> <given-names>LC</given-names></name>, <name><surname>Saunders</surname> <given-names>EJ</given-names></name>, <name><surname>Sheng</surname> <given-names>X</given-names></name>, <name><surname>Chou</surname> <given-names>A</given-names></name>, <etal>et al.</etal> <article-title>Trans-ancestry genome-wide association meta-analysis of prostate cancer identifies new susceptibility loci and informs genetic risk prediction</article-title>. <source>Nat Genet</source>. <year>2021</year>;<volume>53</volume>(<issue>1</issue>):<fpage>65</fpage>&#x2013;<lpage>75</lpage>.</mixed-citation></ref>
+<ref id="c4"><label>4.</label><mixed-citation publication-type="journal"><name><surname>Gaziano</surname> <given-names>JM</given-names></name>, <name><surname>Concato</surname> <given-names>J</given-names></name>, <name><surname>Brophy</surname> <given-names>M</given-names></name>, <name><surname>Fiore</surname> <given-names>L</given-names></name>, <name><surname>Pyarajan</surname> <given-names>S</given-names></name>, <name><surname>Breeling</surname> <given-names>J</given-names></name>, <etal>et al.</etal> <article-title>Million Veteran Program: A mega-biobank to study genetic influences on health and disease</article-title>. <source>J Clin Epidemiol</source>. <year>2016</year>;<volume>70</volume>:<fpage>214</fpage>&#x2013;<lpage>23</lpage>.</mixed-citation></ref>
+<ref id="c5"><label>5.</label><mixed-citation publication-type="journal"><name><surname>Harlemon</surname> <given-names>M</given-names></name>, <name><surname>Ajayi</surname> <given-names>O</given-names></name>, <name><surname>Kachambwa</surname> <given-names>P</given-names></name>, <name><surname>Kim</surname> <given-names>MS</given-names></name>, <name><surname>Simonti</surname> <given-names>CN</given-names></name>, <name><surname>Quiver</surname> <given-names>MH</given-names></name>, <etal>et al.</etal> <article-title>A Custom Genotyping Array Reveals Population-Level Heterogeneity for the Genetic Risks of Prostate Cancer and Other Cancers in Africa</article-title>. <source>Cancer Res</source>. <year>2020</year>;<volume>80</volume>(<issue>13</issue>):<fpage>2956</fpage>&#x2013;<lpage>66</lpage>.</mixed-citation></ref>
+<ref id="c6"><label>6.</label><mixed-citation publication-type="journal"><name><surname>Smith</surname> <given-names>CJ</given-names></name>, <name><surname>Dorsey</surname> <given-names>TH</given-names></name>, <name><surname>Tang</surname> <given-names>W</given-names></name>, <name><surname>Jordan</surname> <given-names>SV</given-names></name>, <name><surname>Loffredo</surname> <given-names>CA</given-names></name>, <name><surname>Ambs</surname> <given-names>S.</given-names></name> <article-title>Aspirin Use Reduces the Risk of Aggressive Prostate Cancer and Disease Recurrence in African-American Men</article-title>. <source>Cancer Epidemiol Biomarkers Prev</source>. <year>2017</year>;<volume>26</volume>(<issue>6</issue>):<fpage>845</fpage>&#x2013;<lpage>53</lpage>.</mixed-citation></ref>
+<ref id="c7"><label>7.</label><mixed-citation publication-type="other"><name><surname>Plym</surname> <given-names>A</given-names></name>, <name><surname>Penney</surname> <given-names>KL</given-names></name>, <name><surname>Kalia</surname> <given-names>S</given-names></name>, <name><surname>Kraft</surname> <given-names>P</given-names></name>, <name><surname>Conti</surname> <given-names>DV</given-names></name>, <name><surname>Haiman</surname> <given-names>C</given-names></name>, <etal>et al.</etal> <article-title>Evaluation of a Multiethnic Polygenic Risk Score Model for Prostate Cancer</article-title>. <source>J Natl Cancer Inst. 2021</source>.</mixed-citation></ref>
+<ref id="c8"><label>8.</label><mixed-citation publication-type="journal"><name><surname>Schaeffer</surname> <given-names>E</given-names></name>, <name><surname>Srinivas</surname> <given-names>S</given-names></name>, <name><surname>Antonarakis</surname> <given-names>ES</given-names></name>, <name><surname>Armstrong</surname> <given-names>AJ</given-names></name>, <name><surname>Bekelman</surname> <given-names>JE</given-names></name>, <name><surname>Cheng</surname> <given-names>H</given-names></name>, <etal>et al.</etal> <article-title>NCCN Guidelines Insights: Prostate Cancer, Version 1.2021</article-title>. <source>J Natl Compr Canc Netw</source>. <year>2021</year>;<volume>19</volume>(<issue>2</issue>):<fpage>134</fpage>&#x2013;<lpage>43</lpage>.</mixed-citation></ref>
+<ref id="c9"><label>9.</label><mixed-citation publication-type="journal"><name><surname>Pashayan</surname> <given-names>N</given-names></name>, <name><surname>Duffy</surname> <given-names>SW</given-names></name>, <name><surname>Neal</surname> <given-names>DE</given-names></name>, <name><surname>Hamdy</surname> <given-names>FC</given-names></name>, <name><surname>Donovan</surname> <given-names>JL</given-names></name>, <name><surname>Martin</surname> <given-names>RM</given-names></name>, <etal>et al.</etal> <article-title>Implications of polygenic risk-stratified screening for prostate cancer on overdiagnosis</article-title>. <source>Genetics in Medicine</source>. <year>2015</year>;<volume>17</volume>(<issue>10</issue>):<fpage>789</fpage>&#x2013;<lpage>95</lpage>.</mixed-citation></ref>
+<ref id="c10"><label>10.</label><mixed-citation publication-type="journal"><name><surname>Pashayan</surname> <given-names>N</given-names></name>, <name><surname>Pharoah</surname> <given-names>PD</given-names></name>, <name><surname>Schleutker</surname> <given-names>J</given-names></name>, <name><surname>Talala</surname> <given-names>K</given-names></name>, <name><surname>Tammela</surname> <given-names>TL</given-names></name>, <name><surname>M&#x00E4;&#x00E4;tt&#x00E4;nen</surname> <given-names>L</given-names></name>, <etal>et al.</etal> <article-title>Reducing overdiagnosis by polygenic risk-stratified screening: findings from the Finnish section of the ERSPC</article-title>. <source>British Journal of Cancer</source>. <year>2015</year>;<volume>113</volume>(<issue>7</issue>):<fpage>1086</fpage>&#x2013;<lpage>93</lpage>.</mixed-citation></ref>
+<ref id="c11"><label>11.</label><mixed-citation publication-type="journal"><name><surname>Callender</surname> <given-names>T</given-names></name>, <name><surname>Emberton</surname> <given-names>M</given-names></name>, <name><surname>Morris</surname> <given-names>S</given-names></name>, <name><surname>Eeles</surname> <given-names>R</given-names></name>, <name><surname>Kote-Jarai</surname> <given-names>Z</given-names></name>, <name><surname>Pharoah</surname> <given-names>PDP</given-names></name>, <etal>et al.</etal> <article-title>Polygenic risk-tailored screening for prostate cancer: A benefit&#x2013;harm and cost-effectiveness modelling study</article-title>. <source>PLOS Medicine</source>. <year>2019</year>;<volume>16</volume>(<issue>12</issue>):<fpage>e1002998</fpage>.</mixed-citation></ref>
+<ref id="c12"><label>12.</label><mixed-citation publication-type="journal"><name><surname>Hunter-Zinck</surname> <given-names>H</given-names></name>, <name><surname>Shi</surname> <given-names>Y</given-names></name>, <name><surname>Li</surname> <given-names>M</given-names></name>, <name><surname>Gorman</surname> <given-names>BR</given-names></name>, <name><surname>Ji</surname> <given-names>SG</given-names></name>, <name><surname>Sun</surname> <given-names>N</given-names></name>, <etal>et al.</etal> <article-title>Genotyping Array Design and Data Quality Control in the Million Veteran Program</article-title>. <source>Am J Hum Genet</source>. <year>2020</year>;<volume>106</volume>(<issue>4</issue>):<fpage>535</fpage>&#x2013;<lpage>48</lpage>.</mixed-citation></ref>
+<ref id="c13"><label>13.</label><mixed-citation publication-type="journal"><name><surname>Genomes Project</surname> <given-names>C</given-names></name>, <name><surname>Auton</surname> <given-names>A</given-names></name>, <name><surname>Brooks</surname> <given-names>LD</given-names></name>, <name><surname>Durbin</surname> <given-names>RM</given-names></name>, <name><surname>Garrison</surname> <given-names>EP</given-names></name>, <name><surname>Kang</surname> <given-names>HM</given-names></name>, <etal>et al.</etal> <article-title>A global reference for human genetic variation</article-title>. <source>Nature</source>. <year>2015</year>;<volume>526</volume>(<issue>7571</issue>):<fpage>68</fpage>&#x2013;<lpage>74</lpage>.</mixed-citation></ref>
+<ref id="c14"><label>14.</label><mixed-citation publication-type="journal"><name><surname>Fang</surname> <given-names>H</given-names></name>, <name><surname>Hui</surname> <given-names>Q</given-names></name>, <name><surname>Lynch</surname> <given-names>J</given-names></name>, <name><surname>Honerlaw</surname> <given-names>J</given-names></name>, <name><surname>Assimes</surname> <given-names>TL</given-names></name>, <name><surname>Huang</surname> <given-names>J</given-names></name>, <etal>et al.</etal> <article-title>Harmonizing Genetic Ancestry and Self-identified Race/Ethnicity in Genome-wide Association Studies</article-title>. <source>Am J Hum Genet</source>. <year>2019</year>;<volume>105</volume>(<issue>4</issue>):<fpage>763</fpage>&#x2013;<lpage>72</lpage>.</mixed-citation></ref>
+<ref id="c15"><label>15.</label><mixed-citation publication-type="journal"><name><surname>Andrews</surname> <given-names>C</given-names></name>, <name><surname>Fortier</surname> <given-names>B</given-names></name>, <name><surname>Hayward</surname> <given-names>A</given-names></name>, <name><surname>Lederman</surname> <given-names>R</given-names></name>, <name><surname>Petersen</surname> <given-names>L</given-names></name>, <name><surname>McBride</surname> <given-names>J</given-names></name>, <etal>et al.</etal> <article-title>Development, Evaluation, and Implementation of a Pan-African Cancer Research Network: Men of African Descent and Carcinoma of the Prostate</article-title>. <source>J Glob Oncol</source>. <year>2018</year>;<volume>4</volume>:<fpage>1</fpage>&#x2013;<lpage>14</lpage>.</mixed-citation></ref>
+<ref id="c16"><label>16.</label><mixed-citation publication-type="journal"><name><surname>Smith</surname> <given-names>CJ</given-names></name>, <name><surname>Dorsey</surname> <given-names>TH</given-names></name>, <name><surname>Tang</surname> <given-names>W</given-names></name>, <name><surname>Jordan</surname> <given-names>SV</given-names></name>, <name><surname>Loffredo</surname> <given-names>CA</given-names></name>, <name><surname>Ambs</surname> <given-names>S.</given-names></name> <article-title>Aspirin Use Reduces the Risk of Aggressive Prostate Cancer and Disease Recurrence in African-American Men</article-title>. <source>Cancer Epidemiology Biomarkers &#x0026; Prevention</source>. <year>2017</year>;<volume>26</volume>(<issue>6</issue>):<fpage>845</fpage>&#x2013;<lpage>53</lpage>.</mixed-citation></ref>
+<ref id="c17"><label>17.</label><mixed-citation publication-type="journal"><name><surname>Antoniou</surname> <given-names>AC</given-names></name>, <name><surname>Beesley</surname> <given-names>J</given-names></name>, <name><surname>McGuffog</surname> <given-names>L</given-names></name>, <name><surname>Sinilnikova</surname> <given-names>OM</given-names></name>, <name><surname>Healey</surname> <given-names>S</given-names></name>, <name><surname>Neuhausen</surname> <given-names>SL</given-names></name>, <etal>et al.</etal> <article-title>Common breast cancer susceptibility alleles and the risk of breast cancer for BRCA1 and BRCA2 mutation carriers: implications for risk prediction</article-title>. <source>Cancer Res</source>. <year>2010</year>;<volume>70</volume>(<issue>23</issue>):<fpage>9742</fpage>&#x2013;<lpage>54</lpage>.</mixed-citation></ref>
+<ref id="c18"><label>18.</label><mixed-citation publication-type="journal"><name><surname>Kuchenbaecker</surname> <given-names>KB</given-names></name>, <name><surname>McGuffog</surname> <given-names>L</given-names></name>, <name><surname>Barrowdale</surname> <given-names>D</given-names></name>, <name><surname>Lee</surname> <given-names>A</given-names></name>, <name><surname>Soucy</surname> <given-names>P</given-names></name>, <name><surname>Dennis</surname> <given-names>J</given-names></name>, <etal>et al.</etal> <article-title>Evaluation of Polygenic Risk Scores for Breast and Ovarian Cancer Risk Prediction in BRCA1 and BRCA2 Mutation Carriers</article-title>. <source>J Natl Cancer Inst</source>. <year>2017</year>;<volume>109</volume>(<issue>7</issue>).</mixed-citation></ref>
+<ref id="c19"><label>19.</label><mixed-citation publication-type="journal"><name><given-names>Amin</given-names> <surname>Al Olama</surname></name> A, <name><surname>Benlloch</surname> <given-names>S</given-names></name>, <name><surname>Antoniou</surname> <given-names>AC</given-names></name>, <name><surname>Giles</surname> <given-names>GG</given-names></name>, <name><surname>Severi</surname> <given-names>G</given-names></name>, <name><surname>Neal</surname> <given-names>DE</given-names></name>, <etal>et al.</etal> <article-title>Risk Analysis of Prostate Cancer in PRACTICAL, a Multinational Consortium, Using 25 Known Prostate Cancer Susceptibility Loci</article-title>. <source>Cancer Epidemiology Biomarkers &#x0026; Prevention</source>. <year>2015</year>;<volume>24</volume>(<issue>7</issue>):<fpage>1121</fpage>&#x2013;<lpage>9</lpage>.</mixed-citation></ref>
+<ref id="c20"><label>20.</label><mixed-citation publication-type="journal"><name><surname>Antoniou</surname> <given-names>AC</given-names></name>, <name><surname>Pharoah</surname> <given-names>PD</given-names></name>, <name><surname>McMullan</surname> <given-names>G</given-names></name>, <name><surname>Day</surname> <given-names>NE</given-names></name>, <name><surname>Ponder</surname> <given-names>BA</given-names></name>, <name><surname>Easton</surname> <given-names>D.</given-names></name> <article-title>Evidence for further breast cancer susceptibility genes in addition to BRCA1 and BRCA2 in a population-based study</article-title>. <source>Genet Epidemiol</source>. <year>2001</year>;<volume>21</volume>(<issue>1</issue>):<fpage>1</fpage>&#x2013;<lpage>18</lpage>.</mixed-citation></ref>
+</ref-list>
+<sec id="s7">
+<title>FIGURES AND TABLES</title>
+<fig id="fig1_S1" position="float" fig-type="figure">
+<label>Figure 1 &#x2013; figure supplement 1</label>
+<caption><title>Association between the multi-ancestry PRS of 269 variants and prostate cancer risk from individual replication studies of European (A) and African ancestry (B).</title>
+<p>Replication studies in men of European and African ancestry included MVP (13,643 cases and 210,214 controls of European ancestry, 6,353 cases and 53,362 controls of African ancestry), the UK Biobank (6,852 cases and 193,117 controls of European ancestry), the Mass General Brigham Biobank (MGB; 67 cases and 457 controls of African ancestry and 1,554 cases and 10,918 controls of European ancestry), the California and Uganda Prostate Cancer Study (CA UG; 1,586 cases and 1,047 controls of African ancestry), the Men of African Descent and Carcinoma of the Prostate (MADCaP) Network (405 cases and 396 controls of African ancestry), and the Maryland Prostate Cancer Case-Control Study (NCI-MD; 383 cases and 395 controls of African ancestry). The x-axis indicates the PRS category. Additional analysis was performed to evaluate the PRS association in men with extremely high genetic risk (99&#x0025;-100&#x0025;) in all individual studies except MGB. The y-axis indicates odds ratio (OR) with error bars representing the 95&#x0025; confidence interval (CI) for each PRS category compared to the 40-60&#x0025; PRS category. The dotted horizontal line corresponds to an OR of 1.</p></caption>
+<graphic xlink:href="22274606v1_fig1_S1.tif"/>
+</fig>
+<p><bold>Figure 1 &#x2013; source data 1</bold></p>
+<p><bold>Association between the multi-ancestry PRS and prostate cancer risk replicated in men from European, African, and Hispanic populations</bold>. Results in men of European ancestry were meta-analyzed across MVP, UK Biobank, and Partners. Results in men of African ancestry were meta-analyzed across MVP, CA UG, NCI-MD, and MADCaP. Results in Hispanic men were from MVP. The PRS association for men in the 99-100&#x0025; category was not assessed in Partners and therefore was not included in the meta-analysis. PRS categories were determined based on the distribution in controls. Odds ratio (OR) and 95&#x0025; confidence interval (95&#x0025; CI) were estimated from logistic regression models adjusting for age and principal components of ancestry.</p>
+<fig id="fig2_S1" position="float" fig-type="figure">
+<label>Figure 2 &#x2013; figure supplement 1</label>
+<caption><title>Association between the multi-ancestry PRS of 269 variants and prostate cancer risk stratified by age in men of European ancestry from UK Biobank (A) and MVP (B).</title>
+<p>The x-axis indicates the PRS category. Additional analysis was performed to evaluate the PRS association in men with extremely high genetic risk (99&#x0025;-100&#x0025;). The y-axis indicates odds ratio (OR) with error bars representing the 95&#x0025; confidence interval (CI) for each PRS category compared to the 40-60&#x0025; PRS category. The dotted horizontal line corresponds to an OR of 1.</p></caption>
+<graphic xlink:href="22274606v1_fig2_S1.tif"/>
+</fig>
+<p><bold>Figure 2 &#x2013; source data 1</bold></p>
+<p><bold>Association of multi-ancestry PRS and prostate cancer risk stratified by age</bold>. Results in men of European ancestry were meta-analyzed across UK Biobank and MVP while results in men of African and Hispanic ancestry were estimated in MVP only. PRS categories were determined based on the distribution in controls. Odds ratio (OR) and 95&#x0025; confidence interval (95&#x0025; CI) were estimated from logistic regression models adjusting for age and principal components of ancestry.</p>
+<p><bold>Table 1</bold></p>
+<p><bold>Age at which 5&#x0025; absolute risk of prostate cancer is reached in men from European, African, and Hispanic populations</bold>. Absolute risks of prostate cancer were estimated using age- and population-specific Surveillance, Epidemiology, and End Results (SEER) incidence rates, CDC National Center for Health Statistics mortality rates, and PRS associations from <bold>Figure 2 &#x2013; source data 1</bold> based on MVP and the UK Biobank.</p>
+<fig id="tblA1" orientation="portrait" position="float">
+<label>Appendix 1 &#x2013; Table 1</label>
+<caption><title>Model discrimination and improvement estimated with area under the curve (AUC) upon adding the multi-ancestry PRS to a base model in the MVP study populations.</title></caption>
+<graphic xlink:href="22274606v1_tblA1.tif"/>
+</fig>
+<fig id="tblA2" orientation="portrait" position="float">
+<label>Appendix 1 - Table 2</label>
+<caption><title>The association between the multi-ancestry PRS and prostate cancer aggressiveness in MVP participants from European, African, and Hispanic populations.</title>
+<p>PRS categories were determined based on the distribution in controls. Odds ratio (OR) and 95&#x0025; confidence interval (95&#x0025; CI) were estimated from logistic regression models adjusting for age and principal components of ancestry. Heterogeneity was assessed via a Q statistic between effects estimates with corresponding tests of significance.</p></caption>
+<graphic xlink:href="22274606v1_tblA2.tif"/>
+<graphic xlink:href="22274606v1_tblA2a.tif"/>
+</fig>
+<fig id="figA1" position="float" fig-type="figure">
+<label>Appendix 1 &#x2013; Figure 1</label>
+<caption><title>Individual studies of European, African, or Hispanic population included in the association analysis.</title>
+<p>Results from previous replication studies (&#x002A;) in UK Biobank, MGB, and CA UG were meta-analyzed with results from MVP, NCI-MD and MADCaP within each population.</p></caption>
+<graphic xlink:href="22274606v1_figA1.tif"/>
+</fig>
+</sec>
+</back>
+</article>
