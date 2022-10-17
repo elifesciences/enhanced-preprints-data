@@ -12,7 +12,7 @@ function fixXml(path) {
     fileContent = fileContent.replace(new RegExp('</table-wrap>', 'g'), '</fig>'); // # table-wrap -> fig
 
     // replace more complex patterns
-    fileContent = fileContent.replace(new RegExp('<label>(.*)<\/label>[\r\n]*<title>', 'mg'), '<title><label>$1</label> '); // <label>1</label><title> -> <title><label>1</label>
+    fileContent = fileContent.replace(new RegExp('<label>(.*)<\/label>[\r\n]*<title>', 'mg'), '<title>'); // <label>1</label><title> -> <title><label>1</label>
 
     fs.writeFileSync(path, fileContent);
 }
