@@ -15,11 +15,11 @@ function fixXml(path) {
     // replace more complex patterns
 
     // <label>1</label><title> -> <title><label>1</label>
-    fileContent = fileContent.replace(new RegExp('<label>(.*)<\/label>[\r\n]*<title>', 'mg'), '<title>');
+    fileContent = fileContent.replace(new RegExp('<label>(.*)</label>[\r\n]*<title>', 'mg'), '<title>');
 
     // <title>ALL CAPS INTRO</title> -> <title>All caps intro</title>
     fileContent = fileContent.replace(
-      new RegExp('<title>([A-Z\s]+)</title>', 'g'),
+      new RegExp('<title>([A-Z\\s]+)</title>', 'g'),
       (match, title) => {
         const exceptions = ['LTPA'];
         if (exceptions.includes(title)) {
