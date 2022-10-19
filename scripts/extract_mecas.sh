@@ -28,10 +28,13 @@ for file in $1/*; do
 
     outputDir="$2/$doi"
     id=$(basename $outputDir)
+    uuid=$(basename -s .meca $file)
 
 
     echo "creating $outputDir"
     mkdir -p "$outputDir"
+
+    echo "$uuid" > "$outputDir/source.txt"
 
     echo "cp $tmpDir/$xmlFile to $outputDir/$id.xml..."
     cp "$tmpDir/$xmlFile" "$outputDir/$id.xml"
