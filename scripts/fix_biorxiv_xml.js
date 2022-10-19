@@ -49,6 +49,9 @@ function fixXml(path) {
         );
         break;
 
+      case '10.1101/2021.11.12.468444':
+          fileContent = fileContent.replace(new RegExp('<sec sec-type="supplementary-material">(.*)</sec>\r\n</body>', 'mgs'), '</body>'); // remove supplementary materials
+
       case '10.1101/2022.07.26.501569':
         fileContent = fileContent.replace(
           new RegExp('</institution>, Ecole Polytechnique F&#x00E9;d&#x00E9;rale de Lausanne', 'g'),
