@@ -20,7 +20,13 @@ function fixXml(path) {
     // <title>ALL CAPS INTRO</title> -> <title>All caps intro</title>
     fileContent = fileContent.replace(
       new RegExp('<title>([A-Z\s]+)</title>', 'g'),
-      (match, title) => `<title>${title.charAt(0).toUpperCase() + title.slice(1).toLowerCase()}</title>`,
+      (match, title) => {
+        const exceptions = ['LTPA'];
+        if (exceptions.includes(title)) {
+          return match;
+        }
+        return `<title>${title.charAt(0).toUpperCase() + title.slice(1).toLowerCase()}</title>`;
+      },
     );
 
     // fix citations
