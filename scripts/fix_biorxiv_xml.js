@@ -26,6 +26,13 @@ function fixXml(path) {
     switch (doi) {
       case '10.1101/2022.05.30.22275761':
         fileContent = fileContent.replace(new RegExp('<sec sec-type="supplementary-material">(.*)</sec>\r\n</body>', 'mgs'), '</body>'); // remove supplementary materials
+
+        // add affiliation for Anna Kankaanp&#x00E4;&#x00E4;
+        fileContent = fileContent.replace(
+          new RegExp('<xref ref-type="corresp" rid="cor1">&#x002A;</xref>', 'mgs'),
+          '<xref ref-type="aff" rid="a1">1</xref>'+"\n"+
+          '<xref ref-type="corresp" rid="cor1">&#x002A;</xref>'
+        );
         break;
 
       case '10.1101/2022.07.26.501569':
