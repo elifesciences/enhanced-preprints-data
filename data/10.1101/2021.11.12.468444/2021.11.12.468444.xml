@@ -191,7 +191,7 @@
 <p>Overall, our results suggest that lasting changes in the value of specific tastes can occur in response to temporal association with appetitive or aversive stimuli, raising the possibility that such plasticity plays an important role in animals&#x2019; ongoing taste responses. Future experiments using the STROBE paradigm could further probe the molecular and circuit mechanisms underlying taste memories and advance our understanding of how taste preferences may be shaped by experience over an animal&#x2019;s lifetime.</p>
 </sec>
 <sec id="s4">
-<title>MATERIALS AND METHODS</title>
+<title>Materials and methods</title>
 <sec id="s4a">
 <title>Fly strains</title>
 <p>Fly stocks were raised on a standard cornmeal diet at 25&#x00B0;C, 70&#x0025; relative humidity. For neuronal activation, <italic>20XUAS-IVS-CsChrimson</italic>.<italic>mVenus</italic> (BDCS, stock number: 55135) was used. Dopaminergic PAM expression was targeted using previously described lines: <italic>R58E02-GAL4</italic> (<xref ref-type="bibr" rid="c38">Musso et al., 2015</xref>); <italic>R58E02-LexA, R48B04-GAL4, R15A04-GAL4, R13F02-LexA</italic>, and <italic>R30E11-LexA</italic> obtained from Bloomington (BDCS, stock numbers: 52740, 50347, 48671, 52460, 54209); and MB split-GAL4 lines <italic>MB043B-GAL4, MB504B-GAL4, MB299B-GAL4, MB301B-GAL4</italic> from Janelia Research Campus (<xref ref-type="bibr" rid="c3">Aso et al., 2014</xref>). GRN expression was driven using <italic>Gr43a-GAL4, Gr64f-GAL4</italic> (<xref ref-type="bibr" rid="c13">Dahanukar et al., 2007</xref>), <italic>Gr66a-GAL4</italic> (<xref ref-type="bibr" rid="c54">Wang et al., 2004</xref>), and <italic>PPK23</italic><sup><italic>glut</italic></sup><italic>-GAL4</italic> (<italic>PPK23-GAL4, Gr66a-LexA::VP16, LexAop-Gal80</italic> (<xref ref-type="bibr" rid="c23">Jaeger et al., 2018</xref>). <italic>LexAop-tnt</italic> was previously described (<xref ref-type="bibr" rid="c31">Liu et al., 2016</xref>). For temperature activation experiments <italic>LexAop-TrpA1</italic> was used (<xref ref-type="bibr" rid="c30">Liu et al., 2012</xref>).</p>
@@ -228,7 +228,7 @@
 </body>
 <back>
 <sec id="s5">
-<title>DATA AVAILABILITY</title>
+<title>Data availability</title>
 <p>All data are available in the manuscript and Supplementary Information, or are available upon request from the corresponding author.</p>
 </sec>
 <ack>
@@ -236,15 +236,15 @@
 <p>We thank Celia Lau for the original SEZ diagram models, and members of the Gordon lab for comments on the manuscript. This work was funded by Natural Sciences and Engineering Research Council (NSERC) grants RGPIN-2016&#x2013;03857 and RGPAS 492846&#x2013;16.</p>
 </ack>
 <sec id="s6">
-<title>AUTHOR CONTRIBUTIONS</title>
+<title>Author contributions</title>
 <p>M.J, P.Y.M, and M.D.G conceived the project. M.J and M.D.G wrote the manuscript. M.J performed all experiments, analyzed the data, and made the figures. P.Y.M and P.J offered experimental advice. M.D.G supervised the project.</p>
 </sec>
 <sec id="s7">
-<title>DECLARATION OF INTERESTS</title>
+<title>Declaration of interests</title>
 <p>The authors declare no competing interests.</p>
 </sec>
 <sec id="s8">
-<title>SUPPLEMENTAL INFORMATION</title>
+<title>Supplemental information</title>
 <p>Supplemental information includes 3 figures.</p>
 </sec>
 <ref-list>
