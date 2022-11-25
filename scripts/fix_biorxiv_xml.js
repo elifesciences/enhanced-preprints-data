@@ -7,8 +7,6 @@ function fixXml(path) {
     var fileContent = fs.readFileSync(path, 'utf8');
 
     // replace simple strings
-    fileContent = fileContent.replace(new RegExp('<string-name', 'g'), '<name'); // string-name -> name
-    fileContent = fileContent.replace(new RegExp('</string-name', 'g'), '</name'); // string-name -> name
     fileContent = fileContent.replace(new RegExp('<table-wrap', 'g'), '<fig'); // # table-wrap -> fig
     fileContent = fileContent.replace(new RegExp('</table-wrap>', 'g'), '</fig>'); // # table-wrap -> fig
 
