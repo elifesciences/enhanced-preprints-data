@@ -46,6 +46,7 @@ function fixXml(path) {
 
       case '10.1101/2021.11.12.468444':
           fileContent = fileContent.replace(new RegExp('<sec sec-type="supplementary-material">(.*)</sec>\r\n</body>', 'mgs'), '</body>'); // remove supplementary materials
+          fileContent = fileContent.replace(new RegExp('<sec id="s8">(.*?)</sec>', 'mgs'), ''); // remove superfluous supplementary information
 
       case '10.1101/2022.07.26.501569':
         fileContent = fileContent.replace(
