@@ -34,6 +34,7 @@ function fixXml(path) {
     switch (doi) {
       case '10.1101/2022.05.30.22275761':
         fileContent = fileContent.replace(new RegExp('<sec sec-type="supplementary-material">(.*)</sec>\r\n</body>', 'mgs'), '</body>'); // remove supplementary materials
+        fileContent = fileContent.replace(new RegExp('<sec sec-type="data-availability">(.*?)</sec>', 'mgs'), ''); // remove duplicate data-availability
 
         // add affiliation for Anna Kankaanp&#x00E4;&#x00E4;
         fileContent = fileContent.replace(

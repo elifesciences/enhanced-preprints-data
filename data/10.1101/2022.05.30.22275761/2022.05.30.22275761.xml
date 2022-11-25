@@ -286,10 +286,7 @@
 </sec>
 </body>
 <back>
-<sec sec-type="data-availability">
-<title>Data Availability</title>
-<p>The DNA methylation age estimates and phenotypes of the subsample are located in the Biobank of the National Institute for Health and Welfare, Finland. All the biobanked data are publicly available for use by qualified researchers following a standardised application procedure. Because of the consent given by study participants and the high degree of identifiability of the twin siblings in Finland, the FTC data cannot be made publicly available. The data are available through the Institute for Molecular Medicine Finland (FIMM) Data Access Committee (DAC) for authorized researchers who have IRB/ethics approval and an institutionally approved study plan. For more details, please contact the FIMM DAC (<email>fimm-dac@helsinki.fi</email>).</p>
-</sec>
+
 <sec id="s5">
 <title>Competing interests</title>
 <p>The authors declare that they have no competing interests.</p>
