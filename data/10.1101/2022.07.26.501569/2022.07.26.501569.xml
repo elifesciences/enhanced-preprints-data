@@ -398,10 +398,10 @@
 <title>Table Supplements and Legends</title>
 <p><bold>Appendix 1 - Table 1. Differential expression analysis results of EPCAM<sup>&#x002B;</sup> BECs upon HFD. Related to Figure 2.</bold></p>
 <p><bold>Appendix 1 - Table 2. Over-representation analysis of upregulated and downregulated genes in HFD, DDC, and BEC-organoid formation datasets. Related to <xref rid="fig3" ref-type="fig">Figure 3</xref>.</bold></p>
-<fig id="tbls3" orientation="portrait" position="float">
+<table-wrap id="tbls3" orientation="portrait" position="float">
 <label>Appendix 1 - Table 3.</label><caption><title>Primers used for qPCR analysis.</title></caption>
 <graphic xlink:href="501569v1_tbls3.tif"/>
-</fig>
+</table-wrap>
 </sec>
 </back>
 </article>

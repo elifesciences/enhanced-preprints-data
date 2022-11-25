@@ -554,24 +554,24 @@
 <p><bold>(A)</bold> PBMC were stimulated in vitro using Peptivator CMV pp65 (that consists mainly of 15-mer peptides with 11-amino acid overlap, covering the complete sequence of the pp65 protein) and cultured for 25 days. Selected CTL were then restimulated in the presence of either Peptivator CMV pp65, Peptivator CMV IE-1, EBV-BZLF1 or Peptivator EBV EBNA-1.</p>
 <p><bold>(B)</bold> Polyspecificity is dependent of peptide level. We represent the % of cells secreting IFN&#x03B3; as a function of peptides concentration. For pp65 CMV peptide (red) and BZLF-1 EBV peptide (blue), the level of IFN is different and depends of the concentration of the peptides, suggesting different affinity for the peptides. These observations were made with cells from 5 different donors.</p></caption>
 </fig>
-<fig id="tblS1" orientation="portrait" position="float">
+<table-wrap id="tblS1" orientation="portrait" position="float">
 <label>Supplementary table 1.</label>
 <caption><title>Enrichment of public &#x03B2;CDR3s in CD8&#x002B; thymocytes vs DPCD3&#x002B;.</title>
 <p>Contingency table for the Chi-square analysis performed with Yates&#x2019; correction to test the null hypothesis of independence between the sharing of &#x03B2;CDR3s (Public or Private) vs the cell phenotype (DPCD3<sup>&#x002B;</sup> and CD8<sup>&#x002B;</sup>). We performed this test in the 10 donors for which we have 18,000 &#x03B2;CDR3s in both DPCD3<sup>&#x002B;</sup> and CD8<sup>&#x002B;</sup> thymocytes. A &#x03B2;CDR3 is defined as public if it is found at least once in the 18,000 &#x03B2;CDR3s of the same cell phenotype from other donors. The results (p-value &#x003C; 0.0001) rejected the null hypothesis, thereby indicating the interdependency of the two variables.</p></caption>
 <graphic xlink:href="223354v2_tblS1.tif"/>
-</fig>
-<fig id="tblS2" orientation="portrait" position="float">
+</table-wrap>
+<table-wrap id="tblS2" orientation="portrait" position="float">
 <label>Supplementary table 2.</label>
 <caption><title>Enrichment of virus-specific lllCDR3s from databases14,15 in clustered CD8&#x002B; thymocytes.</title>
 <p>Contingency table for the Chi-square analysis performed with Yates&#x2019; correction to test the null hypothesis of independence between the specificity of &#x03B2;CDR3s (Virus Tet&#x002B; and Unknown specificities) vs the connection of &#x03B2;CDR3 (&#x201C;clustered&#x201D; and &#x201C;dispersed&#x201D;) in all the CD8&#x002B; thymocytes from 12 donors. The results (p-value &#x003C; 0.0001) rejected the null hypothesis, thereby indicating the interdependency of the two variables.</p></caption>
 <graphic xlink:href="223354v2_tblS2.tif"/>
-</fig>
-<fig id="tblS3" orientation="portrait" position="float">
+</table-wrap>
+<table-wrap id="tblS3" orientation="portrait" position="float">
 <label>Table S3.</label>
 <caption><title>List of peptides represented on the chord plot. Related to 4G right.</title>
 <p>The table is organized according to the clockwise order of the chord plot segments.</p></caption>
 <graphic xlink:href="223354v2_tblS3.tif"/>
-</fig>
+</table-wrap>
 </sec>
 </back>
 </article>

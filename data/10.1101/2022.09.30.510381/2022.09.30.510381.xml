@@ -251,13 +251,13 @@
 <title>Materials and methods</title>
 <sec id="s4a">
 <title>Key resources table</title>
-<fig id="utbl1" orientation="portrait" position="float">
+<table-wrap id="utbl1" orientation="portrait" position="float">
 <graphic xlink:href="510381v1_utbl1.tif"/>
 <graphic xlink:href="510381v1_utbl1a.tif"/>
 <graphic xlink:href="510381v1_utbl1b.tif"/>
 <graphic xlink:href="510381v1_utbl1c.tif"/>
 <graphic xlink:href="510381v1_utbl1d.tif"/>
-</fig>
+</table-wrap>
 </sec>
 <sec id="s4b">
 <title><italic>C. elegans</italic> strains, culture, and nomenclature</title>
@@ -318,10 +318,10 @@
 <title>Additional information</title>
 <sec id="s5a">
 <title>Funding</title>
-<fig id="utbl2" orientation="portrait" position="float">
+<table-wrap id="utbl2" orientation="portrait" position="float">
 <graphic xlink:href="510381v1_utbl2.tif"/>
 <graphic xlink:href="510381v1_utbl2a.tif"/>
-</fig>
+</table-wrap>
 </sec>
 <sec id="s5b">
 <title>Author contributions</title>
@@ -399,7 +399,7 @@
 <p>Yeast two-hybrid experiment pairing UNC-37 and NHR-67 Gal4-AD prey with LSY-22, NHR-67, and POP-1 Gal4-DBD bait on SC-HIS-TRP-LEU plates with and without competitive inhibitor 3-AT (20 mM).</p></caption>
 <graphic xlink:href="510381v1_fig7s1.tif"/>
 </fig>
-<fig id="tbls1" orientation="portrait" position="float">
+<table-wrap id="tbls1" orientation="portrait" position="float">
 <label>Supplemental Table 1:</label>
 <caption><p>Sequences</p></caption>
 <graphic xlink:href="510381v1_tbls1.tif"/>
@@ -407,7 +407,7 @@
 <graphic xlink:href="510381v1_tbls1b.tif"/>
 <graphic xlink:href="510381v1_tbls1c.tif"/>
 <graphic xlink:href="510381v1_tbls1d.tif"/>
-</fig>
+</table-wrap>
 </sec>
 <ref-list>
 <title>References</title>

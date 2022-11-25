@@ -124,11 +124,11 @@
 <sec id="s2c">
 <title>Inbred lines and fitness</title>
 <p>We derived inbred lines by selfing single hermaphrodites from the ancestor (A6140) and the three replicate populations at generation 50 (GA[1,2,4]50) for at minimum of 10 generations (<xref rid="c11" ref-type="bibr">Chelo et al., 2019</xref>). The total number of lines obtained and phenotyped for locomotion behavior can be found in <xref rid="tbl1" ref-type="table">Table 1</xref>. In <xref ref-type="bibr" rid="c11">Chelo et al. (2019)</xref> we measured individual hermaphrodite self-fertility in high salt, a trait that here we use as a surrogate for fitness. Fertility was measured under environmental conditions that closely followed those of experimental evolution, except for density and presence of males. The log-transformed, covariate-adjusted fertility values (best linear unbiased estimates) for each inbred line were downloaded from <xref ref-type="bibr" rid="c11">Chelo et al. (2019)</xref>, exponentiated, and divided by the mean to obtain a relative fitness measure (<italic>w</italic>).</p>
-<fig id="tbl1" orientation="portrait" position="float">
+<table-wrap id="tbl1" orientation="portrait" position="float">
 <label>Table 1:</label>
 <caption><p>Number of measurements per population in each of three assay years. In total there were 188 lines for A6140 and 61, 61 and 42 lines for GA[1,2,4].</p></caption>
 <graphic xlink:href="493855v1_tbl1.tif"/>
-</fig>
+</table-wrap>
 </sec>
 <sec id="s2d">
 <title>Locomotion behavior</title>
@@ -221,11 +221,11 @@ where <inline-formula><alternatives><inline-graphic xlink:href="493855v1_inline1
 <caption><p>Phenotypic plasticity in the ancestral population A6140. Grey dots indicate the values estimated for each inbred line in the low and high salt environments for each of the transition rates between activity and movement direction. F stands for &#x201C;forward&#x201D;, B for &#x201C;backward&#x201D; and S for &#x201C;still&#x201D;, left to right order indicating movement direction. Orange shows the mean least-square estimates of the transition rates among inbred lines in each environment, with bars the 95&#x0025; confidence intervals (see Methods). Mean differences between environments are indicated by a line, with asterisks showing plasticity (LRT <italic>&#x03C7;</italic><sup>2</sup>, P-value &#x003C;0.001; <xref rid="tbl1" ref-type="table">Table 1</xref>).</p></caption>
 <graphic xlink:href="493855v1_fig1.tif"/>
 </fig>
-<fig id="tbl2" orientation="portrait" position="float">
+<table-wrap id="tbl2" orientation="portrait" position="float">
 <label>Table 2:</label>
 <caption><p>Phenotypic plasticity in the ancestral population</p></caption>
 <graphic xlink:href="493855v1_tbl2.tif"/>
-</fig>
+</table-wrap>
 <p>We next partitioned the phenotypic (co)variances of our six transition rates among the inbred lines of A6140 into genetic and error (co)variances in each salt environment. We find that the structure of the two <bold>G</bold> matrices is quite similar (<xref rid="fig2" ref-type="fig">Figure 2</xref>). First, there is no detectable difference in the total genetic variance of the <bold>G</bold> matrices (<xref rid="fig2" ref-type="fig">Figure 2A</xref>). Second, in both environments, locomotion behavior is modular (<xref rid="fig2" ref-type="fig">Figure 2B</xref>). Transition rates from still to forward or backward, i.e. leaving the still state, are negatively correlated with the remaining transition rates and these positively correlated with each other. Third, eigen decomposition of the <bold>G</bold> matrix in low salt shows that it is rounder than that of high salt, but differences are not important (<xref rid="fig2" ref-type="fig">Figure 2C</xref>). The first eigenvector dimension (<italic>g</italic><sub><italic>max</italic></sub>) encompasses most genetic variation in both environments, and they are aligned as the angle between them is small (mean &#x00B1; 95 CI: 12.6<sup>&#x00B0;</sup>[4.4 &#x2212; 21.6]).</p>
 <fig id="fig2" position="float" fig-type="figure">
 <label>Figure 2:</label>
@@ -242,11 +242,11 @@ where <inline-formula><alternatives><inline-graphic xlink:href="493855v1_inline1
 <sec id="s3b">
 <title>Evolution of locomotion behavior in changing salt environments</title>
 <p>Three replicate populations from A6140 were exposed to a gradually increasing salt concentration for 35 generations followed by 15 generations in the target high salt environment (GA[1,2,4] populations, see Methods). In the high salt environment, after 50 generations, we find that for each of the transition rates there was at least one replicate population different from the ancestor (<xref rid="tbl3" ref-type="table">Table 3</xref>). Among replicates, significant phenotypic divergence for four out of the six transition rates is also observed (<xref rid="fig4" ref-type="fig">Figure 4</xref>, <xref rid="tbl4" ref-type="table">Table 4</xref>). Phenotypic divergence was not limited by the amount of genetic variance, as the backward to still and forward to still transition rates diverged while showing the lowest genetic variance in the ancestral population (<xref rid="fig2" ref-type="fig">Figure 2</xref>). In the low salt environment, there was phenotypic divergence for 3 out of the 6 transition rates (<xref rid="figS2" ref-type="fig">Supplementary Figure S2</xref>, <xref rid="tbl3" ref-type="table">Tables 3</xref> and <xref rid="tbl4" ref-type="table">4</xref>).</p>
-<fig id="tbl3" orientation="portrait" position="float">
+<table-wrap id="tbl3" orientation="portrait" position="float">
 <label>Table 3:</label>
 <caption><p>Divergence of each GA population from the ancestral population</p></caption>
 <graphic xlink:href="493855v1_tbl3.tif"/>
-</fig>
+</table-wrap>
 <fig id="fig4" position="float" fig-type="figure">
 <label>Figure 4:</label>
 <caption><p>Experimental evolution of locomotion behavior. Small colored dots show the estimated transition rates in high salt for each line from the ancestral population A6140 (grey) and three replicate GA[1,2,4] populations at generation 50 (red). Least square estimates of the mean and 95&#x0025; confidence intervals are shown in circles and error bars. Divergence between ancestral and the 3 replicate populations is shown by asterisks (LRT <italic>&#x03C7;</italic><sup>2</sup>, P-value &#x003C;0.05 &#x002A;, &#x003C;0.01 &#x002A;&#x002A;, &#x003C;0.001 &#x002A;&#x002A;&#x002A;; <xref rid="tbl4" ref-type="table">Table 4</xref>). Divergence per replicate population can be found in <xref rid="tbl3" ref-type="table">Table 3</xref>. Results obtained in the low salt environment can be found in Supplementary Figure S2, and analysis in <xref rid="tbl3" ref-type="table">Tables 3</xref> and <xref rid="tbl4" ref-type="table">4</xref>.</p></caption>
@@ -262,11 +262,11 @@ where <inline-formula><alternatives><inline-graphic xlink:href="493855v1_inline1
 <caption><p>Predicted versus observed phenotypic divergence. <bold>A</bold>. Shown are the ancestral genetic covariances between transition rates in low (blue) and high (red) salt environments with relative fertility in high salt (Robertson&#x2019;s selection differentials <italic>s</italic> or selection responses <italic>R</italic>, see <xref ref-type="disp-formula" rid="eqn7">equation 7</xref>). Genetic variance for fitness in high salt is also important (bottom bar). <bold>B</bold>. Shows selection differentials <italic>s</italic> (from panel <bold>A</bold>.) against the observed phenotypic divergence &#x0394;<italic>D</italic> (<xref ref-type="disp-formula" rid="eqn2">equation 2</xref>, from <xref ref-type="fig" rid="fig4">Figure 4</xref> and <xref ref-type="fig" rid="figS2">Supplementary Figure S2</xref>). While in high salt the direction of divergence for all six transition rates are well predicted, because they fall within the identity line, in low salt the direction of divergence are well predicted for only two transition rates (dashed lines showing no predicted divergence). <bold>C</bold>. from panel <bold>B</bold>. we plot the angles between expected and observed phenotypic divergence vectors. For all panels, dots and error bars indicate the mean and the 80&#x0025; and 95&#x0025; credible intervals (see Methods). See <xref ref-type="fig" rid="figS8">Supplementary Figure S8</xref> for the predicted versus observed magnitude of phenotypic divergence.</p></caption>
 <graphic xlink:href="493855v1_fig6.tif"/>
 </fig>
-<fig id="tbl4" orientation="portrait" position="float">
+<table-wrap id="tbl4" orientation="portrait" position="float">
 <label>Table 4:</label>
 <caption><p>Divergence among GA populations from the ancestral population</p></caption>
 <graphic xlink:href="493855v1_tbl4.tif"/>
-</fig>
+</table-wrap>
 <p>We next estimated the <bold>G</bold> matrices of derived populations to find about the main phenotypic dimensions of genetic divergence after 50 generations. After 50 generations of evolution there was an overall reduction in genetic (co)variances (<xref rid="figS3" ref-type="fig">Supplementary Figure S3</xref>). The three replicate GA[1,2,4] populations mostly diverged from the ancestral population along only one dimension, as defined by the first eigenvector of the first eigentensor measuring the genetic differences among all populations (called here <italic>e</italic><sub>11</sub>, see Methods; <xref rid="figS4" ref-type="fig">Supplementary Figures S4</xref> and <xref ref-type="fig" rid="figS5">S5</xref>).</p>
 <p>The phenotypic dimension which contains most genetic variation in the ancestral A6140 population (<italic>g</italic><sub><italic>max</italic></sub>) aligns with the dimension of phenotypic divergence (&#x0394;<italic>D</italic>) in the the target high salt environment, as the angle between both vectors is small (<xref rid="fig5" ref-type="fig">Figure 5</xref>). There was consistent parallel genetic divergence of the three replicate populations because the main dimension of genetic divergence (<italic>e</italic><sub>11</sub>) between them and the ancestor also aligns with the <italic>g</italic><sub><italic>max</italic></sub> of the ancestor. As a consequence, phenotypic divergence (&#x0394;<italic>D</italic>) and genetic divergence (<italic>e</italic><sub>11</sub>) follow similar directions. As expected from the analysis in <xref rid="fig3" ref-type="fig">Figure 3</xref>, phenotypic divergence did not follow ancestral phenotypic plasticity (<xref rid="figS6" ref-type="fig">Supplementary Figure S6</xref>).</p>
 </sec>

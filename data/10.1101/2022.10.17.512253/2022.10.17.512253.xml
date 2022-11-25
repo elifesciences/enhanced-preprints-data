@@ -234,11 +234,11 @@
 <sec id="s4a2">
 <title>eMags</title>
 <p>eMagAF-EGFP-PM (addgene &#x0023;162247) and eMagBF-TgRFPT (addgene &#x0023;162253) were a gift from Pietro De Camilli. N1-iRFP670 (addgene &#x0023;45457) was a gift from Vladislav Verkhusha. CFP-FKBP-iSH (addgene &#x0023;20159) was a gift from Tobias Meyer. The insert iSH was PCR amplified with primers shown in <xref rid="tbl1" ref-type="table">Table 1</xref> and digested with BspEI and EcoRI. iRFP670 was PCR amplified with primers shown in <xref rid="tbl1" ref-type="table">Table1</xref>.and digested with EcoRI and ApaI. The backbone eMagB-TagRFP was digested with BspEI and ApaI, all three parts were ligated, creating eMagB-iSH-iRFP670.</p>
-<fig id="tbl1" orientation="portrait" position="float">
+<table-wrap id="tbl1" orientation="portrait" position="float">
 <label>Table 1.</label>
 <caption><p>PCR primers for insert amplification.</p></caption>
 <graphic xlink:href="512253v1_tbl1.tif"/>
-</fig>
+</table-wrap>
 </sec>
 <sec id="s4a3">
 <title>iLID</title>
@@ -255,11 +255,11 @@
 <p>pLV-Lck-mTurquoise2-iLID was created by digesting the pLV vector with NheI and SnaBI and the PCR amplified insert, with primers shown in <xref rid="tbl1" ref-type="table">Table 1</xref>, from C1-Lck-mTurqoiuse2-iLID with SnaBI and XbaI and ligating the two fragments. pLV-SspB-HaloTag-ITSN1(DHPH) was created by digesting the pLV vector with NheI and SnaBI and the PCR amplified insert, with primers shown in <xref rid="tbl1" ref-type="table">Table 1</xref>, from C1-SspB-HaloTag-ITSN1(DHPH) with SnaBI and XbaI and ligating the two fragments. pLV-SspB-HaloTag-RhoGEFP63(PH) was created by digesting the pLV vector with NheI and SnaBI and the PCR amplified insert with primers shown in <xref rid="tbl1" ref-type="table">Table 1</xref> from C1-SspB-HaloTag-RhoGEFp63(DH) with SnaBI and XbaI and ligating the two fragments.</p>
 <p>pLV-SspB-HaloTag-TIAM1(DHPH) was created with Lenti Gateway cloning (Invitrogen). Therefore, C1-SspB-HaloTag-TIAM1(DHPH) was PCR amplified with the primers shown in <xref rid="tbl1" ref-type="table">Table 1</xref>, digested with KpnI and NotI and ligated to the likewise digested entry vector pENTR&#x2122;1A. Subsequently, this vector was recombined with the pLenti6.3/V5 DEST backbone.</p>
 <p>Plasmids created in this study are available on addgene, see <xref rid="tbl2" ref-type="table">Table 2</xref>.</p>
-<fig id="tbl2" orientation="portrait" position="float">
+<table-wrap id="tbl2" orientation="portrait" position="float">
 <label>Table 2.</label>
 <caption><p>Addgene numbers for plasmids created in this study.</p></caption>
 <graphic xlink:href="512253v1_tbl2.tif"/>
-</fig>
+</table-wrap>
 </sec>
 </sec>
 <sec id="s4b">

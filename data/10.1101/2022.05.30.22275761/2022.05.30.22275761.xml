@@ -210,26 +210,26 @@
 <sec id="s3">
 <title>Results</title>
 <p>The descriptive statistics of the study variables are presented in <xref rid="tbl1" ref-type="table">Table 1</xref>. A total of 5,114 twins answered questionnaires on lifestyle-related behaviors during their adolescent years at least once. For 824 twins, epigenetic aging estimates were obtained.</p>
-<fig id="tbl1" orientation="portrait" position="float">
+<table-wrap id="tbl1" orientation="portrait" position="float">
 <label>Table 1.</label>
 <caption><p>Descriptive statistics of the adolescent lifestyle-related variables in all twins and in the subsample of twins with information on biological aging.</p></caption>
 <graphic xlink:href="22275761v1_tbl1.tif"/>
 <graphic xlink:href="22275761v1_tbl1a.tif"/>
-</fig>
+</table-wrap>
 <p>The mean age (SD) of the twins having information on biological aging was 22.4 (0.7) years. The means of the epigenetic age estimates were estimated as follows: Horvath&#x2019;s clock 28.9 (3.6), Hannum&#x2019;s clock 18.2 (3.3), DNAm PhenoAge 13.0 (5.3) and DNAm GrimAge 25.2 (3.3) years. The intraclass correlation coefficients (ICCs) of epigenetic aging measures were consistently higher in MZ twin pairs than in DZ twin pairs (<xref rid="tbl2" ref-type="table">Table 2</xref>). This suggests an underlying genetic component in biological aging. The correlations between the different epigenetic aging measures ranged from -0.12 to 0.73. The lowest correlation was observed between AA<sub>Horvath</sub> and DunedinPoAm and between AA<sub>Horvath</sub> and DunedinPACE. All other correlations were positive. The highest correlations (&#x003E;0.5) were observed between AA<sub>Hannum</sub> and AA<sub>Pheno</sub>, AA<sub>Grim</sub> and DunedinPoAm and DunedinPoAm and DunedinPACE.</p>
-<fig id="tbl2" orientation="portrait" position="float">
+<table-wrap id="tbl2" orientation="portrait" position="float">
 <label>Table 2.</label>
 <caption><p>The intraclass correlation coefficients (ICCs) of epigenetic aging measures by zygosity and correlation coefficients between the measures (n = 824)</p></caption>
 <graphic xlink:href="22275761v1_tbl2.tif"/>
-</fig>
+</table-wrap>
 <sec id="s3a">
 <title>Patterns of lifestyle behaviors</title>
 <p>Increasing the number of classes continued to improve AIC, BIC and ABIC (<xref rid="tbl3" ref-type="table">Table 3</xref>). However, the VLMR and LMR tests indicated that even a solution with four classes would be sufficient. In the fifth step, a class of participants with high BMI was extracted. Previous studies have shown the role of being overweight or obese in biological aging (<xref ref-type="bibr" rid="c29">Lundgren et al., 2021</xref>). After including the sixth class, the information criteria still showed considerable improvement, but the AvePPs for several classes were below 0.8. For these reasons, and to have adequate statistical power for subsequent analyses, a five-class solution was considered optimal. The AvePPs ranged from 0.78 to 0.91 for the five-class solution, indicating reasonable classification quality.</p>
-<fig id="tbl3" orientation="portrait" position="float">
+<table-wrap id="tbl3" orientation="portrait" position="float">
 <label>Table 3.</label>
 <caption><p>Model fit of the latent class models (n = 5,114).</p></caption>
 <graphic xlink:href="22275761v1_tbl3.tif"/>
-</fig>
+</table-wrap>
 <p>Of the participants, 32&#x0025; fell into the class of healthiest lifestyle habits (C1) (see <xref rid="fig2" ref-type="fig">Figure 2</xref>, and the distributions of indicator variables according to the adolescent lifestyle behavior patterns in Supplemental Table S1). They had normal weight, on average, and were more likely to engage in regular LTPA compared to the other groups; most of them were non-smokers and did not use alcohol regularly. Every fifth (19.9&#x0025;) participant belonged to the second class (C2), characterized by the low mean level of BMI in the range of normal weight for children (low-normal BMI) (<xref ref-type="bibr" rid="c8">Cole et al., 2007</xref>). They also had healthy lifestyle habits, but they were not as physically active as the participants in class C1. The participants placed in the third class (C3, 22.8&#x0025;) had lifestyle habits similar to those of the participants in class C1; however, they had a higher level of BMI in the range of normal weight for children (high-normal BMI). About every tenth (9.5&#x0025;) of the participants belonged to the fourth class (C4), with the highest level of BMI (high BMI). At each measurement point, the mean BMI level exceeded the cut-off points for overweight in children (Cole et al., 2000). The prevalence of daily smoking was slightly higher in C4 compared to classes C1, C2 and C3. Of the participants, 15.9&#x0025; were classified in the subgroup characterised by the unhealthiest lifestyle behaviors (C5). Most of them were daily smokers and used alcohol regularly at the age of 17. They also had a lower probability of engaging in regular LTPA compared to the other groups; however, they were of normal weight, on average.</p>
 <fig id="fig2" position="float" fig-type="figure">
 <label>Figure 2.</label>
@@ -247,12 +247,12 @@
 <caption><p>Mean differences between the adolescent lifestyle behavior patterns in biological aging measured with A) DNAm PhenoAge, B) DNAm GrimAge, C) DunedinPoAm and D) DunedinPACE estimators (n = 824). The analysis was adjusted for sex (female), standardized age and baseline pubertal development. Means and 95&#x0025; confidence intervals are presented. C1 = the class with the healthiest lifestyle pattern, C2 = the class with low&#x2013;normal BMI, C3 = the class with a healthy lifestyle and high&#x2013;normal BMI, C4 = the class with high BMI, C5 = the class with the unhealthiest lifestyle pattern. AA, age acceleration.</p></caption>
 <graphic xlink:href="22275761v1_fig3.tif"/>
 </fig>
-<fig id="tbl4" orientation="portrait" position="float">
+<table-wrap id="tbl4" orientation="portrait" position="float">
 <label>Table 4.</label>
 <caption><p>Differences in biological aging between classes with different adolescent lifestyle behavior patterns.</p></caption>
 <graphic xlink:href="22275761v1_tbl4.tif"/>
 <graphic xlink:href="22275761v1_tbl4a.tif"/>
-</fig>
+</table-wrap>
 <p>The group with the unhealthiest lifestyle pattern (C5) was, on average, 1.7&#x2013;3.3 years biologically older than the groups with healthier lifestyle patterns and normal weight (C1-C3) when DNAm GrimAge was used to assess biological aging (<xref rid="tbl4" ref-type="table">Table 4</xref>, M1). Moreover, the unhealthiest group had, an average, 2&#x2013;3 weeks/calendar year faster pace of biological aging, as measured with DunedinPoAm. The differences in DunedinPACE were very similar to those observed in DunedinPoAm, but there was no difference between the unhealthiest class (C5) and the class with a healthy lifestyle and high-normal BMI (C3).</p>
 <p>When DNAm GrimAge was used, the group with a high BMI (C4) was, on average, 1.8&#x2013;2.4 years biologically older than the two groups with healthier lifestyle patterns (C1 and C2) (<xref rid="tbl4" ref-type="table">Table 4</xref>, M1). When measured with the DunedinPoAm estimator, the class had, on average, 3&#x2013;4 weeks/calendar year faster pace of aging, and when measured with the DunedinPACE estimator, it had 4&#x2013;5 weeks/calendar year faster pace of aging. Moreover, when DunedinPoAm and DunedinPACE were used, the class had approximately 3 weeks/calendar year faster pace of aging compared to the group with healthy lifestyle with normal-high BMI (C3), and when DunedinPACE was used, the class had 2 weeks/calendar year faster pace of aging compared to the group with unhealthiest lifestyle pattern (C5). When DNAm PhenoAge was used to assess biological aging, only the group with a high BMI stood out. The group was biologically 2.0&#x2013;2.5 years older than the groups with lower mean levels of BMI (C1&#x2013;C2, C5). Based on the estimation results of the models, baseline pubertal development was associated with advanced biological aging only when Hannum&#x2019;s clock was used to derive biological AA (standardised regression coefficient B = 0.10 [0.01 to 0.18]).</p>
 <p>After additionally adjusting for BMI in adulthood, the differences in AA<sub>Pheno</sub> and DunedinPACE between the class of participants with high BMI (C4) and those with lower BMI (C1, C2, C5) were attenuated (<xref rid="tbl4" ref-type="table">Table 4</xref>, M2). The differences in biological ageing were only slightly attenuated when the DNAm GrimAge and DunedinPoAm estimators were used.</p>

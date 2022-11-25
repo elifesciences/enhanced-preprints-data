@@ -208,16 +208,16 @@
 <graphic xlink:href="500925v1_fig4.tif"/>
 </fig>
 <p>The PTx2-3126 peptide containing the W5A and M6F mutations from PTx2-2955 and other mutations from PTx2-3066 inhibited hNa<sub>V</sub>1.7 currents with an IC<sub>50</sub> &#x003D; 2.3 &#x00B5;M (<bold><italic><xref rid="fig4" ref-type="fig">Figure 4D</xref></italic></bold>). PTx2-3127 and PTx2-3128 containing the wild-type W5 and M6 residues and other mutations from PTx2-3066 inhibited hNa<sub>V</sub>1.7 current with IC<sub>50</sub>s equal to 6.9 and 5.0 nM, respectively (<bold><italic><xref rid="fig4" ref-type="fig">Figure 4D</xref></italic></bold>). We tested the selectivity of PTx2-3127 and PTx2-3128 for hNa<sub>V</sub>1.7 versus other Na<sub>V</sub> channels (see <bold><italic><xref rid="fig4S1" ref-type="fig">Figure 4&#x2014;figure supplement 1</xref></italic></bold>). PTx2-3127 inhibited other Na<sub>V</sub> channels with the following IC<sub>50</sub> values: 17 &#x00B5;M (hNa<sub>V</sub>1.1), 5 &#x00B5;M (hNa<sub>V</sub>1.2), 20 &#x00B5;M (rNa<sub>V</sub>1.3), 12 &#x00B5;M (hNa<sub>V</sub>1.4), &#x003E;137 &#x00B5;M (hNa<sub>V</sub>1.5), 608 nM (hNa<sub>V</sub>1.6), &#x003E;150 &#x00B5;M (hNa<sub>V</sub>1.8), and 150 &#x00B5;M (hNa<sub>V</sub>1.9) (see <bold><italic><xref rid="tbl1" ref-type="table">Tables 1</xref> and <xref rid="tbl2" ref-type="table">2</xref></italic></bold>). The data show that PTx2-3127 is at least 1,000-fold selective for hNa<sub>V</sub>1.7 versus hNa<sub>V</sub>1.1, hNa<sub>V</sub>1.3, hNa<sub>V</sub>1.4, hNa<sub>V</sub>1.5, hNa<sub>V</sub>1.8, and hNa<sub>V</sub>1.9. Notably, PTx2-3127 peptide exhibits similar effects on steady-state activation and inactivation on hNav1.7 currents (<bold><italic><xref rid="fig4S2" ref-type="fig">Figure 4&#x2014;figure supplement 2</xref></italic></bold>), suggesting that it retains a similar mechanism of action as ProTx-II and other published ProTx-II derivatives (<xref ref-type="bibr" rid="c31">Flinspach et al., 2017</xref>; <xref ref-type="bibr" rid="c64">Schmalhofer et al., 2008</xref>; <xref ref-type="bibr" rid="c71">Smith, Cummins, Alphy, &#x0026; Blumenthal, 2007</xref>; <xref ref-type="bibr" rid="c80">Xiao, Blumenthal, Jackson, Liang, &#x0026; Cummins, 2010</xref>). However, further improvement is needed for the optimized peptide selectivity for hNa<sub>V</sub>1.7 versus hNa<sub>V</sub>1.2 and hNa<sub>V</sub>1.6. PTx2-3128 inhibited other Na<sub>V</sub> channels with the following IC<sub>50</sub> values: 3.3 &#x00B5;M (hNa<sub>V</sub>1.1), 570 nM (hNa<sub>V</sub>1.2), 23 &#x00B5;M (rNa<sub>V</sub>1.3), 22 &#x00B5;M (hNa<sub>V</sub>1.4), 34 &#x00B5;M (hNa<sub>V</sub>1.5), 358 nM (hNa<sub>V</sub>1.6), 10 &#x00B5;M (hNa<sub>V</sub>1.8), and 8 &#x00B5;M (hNa<sub>V</sub>1.9). Based on these results, PTx2-3127 peptide was selected as the most potent and selective peptide from the 3<sup>rd</sup> optimization round.</p>
-<fig id="tbl1" orientation="portrait" position="float">
+<table-wrap id="tbl1" orientation="portrait" position="float">
 <label>Table 1.</label>
 <caption><title>Selectivity profile of PTx2-3127 and PTx2-3258 peptides for hNav1.7 versus all other human Nav channels.</title></caption>
 <graphic xlink:href="500925v1_tbl1.tif"/>
-</fig>
-<fig id="tbl2" orientation="portrait" position="float">
+</table-wrap>
+<table-wrap id="tbl2" orientation="portrait" position="float">
 <label>Table 2.</label>
 <caption><title>Comparison of selectivity profiles of PTx2-3127 and PTx2-3258 peptides for hNav1.7 versus hNav1.2, hNav1.4, hNav1.5, and hNav1.6 channels.</title></caption>
 <graphic xlink:href="500925v1_tbl2.tif"/>
-</fig>
+</table-wrap>
 </sec>
 <sec id="s2a4">
 <title>4th optimization round</title>
@@ -254,12 +254,12 @@
 <caption><p>Efficacy of PTx2-3127 on rheobase and action potentials in human DRG neurons. (<bold>A</bold>) Rheobase of NP1 neurons before PTx2-3127, in PTx2-3127 and in TTX (left). Rheobase of NP1 neurons before vehicle, in vehicle and in TTX (right). p values calculated by Students T-test. <bold>(B)</bold> Efficacy of PTx2-3127 on rheobase in human DRG neurons following 24h incubation with Oxaliplatin (50&#x03BC;M). Rheobase after perfusion of the compound is normalized to baseline. (I) Efficacy of PTx2-3127 on action potentials (APs) in human DRG neurons following 24h incubation with Oxaliplatin (50&#x03BC;M). Action potential inhibition after perfusion of the compound is normalized to baseline. APs were elicited at 150&#x0025; of baseline rheobase. Results are presented as mean &#x00B1; SEM.</p></caption>
 <graphic xlink:href="500925v1_fig7.tif"/>
 </fig>
-<fig id="tbl3" orientation="portrait" position="float">
+<table-wrap id="tbl3" orientation="portrait" position="float">
 <label>Table 3.</label>
 <caption><title>Rheobase and number of action potentials following perfusion of PTx2-3127 following 24h incubation with Oxaliplatin.</title></caption>
 <graphic xlink:href="500925v1_tbl3.tif"/>
 <graphic xlink:href="500925v1_tbl3a.tif"/>
-</fig>
+</table-wrap>
 </sec>
 <sec id="s2e">
 <title>Efficacy of designed peptides in animal models of pain</title>
@@ -284,9 +284,9 @@
 <title>Methods</title>
 <sec id="s4a">
 <title>Key Resource Table</title>
-<fig id="tblS1" orientation="portrait" position="float">
+<table-wrap id="tblS1" orientation="portrait" position="float">
 <graphic xlink:href="500925v1_tblS1.tif"/>
-</fig>
+</table-wrap>
 </sec>
 <sec id="s4b">
 <title>Design of ProTx-II based peptides targeting hNav1.7</title>
