@@ -369,36 +369,36 @@
 </sec>
 </sec>
 <sec id="s4i">
-<title>Rosetta Scripts for refinement of ProTx-II - hNav1.7/NavAb complex</title>
+<title><label>1.</label> Rosetta Scripts for refinement of ProTx-II - hNav1.7/NavAb complex</title>
 <sec id="s4i1">
-<title>Rosetta command lines</title>
+<title><label>1.1.</label> Rosetta command lines</title>
 <fig id="ufig1" position="float" orientation="portrait" fig-type="figure">
 <graphic xlink:href="500925v1_ufig1.tif"/>
 </fig>
 </sec>
 <sec id="s4i2">
-<title>Rosetta XML scripts</title>
+<title><label>1.2.</label> Rosetta XML scripts</title>
 <fig id="ufig2" position="float" orientation="portrait" fig-type="figure">
 <graphic xlink:href="500925v1_ufig2.tif"/>
 </fig>
 </sec>
 </sec>
 <sec id="s4j">
-<title>Rosetta scripts for computational design of ProTx-II variants</title>
+<title><label>2.</label> Rosetta scripts for computational design of ProTx-II variants</title>
 <sec id="s4j1">
-<title>Rosetta command lines</title>
+<title><label>2.1.</label> Rosetta command lines</title>
 <fig id="ufig3" position="float" orientation="portrait" fig-type="figure">
 <graphic xlink:href="500925v1_ufig3.tif"/>
 </fig>
 </sec>
 <sec id="s4j2">
-<title>ProTx-II resfile</title>
+<title><label>2.2.</label> ProTx-II resfile</title>
 <fig id="ufig4" position="float" orientation="portrait" fig-type="figure">
 <graphic xlink:href="500925v1_ufig4.tif"/>
 </fig>
 </sec>
 <sec id="s4j3">
-<title>Rosetta XML file</title>
+<title><label>2.3.</label> Rosetta XML file</title>
 <fig id="ufig5" position="float" orientation="portrait" fig-type="figure">
 <graphic xlink:href="500925v1_ufig5.tif"/>
 <graphic xlink:href="500925v1_ufig5a.tif"/>
