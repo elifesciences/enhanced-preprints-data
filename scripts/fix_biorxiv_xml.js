@@ -6,12 +6,6 @@ function fixXml(path) {
     // load the html file
     var fileContent = fs.readFileSync(path, 'utf8');
 
-    // replace simple strings
-    fileContent = fileContent.replace(new RegExp('<string-name', 'g'), '<name'); // string-name -> name
-    fileContent = fileContent.replace(new RegExp('</string-name', 'g'), '</name'); // string-name -> name
-    fileContent = fileContent.replace(new RegExp('<table-wrap', 'g'), '<fig'); // # table-wrap -> fig
-    fileContent = fileContent.replace(new RegExp('</table-wrap>', 'g'), '</fig>'); // # table-wrap -> fig
-
     // replace more complex patterns
 
     // <label>1</label><title> -> <title><label>1</label>
