@@ -25,7 +25,7 @@ function fixXml(path) {
 
     // fix citations
     // <ext-link ext-link-type="uri" xlink:href="https://doi.org/{doi}">https://doi.org/{doi}</ext-link> -> <pub-id pub-id-type="doi">{doi}</pub-id>
-    fileContent = fileContent.replace(new RegExp('<ext-link ext-link-type="uri" xlink:href="https://doi.org/(.*)">.*</ext-link>', 'mg'), '<pub-id pub-id-type="doi">$1</pub-id>'); // <label>1</label><title> -> <title><label>1</label>
+    fileContent = fileContent.replace(new RegExp('<ext-link ext-link-type="uri" xlink:href="https://doi.org/(.*?)">.*?</ext-link>', 'mg'), '<pub-id pub-id-type="doi">$1</pub-id>');
 
 
     // article-specific
