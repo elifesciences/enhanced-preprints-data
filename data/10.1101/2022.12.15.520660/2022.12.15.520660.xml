@@ -185,10 +185,8 @@
 </sec>
 </body>
 <back>
-<sec>
-<label>4</label>
 <ack>
-<title>Acknowledgements</title>
+<title><label>4</label> Acknowledgements</title>
 <p>This work was supported by an NIMH F32 Fellowship (1F32MH119766) to AG, the Office of Naval Research (N00141812690), the Simons Foundation (SCGB 542987SPI), NIMH (MH126904), the Vallee Foundation, and the James S. McDonnell Foundation to LMG. We would like thank Loren M. Frank for initial discussions on the adaptation and building of the maze, David Jessen and Ashley Henderson for subject handling and training, and Adriana Diaz for animal husbandry and lab support.</p>
 </ack>
 <sec>
@@ -331,7 +329,6 @@
 <sec id="s7i">
 <title><label>7.9</label> Open-Field Encoding Models</title>
 <p>Three main models were used to quantify the extent of spatial/navigational coding of single units: position, head-direction and speed. Blocked time-series cross validation was followed to generate training and test sets for the models, with each block being of length of 20 seconds. Periods of immobility <italic>speed &#x003C; 2cm/second</italic> were excluded from the head direction models. Binned head-direction and speed behavioral features were used to model those variables. The position model also employ binned positions, but then transformed into a lower dimensional space using PCA. All models predicted firing-rate using simple linear regression. Quantification on test sets was performed by comparing the test firing rate and corresponding predicted rates and using <italic>R</italic><sup>2</sup> and spatial map correlations <italic>r<sub>p</sub></italic>. Aggregate models took training set predicted firing rates for each model (speed, head-direction and position) as features (3 total features), and was correspondingly tested on unseen test data. The coefficients of the aggregate models were used to cluster these cells into functional coding groups.</p>
-</sec>
 </sec>
 </sec>
 <ref-list>
