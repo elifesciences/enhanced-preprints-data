@@ -25,8 +25,11 @@ for file in $1/*; do
     echo -n "getting doi from $tmpDir/$xmlFile ... "
     doi=$(cat $tmpDir/$xmlFile | sed 's/xmlns=".*"//g' | xmllint -xpath 'string(/article/front/article-meta/article-id)' -)
     echo "'$doi'."
+    doiPrefix="${doi%%\/*}"
+    doiSuffix="${doi#*\/}"
+    doiSuffix="${doiSuffix//\//.}"
 
-    outputDir="$2/$doi"
+    outputDir="$2/$doiPrefix/$doiSuffix"
     id=$(basename $outputDir)
     uuid=$(basename -s .meca $file)
 
@@ -50,6 +53,7 @@ for file in $1/*; do
     echo "copy all tiff content to $outputDir..."
     cp $tmpDir/content/*.tif "$outputDir/" || true
     cp $tmpDir/content/*.gif "$outputDir/" || true
+    cp $tmpDir/content/*.jpg "$outputDir/" || true
 
     echo "cleaning up..."
     rm -R $tmpDir
