@@ -13,4 +13,4 @@ echo "fetching $id to $output_dir...";
 s3source="$(curl -s "https://api.biorxiv.org/meca_index/elife/all/$id" | jq -r '.results[].tdm_path')"
 
 echo "Found! fetching $s3source to $output_dir"
-aws s3 cp --profile=biorxiv --request-payer requester $s3source $output_dir/
+aws s3 cp --request-payer requester $s3source $output_dir/
