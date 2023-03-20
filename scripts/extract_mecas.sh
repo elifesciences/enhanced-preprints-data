@@ -53,7 +53,7 @@ for file in $INCOMING_DIR/*; do
     xmlFile=$(cat $tmpDir/manifest.xml | sed 's/xmlns=".*"//g' | xmllint -xpath 'string(/manifest/item[@type="article"]/instance[@media-type="application/xml"]/@href)' -)
 
     echo -n "getting doi from $tmpDir/$xmlFile ... "
-    doi=$(cat $tmpDir/$xmlFile | sed 's/xmlns=".*"//g' | xmllint -xpath 'string(/article/front/article-meta/article-id)' -)
+    doi=$(cat $tmpDir/$xmlFile | sed 's/xmlns=".*"//g' | xmllint -xpath 'string(/article/front/article-meta/article-id[@pub-id-type="doi"])' -)
     echo "'$doi'."
     doiPrefix="${doi%%\/*}"
     doiSuffix="${doi#*\/}"
