@@ -72,10 +72,14 @@ for file in $INCOMING_DIR/*; do
     cat "$tmpDir/$xmlFile" | docker run --rm -i ghcr.io/elifesciences/enhanced-preprints-biorxiv-xslt:latest /app/scripts/transform.sh --doi $doiSuffix >"$outputDir/$id.xml"
     echo "transform.sh --doi $doiSuffix successfully run"
     
-    echo "copy all tif, gif and jpg content to ${outputDir}..."
-    cp $tmpDir/content/*.tif "$outputDir/" || true
-    cp $tmpDir/content/*.gif "$outputDir/" || true
-    cp $tmpDir/content/*.jpg "$outputDir/" || true
+    echo "getting image paths from $tmpDir/manifest.xml ..."
+    images=$(cat $tmpDir/manifest.xml | sed 's/xmlns=".*"//g' | xmllint -xpath '//manifest/item[@type="figure"]/instance[starts-with(@media-type,"image")]/@href' -)
+    for image in $images; do
+        image="${image//\"}"
+        image="${image//href=}"
+        imageFilename="${image#*\/}"
+        cp $tmpDir/$image $outputDir/$imageFilename || true
+    done
 
     echo "cleaning up..."
     rm -R $tmpDir
