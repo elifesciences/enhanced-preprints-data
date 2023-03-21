@@ -70,8 +70,8 @@ for file in $INCOMING_DIR/*; do
     if [ "$doiPrefix" = "10.1101" ]; then
         pull_docker_image
         echo "correct some bioRxiv/Encoda XML issues and store $outputDir/$id.xml..."
-        cat "$tmpDir/$xmlFile" | docker run --rm -i ghcr.io/elifesciences/enhanced-preprints-biorxiv-xslt:latest /app/scripts/transform.sh --doi $doiSuffix >"$outputDir/$id.xml"
-        echo "transform.sh --doi $doiSuffix successfully run"
+        cat "$tmpDir/$xmlFile" | docker run --rm -i ghcr.io/elifesciences/enhanced-preprints-biorxiv-xslt:latest > "$outputDir/$id.xml"
+        echo "transform.sh successfully run"
     else
         echo "Skipping XML correction for DOI prefix $doiPrefix"
         cp "$tmpDir/$xmlFile" "$outputDir/$id.xml"
