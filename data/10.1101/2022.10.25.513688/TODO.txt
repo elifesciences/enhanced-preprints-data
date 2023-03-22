@@ -1,0 +1,5 @@
+bioRxiv API (https://api.biorxiv.org/meca_index/elife/all/2022.10.25.513688) returns only the incorrect version (version 1), available at:
+s3://transfers-elife/biorxiv_Current_Content/October_2022/28_Oct_22_Batch_1418/7176913b-6bf7-1014-b405-bdc6d564ab94.meca
+
+Correct version (version 2) is available at:
+s3://transfers-elife/biorxiv_Current_Content/February_2023/16_Feb_23_Batch_1525/1330fb9e-6def-1014-b277-da8e6b207ac5.meca
