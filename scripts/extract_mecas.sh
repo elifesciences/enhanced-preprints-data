@@ -2,15 +2,17 @@
 set -e
 
 # This requires xmllint and macos/bsd sed
-# pass the directory of mecas as first param, and output directory as second
+# pass the directory of mecas as first param, output directory as second and PDF s3 bucket and third
 # example run:
-# ./scripts/extract_mecas.sh incoming/ data/
+# ./scripts/extract_mecas.sh [INCOMING_DIR] [DATA_DIR] [PDF_S3_BUCKET]
 
 # Get the directory where the script is located
 SCRIPT_DIR="$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")"
 PARENT_DIR="$(dirname "${SCRIPT_DIR}")"
-INCOMING_DIR=$(realpath ${1})
-DATA_DIR=$(realpath ${2})
+INCOMING_DIR=$(realpath ${1:-${PARENT_DIR}/incoming}) # default ./incoming
+DATA_DIR=$(realpath ${2:-${PARENT_DIR}/data}) # default ./data
+DEFAULT_PDF_S3_BUCKET="s3://prod-elife-epp-pdf/data"
+PDF_S3_BUCKET="${3:-${DEFAULT_PDF_S3_BUCKET}}" # default s3://prod-elife-epp-pdf/data
 
 function pull_docker_image() {
     # Check if the docker_image_flag has expired
@@ -50,15 +52,16 @@ for file in $INCOMING_DIR/*; do
     unzip -q $file -d $tmpDir
 
     echo "getting article XML path from $tmpDir/manifest.xml ..."
-    xmlFile=$(cat $tmpDir/manifest.xml | sed 's/xmlns=".*"//g' | xmllint -xpath 'string(/manifest/item[@type="article"]/instance[@media-type="application/xml"]/@href)' -)
+    manifestFile="${tmpDir}/manifest.xml"
+    xmlFile=$(cat ${manifestFile} | sed 's/xmlns=".*"//g' | xmllint -xpath 'string(/manifest/item[@type="article"]/instance[@media-type="application/xml"]/@href)' -)
+    xmlFileDir=$(dirname ${xmlFile})
 
     echo -n "getting doi from $tmpDir/$xmlFile ... "
-    doi=$(cat $tmpDir/$xmlFile | sed 's/xmlns=".*"//g' | xmllint -xpath 'string(/article/front/article-meta/article-id)' -)
+    doi=$(cat $tmpDir/$xmlFile | sed 's/xmlns=".*"//g' | xmllint -xpath 'string(/article/front/article-meta/article-id[@pub-id-type="doi"])' -)
     echo "'$doi'."
-    doiPrefix="${doi%%\/*}"
-    doiSuffix="${doi#*\/}"
 
     outputDir="$DATA_DIR/$doi"
+    # id is used for the filename of the xml file in the outputDir. Will be the portion of the doi after the last forward slash
     id=$(basename $outputDir)
     uuid=$(basename -s .meca $file)
 
@@ -67,20 +70,21 @@ for file in $INCOMING_DIR/*; do
 
     echo "$uuid" >"$outputDir/source.txt"
 
-    if [ "$doiPrefix" = "10.1101" ]; then
-        pull_docker_image
-        echo "correct some bioRxiv/Encoda XML issues and store $outputDir/$id.xml..."
-        cat "$tmpDir/$xmlFile" | docker run --rm -i ghcr.io/elifesciences/enhanced-preprints-biorxiv-xslt:latest > "$outputDir/$id.xml"
-        echo "transform.sh successfully run"
-    else
-        echo "Skipping XML correction for DOI prefix $doiPrefix"
-        cp "$tmpDir/$xmlFile" "$outputDir/$id.xml"
-    fi
+    pull_docker_image
+    echo "correct some bioRxiv/Encoda XML issues and store $outputDir/$id.xml..."
+    cat "$tmpDir/$xmlFile" | docker run --rm -i ghcr.io/elifesciences/enhanced-preprints-biorxiv-xslt:latest > "$outputDir/$id.xml"
+    echo "transform.sh successfully run"
 
-    echo "copy all tif, gif and jpg content to ${outputDir}..."
-    cp $tmpDir/content/*.tif "$outputDir/" || true
-    cp $tmpDir/content/*.gif "$outputDir/" || true
-    cp $tmpDir/content/*.jpg "$outputDir/" || true
+    echo "getting image paths from ${manifestFile} ..."
+    images=$(cat ${manifestFile} | sed 's/xmlns=".*"//g' | xmllint -xpath '//instance[starts-with(@media-type,"image/")]/@href' - | sed 's/href="\([^"]*\)"/\1/g')
+    for image in $images; do
+        imageDir="$(dirname ${image})"
+        mkdir -p "${outputDir}${imageDir#${xmlFileDir}}"
+        cp $tmpDir/$image "${outputDir}/${image#${xmlFileDir}/}"
+    done
+
+    echo "Introduce PDF, if available"
+    aws s3 sync ${PDF_S3_BUCKET}/${doi} ${outputDir} --exclude "*" --include "*.pdf" --delete
 
     echo "cleaning up..."
     rm -R $tmpDir
