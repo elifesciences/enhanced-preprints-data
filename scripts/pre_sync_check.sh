@@ -10,7 +10,7 @@ SCRIPT_DIR="$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")"
 PARENT_DIR="$(dirname "${SCRIPT_DIR}")"
 cd $PARENT_DIR
 
-GITHUB_ORG_AND_REPO="${1:-elifesciences/enhanced-preprints-data}"
+GITHUB_ORG_AND_REPO="${1:-elifesciences/enhanced-preprints-data}" # default elifesciences/enhanced-preprints-data
 
 # Retrieve the remote alias and URL from the fetch detail using git remote -v
 REMOTE_ALIAS=$(git remote -v | awk '{print $1}' | uniq)

@@ -11,4 +11,5 @@ DEFAULT_S3_BUCKET="s3://prod-elife-epp-pdf/data" # default s3://prod-elife-epp-p
 S3_BUCKET="${1:-${DEFAULT_S3_BUCKET}}"
 DATA_FOLDER="$(realpath ${2:-${PARENT_DIR}/data})" # default ./data
 
+echo "sync PDFs from ${DATA_FOLDER} to ${S3_BUCKET}"
 aws s3 sync ${DATA_FOLDER} ${S3_BUCKET} --exclude "*" --include "*.pdf" --delete
