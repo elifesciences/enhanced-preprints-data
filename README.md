@@ -48,7 +48,7 @@ Extract the meca archives and prepare xml and assets for the data folder.
 
 As part of this script an attempt will be made to introduce the pdf from s3://prod-elife-epp-pdf/data
 
-## Create a feature branch
+## Create a feature branch, review and merge
 
 Create a feature branch, commit your changes and push the branch.
 
@@ -80,19 +80,10 @@ Once imported ensure you can see and are happy with the manuscript at https://pr
 
 ## Add a PDF
 
-Save the PDF to the appropriate place in the data folder. PDF's must be uploaded to s3://prod-elife-epp-pdf/data to ensure that we can trash the [data](data) folder and recreate it again if needed.
-
-You can either upload it to s3 manually in the appropriate location or you can trigger syncing all [data](data) folder PDF files with the command:
-
-```bash
-./scripts/preserve_pdfs.sh
-```
-
-Create a feature branch, commit your changes and push the branch.
-
-Create a pull request at https://github.com/elifesciences/enhanced-preprints-data, review your changes and merge in if happy.
+Save the PDF to the appropriate place in the data folder.
 
 To sync the changes from the data repo to the s3 bucket replay the steps:
-- Checkout master
-- Sync data folder to staging
-- Sync data folder to folder
+- [Create a feature branch, review and merge](#create-a-feature-branch-review-and-merge)
+- [Checkout master](#checkout-master)
+- [Sync data folder to staging](#sync-data-folder-to-staging)
+- [Sync data folder to prod](#sync-data-folder-to-prod)
