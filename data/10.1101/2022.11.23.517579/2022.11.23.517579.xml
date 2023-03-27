@@ -30,40 +30,16 @@
 <article-title>Impairment of lipid homoeostasis causes accumulation of protein aggregates in the lysosome</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4914-2259</contrib-id>
-<name><surname>Yong</surname><given-names>John</given-names></name>
-</contrib>
-<contrib contrib-type="author">
-<name><surname>Villalta</surname><given-names>Jacqueline E.</given-names></name>
-</contrib>
-<contrib contrib-type="author">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5323-7146</contrib-id>
-<name><surname>Vu</surname><given-names>Ngoc</given-names></name>
-</contrib>
-<contrib contrib-type="author">
-<name><surname>Kukurugya</surname><given-names>Matthew A.</given-names></name>
-</contrib>
-<contrib contrib-type="author">
-<name><surname>Bennett</surname><given-names>Bryson D.</given-names></name>
-</contrib>
-<contrib contrib-type="author">
-<name><surname>L&#x00F3;pez</surname><given-names>Magdalena Preciado</given-names></name>
-</contrib>
-<contrib contrib-type="author">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2971-5379</contrib-id>
-<name><surname>Lazzari-Dean</surname><given-names>Julia R.</given-names></name>
-</contrib>
-<contrib contrib-type="author">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3310-1417</contrib-id>
-<name><surname>Hake</surname><given-names>Kayley</given-names></name>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9033-4028</contrib-id>
-<name><surname>Jan</surname><given-names>Calvin H.</given-names></name>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<aff><institution>Calico Life Sciences LLC</institution></aff>
+<contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4914-2259</contrib-id><name><surname>Yong</surname><given-names>John</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib>
+<contrib contrib-type="author"><name><surname>Villalta</surname><given-names>Jacqueline E.</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib>
+<contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5323-7146</contrib-id><name><surname>Vu</surname><given-names>Ngoc</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib>
+<contrib contrib-type="author"><name><surname>Kukurugya</surname><given-names>Matthew A.</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib>
+<contrib contrib-type="author"><name><surname>Bennett</surname><given-names>Bryson D.</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib>
+<contrib contrib-type="author"><name><surname>L&#x00F3;pez</surname><given-names>Magdalena Preciado</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib>
+<contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2971-5379</contrib-id><name><surname>Lazzari-Dean</surname><given-names>Julia R.</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib>
+<contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3310-1417</contrib-id><name><surname>Hake</surname><given-names>Kayley</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9033-4028</contrib-id><name><surname>Jan</surname><given-names>Calvin H.</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="corresp" rid="cor1">&#x002A;</xref></contrib>
+<aff id="aff1"><label>1</label><institution>Calico Life Sciences LLC</institution></aff>
 </contrib-group>
 <author-notes>
 <corresp id="cor1"><label>&#x002A;</label>Corresponding author; email: <email>cjan@calicolabs.com</email></corresp>
@@ -236,25 +212,6 @@
 <p>Fixed cells were stored at 4&#x00BA;C until they were enrobed in gelatin and post-fixed with 1&#x0025; osmium tetroxide, washed with ddH<sub>2</sub>O and stained with 1&#x0025; uranyl acetate. Stained samples were dehydrated in a graded series of ethanol, infiltrated and embedded in epon resin. Samples were then trimmed and sectioned with an ultramicrotome and imaged on a JEM-1400 transmission electron microscope (JEOL).</p>
 </sec>
 </sec>
-<sec sec-type="supplementary-material">
-<title>Supporting information</title>
-<supplementary-material>
-<label>Supplementary Figures</label>
-<media xlink:href="supplements/517579_file02.pdf"/>
-</supplementary-material>
-<supplementary-material>
-<label>Supplementary Table S1</label>
-<media xlink:href="supplements/517579_file03.txt"/>
-</supplementary-material>
-<supplementary-material>
-<label>Supplementary Table S2</label>
-<media xlink:href="supplements/517579_file04.txt"/>
-</supplementary-material>
-<supplementary-material>
-<label>Supplementary Table S3</label>
-<media xlink:href="supplements/517579_file05.txt"/>
-</supplementary-material>
-</sec>
 </body>
 <back>
 <ack>
@@ -295,7 +252,7 @@
 <ref id="c30"><label>30.</label><mixed-citation publication-type="journal"><string-name><surname>Schulze</surname>, <given-names>H.</given-names></string-name> &#x0026; <string-name><surname>Sandhoff</surname>, <given-names>K.</given-names></string-name> <article-title>Lysosomal Lipid Storage Diseases</article-title>. <source>Csh Perspect Biol</source> <volume>3</volume>, <fpage>a004804</fpage> (<year>2011</year>).</mixed-citation></ref>
 <ref id="c31"><label>31.</label><mixed-citation publication-type="journal"><string-name><surname>Yamazaki</surname>, <given-names>T.</given-names></string-name>, <string-name><surname>Chang</surname>, <given-names>T. Y.</given-names></string-name>, <string-name><surname>Haass</surname>, <given-names>C.</given-names></string-name> &#x0026; <string-name><surname>Ihara</surname>, <given-names>Y.</given-names></string-name> <article-title>Accumulation and aggregation of amyloid beta-protein in late endosomes of Niemann-pick type C cells</article-title>. <source>J Biol Chem</source> <volume>276</volume>, <fpage>4454</fpage>&#x2013;<lpage>4460</lpage> (<year>2001</year>).</mixed-citation></ref>
 <ref id="c32"><label>32.</label><mixed-citation publication-type="journal"><string-name><surname>Kirkegaard</surname>, <given-names>T.</given-names></string-name> <etal>et al.</etal> <article-title>Hsp70 stabilizes lysosomes and reverts Niemann&#x2013;Pick disease-associated lysosomal pathology</article-title>. <source>Nature</source> <volume>463</volume>, <fpage>549</fpage>&#x2013;<lpage>553</lpage> (<year>2010</year>).</mixed-citation></ref>
-<ref id="c33"><label>33.</label><mixed-citation publication-type="journal"><string-name><surname>Kant</surname>, <given-names>R.</given-names></string-name> <collab>van der</collab> <etal>et al.</etal> <article-title>Cholesterol Metabolism Is a Druggable Axis that Independently Regulates Tau and Amyloid-&#x03B2; in iPSC-Derived Alzheimer&#x2019;s Disease Neurons</article-title>. <source>Cell Stem Cell</source> <volume>24</volume>, <fpage>363</fpage>&#x2013;<lpage>375.e9</lpage> (<year>2019</year>).</mixed-citation></ref>
+<ref id="c33"><label>33.</label><mixed-citation publication-type="journal"><string-name><surname>Kant</surname>, <given-names>R.</given-names></string-name> <string-name><surname>van der</surname></string-name> <etal>et al.</etal> <article-title>Cholesterol Metabolism Is a Druggable Axis that Independently Regulates Tau and Amyloid-&#x03B2; in iPSC-Derived Alzheimer&#x2019;s Disease Neurons</article-title>. <source>Cell Stem Cell</source> <volume>24</volume>, <fpage>363</fpage>&#x2013;<lpage>375.e9</lpage> (<year>2019</year>).</mixed-citation></ref>
 <ref id="c34"><label>34.</label><mixed-citation publication-type="journal"><string-name><surname>Tian</surname>, <given-names>R.</given-names></string-name> <etal>et al.</etal> <article-title>Genome-wide CRISPRi/a screens in human neurons link lysosomal failure to ferroptosis</article-title>. <source>Nat Neurosci</source> <volume>24</volume>, <fpage>1020</fpage>&#x2013;<lpage>1034</lpage> (<year>2021</year>).</mixed-citation></ref>
 <ref id="c35"><label>35.</label><mixed-citation publication-type="journal"><string-name><surname>Choi</surname>, <given-names>S.-H.</given-names></string-name>, <string-name><surname>Sviridov</surname>, <given-names>D.</given-names></string-name> &#x0026; <string-name><surname>Miller</surname>, <given-names>Y. I.</given-names></string-name> <article-title>Oxidized cholesteryl esters and inflammation</article-title>. <source>Biochimica Et Biophysica Acta Bba - Mol Cell Biology Lipids</source> <volume>1862</volume>, <fpage>393</fpage>&#x2013;<lpage>397</lpage> (<year>2016</year>).</mixed-citation></ref>
 <ref id="c36"><label>36.</label><mixed-citation publication-type="journal"><string-name><surname>Dielschneider</surname>, <given-names>R. F.</given-names></string-name> <etal>et al.</etal> <article-title>Lysosomotropic agents selectively target chronic lymphocytic leukemia cells due to altered sphingolipid metabolism</article-title>. <source>Leukemia</source> <volume>30</volume>, <fpage>1290</fpage>&#x2013;<lpage>1300</lpage> (<year>2016</year>).</mixed-citation></ref>
