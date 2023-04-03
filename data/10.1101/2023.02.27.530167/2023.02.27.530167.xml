@@ -73,10 +73,10 @@
 <xref ref-type="aff" rid="a1">1</xref>
 <xref ref-type="corresp" rid="cor1">&#x0023;</xref>
 </contrib>
-<aff id="a1"><label>1</label><institution>Department of Anesthesiology, Pharmacology and Therapeutics, University of British Columbia</institution>, Vancouver, British Columbia, <country>Canada</country>, V6T1Z3</aff>
-<aff id="a2"><label>2</label><institution>Molecular Neuroscience Group, Institute of Molecular Biology</institution>, NAS RA, 7 Hasratyan St. 0014 Yerevan, <country>Armenia</country></aff>
-<aff id="a3"><label>3</label><institution>Laboratory of Computational Modeling of Biological Processes, Institute of Molecular Biology of NAS RA</institution>, 0014, Yerevan, <country>Armenia</country></aff>
-<aff id="a4"><label>4</label><institution>National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health</institution>, Bethesda MD, <country>USA</country></aff>
+<aff id="a1"><label>1</label><institution>Department of Anesthesiology, Pharmacology and Therapeutics, University of British Columbia</institution>, Vancouver, British Columbia, Canada, V6T1Z3</aff>
+<aff id="a2"><label>2</label><institution>Molecular Neuroscience Group, Institute of Molecular Biology</institution>, NAS RA, 7 Hasratyan St. 0014 Yerevan, Armenia</aff>
+<aff id="a3"><label>3</label><institution>Laboratory of Computational Modeling of Biological Processes, Institute of Molecular Biology of NAS RA</institution>, 0014, Yerevan, Armenia</aff>
+<aff id="a4"><label>4</label><institution>National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health</institution>, Bethesda MD, USA</aff>
 </contrib-group>
 <author-notes>
 <corresp id="cor1"><label>&#x0023;</label>Email addresses for correspondence: <email>david.fedida@ubc.ca</email> and <email>v_vardanyan@mb.sci.am</email></corresp>
@@ -327,67 +327,7 @@
 </sec>
 </body>
 <back>
-<glossary>
-<title>Abbreviations</title>
-<def-list>
-<def-item>
-<term><italic>I</italic><sub><italic>Ks</italic></sub></term>
-<def><p>delayed cardiac rectifier K<sup>&#x002B;</sup> current</p></def>
-</def-item>
-<def-item>
-<term>LQTS</term>
-<def><p>long QT syndrome</p></def>
-</def-item>
-<def-item>
-<term>DIDS</term>
-<def><p>4,4&#x2019;-diisothiocyano-2,2&#x2019;-stilbenedisulfonic acid</p></def>
-</def-item>
-<def-item>
-<term>SITS</term>
-<def><p>4-acetamido-4&#x2019;-isothiocyanatostilbene-2,2&#x2019;-disulfonic acid</p></def>
-</def-item>
-<def-item>
-<term>HMR1556</term>
-<def><p>(3R,4S)-(&#x002B;)-N-[3-hydroxy-2,2-dimethyl-6-(4,4,4-trifluorobutoxy) chroman-4-yl]-N-methylmethanesulfonamide</p></def>
-</def-item>
-<def-item>
-<term>G-V</term>
-<def><p>conductance-voltage relationship</p></def>
-</def-item>
-<def-item>
-<term><italic>k</italic></term>
-<def><p>slope factor</p></def>
-</def-item>
-<def-item>
-<term>V<sub>1/2</sub></term>
-<def><p>voltage at half-maximal activation</p></def>
-</def-item>
-<def-item>
-<term>WT</term>
-<def><p>wild type</p></def>
-</def-item>
-<def-item>
-<term>ps-<italic>I</italic><sub><italic>Ks</italic></sub></term>
-<def><p>pseudo-KCNE1-KCNQ1</p></def>
-</def-item>
-<def-item>
-<term>MD</term>
-<def><p>molecular dynamics</p></def>
-</def-item>
-<def-item>
-<term>MM</term>
-<def><p>molecular mechanics</p></def>
-</def-item>
-<def-item>
-<term>PBSA</term>
-<def><p>Poisson-Boltzmann surface area</p></def>
-</def-item>
-<def-item>
-<term>GBSA</term>
-<def><p>generalized Born surface area.</p></def>
-</def-item>
-</def-list>
-</glossary>
+<sec><title>Abbreviations</title><list list-type="simple"><list-item><p><italic>I</italic><sub><italic>Ks</italic></sub><list list-type="simple"><list-item><p>delayed cardiac rectifier K<sup>&#x002B;</sup> current</p></list-item></list></p></list-item><list-item><p>LQTS<list list-type="simple"><list-item><p>long QT syndrome</p></list-item></list></p></list-item><list-item><p>DIDS<list list-type="simple"><list-item><p>4,4&#x2019;-diisothiocyano-2,2&#x2019;-stilbenedisulfonic acid</p></list-item></list></p></list-item><list-item><p>SITS<list list-type="simple"><list-item><p>4-acetamido-4&#x2019;-isothiocyanatostilbene-2,2&#x2019;-disulfonic acid</p></list-item></list></p></list-item><list-item><p>HMR1556<list list-type="simple"><list-item><p>(3R,4S)-(&#x002B;)-N-[3-hydroxy-2,2-dimethyl-6-(4,4,4-trifluorobutoxy) chroman-4-yl]-N-methylmethanesulfonamide</p></list-item></list></p></list-item><list-item><p>G-V<list list-type="simple"><list-item><p>conductance-voltage relationship</p></list-item></list></p></list-item><list-item><p><italic>k</italic><list list-type="simple"><list-item><p>slope factor</p></list-item></list></p></list-item><list-item><p>V<sub>1/2</sub><list list-type="simple"><list-item><p>voltage at half-maximal activation</p></list-item></list></p></list-item><list-item><p>WT<list list-type="simple"><list-item><p>wild type</p></list-item></list></p></list-item><list-item><p>ps-<italic>I</italic><sub><italic>Ks</italic></sub><list list-type="simple"><list-item><p>pseudo-KCNE1-KCNQ1</p></list-item></list></p></list-item><list-item><p>MD<list list-type="simple"><list-item><p>molecular dynamics</p></list-item></list></p></list-item><list-item><p>MM<list list-type="simple"><list-item><p>molecular mechanics</p></list-item></list></p></list-item><list-item><p>PBSA<list list-type="simple"><list-item><p>Poisson-Boltzmann surface area</p></list-item></list></p></list-item><list-item><p>GBSA<list list-type="simple"><list-item><p>generalized Born surface area.</p></list-item></list></p></list-item></list></sec>
 <ack>
 <title>Acknowledgements</title>
 <p>We thank Fariba Ataei for her assistance in cell culture and for making mutants.</p>
