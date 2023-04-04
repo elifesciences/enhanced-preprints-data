@@ -91,8 +91,8 @@
 <name><surname>Cohen</surname><given-names>Todd</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
-<aff id="a1"><label>1</label><institution>University of North Carolina</institution> at <addr-line>Chapel Hill</addr-line></aff>
-<aff id="a2"><label>2</label><institution>UNC</institution><addr-line>Chapel Hill</addr-line></aff>
+<aff id="a1"><label>1</label><institution>University of North Carolina at Chapel Hill</institution></aff>
+<aff id="a2"><label>2</label><institution>UNC Chapel Hill</institution></aff>
 <aff id="a3"><label>3</label><institution>University of North Carolina</institution></aff>
 </contrib-group>
 <pub-date pub-type="epub"><day>13</day><month>01</month><year>2023</year></pub-date>
@@ -320,7 +320,7 @@
 </sec>
 </body>
 <back>
-<sec>
+<sec sec-type="data-availability">
 <title>Data availability</title>
 <p>The TDP-43<sup>K145Q</sup> mouse line is now available at the Mutant Mouse Resource and Research Center (MMRRC) at University of North Carolina at Chapel Hill, an NIH-funded strain repository, with the following identifiers (RRID:MMRRC_068119-UNC). Raw and processed RNA-seq data have been deposited to the Gene Expression Omnibus (GEO) under accession GSE216294. All data generated in this work are included in the manuscript and the supporting files. Any plasmids or lentiviruses generated in this study are available upon request.</p>
 <p>Supplementary statistical information about data presented in main and supplemental figures can be found in the figure&#x2019;s accompanying source data file. Figures 3, 5, and 7 have accompanying source data files. Supplementary figures S5, S6, and S8 have accompanying source data files.</p>
@@ -523,29 +523,5 @@
 <ref id="c186"><label>186.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Schindelin</surname>, <given-names>J.</given-names></string-name> <etal>et al.</etal></person-group> <article-title>Fiji: an open-source platform for biological-image analysis</article-title>. <source>Nat. Methods</source> <volume>9</volume>, <fpage>676</fpage>&#x2013;<lpage>682</lpage> (<year>2012</year>).</mixed-citation></ref>
 <ref id="c187"><label>187.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Motulsky</surname>, <given-names>H. J.</given-names></string-name> &#x0026; <string-name><surname>Brown</surname>, <given-names>R. E.</given-names></string-name></person-group> <article-title>Detecting outliers when fitting data with nonlinear regression &#x2013; a new method based on robust nonlinear regression and the false discovery rate</article-title>. <source>BMC Bioinformatics</source> <volume>7</volume>, <fpage>123</fpage> (<year>2006</year>).</mixed-citation></ref>
 </ref-list>
-<sec>
-<title>Supplementary Figures</title>
-<supplementary-material id="data1" mimetype="application" mime-subtype="docx" xlink:href="2200020-data1.docx">
-<caption><title>Supplementary Figures 1-9</title></caption>
-</supplementary-material>
-<supplementary-material id="data2" mimetype="application" mime-subtype="xlsx" xlink:href="2200020-data2.xlsx">
-<caption><title>Fig 3 Source Data 1</title></caption>
-</supplementary-material>
-<supplementary-material id="data3" mimetype="application" mime-subtype="xlsx" xlink:href="2200020-data3.xlsx">
-<caption><title>Fig 5 Source Data 1</title></caption>
-</supplementary-material>
-<supplementary-material id="data4" mimetype="application" mime-subtype="xlsx" xlink:href="2200020-data4.xlsx">
-<caption><title>Fig 7 Source Data 1</title></caption>
-</supplementary-material>
-<supplementary-material id="data5" mimetype="application" mime-subtype="xlsx" xlink:href="2200020-data5.xlsx">
-<caption><title>Fig S5 Source Data 1</title></caption>
-</supplementary-material>
-<supplementary-material id="data6" mimetype="application" mime-subtype="xlsx" xlink:href="2200020-data6.xlsx">
-<caption><title>Fig S6 Source Data 1</title></caption>
-</supplementary-material>
-<supplementary-material id="data7" mimetype="application" mime-subtype="xlsx" xlink:href="2200020-data7.xlsx">
-<caption><title>Fig S8 Source Data 1</title></caption>
-</supplementary-material>
-</sec>
 </back>
 </article>

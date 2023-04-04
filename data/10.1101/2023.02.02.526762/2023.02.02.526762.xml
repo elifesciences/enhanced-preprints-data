@@ -184,16 +184,16 @@
 <xref ref-type="corresp" rid="cor1">&#x002A;</xref>
 <xref ref-type="author-notes" rid="n2">&#x00A7;</xref>
 </contrib>
-<aff id="a1"><label>1</label><institution>DIADE, Universit&#x00E9; de Montpellier, IRD, CIRAD</institution>, Montpellier, <country>France</country></aff>
-<aff id="a2"><label>2</label><institution>LMI LAPSE</institution>, Dakar, <country>Senegal</country></aff>
-<aff id="a3"><label>3</label><institution>CERAAS, ISRA</institution>, Thies, <country>Senegal</country></aff>
-<aff id="a4"><label>4</label><institution>LGDP, Universit&#x00E9; de Perpignan</institution>, Perpignan, <country>France</country></aff>
-<aff id="a5"><label>5</label><institution>School of Biosciences, University of Nottingham</institution>, Sutton Bonington, <country>UK</country></aff>
-<aff id="a6"><label>6</label><institution>Montpellier GenomiX</institution>, Montpellier, <country>France</country></aff>
-<aff id="a7"><label>7</label><institution>Be More Specific</institution>, Montpellier, <country>France</country></aff>
-<aff id="a8"><label>8</label><institution>ICRISAT</institution>, Hyderabad, <country>India</country></aff>
-<aff id="a9"><label>9</label><institution>AGAPi, Universit&#x00E9; de Montpellier, CIRAD, INRAE, SupAgroM</institution>, Montpellier, <country>France</country></aff>
-<aff id="a10"><label>10</label><institution>LGDP, CNRS</institution>, Perpignan, <country>France</country></aff>
+<aff id="a1"><label>1</label><institution>DIADE, Universit&#x00E9; de Montpellier, IRD, CIRAD</institution>, Montpellier, France</aff>
+<aff id="a2"><label>2</label><institution>LMI LAPSE</institution>, Dakar, Senegal</aff>
+<aff id="a3"><label>3</label><institution>CERAAS, ISRA</institution>, Thies, Senegal</aff>
+<aff id="a4"><label>4</label><institution>LGDP, Universit&#x00E9; de Perpignan</institution>, Perpignan, France</aff>
+<aff id="a5"><label>5</label><institution>School of Biosciences, University of Nottingham</institution>, Sutton Bonington, UK</aff>
+<aff id="a6"><label>6</label><institution>Montpellier GenomiX</institution>, Montpellier, France</aff>
+<aff id="a7"><label>7</label><institution>Be More Specific</institution>, Montpellier, France</aff>
+<aff id="a8"><label>8</label><institution>ICRISAT</institution>, Hyderabad, India</aff>
+<aff id="a9"><label>9</label><institution>AGAPi, Universit&#x00E9; de Montpellier, CIRAD, INRAE, SupAgroM</institution>, Montpellier, France</aff>
+<aff id="a10"><label>10</label><institution>LGDP, CNRS</institution>, Perpignan, France</aff>
 </contrib-group>
 <author-notes>
 <corresp id="cor1"><label>&#x002A;</label>Corresponding author: <email>laurent.laplaze@ird.fr</email></corresp>
@@ -334,9 +334,9 @@
 </disp-formula>
 <p>where
 <list list-type="simple">
-<list-item><label>&#x2013;</label><p><italic>n</italic><sub>plant/line</sub> is the average number of plants measured per line,</p></list-item>
-<list-item><label>&#x2013;</label><p>Var(line) is the variance associated with lines,</p></list-item>
-<list-item><label>&#x2013;</label><p>Var(res) is the residual variance.</p></list-item>
+<list-item><p><italic>n</italic><sub>plant/line</sub> is the average number of plants measured per line,</p></list-item>
+<list-item><p>Var(line) is the variance associated with lines,</p></list-item>
+<list-item><p>Var(res) is the residual variance.</p></list-item>
 </list>
 Both variances are parameters of the following linear mixed model:
 <disp-formula>
