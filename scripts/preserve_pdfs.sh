@@ -7,9 +7,9 @@ set -e
 
 SCRIPT_DIR="$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")"
 PARENT_DIR="$(dirname "${SCRIPT_DIR}")"
+DATA_FOLDER="$(realpath ${1:-${PARENT_DIR}/data})" # default ./data
 DEFAULT_S3_BUCKET="s3://prod-elife-epp-pdf/data" # default s3://prod-elife-epp-pdf/data
-S3_BUCKET="${1:-${DEFAULT_S3_BUCKET}}"
-DATA_FOLDER="$(realpath ${2:-${PARENT_DIR}/data})" # default ./data
+S3_BUCKET="${2:-${DEFAULT_S3_BUCKET}}"
 
 if [ "$S3_BUCKET" == "$DEFAULT_S3_BUCKET" ]; then
     echo "Performing pre-sync checks before syncing with prod pdf s3"
