@@ -45,6 +45,15 @@ function pull_docker_image() {
 }
 
 for file in $INCOMING_DIR/*; do
+    filename=$(basename $file)
+    # Splitting the file name into an array by '--'
+    filename_parts=(${filename//--/ })
+
+    # Extracting msid and version from the first part of the array by '-'
+    msid=$(echo ${filename_parts[0]} | cut -d'-' -f1)
+    version=$(echo ${filename_parts[0]} | cut -d'-' -f2)
+    echo "${msid}/v${version}"
+
     tmpDir=$(mktemp -d)
     echo $tmpDir
 
@@ -60,10 +69,10 @@ for file in $INCOMING_DIR/*; do
     doi=$(cat $tmpDir/$xmlFile | sed 's/xmlns=".*"//g' | xmllint -xpath 'string(/article/front/article-meta/article-id[@pub-id-type="doi"])' -)
     echo "'$doi'."
 
-    outputDir="$DATA_DIR/$doi"
-    # id is used for the filename of the xml file in the outputDir. Will be the portion of the doi after the last forward slash
-    id=$(basename $outputDir)
-    uuid=$(basename -s .meca $file)
+    outputDir="$DATA_DIR/$msid/v${version}"
+    # id is used for the filename of the xml file in the outputDir.
+    id="${msid}-v${version}"
+    uuid=$(echo ${filename_parts[1]} | cut -d'.' -f1)
 
     echo "creating $outputDir"
     mkdir -p "$outputDir"
@@ -84,7 +93,7 @@ for file in $INCOMING_DIR/*; do
     done
 
     echo "Introduce PDF, if available"
-    aws s3 sync ${PDF_S3_BUCKET}/${doi} ${outputDir} --exclude "*" --include "*.pdf" --delete
+    aws s3 sync ${PDF_S3_BUCKET}/${msid}/${version} ${outputDir} --exclude "*" --include "*.pdf" --delete
 
     echo "cleaning up..."
     rm -R $tmpDir
