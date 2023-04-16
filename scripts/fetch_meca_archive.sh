@@ -21,7 +21,7 @@ if [[ -n "${doi_line}" ]]; then
     s3source="${doi_line#${doi}=}"
 else
     echo "search for entry in bioRxiv"
-    s3source="$(curl -s "https://api.biorxiv.org/meca_index/elife/all/$doiSuffix" | jq -r '.results[].tdm_path')"
+    s3source="$(curl -s "https://api.biorxiv.org/meca_index/elife/all/$doiSuffix" | jq -r '.results[0].tdm_path')"
 fi
 
 echo "fetching $doi to $output_dir...";
