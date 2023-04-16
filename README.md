@@ -62,6 +62,15 @@ rm -rf ./data
 
 The meca files will be available in the `./incoming` folder.
 
+In order to organise the extracted meca's, we have prefixed the msid, version and date to the filename. The date is extracted from the s3 source directory if found in the format `01_Jan_23`.
+
+An example:
+
+```bash
+$ ls ./incoming
+52299-1--30-May-22--06908fc3-73df-1014-bb56-a21daa237ef0.meca  85921-1--00-Unk-00--2200020-meca.zip
+```
+
 ## Extract meca files
 
 Extract the meca archives and prepare xml and assets for the data folder.

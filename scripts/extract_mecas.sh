@@ -72,7 +72,7 @@ for file in $INCOMING_DIR/*; do
     outputDir="$DATA_DIR/$msid/v${version}"
     # id is used for the filename of the xml file in the outputDir.
     id="${msid}-v${version}"
-    uuid=$(echo ${filename_parts[1]} | cut -d'.' -f1)
+    uuid=$(echo ${filename_parts[2]} | cut -d'.' -f1)
 
     echo "creating $outputDir"
     mkdir -p "$outputDir"

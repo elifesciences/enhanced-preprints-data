@@ -33,6 +33,18 @@ fi
 
 echo "fetching $doi to $output_dir...";
 
-s3source_filename="${msid}-${version}--$(basename $s3source)"
+# if s3source has a format dd_mmm_yy in then extract it to a variable s3source_date in format dd-mmm-yy otherwise set s3source_date to date-unknown s3://transfers-elife/biorxiv_Current_Content/May_2022/30_May_22_Batch_1267/06908fc3-73df-1014-bb56-a21daa237ef0.meca
+
+# Extract date from s3source
+if [[ $s3source =~ ([0-9]{2})_([A-Za-z]{3})_([0-9]{2}) ]]; then
+  day=${BASH_REMATCH[1]}
+  month=${BASH_REMATCH[2]}
+  year=${BASH_REMATCH[3]}
+  s3source_date=$(date -d "${day} ${month} ${year}" "+%d-%b-%y")
+else
+  s3source_date="00-Unk-00"
+fi
+
+s3source_filename="${msid}-${version}--${s3source_date}--$(basename $s3source)"
 echo "Found! fetching $s3source to $output_dir/$s3source_filename"
 aws s3 cp --request-payer requester $s3source "${output_dir}/${s3source_filename}"
