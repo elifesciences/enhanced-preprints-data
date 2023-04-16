@@ -18,7 +18,7 @@ fi
 
 output_dir="$(realpath ${2-${PARENT_DIR}/incoming})" # default ./incoming
 manuscripts_txt="$(realpath ${3-${PARENT_DIR}/manuscripts.txt})" # default ./manuscripts.txt
-meca_lookup="$(realpath ${3-${PARENT_DIR}/meca-lookup.txt})" # default ./meca-lookup.txt
+meca_lookup="$(realpath ${4-${PARENT_DIR}/meca-lookup.txt})" # default ./meca-lookup.txt
 
 echo "Retrieving ${all_or_new} manuscripts in ${manuscripts_txt}"
 
