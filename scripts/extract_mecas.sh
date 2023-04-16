@@ -93,7 +93,7 @@ for file in $INCOMING_DIR/*; do
     done
 
     echo "Introduce PDF, if available"
-    aws s3 sync ${PDF_S3_BUCKET}/${msid}/${version} ${outputDir} --exclude "*" --include "*.pdf" --delete
+    aws s3 sync ${PDF_S3_BUCKET}/${msid}/v${version} ${outputDir}
 
     echo "cleaning up..."
     rm -R $tmpDir
