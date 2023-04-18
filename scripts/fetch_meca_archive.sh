@@ -40,7 +40,7 @@ if [[ $s3source =~ ([0-9]{2})_([A-Za-z]{3})_([0-9]{2}) ]]; then
   day=${BASH_REMATCH[1]}
   month=${BASH_REMATCH[2]}
   year=${BASH_REMATCH[3]}
-  s3source_date=$(date -d "${day} ${month} ${year}" "+%d-%b-%y")
+  s3source_date="${day}-${month}-${year}"
 else
   s3source_date="00-Unk-00"
 fi
