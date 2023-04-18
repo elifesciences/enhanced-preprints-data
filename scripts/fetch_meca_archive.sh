@@ -16,7 +16,7 @@ version="${4-1}" # default 1
 meca_lookup="$(realpath ${5-${PARENT_DIR}/meca-lookup.txt})" # default ./meca-lookup.txt
 
 doi_line=$(grep -m 1 "^${doi}=" "${meca_lookup}" || true)
-if [[ -n "${doi_line}" ]]; then
+if [[ "$version" -eq 1 && -n "${doi_line}" ]]; then
     echo "found entry in ${meca_lookup}"
     s3source="${doi_line##*=}"
 else
