@@ -4,6 +4,24 @@ Add the preprint doi to [manuscripts.txt](manuscripts.txt).
 
 [manuscripts.txt](manuscripts.txt) contains a list of all the preprint doi's.
 
+For the first version of a manuscript:
+
+```txt
+[msid]: [preprintDoi]
+```
+
+For multiple versions of a manuscript (for bioRxiv the `preprintDoi` will be duplicated - this is expected):
+
+```txt
+[msid]: [preprintDoi for v1],[preprintDoi for v2]
+```
+
+Example with duplicated `preprintDoi`:
+
+```txt
+85111: 10.1101/2022.11.08.515698,10.1101/2022.11.08.515698
+```
+
 ## Handle non-bioRxiv manuscript
 
 If the preprint meca file is not hosted bioRxiv, upload it to s3://prod-elife-epp-meca.
@@ -12,6 +30,12 @@ Add an entry in [meca-lookup.txt](meca-lookup.txt) with the format:
 
 ```txt
 [preprintDoi]=s3://prod-elife-epp-meca/[mecaFile]
+```
+
+If there is more than one version of the manuscript the `preprintDoi` may not be enough (could be the same for all versions). Append the version as follows:
+
+```txt
+10.1101/2022.11.08.515698[2]=s3://transfers-elife/biorxiv_Current_Content/March_2023/21_Mar_23_Batch_1557/e7c056c2-6c16-1014-98e5-b5f7d8af8b03.meca
 ```
 
 ## Fetch meca files
@@ -24,10 +48,10 @@ Fetch meca files for entries in [manuscripts.txt](manuscripts.txt) that don't ex
 
 If you want to trigger the preparation of a manuscript which is already in the data folder then delete the manuscript folder from the data folder.
 
-For example, if you want to trigger the preparation of [10.1101/2020.07.223354](data/10.1101/2020.07.223354) then run the following before the next step:
+For example, if you want to trigger the preparation of [85111/v1](data/85111/v1) then run the following before the next step:
 
 ```bash
-rm -rf ./data/10.1101/2020.07.223354
+rm -rf ./data/85111/v1
 ```
 
 If you want to trigger the preparation of all manuscripts then delete the whole data folder:
@@ -37,6 +61,15 @@ rm -rf ./data
 ```
 
 The meca files will be available in the `./incoming` folder.
+
+In order to organise the extracted meca's, we have prefixed the msid, version and date to the filename. The date is extracted from the s3 source directory if found in the format `01_Jan_23`.
+
+An example:
+
+```bash
+$ ls ./incoming
+52299-1--30-May-22--06908fc3-73df-1014-bb56-a21daa237ef0.meca  85921-1--00-Unk-00--2200020-meca.zip
+```
 
 ## Extract meca files
 

@@ -1,17 +1,30 @@
 #!/bin/bash
 
-# pass the data folder as first param, and manuscripts text file as second
+# This requires jq
+# pass the data directory as first parameter
 # example run:
-# ./scripts/prepare_manuscripts_index.sh [DATA_FOLDER] [MANUSCRIPTS_TXT]
+# curl -s https://data-hub-api.elifesciences.org/enhanced-preprints/docmaps/v1/index | ./scripts/prepare_manuscripts_index.sh [DATA_DIR]
 
-SCRIPT_DIR="$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")"
-PARENT_DIR="$(dirname "${SCRIPT_DIR}")"
-DATA_FOLDER="$(realpath ${1:-${PARENT_DIR}/data})" # default ./data
-MANUSCRIPTS_TXT="$(realpath ${2:-${PARENT_DIR}/manuscripts.txt})" # default ./manuscripts.txt
+if [ -n "$1" ]; then
+  DATA_DIR=$(realpath "$1")
+fi
 
-echo -n "" > "${MANUSCRIPTS_TXT}"
+# Read in the JSON data from standard input
+data=$(cat)
 
-for filename in $(find $(realpath $DATA_FOLDER) -type f -name '*.xml' | sort); do
-    dir_path=$(dirname $filename)
-    echo ${dir_path#$DATA_FOLDER/} >> "${MANUSCRIPTS_TXT}"
-done
+# Parse the JSON data with jq and extract the manuscript ID and DOI for each docmap that has _tdmPath
+preprint_manuscript_map=$(echo $data | jq -r '.docmaps[] | {manuscript_id: (.id | split("=")[-1]), doi: .steps["_:b0"].actions[0].outputs[0].doi}' | jq -s 'sort_by(.manuscript_id)[] | "\(.manuscript_id): \(.doi)"' | tr -d '"')
+
+# If no optional parameter is supplied, print out all manuscript IDs and DOIs
+if [ -z "$DATA_DIR" ]; then
+  echo "$preprint_manuscript_map"
+else
+  # Loop through the preprint-manuscript map and check if a matching folder exists
+  while read -r line; do
+    manuscript_id=$(echo $line | cut -d' ' -f1)
+    doi=$(echo $line | cut -d' ' -f2)
+    if [ -d "$DATA_DIR/$doi" ]; then
+      echo "$line"
+    fi
+  done <<< "$preprint_manuscript_map"
+fi

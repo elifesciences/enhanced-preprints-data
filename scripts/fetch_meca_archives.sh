@@ -26,7 +26,12 @@ mkdir -p $data_dir
 echo "Retrieving ${all_or_new} manuscripts in ${manuscripts_txt}"
 
 while read -r line; do
-    if [[ "$all_or_new" = "all" || ! -d "${data_dir}/${line}" ]]; then
-        $SCRIPT_DIR/fetch_meca_archive.sh "$line" $output_dir $meca_lookup
-    fi
+    manuscript_id=$(echo $line | cut -d':' -f1)
+    dois=($(echo $line | cut -d' ' -f2 | tr ',' ' '))
+    for i in "${!dois[@]}"; do
+        version=$(( ${i} + 1 ))
+        if [[ "$all_or_new" = "all" || ! -d "${data_dir}/${manuscript_id}/v${version}" ]]; then
+            $SCRIPT_DIR/fetch_meca_archive.sh "${dois[$i]}" $output_dir $manuscript_id $version $meca_lookup
+        fi
+    done
 done < "${manuscripts_txt}"
