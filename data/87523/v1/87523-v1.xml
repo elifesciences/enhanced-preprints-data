@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2d1 20170631//EN" "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="article" dtd-version="1.2d1" specific-use="production" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">BIORXIV</journal-id>
+<journal-title-group>
+<journal-title>bioRxiv</journal-title>
+<abbrev-journal-title abbrev-type="publisher">bioRxiv</abbrev-journal-title>
+</journal-title-group>
+<publisher>
+<publisher-name>Cold Spring Harbor Laboratory</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1101/520841</article-id>
+<article-version>1.2</article-version>
+<article-categories>
+<subj-group subj-group-type="author-type">
+<subject>Regular Article</subject>
+</subj-group>
+<subj-group subj-group-type="heading">
+<subject>Confirmatory Results</subject>
+</subj-group>
+<subj-group subj-group-type="hwp-journal-coll">
+<subject>Bioinformatics</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Biobtree: A tool to search, map and visualize bioinformatics identifiers and special keywords</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5822-9201</contrib-id>
+<name><surname>Gur</surname><given-names>Tamer</given-names></name>
+</contrib>
+<aff><institution>European Bioinformatics Institute, Wellcome Trust Genome Campus</institution>, Hinxton, CB10 1SD Cambridge, UK; E-mail: <email>tgur@ebi.ac.uk</email></aff>
+</contrib-group>
+<pub-date pub-type="epub">
+<year>2019</year>
+</pub-date>
+<elocation-id>520841</elocation-id>
+<history>
+<date date-type="received">
+<day>14</day>
+<month>1</month>
+<year>2019</year>
+</date>
+<date date-type="rev-recd">
+<day>16</day>
+<month>1</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>16</day>
+<month>1</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-statement>&#x00A9; 2019, Posted by Cold Spring Harbor Laboratory</copyright-statement>
+<copyright-year>2019</copyright-year>
+<license license-type="creative-commons" xlink:href="http://creativecommons.org/licenses/by-nd/4.0/"><license-p>This pre-print is available under a Creative Commons License (Attribution-NoDerivs 4.0 International), CC BY-ND 4.0, as described at <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nd/4.0/">http://creativecommons.org/licenses/by-nd/4.0/</ext-link></license-p></license>
+</permissions>
+<self-uri xlink:href="520841.pdf" content-type="pdf" xlink:role="full-text"/>
+<abstract>
+<title>Abstract</title>
+<p>Due to their nature, bioinformatics datasets are often closely related to each other. For this reason, search, mapping and visualization of these relations are often performed manual or programmatically via identifiers or special keywords such as gene symbols. Although various tools exist for these situations, the growing volume of bioinformatics datasets, emerging new software tools and approaches motivates new solutions. To provide a new tool for these current cases, I present the Biobtree bioinformatics tool. Biobtree effectively fetches and indexes identifiers and special keywords with their related identifiers from supported datasets, optionally with user pre-defined datasets and provides a web interface, web services and direct B&#x002B; tree data structure&#x2013;based single uniform database output. Biobtree can handle billions of identifiers and runs via a single executable file with no installation and dependency required. It also aims to provide a relatively small codebase for easy maintenance, addition of new features and extension to larger datasets. Biobtree is available to download at <ext-link ext-link-type="uri" xlink:href="https://www.github.com/tamerh/biobtree">https://www.github.com/tamerh/biobtree.</ext-link></p>
+</abstract>
+<kwd-group kwd-group-type="author">
+<title>Keywords</title>
+<kwd>bioinformatics</kwd>
+<kwd>identifiers</kwd>
+<kwd>mapping</kwd>
+</kwd-group>
+<counts>
+<page-count count="11"/>
+</counts>
+</article-meta>
+</front>
+<body>
+<sec id="s1">
+<title>Introduction</title>
+<p>Bioinformatics datasets often consist of entries, where each entry is represented by unique identifier. Depending on the dataset, each entry contains various types of information such as biological function, chemical structure or literature reference etc. In addition, entries often contain cross-referencing information to other dataset entries via identifiers. Let&#x2019;s take as an example entry the proto-oncogene vav protein in humans, which is encoded by the <italic>VAV1</italic> gene. If we display this protein on the UniProt <underline>website,</underline> we see cross references to many other databases. These cross references represent relations of databases with each other. Various tools exist to deal with such data; however, the growing volume of bioinformatics datasets, emerging new software tools and analysis approaches motivates new solutions. Biobtree presented herein is capable of improved and rapid processing of large numbers of unique identifiers of entries and related identifiers that are specified via cross-reference data.</p>
+<p>In some datasets, in addition to unique identifiers there is information that is strongly related to entries but not necessarily unique for each entry. Species names or UniProt secondary accessions are example of this type. Information that is strongly related to the entries but not necessarily unique is a second data source for Biobtree. In Biobtree, these types are called special keywords and each of these can be related to multiple entries among the datasets.</p>
+<p>Biobtree retrieves all these identifiers, related identifiers and special keywords from various bioinformatics resources and stores it in a single database. The data resources currently used are ChEBI [<xref rid="c1" ref-type="bibr">1</xref>], HGNC [<xref rid="c2" ref-type="bibr">2</xref>], HMDB [<xref rid="c3" ref-type="bibr">3</xref>], InterPro [<xref rid="c4" ref-type="bibr">4</xref>], Europe PMC [<xref rid="c5" ref-type="bibr">5</xref>] and UniProt [<xref rid="c6" ref-type="bibr">6</xref>]. <xref rid="fig1" ref-type="fig">Figure 1</xref> shows details of these datasets.</p>
+<fig id="fig1" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 1.</label>
+<caption><title>List of datasets</title></caption>
+<graphic xlink:href="520841_fig1.tif"/>
+</fig>
+<p>Based on stored data, Biobtree provides search, map and visualization functionalities via provided web services or a web interface. For instance, all the UniProt proteins entries belonging to a gene name, or, all Ensembl [<xref rid="c7" ref-type="bibr">7</xref>] genome transcripts identifiers and ENA [<xref rid="c8" ref-type="bibr">8</xref>] sequence identifiers that map to a protein identifier can be accessed. These relations, determined via identifiers, are stored bidirectionally so all actions can also be done in the opposite way.</p>
+<p>Biobtree is managed from a single executable file for each major operating system without requiring any installation or compilation. It consists of three main phases, which will be explained in later sections. These phases are named <italic>update, generate</italic> and <italic>web</italic> and are controlled by a Biobtree command line interface (CLI). As a database, Biobtree uses a B&#x002B; tree data structure&#x2013;based <underline>LMDB</underline> key value store. LMDB provides fast batch inserts and reads and allows effective operation on a large number of records. LMDB is embedded into Biobtree&#x2019;s executable binary code so it does not require a separate installation.</p>
+</sec>
+<sec id="s2">
+<title>Update Phase</title>
+<p>The purpose of the update phase is to retrieve dataset identifiers and special keywords from remote servers or a local disk and produce files that contains identifiers and special keywords with their referred identifiers as keys and values in a sorted order. It is essential that the produced files are sorted to make fast batch inserts to LMDB database in the next phase. The updating phase is started via the Biobtree CLI with the update command. For example, the following command starts the update phase for the hgnc dataset.</p>
+<boxed-text>
+<p>biobtree --d hgnc update</p>
+</boxed-text>
+<p>Updating reads selected datasets as a stream and saves Biobtree-related data in a series of files. An advantage of reading dataset as streams is that it does not require fully downloading the dataset to the local disk. Datasets can have different formats like XML, JSON, TSV or CSV. Biobtree has specialized parsers for each dataset and parses them to produce its output files. When Biobtree runs the first time it retrieves its configuration, license and web interface files from the source code repository. Configuration files contain Biobtree runtime settings and dataset definitions.</p>
+<sec id="s2a">
+<title>Integrate user dataset</title>
+<p>User data can be integrated to Biobtree. This feature creates an alternative for data providers to serve their data. Data should be gzipped and in an xml format compliant with UniProt xml schema <underline>definition</underline>. After the file path of the data is configured in a Biobtree configuration file, updating starts similarly:</p>
+<boxed-text>
+<p>biobtree --d my_data update</p>
+</boxed-text>
+</sec>
+<sec id="s2b">
+<title>Updating in multiple computers</title>
+<p>Biobtree supports executing the update phase over multiple computers. This is useful when it is necessary to use multiple computer processors at the same time such as with large datasets. The following two commands can be run on different computers with additional idx parameter to guarantee that the produced files have unique names.</p>
+<boxed-text>
+<p>biobtree --d uniparc &#x2013;idx 1 update</p>
+<p>biobtree --d uniref50 &#x2013;idx 2 update</p>
+</boxed-text>
+<p>Although Biobtree supports the updating phase occurring over multiple computers, for the next phase all the produced files have to be in a single location.</p>
+</sec>
+</sec>
+<sec id="s3">
+<title>Generate Phase</title>
+<p>The purpose of this phase is to merge all the files produced in the update phase by keeping the sorted order and generate the final key and values in the generated LMDB database. Keys consist of identifiers and special keywords and values are identifiers that are referred to by these keys with their dataset information. If the values size for each key are above a certain threshold they are saved in pages. The following command starts the generate phase.</p>
+<boxed-text>
+<p>biobtree generate</p>
+</boxed-text>
+<p>The generated database output is used in next web phase but it can be also used directly. Example source codes for using the database directly can be found in the project github page.</p>
+</sec>
+<sec id="s4">
+<title>Web Phase</title>
+<p>The purpose of this phase is to provide web services and a web interface via the produced output of the generate phase. The following command starts web phase</p>
+<boxed-text>
+<p>biobtree web</p>
+</boxed-text>
+<p>With this command the Biobtree web server is started instantly, serving the REST, gRPC and web interface services.</p>
+<sec id="s4a">
+<title>REST service</title>
+<p>To make queries in the produced database, Biobtree provides RESTful endpoints with json-formatted responses. For example, each dataset has a unique identifier and other meta information like name, url template, etc. Dataset-unique identifiers are used in all the services to distinguish the dataset. These meta information is retrieved via the following endpoint:</p>
+<boxed-text>
+<p><ext-link ext-link-type="uri" xlink:href="http://localhost:8888/ws/meta">http://localhost:8888/ws/meta</ext-link></p>
+</boxed-text>
+<p>The following are used to query single or multiple identifiers or special keywords:</p>
+<boxed-text>
+<p><ext-link ext-link-type="uri" xlink:href="http://localhost:8888/ws/?idlist=vav_human">http://localhost:8888/ws/?idlist=vav_human</ext-link></p>
+<p><ext-link ext-link-type="uri" xlink:href="http://localhost:8888/ws/?idlist=vav_human,tpi1,brca2">http://localhost:8888/ws/?idlist=vav_human,tpi1,brca2</ext-link></p>
+</boxed-text>
+<p>To make a paging query for a certain identifier:</p>
+<boxed-text>
+<p><ext-link ext-link-type="uri" xlink:href="http://localhost:8888/ws/?id=vav_human&#x0026;dataset=1&#x0026;page=1">http://localhost:8888/ws/?id=vav_human&#x0026;dataset=1ypage=1</ext-link></p>
+</boxed-text>
+<p>To make a filtering query based on a dataset:</p>
+<boxed-text>
+<p><ext-link ext-link-type="uri" xlink:href="http://localhost:8888/ws/?id=vav_human&#x0026;dataset=1&#x0026;filters=102">http://localhost:8888/ws/?id=vav_human&#x0026;dataset=1&#x0026;filters=102</ext-link></p>
+</boxed-text>
+<p>To make a paging query with active filtering:</p>
+<boxed-text>
+<p><ext-link ext-link-type="uri" xlink:href="http://localhost:8888/ws/?id=vav_human&#x0026;dataset=1&#x0026;filters=102&#x0026;page=1">http://localhost:8888/ws/?id=vav_human&#x0026;dataset=1&#x0026;filters=102&#x0026;page=1</ext-link></p>
+</boxed-text>
+</sec>
+<sec id="s4b">
+<title>gRPC service</title>
+<p>RESTful services are often json-based and are very convenient in json-based applications. But for non&#x2013;json-based applications, it requires an extra process of serialization and deserialization. To address this, Biobtree provides a gRPC service with same functionality as its RESTful service. Sample codes for using gRPC in different languages can be found on the project github page. The following is snippet of Biobtree gRPC service definitions:</p>
+<boxed-text>
+<p><preformat>
+service BiobtreeService {
+rpc Get     (BiobtreeGetRequest)     returns (BiobtreeGetResponse);
+rpc GetPage (BiobtreeGetPageRequest) returns (BiobtreeGetPageResponse);
+rpc Filter  (BiobtreeFilterRequest)  returns (BiobtreeFilterResponse);
+rpc Meta    (BiobtreeMetaRequest)    returns (BiobtreeMetaResponse);
+}
+</preformat></p>
+</boxed-text>
+</sec>
+<sec id="s4c">
+<title>Web interface</title>
+<p>The Web interface allow user to visualize the produced database via the RESTful service. Once the web phase is started it is accessed via the browser from the following address:</p>
+<boxed-text>
+<p><ext-link ext-link-type="uri" xlink:href="http://localhost:8888/ui">http://localhost:8888/ui</ext-link></p>
+</boxed-text>
+<p>The Web interface provides searching of multiple identifiers and special keywords, visualizing and filtering results, and executing bulk queries. On the result page for each result, it provides a url to access the main website where the data are originally produced. <xref rid="fig2" ref-type="fig">Figures 2</xref> and <xref rid="fig3" ref-type="fig">3</xref> show the main and result page of the web interface.</p>
+<fig id="fig2" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 2.</label>
+<caption><title>Web interface main page</title></caption>
+<graphic xlink:href="520841_fig2.tif"/>
+</fig>
+<fig id="fig3" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 3.</label>
+<caption><title>Web interface result page</title></caption>
+<graphic xlink:href="520841_fig3.tif"/>
+</fig>
+</sec>
+</sec>
+<sec id="s5">
+<title>Benchmarks</title>
+<p>Software benchmarks should often be taken with a grain of salt, especially where the input data is large, because benchmarks results can be affected by many factors like the operating system, storage, network speed, input data, application parameters etc. Considering these, the purpose of Biobtree benchmarks is mainly to show overall capabilities and resource usage of Biobtree. <xref rid="fig4" ref-type="fig">Figure 4</xref> shows the benchmark details and results. Benchmarks were primarily computed at <underline>digitalocean</underline> London datacentres using their cpu optimized droplets with block storage volumes. Hundred thousand sample query which used in the benchmarks can be found project github page.</p>
+<fig id="fig4" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 4.</label>
+<caption><title>Benchmarks results.</title></caption>
+<graphic xlink:href="520841_fig4.tif"/>
+</fig>
+</sec>
+<sec id="s6">
+<title>Discussion</title>
+<p>The benchmarks show that Biobtree has produced LMDB database output in relatively acceptable times. Let&#x2019;s discuss how Biobtree behaves if UniProt provides tens of times larger data. Clearly, more disk space would have been needed.</p>
+<p>If enough disk space is provided, the next obstacle would have happened during the update phase, because currently UniProt provides a single gzip compressed file for each dataset and Biobtree reads each file as a stream from the beginning to end. Gzip does not allow a random access to a file unless there are checkpoints defined. This characteristic of gzip prevents the processing single large file in a split manner and utilizes more computing resources if available. Two solutions can address the issue. The first could be if UniProt would allow its datasets to be capable of parallel processing, like splitting and compressing files inside a tar archive. The second solution would be to implement a new functionality in Biobtree and save and decompress these files to local disk and make parallel access to decompressed files.</p>
+<p>A further obstacle would have happened during the generate phase, since we would have obtained more files from update phase. The generate phase struggles to merge all these files and could cause much longer times of output generation. To address this obstacle, a new phase could be implemented that runs before the generate phase and merges files coming from the update phase.</p>
+</sec>
+</body>
+<back>
+<sec id="s7">
+<title>Limitations</title>
+<p>Although duplicate values for each key are discarded during the update phase for each dataset, the generate phase could rarely produce duplicate values. The user needs to discard these duplicate records manually if these are created. Another limitation is when querying the special keywords, they need to be fully specified including all space characters.</p>
+</sec>
+<sec id="s8">
+<title>Future Work</title>
+<p>The limitations can be addressed and new functionalities added in the future. For instance, different bioinformatics datasets like Ensembl [<xref rid="c7" ref-type="bibr">7</xref>] or ENA [<xref rid="c8" ref-type="bibr">8</xref>] can be integrated. Another feature would be sorting result values based on a certain criterion.</p>
+</sec>
+<sec id="s9">
+<title>Competing Interests</title>
+<p>No competing interests were disclosed.</p>
+</sec>
+<sec id="s10">
+<title>Data (and Software) Availability</title>
+<p>All source codes and binaries are availabe at <ext-link ext-link-type="uri" xlink:href="https://www.github.com/tamerh/biobtree">https://www.github.com/tamerh/biobtree</ext-link></p>
+</sec>
+<sec id="s11">
+<title>Grant Information</title>
+<p>The author(s) declared that no grants were involved in supporting this work.</p>
+</sec>
+<ref-list>
+<title>References</title>
+<ref id="c1"><label>[1]</label><mixed-citation publication-type="journal"><string-name><given-names>Janna</given-names> <surname>Hastings</surname></string-name>, <string-name><given-names>Gareth</given-names> <surname>Owen</surname></string-name>, <string-name><given-names>Adriano</given-names> <surname>Dekker</surname></string-name>, <string-name><given-names>Marcus</given-names> <surname>Ennis</surname></string-name>, <string-name><given-names>Namrata</given-names> <surname>Kale</surname></string-name>, <string-name><given-names>Venkatesh</given-names> <surname>Muthukrishnan</surname></string-name>, <string-name><given-names>Steve</given-names> <surname>Turner</surname></string-name>, <string-name><given-names>Neil</given-names> <surname>Swainston</surname></string-name>, <string-name><surname>Pedro Mendes</surname>, <given-names>Christoph Steinbeck</given-names></string-name>; ChEBI in 2016: <article-title>Improved services and an expanding collection of metabolites</article-title>, <source>Nucleic Acids Research</source>, Volume <volume>44, Issue</volume> , 4 January <year>2016</year>, Pages <fpage>D1214</fpage>&#x2013;<lpage>D1219</lpage>, <pub-id pub-id-type="doi">10.1093/nar/gkv1031</pub-id></mixed-citation></ref>
+<ref id="c2"><label>[2]</label><mixed-citation publication-type="journal"><string-name><surname>Yates</surname> <given-names>B</given-names></string-name>, <string-name><surname>Braschi</surname> <given-names>B</given-names></string-name>, <string-name><surname>Gray</surname> <given-names>K</given-names></string-name>, <string-name><surname>Seal</surname> <given-names>R</given-names></string-name>, <string-name><surname>Tweedie</surname> <given-names>S</given-names></string-name>, <string-name><surname>Bruford</surname> <given-names>E.</given-names></string-name> <article-title>Genenames.org: the HGNC and VGNC resources in 2017</article-title>. <source>Nucleic Acids Res</source>. <year>2017</year> Jan 4; <volume>45</volume>():<fpage>D619</fpage>&#x2013;<lpage>625</lpage>. PMID:<pub-id pub-id-type="pmid">27799471</pub-id></mixed-citation></ref>
+<ref id="c3"><label>[3]</label><mixed-citation publication-type="journal"><string-name><surname>Wishart</surname> <given-names>DS</given-names></string-name>, <string-name><surname>Feunang</surname> <given-names>YD</given-names></string-name>, <string-name><surname>Marcu</surname> <given-names>A</given-names></string-name>, <string-name><surname>Guo</surname> <given-names>AC</given-names></string-name>, <string-name><surname>Liang</surname> <given-names>K</given-names></string-name>, <string-name><surname>et al.</surname></string-name>, <article-title>HMDB 4.0 &#x2014; The Human Metabolome Database for 2018</article-title>. <source>Nucleic Acids Res</source>. <year>2018</year>. Jan 4;<volume>46</volume>():<fpage>D608</fpage>&#x2013;<lpage>17</lpage>. <pub-id pub-id-type="pmid">29140435</pub-id></mixed-citation></ref>
+<ref id="c4"><label>[4]</label><mixed-citation publication-type="journal"><string-name><given-names>Alex L</given-names> <surname>Mitchell</surname></string-name>, <string-name><given-names>Teresa K</given-names> <surname>Attwood</surname></string-name>, <string-name><given-names>Patricia C</given-names> <surname>Babbitt</surname></string-name>, <string-name><given-names>Matthias</given-names> <surname>Blum</surname></string-name>, <string-name><given-names>Peer</given-names> <surname>Bork</surname></string-name>, <string-name><given-names>Alan</given-names> <surname>Bridge</surname></string-name>, <string-name><given-names>Shoshana D</given-names> <surname>Brown</surname></string-name>, <string-name><given-names>Hsin-Yu</given-names> <surname>Chang</surname></string-name>, <string-name><given-names>Sara</given-names> <surname>El-Gebali</surname></string-name>, <string-name><given-names>Matthew I</given-names> <surname>Fraser</surname></string-name>, <string-name><given-names>Julian</given-names> <surname>Gough</surname></string-name>, <string-name><given-names>David R</given-names> <surname>Haft</surname></string-name>, <string-name><given-names>Hongzhan</given-names> <surname>Huang</surname></string-name>, <string-name><given-names>Ivica</given-names> <surname>Letunic</surname></string-name>, <string-name><given-names>Rodrigo</given-names> <surname>Lopez</surname></string-name>, <string-name><given-names>Aur&#x00E9;lien</given-names> <surname>Luciani</surname></string-name>, <string-name><given-names>Fabio</given-names> <surname>Madeira</surname></string-name>, <string-name><given-names>Aron</given-names> <surname>Marchler-Bauer</surname></string-name>, <string-name><surname>Huaiyu</surname> <given-names>Mi</given-names></string-name>, <string-name><given-names>Darren A</given-names> <surname>Natale</surname></string-name>, <string-name><given-names>Marco</given-names> <surname>Necci</surname></string-name>, <string-name><given-names>Gift</given-names> <surname>Nuka</surname></string-name>, <string-name><given-names>Christine</given-names> <surname>Orengo</surname></string-name>, <string-name><given-names>Arun P</given-names> <surname>Pandurangan</surname></string-name>, <string-name><given-names>Typhaine</given-names> <surname>Paysan-Lafosse</surname></string-name>, <string-name><given-names>Sebastien</given-names> <surname>Pesseat</surname></string-name>, <string-name><given-names>Simon C</given-names> <surname>Potter</surname></string-name>, <string-name><given-names>Matloob A</given-names> <surname>Qureshi</surname></string-name>, <string-name><given-names>Neil D</given-names> <surname>Rawlings</surname></string-name>, <string-name><given-names>Nicole</given-names> <surname>Redaschi</surname></string-name>, <string-name><given-names>Lorna J</given-names> <surname>Richardson</surname></string-name>, <string-name><given-names>Catherine</given-names> <surname>Rivoire</surname></string-name>, <string-name><given-names>Gustavo A</given-names> <surname>Salazar</surname></string-name>, <string-name><given-names>Amaia</given-names> <surname>Sangrador-Vegas</surname></string-name>, <string-name><given-names>Christian J A</given-names> <surname>Sigrist</surname></string-name>, <string-name><given-names>Ian</given-names> <surname>Sillitoe</surname></string-name>, <string-name><given-names>Granger G</given-names> <surname>Sutton</surname></string-name>, <string-name><given-names>Narmada</given-names> <surname>Thanki</surname></string-name>, <string-name><given-names>Paul D</given-names> <surname>Thomas</surname></string-name>, <string-name><given-names>Silvio C E</given-names> <surname>Tosatto, Siew-Yit</surname></string-name> <string-name><surname>Yong</surname>, <given-names>Robert D Finn</given-names></string-name>; <article-title>InterPro in 2019</article-title>: <source>improving coverage, classification and access to protein sequence annotations, Nucleic Acids Research</source>, Volume <volume>47</volume>, Issue , 8 January <year>2019</year>, Pages <fpage>D351</fpage>&#x2013;<lpage>D360</lpage>, <pub-id pub-id-type="doi">10.1093/nar/gky1100</pub-id></mixed-citation></ref>
+<ref id="c5"><label>[5]</label><mixed-citation publication-type="journal"><string-name><surname>For more information on Europe PMC</surname></string-name>, read the article: <article-title>Europe PMC: a full-text literature database for the life sciences and platform</article-title> for. <source>Nucleic Acids Res</source>, <year>2015</year>:<volume>43</volume>. ): <fpage>D1042</fpage>&#x2013;<lpage>D1048</lpage>.</mixed-citation></ref>
+<ref id="c6"><label>[6]</label><mixed-citation publication-type="journal"><string-name><surname>The UniProt Consortium; UniProt: a worldwide hub of protein knowledge</surname></string-name>, <source>Nucleic Acids Research</source>, Volume <volume>47</volume>, Issue , 8 January <year>2019</year>, Pages <fpage>D506</fpage>&#x2013;<lpage>D515</lpage>, <pub-id pub-id-type="doi">10.1093/nar/gky1049</pub-id></mixed-citation></ref>
+<ref id="c7"><label>[7]</label><mixed-citation publication-type="journal"><string-name><given-names>Daniel R</given-names> <surname>Zerbino</surname></string-name>, <string-name><given-names>Premanand</given-names> <surname>Achuthan</surname></string-name>, <string-name><given-names>Wasiu</given-names> <surname>Akanni</surname></string-name>, <string-name><given-names>M Ridwan</given-names> <surname>Amode</surname></string-name>, <string-name><given-names>Daniel</given-names> <surname>Barrell</surname></string-name>, <string-name><given-names>Jyothish</given-names> <surname>Bhai</surname></string-name>, <string-name><given-names>Konstantinos</given-names> <surname>Billis</surname></string-name>, <string-name><given-names>Carla</given-names> <surname>Cummins</surname></string-name>, <string-name><given-names>Astrid</given-names> <surname>Gall</surname></string-name>, <string-name><given-names>Carlos Garc&#x00ED;a</given-names> <surname>Gir&#x00F3;n</surname></string-name>, <string-name><surname>Laurent</surname> <given-names>Gil</given-names></string-name>, <string-name><given-names>Leo</given-names> <surname>Gordon</surname></string-name>, <string-name><given-names>Leanne</given-names> <surname>Haggerty</surname></string-name>, <string-name><given-names>Erin</given-names> <surname>Haskell</surname></string-name>, <string-name><given-names>Thibaut</given-names> <surname>Hourlier</surname></string-name>, <string-name><given-names>Osagie G</given-names> <surname>Izuogu</surname></string-name>, <string-name><given-names>Sophie H</given-names> <surname>Janacek</surname></string-name>, <string-name><given-names>Thomas</given-names> <surname>Juettemann</surname></string-name>, <string-name><given-names>Jimmy Kiang</given-names> <surname>To</surname></string-name>, <string-name><given-names>Matthew R</given-names> <surname>Laird</surname></string-name>, <string-name><given-names>Ilias</given-names> <surname>Lavidas</surname></string-name>, <string-name><surname>Zhicheng</surname> <given-names>Liu</given-names></string-name>, <string-name><given-names>Jane E</given-names> <surname>Loveland</surname></string-name>, <string-name><given-names>Thomas</given-names> <surname>Maurel</surname></string-name>, <string-name><given-names>William</given-names> <surname>McLaren</surname></string-name>, <string-name><given-names>Benjamin</given-names> <surname>Moore</surname></string-name>, <string-name><given-names>Jonathan</given-names> <surname>Mudge</surname></string-name>, <string-name><given-names>Daniel N</given-names> <surname>Murphy</surname></string-name>, <string-name><given-names>Victoria</given-names> <surname>Newman</surname></string-name>, <string-name><given-names>Michael</given-names> <surname>Nuhn</surname></string-name>, <string-name><given-names>Denye</given-names> <surname>Ogeh</surname></string-name>, <string-name><given-names>Chuang Kee</given-names> <surname>Ong</surname></string-name>, <string-name><given-names>Anne</given-names> <surname>Parker</surname></string-name>, <string-name><given-names>Mateus</given-names> <surname>Patricio</surname></string-name>, <string-name><given-names>Harpreet Singh</given-names> <surname>Riat</surname></string-name>, <string-name><given-names>Helen</given-names> <surname>Schuilenburg</surname></string-name>, <string-name><given-names>Dan</given-names> <surname>Sheppard</surname></string-name>, <string-name><given-names>Helen</given-names> <surname>Sparrow</surname></string-name>, <string-name><given-names>Kieron</given-names> <surname>Taylor</surname></string-name>, <string-name><given-names>Anja</given-names> <surname>Thormann</surname></string-name>, <string-name><given-names>Alessandro</given-names> <surname>Vullo</surname></string-name>, <string-name><given-names>Brandon</given-names> <surname>Walts</surname></string-name>, <string-name><given-names>Amonida</given-names> <surname>Zadissa</surname></string-name>, <string-name><given-names>Adam</given-names> <surname>Frankish</surname></string-name>, <string-name><given-names>Sarah E</given-names> <surname>Hunt</surname></string-name>, <string-name><given-names>Myrto</given-names> <surname>Kostadima</surname></string-name>, <string-name><given-names>Nicholas</given-names> <surname>Langridge</surname></string-name>, <string-name><given-names>Fergal J</given-names> <surname>Martin</surname></string-name>, <string-name><given-names>Matthieu</given-names> <surname>Muffato</surname></string-name>, <string-name><given-names>Emily</given-names> <surname>Perry</surname></string-name>, <string-name><given-names>Magali</given-names> <surname>Ruffier</surname></string-name>, <string-name><given-names>Dan M</given-names> <surname>Staines</surname></string-name>, <string-name><given-names>Stephen J</given-names> <surname>Trevanion</surname></string-name>, <string-name><given-names>Bronwen L</given-names> <surname>Aken</surname></string-name>, <string-name><given-names>Fiona</given-names> <surname>Cunningham</surname></string-name>, <string-name><surname>Andrew Yates</surname>, <given-names>Paul Flicek</given-names></string-name>; <article-title>Ensembl 2018</article-title>, <source>Nucleic Acids Research</source>, Volume <volume>46</volume>, Issue , 4 January <year>2018</year>, Pages <fpage>D754</fpage>&#x2013;<lpage>D761</lpage>, <pub-id pub-id-type="doi">10.1093/nar/gkx1098</pub-id></mixed-citation></ref>
+<ref id="c8"><label>[8]</label><mixed-citation publication-type="journal"><string-name><given-names>Peter W</given-names> <surname>Harrison</surname></string-name>, <string-name><given-names>Blaise</given-names> <surname>Alako</surname></string-name>, <string-name><given-names>Clara</given-names> <surname>Amid</surname></string-name>, <string-name><surname>Ana</surname> <given-names>Cerde&#x00F1;o-T&#x00E1;rraga</given-names></string-name>, <string-name><given-names>Iain</given-names> <surname>Cleland</surname></string-name>, <string-name><given-names>Sam</given-names> <surname>Holt</surname></string-name>, <string-name><given-names>Abdulrahman</given-names> <surname>Hussein</surname></string-name>, <string-name><given-names>Suran</given-names> <surname>Jayathilaka</surname></string-name>, <string-name><surname>Simon</surname> <given-names>Kay</given-names></string-name>, <string-name><given-names>Thomas</given-names> <surname>Keane</surname></string-name>, <string-name><given-names>Rasko</given-names> <surname>Leinonen</surname></string-name>, <string-name><surname>Xin</surname> <given-names>Liu</given-names></string-name>, <string-name><surname>Josu&#x00E9;</surname> <given-names>Mart&#x00ED;nez-Villacorta</given-names></string-name>, <string-name><given-names>Annalisa</given-names> <surname>Milano</surname></string-name>, <string-name><given-names>Nima</given-names> <surname>Pakseresht</surname></string-name>, <string-name><given-names>Jeena</given-names> <surname>Rajan</surname></string-name>, <string-name><given-names>Kethi</given-names> <surname>Reddy</surname></string-name>, <string-name><given-names>Edward</given-names> <surname>Richards</surname></string-name>, <string-name><given-names>Marc</given-names> <surname>Rosello</surname></string-name>, <string-name><given-names>Nicole</given-names> <surname>Silvester</surname></string-name>, <string-name><given-names>Dmitriy</given-names> <surname>Smirnov</surname></string-name>, <string-name><given-names>Ana-Luisa</given-names> <surname>Toribio</surname></string-name>, <string-name><given-names>Senthilnathan</given-names> <surname>Vijayaraja</surname></string-name>, <string-name><given-names>Guy</given-names> <surname>Cochrane</surname></string-name>; <article-title>The European Nucleotide Archive in 2018</article-title>, <source>Nucleic Acids Research</source>, Volume <volume>47</volume>, Issue , 8 January <year>2019</year>, Pages <fpage>D84</fpage>&#x2013;<lpage>D88</lpage>, <pub-id pub-id-type="doi">10.1093/nar/gky1078</pub-id></mixed-citation></ref>
+</ref-list>
+</back>
+</article>
