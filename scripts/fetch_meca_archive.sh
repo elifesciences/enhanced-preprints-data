@@ -31,7 +31,7 @@ else
     fi
 fi
 
-echo "fetching $doi to $output_dir...";
+echo "fetching $doi (${msid}/v${version}) to $output_dir...";
 
 # if s3source has a format dd_mmm_yy in then extract it to a variable s3source_date in format dd-mmm-yy otherwise set s3source_date to date-unknown s3://transfers-elife/biorxiv_Current_Content/May_2022/30_May_22_Batch_1267/06908fc3-73df-1014-bb56-a21daa237ef0.meca
 
