@@ -30,27 +30,12 @@
 <article-title>ZMYM2 controls transposable element transcription through distinct co-regulatory complexes</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author">
-<name><surname>Owen</surname><given-names>Danielle</given-names></name>
-<xref ref-type="author-notes" rid="n1">2</xref>
-</contrib>
-<contrib contrib-type="author">
-<name><surname>Aguilar-Martinez</surname><given-names>Elisa</given-names></name>
-<xref ref-type="author-notes" rid="n1">2</xref>
-</contrib>
-<contrib contrib-type="author">
-<name><surname>Ji</surname><given-names>Zongling</given-names></name>
-<xref ref-type="author-notes" rid="n1">2</xref>
-</contrib>
-<contrib contrib-type="author">
-<name><surname>Li</surname><given-names>Yaoyong</given-names></name>
-<xref ref-type="author-notes" rid="n1">2</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Sharrocks</surname><given-names>Andrew D.</given-names></name>
-<xref ref-type="corresp" rid="cor1">3</xref>
-</contrib>
-<aff><label>1</label><institution>Faculty of Biology, Medicine and Health, University of Manchester</institution>, Michael Smith Building, Oxford Road, Manchester, M13 9PT, UK</aff>
+<contrib contrib-type="author"><name><surname>Owen</surname><given-names>Danielle</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="author-notes" rid="n1">2</xref></contrib>
+<contrib contrib-type="author"><name><surname>Aguilar-Martinez</surname><given-names>Elisa</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="author-notes" rid="n1">2</xref></contrib>
+<contrib contrib-type="author"><name><surname>Ji</surname><given-names>Zongling</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="author-notes" rid="n1">2</xref></contrib>
+<contrib contrib-type="author"><name><surname>Li</surname><given-names>Yaoyong</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="author-notes" rid="n1">2</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Sharrocks</surname><given-names>Andrew D.</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="corresp" rid="cor1">3</xref></contrib>
+<aff id="aff1"><label>1</label><institution>Faculty of Biology, Medicine and Health, University of Manchester</institution>UK</aff>
 </contrib-group>
 <author-notes>
 <corresp id="cor1"><label>3</label>Corresponding author: A.D. Sharrocks, Tel.: <phone>0044-161 275 5979</phone>, Fax: 0044-161 275 5082, E-mail: <email>a.d.sharrocks@manchester.ac.uk</email></corresp>
