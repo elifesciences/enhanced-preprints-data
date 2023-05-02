@@ -30,11 +30,8 @@
 <article-title>Biobtree: A tool to search, map and visualize bioinformatics identifiers and special keywords</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5822-9201</contrib-id>
-<name><surname>Gur</surname><given-names>Tamer</given-names></name>
-</contrib>
-<aff><institution>European Bioinformatics Institute, Wellcome Trust Genome Campus</institution>, Hinxton, CB10 1SD Cambridge, UK; E-mail: <email>tgur@ebi.ac.uk</email></aff>
+<contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5822-9201</contrib-id><name><surname>Gur</surname><given-names>Tamer</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib>
+<aff id="aff1"><label>1</label><institution>European Bioinformatics Institute, Wellcome Trust Genome Campus</institution>, Hinxton, CB10 1SD Cambridge, UK; E-mail: <email>tgur@ebi.ac.uk</email></aff>
 </contrib-group>
 <pub-date pub-type="epub">
 <year>2019</year>
