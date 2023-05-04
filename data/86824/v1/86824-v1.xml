@@ -30,26 +30,13 @@
 <article-title>Intercellular Communication Compensates Intracellular Proliferative Signal Deficit during Liver Regeneration</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author">
-<name><surname>Kaneko</surname><given-names>Kota</given-names></name>
-</contrib>
-<contrib contrib-type="author">
-<name><surname>Liang</surname><given-names>Yan</given-names></name>
-</contrib>
-<contrib contrib-type="author">
-<name><surname>Liu</surname><given-names>Qing</given-names></name>
-</contrib>
-<contrib contrib-type="author">
-<name><surname>Zhang</surname><given-names>Shuo</given-names></name>
-</contrib>
-<contrib contrib-type="author">
-<name><surname>Song</surname><given-names>Dan</given-names></name>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Feng</surname><given-names>Gen-Sheng</given-names></name>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<aff id="a1"><institution>Department of Pathology, Department of Molecular Biology, and Moores Cancer Center, University of California at San Diego</institution>, La Jolla, CA 92093</aff>
+<contrib contrib-type="author"><name><surname>Kaneko</surname><given-names>Kota</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib>
+<contrib contrib-type="author"><name><surname>Liang</surname><given-names>Yan</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib>
+<contrib contrib-type="author"><name><surname>Liu</surname><given-names>Qing</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib>
+<contrib contrib-type="author"><name><surname>Zhang</surname><given-names>Shuo</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib>
+<contrib contrib-type="author"><name><surname>Song</surname><given-names>Dan</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Feng</surname><given-names>Gen-Sheng</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="corresp" rid="cor1">&#x002A;</xref></contrib>
+<aff id="aff1"><label>1</label><institution>Department of Pathology, Department of Molecular Biology, and Moores Cancer Center, University of California at San Diego</institution>, La Jolla, CA 92093</aff>
 </contrib-group>
 <author-notes>
 <corresp id="cor1"><label>&#x002A;</label><bold>Corresponding author:</bold> E-mail: <email>gfeng@health.ucsd.edu</email></corresp>
