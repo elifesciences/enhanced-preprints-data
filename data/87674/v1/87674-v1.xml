@@ -41,12 +41,7 @@
 <xref ref-type="aff" rid="a1">1</xref>
 <xref ref-type="author-notes" rid="n1">&#x2020;</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Sugiura</surname><given-names>Yuki</given-names></name>
-<xref ref-type="aff" rid="a3">3</xref>
-<xref ref-type="aff" rid="a4">4</xref>
-<xref ref-type="corresp" rid="cor1">&#x2370;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Sugiura</surname><given-names>Yuki</given-names></name><email>yuki.sgi@gmail.com</email><xref ref-type="aff" rid="a3">3</xref><xref ref-type="aff" rid="a4">4</xref><xref ref-type="corresp" rid="cor1">&#x2370;</xref></contrib>
 <contrib contrib-type="author">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9088-8044</contrib-id>
 <name><surname>Yamamoto</surname><given-names>Masamichi</given-names></name>
@@ -142,29 +137,23 @@
 <xref ref-type="aff" rid="a11">11</xref>
 <xref ref-type="aff" rid="a15">15</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1736-7592</contrib-id>
-<name><surname>Takubo</surname><given-names>Keiyo</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a16">16</xref>
-<xref ref-type="corresp" rid="cor1">&#x2370;</xref>
-</contrib>
-<aff id="a1"><label>1</label><institution>Department of Stem Cell Biology, Research Institute, National Center for Global Health and Medicine</institution>, Tokyo 162-8655, Japan</aff>
-<aff id="a2"><label>2</label><institution>Division of Hematology, Department of Medicine, Keio University School of Medicine</institution>, Tokyo 160-8582, Japan</aff>
-<aff id="a3"><label>3</label><institution>Department of Biochemistry, Keio University School of Medicine</institution>, Tokyo 160-8582, Japan</aff>
-<aff id="a4"><label>4</label><institution>Center for Cancer Immunotherapy and Immunobiology, Kyoto University Graduate School of Medicine</institution>, Kyoto 606-8501, Japan</aff>
-<aff id="a5"><label>5</label><institution>Department of Research Promotion and Management, National Cerebral and Cardiovascular Center</institution>, Osaka 564-8565, Japan</aff>
-<aff id="a6"><label>6</label><institution>Department of Life Sciences and Medical BioScience, Waseda University School of Advanced Science and Engineering</institution>, Tokyo 162-8480, Japan</aff>
-<aff id="a7"><label>7</label><institution>Division of Stem Cell and Molecular Medicine, Center for Stem Cell Biology and Regenerative Medicine, The University of Tokyo</institution>, Tokyo 108-8639, Japan</aff>
-<aff id="a8"><label>8</label><institution>Division of Cellular Therapy, The Institute of Medical Science, The University of Tokyo</institution>, Tokyo 108-8639, Japan</aff>
-<aff id="a9"><label>9</label><institution>Department of Immunology, Yokohama City University Graduate School of Medicine</institution>, Kanagawa 236-0004, Japan</aff>
-<aff id="a10"><label>10</label><institution>Advanced Medical Research Center, Yokohama City University</institution>, Kanagawa 236-0004, Japan</aff>
-<aff id="a11"><label>11</label><institution>International Research Center for Medical Sciences, Kumamoto University</institution>, Kumamoto 860-0811, Japan</aff>
-<aff id="a12"><label>12</label><institution>Field of Human Disease Models, Major in Advanced Life Sciences and Medicine, Institute of Laboratory Animals, Tokyo Women&#x2019;s Medical University</institution>, Tokyo 162-8666, Japan</aff>
-<aff id="a13"><label>13</label><institution>Department of Microscopic and Developmental Anatomy, Tokyo Women&#x2019;s Medical University</institution>, Tokyo 162-8666, Japan</aff>
-<aff id="a14"><label>14</label><institution>Live Imaging Center, Central Institute for Experimental Animals</institution>, Kanagawa 210-0821, Japan</aff>
-<aff id="a15"><label>15</label><institution>Cancer Science Institute of Singapore, National University of Singapore</institution>, Singapore 117599, Singapore</aff>
-<aff id="a16"><label>16</label><institution>Japan Agency for Medical Research and Development (AMED), Core Research for Evolutional Science and Technology (CREST)</institution>, Tokyo 100-0004, Japan</aff>
+<contrib contrib-type="author" corresp="yes"><name><surname>Takubo</surname><given-names>Keiyo</given-names></name><email>ktakubo@ri.ncgm.go.jp</email><email>keiyot@gmail.com</email><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1736-7592</contrib-id><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a16">16</xref><xref ref-type="corresp" rid="cor1">&#x2370;</xref></contrib>
+<aff id="a1"><label>1</label>Department of Stem Cell Biology, Research Institute, National Center for Global Health and Medicine, Tokyo 162-8655, Japan</aff>
+<aff id="a2"><label>2</label>Division of Hematology, Department of Medicine, Keio University School of Medicine, Tokyo 160-8582, Japan</aff>
+<aff id="a3"><label>3</label>Department of Biochemistry, Keio University School of Medicine, Tokyo 160-8582, Japan</aff>
+<aff id="a4"><label>4</label>Center for Cancer Immunotherapy and Immunobiology, Kyoto University Graduate School of Medicine, Kyoto 606-8501, Japan</aff>
+<aff id="a5"><label>5</label>Department of Research Promotion and Management, National Cerebral and Cardiovascular Center, Osaka 564-8565, Japan</aff>
+<aff id="a6"><label>6</label>Department of Life Sciences and Medical BioScience, Waseda University School of Advanced Science and Engineering, Tokyo 162-8480, Japan</aff>
+<aff id="a7"><label>7</label>Division of Stem Cell and Molecular Medicine, Center for Stem Cell Biology and Regenerative Medicine, The University of Tokyo, Tokyo 108-8639, Japan</aff>
+<aff id="a8"><label>8</label>Division of Cellular Therapy, The Institute of Medical Science, The University of Tokyo, Tokyo 108-8639, Japan</aff>
+<aff id="a9"><label>9</label>Department of Immunology, Yokohama City University Graduate School of Medicine, Kanagawa 236-0004, Japan</aff>
+<aff id="a10"><label>10</label>Advanced Medical Research Center, Yokohama City University, Kanagawa 236-0004, Japan</aff>
+<aff id="a11"><label>11</label>International Research Center for Medical Sciences, Kumamoto University, Kumamoto 860-0811, Japan</aff>
+<aff id="a12"><label>12</label>Field of Human Disease Models, Major in Advanced Life Sciences and Medicine, Institute of Laboratory Animals, Tokyo Women&#x2019;s Medical University, Tokyo 162-8666, Japan</aff>
+<aff id="a13"><label>13</label>Department of Microscopic and Developmental Anatomy, Tokyo Women&#x2019;s Medical University, Tokyo 162-8666, Japan</aff>
+<aff id="a14"><label>14</label>Live Imaging Center, Central Institute for Experimental Animals, Kanagawa 210-0821, Japan</aff>
+<aff id="a15"><label>15</label>Cancer Science Institute of Singapore, National University of Singapore, Singapore 117599, Singapore</aff>
+<aff id="a16"><label>16</label>Japan Agency for Medical Research and Development (AMED), Core Research for Evolutional Science and Technology (CREST), Tokyo 100-0004, Japan</aff>
 </contrib-group>
 <author-notes>
 <corresp id="cor1"><label>&#x2370;</label>Corresponding Authors: Keiyo Takubo, M.D., Ph.D., Department of Stem Cell Biology, Research Institute, National Center for Global Health and Medicine, 1-21-1 Toyama, Shinjuku-ku, Tokyo 162-8655, Japan, <email>keiyot@gmail.com</email> / <email>ktakubo@ri.ncgm.go.jp</email>; Yuki Sugiura, Ph.D., Center for Cancer Immunotherapy and Immunobiology, Kyoto University Graduate School of Medicine, Yoshida-Konoe, Sakyo-ku, Kyoto 606-8501, Japan, <email>yuki.sgi@gmail.com</email></corresp>
