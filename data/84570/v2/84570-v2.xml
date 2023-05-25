@@ -73,13 +73,13 @@
 <xref ref-type="aff" rid="a5">5</xref>
 <xref ref-type="corresp" rid="cor1">&#x002A;</xref>
 </contrib>
-<aff id="a1"><label>1</label><institution>Segal Cancer Center, Lady Davis Institute for Medical Research</institution></aff>
-<aff id="a2"><label>2</label><institution>Gerald Bronfman Department of Oncology and Departments</institution></aff>
-<aff id="a3"><label>3</label><institution>Medicine</institution></aff>
-<aff id="a4"><label>4</label><institution>Human Genetics</institution></aff>
-<aff id="a5"><label>5</label><institution>Biochemistry, McGill University</institution>, Montr&#x00E9;al, Qu&#x00E9;bec, Canada H3T 1E2</aff>
-<aff id="a6"><label>6</label><institution>CHU Sainte-Justine Research Center, Universit&#x00E9; de Montr&#x00E9;al</institution>, Montr&#x00E9;al, Qu&#x00E9;bec, Canada H3T 1C5</aff>
-<aff id="a7"><label>7</label><institution>Genome Quebec Innovation Centre</institution>, Montreal, Quebec, Canada</aff>
+<aff id="a1"><label>1</label>Segal Cancer Center, Lady Davis Institute for Medical Research</aff>
+<aff id="a2"><label>2</label>Gerald Bronfman Department of Oncology, McGill University, Montréal, Québec, Canada H3T 1E2</aff>
+<aff id="a3"><label>3</label>Department of Medicine, McGill University, Montréal, Québec, Canada H3T 1E2</aff>
+<aff id="a4"><label>4</label>Department of Human Genetics, McGill University, Montréal, Québec, Canada H3T 1E2</aff>
+<aff id="a5"><label>5</label>Department of Biochemistry, McGill University, Montréal, Québec, Canada H3T 1E2</aff>
+<aff id="a6"><label>6</label>CHU Sainte-Justine Research Center, Universit&#x00E9; de Montr&#x00E9;al, Montr&#x00E9;al, Qu&#x00E9;bec, Canada H3T 1C5</aff>
+<aff id="a7"><label>7</label>Genome Quebec Innovation Centre, Montreal, Quebec, Canada</aff>
 </contrib-group>
 <author-notes>
 <corresp id="cor1"><label>&#x002A;</label>Corresponding author: <email>stephane.richard@mcgill.ca</email></corresp>
