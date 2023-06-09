@@ -30,23 +30,9 @@
 <article-title>Approach-avoidance reinforcement learning as a translational and computational model of anxiety-related avoidance</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5508-7965</contrib-id>
-<name><surname>Yamamori</surname><given-names>Yumeya</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Robinson</surname><given-names>Oliver J</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="corresp" rid="cor1">&#x2020;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8269-1228</contrib-id>
-<name><surname>Roiser</surname><given-names>Jonathan P</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x2020;</xref>
-<xref ref-type="author-notes" rid="n1">&#x002A;</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Yamamori</surname><given-names>Yumeya</given-names></name><email>yumeya.yamamori@ucl.ac.uk</email><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5508-7965</contrib-id><xref ref-type="aff" rid="a1">1</xref></contrib>
+<contrib contrib-type="author"><name><surname>Robinson</surname><given-names>Oliver J</given-names></name><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref><xref ref-type="author-notes" rid="n1">&#x002A;</xref></contrib>
+<contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8269-1228</contrib-id><name><surname>Roiser</surname><given-names>Jonathan P</given-names></name><xref ref-type="aff" rid="a1">1</xref><xref ref-type="author-notes" rid="n1">&#x002A;</xref><xref ref-type="author-notes" rid="n1">&#x002A;</xref></contrib>
 <aff id="a1"><label>1</label>Institute of Cognitive Neuroscience, University College London, London, UK</aff>
 <aff id="a2"><label>2</label>Research Department of Clinical, Educational and Health Psychology, University College London, London, UK</aff>
 </contrib-group>

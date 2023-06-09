@@ -30,13 +30,7 @@
 <article-title>Cortico-thalamo-cortical interactions modulate electrically evoked EEG responses in mice</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4030-9171</contrib-id>
-<name><surname>Claar</surname><given-names>Leslie D.</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="author-notes" rid="n1">&#x2020;</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Claar</surname><given-names>Leslie D.</given-names></name><email>lesliec@alleninstitute.org</email><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4030-9171</contrib-id><xref ref-type="aff" rid="a1">1</xref><xref ref-type="author-notes" rid="n1">&#x2020;</xref></contrib>
 <contrib contrib-type="author">
 <name><surname>Rembado</surname><given-names>Irene</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
@@ -60,16 +54,11 @@
 <name><surname>Olsen</surname><given-names>Shawn R.</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Koch</surname><given-names>Christof</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Koch</surname><given-names>Christof</given-names></name><email>christofk@alleninstitute.org</email><xref ref-type="aff" rid="a1">1</xref></contrib>
 <aff id="a1"><label>1</label>MindScope Program, Allen Institute, Seattle, United States</aff>
 <aff id="a2"><label>2</label>Department of Biomedical and Clinical Sciences &#x201C;L. Sacco&#x201D;, University of Milan, Milan, Italy</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1"><label>&#x002A;</label>Correspondence: <email>lesliec@alleninstitute.org</email>, <email>irene.rembado@alleninstitute.org</email>, <email>christofk@alleninstitute.org</email></corresp>
 <fn fn-type="equal" id="n1"><label>&#x2020;</label><p>These authors contributed equally to this work.</p></fn>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>

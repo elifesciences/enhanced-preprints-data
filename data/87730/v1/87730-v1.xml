@@ -35,31 +35,12 @@
 <xref ref-type="aff" rid="a1">1</xref>
 <xref ref-type="aff" rid="a2">2</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3444-6214</contrib-id>
-<name><surname>Ogden</surname><given-names>Pierce J.</given-names></name>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="aff" rid="a3">3</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0775-2913</contrib-id>
-<name><surname>Church</surname><given-names>George M.</given-names></name>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Ogden</surname><given-names>Pierce J.</given-names></name><email>pierce.ogden@gmail.com</email><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3444-6214</contrib-id><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref><xref ref-type="aff" rid="a3">3</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Church</surname><given-names>George M.</given-names></name><email>gchurch@genetics.med.harvard.edu</email><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0775-2913</contrib-id><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib>
 <aff id="a1"><label>1</label>Wyss Institute for Biologically Inspired Engineering, Boston, MA</aff>
 <aff id="a2"><label>2</label>Dept. of Genetics, Harvard Medical School, Boston, MA</aff>
 <aff id="a3"><label>3</label>Manifold Biotechnologies, Boston, MA</aff>
 </contrib-group>
-<author-notes>
-<corresp id="cor1"><label>&#x002A;</label>Corresponding author; email: <email>gchurch@genetics.med.harvard.edu</email></corresp>
-<fn fn-type="others"><p>Email addresses: Nina: <email>ninajain@g.harvard.edu</email></p>
-<p>Pierce: <email>pierce.ogden@gmail.com</email></p>
-<p>George: <email>gchurch@genetics.med.harvard.edu</email></p></fn>
-</author-notes>
 <pub-date pub-type="epub">
 <year>2023</year>
 </pub-date>
