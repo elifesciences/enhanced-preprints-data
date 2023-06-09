@@ -41,17 +41,16 @@
 <xref ref-type="aff" rid="a1">1</xref>
 <xref ref-type="aff" rid="a2">2</xref>
 <xref ref-type="aff" rid="a3">3</xref>
-<xref ref-type="aff" rid="a4">4</xref>
+<xref ref-type="fn" rid="auth-fn-1">4</xref>
 <xref ref-type="corresp" rid="cor1">&#x002A;</xref>
 </contrib>
 <aff id="a1"><label>1</label>Molecular Neurobiology Laboratory, The Salk Institute for Biological Studies, 10010 North Torrey Pines Road, La Jolla, CA 92037, USA</aff>
 <aff id="a2"><label>2</label>Center for Motor Control and Disease, Key Laboratory of Brain Functional Genomics, East China Normal University, 3663 North Zhongshan Road, Shanghai 200062, China</aff>
 <aff id="a3"><label>3</label>NYU&#x2013;ECNU Institute of Brain and Cognitive Science, New York University Shanghai, 3663 North Zhongshan Road, Shanghai 200062, China</aff>
-<aff id="a4"><label>4</label>Lead Contact</aff>
 </contrib-group>
 <author-notes>
 <corresp id="cor1"><label>&#x002A;</label>Correspondence to: <email>xjin@bio.ecnu.edu.cn</email></corresp>
-</author-notes>
+<fn id="auth-fn-1"><p>Lead Contact</p></fn></author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.03.20.533567</elocation-id>
 <history>
