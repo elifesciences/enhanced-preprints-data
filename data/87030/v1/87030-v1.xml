@@ -24,13 +24,7 @@
 <article-title>Anti-inflammatory therapy with nebulised dornase alfa in patients with severe COVID-19 pneumonia A Randomised Clinical Trial</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Porter</surname><given-names>Joanna C.</given-names></name>
-<degrees>(PhD FRCP)</degrees>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="corresp" rid="cor1">&#x0023;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Porter</surname><given-names>Joanna C.</given-names></name><email>joanna.porter@ucl.ac.uk</email><degrees>(PhD FRCP)</degrees><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib>
 <contrib contrib-type="author">
 <name><surname>Inshaw</surname><given-names>Jamie</given-names></name>
 <degrees>(PhD)</degrees>
@@ -135,13 +129,7 @@
 <degrees>(PhD)</degrees>
 <xref ref-type="aff" rid="a8">8</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3741-8190</contrib-id>
-<name><surname>Papayannopoulos</surname><given-names>Venizelos</given-names></name>
-<degrees>(PhD)</degrees>
-<xref ref-type="aff" rid="a4">4</xref>
-<xref ref-type="corresp" rid="cor1">&#x0023;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Papayannopoulos</surname><given-names>Venizelos</given-names></name><email>veni.p@crick.ac.uk</email><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3741-8190</contrib-id><degrees>(PhD)</degrees><xref ref-type="aff" rid="a4">4</xref></contrib>
 <aff id="a1"><label>1</label>UCL Respiratory, University College London, UK</aff>
 <aff id="a2"><label>2</label>University College London Hospitals NHS Trust, London, UK</aff>
 <aff id="a3"><label>3</label>Exploristics, Belfast, N. Ireland</aff>
@@ -152,7 +140,6 @@
 <aff id="a8"><label>8</label>Translation, The Francis Crick Institute, London, UK</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1"><label>&#x0023;</label><bold>Correspondence:</bold> Professor Joanna C Porter, <email>joanna.porter@ucl.ac.uk</email>, Venizelos Papayannopoulos, <email>veni.p@crick.ac.uk</email></corresp>
 <fn id="n1" fn-type="equal"><label>&#x002A;</label><p>contributed equally</p></fn>
 </author-notes>
 <pub-date pub-type="epub">
