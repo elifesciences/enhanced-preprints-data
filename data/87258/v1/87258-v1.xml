@@ -39,24 +39,11 @@
 <name><surname>Shi</surname><given-names>Wenwen</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-2387-7564</contrib-id>
-<name><surname>Ho</surname><given-names>Margaret S.</given-names></name>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0581-4882</contrib-id>
-<name><surname>Zhang</surname><given-names>Yong Q.</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Ho</surname><given-names>Margaret S.</given-names></name><email>margareth@shanghaitech.edu.cn</email><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-2387-7564</contrib-id><xref ref-type="aff" rid="a2">2</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Zhang</surname><given-names>Yong Q.</given-names></name><email>yqzhang@genetics.ac.cn</email><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0581-4882</contrib-id><xref ref-type="aff" rid="a1">1</xref></contrib>
 <aff id="a1"><label>1</label>Key Laboratory of Molecular and Developmental Biology, Institute of Genetics and Developmental Biology, University of Chinese Academy of Sciences, Chinese Academy of Sciences, Beijing 100101, China</aff>
 <aff id="a2"><label>2</label>School of Life Science and Technology, ShanghaiTech University, Shanghai, 201210, China</aff>
 </contrib-group>
-<author-notes>
-<corresp id="cor1"><label>&#x002A;</label>Correspondence: <email>margareth@shanghaitech.edu.cn</email>, <email>yqzhang@genetics.ac.cn</email> (lead contact)</corresp>
-</author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.03.27.534488</elocation-id>
 <history>
