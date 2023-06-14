@@ -33,3 +33,4 @@
 10.1101/2022.11.01.514717[2]=s3://transfers-elife/biorxiv_Current_Content/June_2023/09_Jun_23_Batch_1637/978a4d05-6c5d-1014-9498-fc479c0e2159.meca
 10.1101/2023.02.10.528013[2]=s3://transfers-elife/biorxiv_Current_Content/April_2023/01_Apr_23_Batch_1568/23a36603-6cd3-1014-a4c0-9921b2d67f53.meca
 10.1101/2022.10.24.513565[2]=s3://transfers-elife/biorxiv_Current_Content/May_2023/26_May_23_Batch_1623/60c541d5-6ed9-1014-b7c3-9d2fca976479.meca
+10.1101/2023.01.26.525665=s3://transfers-elife/biorxiv_Current_Content/June_2023/09_Jun_23_Batch_1637/499981cf-6c35-1014-97d4-f566d724ca7c.meca
