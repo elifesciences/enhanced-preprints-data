@@ -39,3 +39,4 @@
 10.1101/2023.02.20.529215[2]=s3://transfers-elife/biorxiv_Current_Content/May_2023/27_May_23_Batch_1624/abeda097-6f6a-1014-9eac-e6b09c649a19.meca
 10.1101/2021.05.12.443782[2]=s3://transfers-elife/biorxiv_Current_Content/April_2023/30_Apr_23_Batch_1597/1c19213b-6c60-1014-a34c-fffaef1efb40.meca
 10.31234/osf.io/uk7hr=s3://prod-elife-epp-meca/10.31234/osf.io-uk7hr-v1-meca.zip
+10.1101/2022.12.01.518662[2]=s3://transfers-elife/biorxiv_Current_Content/June_2023/01_Jun_23_Batch_1629/e4bb806d-7063-1014-922c-88244d756196.meca
