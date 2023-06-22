@@ -30,19 +30,8 @@
 <article-title>TCR-pMHC complex formation triggers CD3 dynamics</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1510-0544</contrib-id>
-<name><surname>van Eerden</surname><given-names>Floris J.</given-names></name>
-<xref ref-type="aff" rid="a1">a</xref>
-<xref ref-type="author-notes" rid="n1">&#x002A;</xref>
-<xref ref-type="corresp" rid="cor2">&#x0023;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5692-6887</contrib-id>
-<name><surname>Sherif</surname><given-names>Alrahman Aalaa</given-names></name>
-<xref ref-type="aff" rid="a2">b</xref>
-<xref ref-type="corresp" rid="cor2">&#x0023;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>van Eerden</surname><given-names>Floris J.</given-names></name><email>fvaneerden@ifrec.osaka-u.ac.jp</email><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1510-0544</contrib-id><xref ref-type="aff" rid="a1">a</xref><xref ref-type="author-notes" rid="n1">&#x002A;</xref></contrib>
+<contrib contrib-type="author"><name><surname>Sherif</surname><given-names>Alrahman Aalaa</given-names></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5692-6887</contrib-id><xref ref-type="aff" rid="a2">b</xref><xref ref-type="author-notes" rid="n1">&#x002A;</xref></contrib>
 <contrib contrib-type="author">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6059-673X</contrib-id>
 <name><surname>Llamas-Covarrubias</surname><given-names>Mara Anais</given-names></name>
@@ -69,20 +58,14 @@
 <xref ref-type="aff" rid="a3">c</xref>
 <xref ref-type="aff" rid="a4">d</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4078-0817</contrib-id>
-<name><surname>Standley</surname><given-names>Daron M.</given-names></name>
-<xref ref-type="aff" rid="a2">b</xref>
-<xref ref-type="author-notes" rid="n1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Standley</surname><given-names>Daron M.</given-names></name><email>luoj@upmc.edu</email><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4078-0817</contrib-id><xref ref-type="aff" rid="a2">b</xref></contrib>
 <aff id="a1"><label>a</label>Department of Systems Immunology, Immunology Frontier Research Center, Osaka University, 3-1 Yamadaoka, Suita, 565-0871, Japan</aff>
 <aff id="a2"><label>b</label>Department of Genome Informatics, Research Institute for Microbial Diseases, Osaka University, 3-1 Yamadaoka, Suita, 565-0871, Japan</aff>
 <aff id="a3"><label>c</label>Laboratory of Molecular Immunology, Immunology Frontier Research Center, Osaka University, 3-1 Yamadaoka, Suita, 565-0871, Japan</aff>
 <aff id="a4"><label>d</label>Department of Molecular Immunology, Research Institute for Microbial Diseases, Osaka University, 3-1 Yamadaoka, Suita, 565-0871, Japan</aff>
 </contrib-group>
 <author-notes>
-<fn id="n1" fn-type="others"><label>&#x002A;</label><p>Corresponding author</p></fn>
-<corresp id="cor2"><label>&#x0023;</label>Equal contribution E-mail: Floris van Eerden <email>fvaneerden@ifrec.osaka-u.ac.jp</email> Daron Standley <email>standley@biken.osaka-u.ac.jp</email></corresp>
+<fn id="n1" fn-type="others"><label>&#x002A;</label><p>Equal contribution</p></fn>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2022.07.27.501668</elocation-id>

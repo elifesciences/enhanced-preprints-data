@@ -30,13 +30,7 @@
 <article-title>Long-read single-cell sequencing reveals expressions of hypermutation clusters of isoforms in human liver cancer cells</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author">
-<name><surname>Liu</surname><given-names>Silvia</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="aff" rid="a3">3</xref>
-<xref ref-type="corresp" rid="cor1">&#x002B;</xref>
-</contrib>
+<contrib contrib-type="author"><name><surname>Liu</surname><given-names>Silvia</given-names></name><email>shl96@pitt.edu</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref><xref ref-type="aff" rid="a3">3</xref></contrib>
 <contrib contrib-type="author">
 <name><surname>Yu</surname><given-names>Yan-Ping</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
@@ -75,22 +69,13 @@
 <xref ref-type="aff" rid="a1">1</xref>
 <xref ref-type="aff" rid="a3">3</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Luo</surname><given-names>Jian-Hua</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="aff" rid="a3">3</xref>
-<xref ref-type="corresp" rid="cor1">&#x002B;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Luo</surname><given-names>Jian-Hua</given-names></name><email>luoj@upmc.edu</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref><xref ref-type="aff" rid="a3">3</xref></contrib>
 <aff id="a1"><label>1</label>Department of Pathology</aff>
 <aff id="a2"><label>2</label>High Throughput Genome Center</aff>
 <aff id="a3"><label>3</label>Pittsburgh Liver Research Center</aff>
 <aff id="a4"><label>4</label>University of Pittsburgh, 3550 Terrace Street, Pittsburgh, PA 15261; Element Biosciences, Inc, 10055 Barnes Canyon Road, Suite 100, San Diego, CA 92121</aff>
 <aff id="a5"><label>5</label>Biostatistics</aff>
 </contrib-group>
-<author-notes>
-<corresp id="cor1"><label>&#x002B;</label> - Co-corresponding authors: Jian-Hua Luo, 3550 Terrace Street, Scaife S-728, Department of Pathology, University of Pittsburgh School of Medicine, Pittsburgh, PA 15261; E-mail: <email>luoj@upmc.edu</email>; Silvia Liu, S-406 Biomedical Science Tower, 203 Lothrop Street, Pittsburgh, PA 15261; E-mail: <email>shl96@pitt.edu</email>.</corresp>
-</author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.03.16.532991</elocation-id>
 <history>
