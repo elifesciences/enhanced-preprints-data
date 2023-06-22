@@ -107,21 +107,9 @@
 <name><surname>Han</surname><given-names>Hong-Bing</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Lv</surname><given-names>Feng-Hua</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Li</surname><given-names>Yan</given-names></name>
-<xref ref-type="aff" rid="a4">4</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Lian</surname><given-names>Zheng-Xing</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Lv</surname><given-names>Feng-Hua</given-names></name><email>lvfenghua@cau.edu.cn</email><xref ref-type="aff" rid="a1">1</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Li</surname><given-names>Yan</given-names></name><email>scauly@cau.edu.cn</email><xref ref-type="aff" rid="a4">4</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Lian</surname><given-names>Zheng-Xing</given-names></name><email>lianzhx@cau.edu.cn</email><xref ref-type="aff" rid="a1">1</xref></contrib>
 <aff id="a1"><label>1</label>Beijing Key Laboratory for Animal Genetic Improvement, National Engineering Laboratory for Animal Breeding, Key Laboratory of Animal Genetics and Breeding of the Ministry of Agriculture, College of Animal Science and Technology, China Agricultural University, Beijing 100193, China</aff>
 <aff id="a2"><label>2</label>Institute of Animal Husbandry and Veterinary Medicine, Tianjin Academy of Agricultural Sciences, Tianjin 300381, China</aff>
 <aff id="a3"><label>3</label>NHC Key Laboratory of Human Disease Comparative Medicine, Institute of Laboratory Animal Sciences, Chinese Academy of Medical Sciences and Comparative Medicine Center, Peking Union Medical College, Beijing, China</aff>
@@ -129,7 +117,6 @@
 </contrib-group>
 <author-notes>
 <fn id="n1" fn-type="equal"><label>&#x2020;</label><p>These authors contributed equally to this work.</p></fn>
-<corresp id="cor1"><label>&#x002A;</label> Correspondence: <email>lianzhx@cau.edu.cn</email> (Zheng-Xing Lian), <email>scauly@cau.edu.cn</email> (Yan Li); <email>lvfenghua@cau.edu.cn</email> (Feng-Hua Lv)</corresp>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.03.09.531872</elocation-id>

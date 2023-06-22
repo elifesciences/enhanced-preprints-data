@@ -30,12 +30,7 @@
 <article-title>Astrocytic Neuroligins Are Not Required for Synapse Formation or a Normal Astrocyte Cytoarchitecture</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9881-084X</contrib-id>
-<name><surname>Golf</surname><given-names>Samantha R.</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x0023;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Golf</surname><given-names>Samantha R.</given-names></name><email>samgolf@stanford.edu</email><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9881-084X</contrib-id><xref ref-type="aff" rid="a1">1</xref></contrib>
 <contrib contrib-type="author">
 <name><surname>Trotter</surname><given-names>Justin H.</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
@@ -44,18 +39,10 @@
 <name><surname>Nakahara</surname><given-names>George</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>S&#x00FC;dhof</surname><given-names>Thomas C.</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="corresp" rid="cor1">&#x0023;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>S&#x00FC;dhof</surname><given-names>Thomas C.</given-names></name><email>tcs1@stanford.edu</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib>
 <aff id="a1"><label>1</label>Dept. of Molecular and Cellular Physiology, Stanford University School of Medicine, Stanford, CA 94305, USA</aff>
 <aff id="a2"><label>2</label>Howard Hughes Medical Institute, Stanford University School of Medicine, Stanford, CA 94305, USA</aff>
 </contrib-group>
-<author-notes>
-<corresp id="cor1"><label>&#x0023;</label>Address for correspondence (<email>samgolf@stanford.edu</email> or <email>tcs1@stanford.edu</email>)</corresp>
-</author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.04.10.536254</elocation-id>
 <history>
