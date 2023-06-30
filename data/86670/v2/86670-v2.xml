@@ -30,17 +30,8 @@
 <article-title>Transcriptomic profiling of tissue environments critical for post-embryonic patterning and morphogenesis of zebrafish skin</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Aman</surname><given-names>Andrew J.</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="author-notes" rid="n1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4377-4252</contrib-id>
-<name><surname>Saunders</surname><given-names>Lauren M.</given-names></name>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="author-notes" rid="n1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author"><name><surname>Aman</surname><given-names>Andrew J.</given-names></name><xref ref-type="aff" rid="a1">1</xref><xref ref-type="author-notes" rid="n1">&#x002A;</xref></contrib>
+<contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4377-4252</contrib-id><name><surname>Saunders</surname><given-names>Lauren M.</given-names></name><xref ref-type="aff" rid="a2">2</xref><xref ref-type="author-notes" rid="n1">&#x002A;</xref></contrib>
 <contrib contrib-type="author">
 <name><surname>Carr</surname><given-names>August A.</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
@@ -69,11 +60,7 @@
 <name><surname>Trapnell</surname><given-names>Cole</given-names></name>
 <xref ref-type="aff" rid="a2">2</xref>
 </contrib>
-<contrib contrib-type="author">
-<name><surname>Parichy</surname><given-names>David M.</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a4">4</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Parichy</surname><given-names>David M.</given-names></name><email>dparichy@virginia.edu</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a4">4</xref></contrib>
 <aff id="a1"><label>1</label>Department of Biology, University of Virginia, Charlottesville, VA</aff>
 <aff id="a2"><label>2</label>Department of Genome Sciences, University of Washington, Seattle, WA</aff>
 <aff id="a3"><label>3</label>National Human Genome Research Institute, National Institutes of Health, Bethesda, MD</aff>
@@ -81,7 +68,6 @@
 </contrib-group>
 <author-notes>
 <fn id="n1" fn-type="equal"><label>&#x002A;</label><p>these authors contributed equally</p></fn>
-<corresp id="cor1"><label>&#x002A;</label> Corresponding author; email: <email xlink:type="simple">dparichy@virginia.edu</email></corresp>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2021.05.12.443782</elocation-id>
