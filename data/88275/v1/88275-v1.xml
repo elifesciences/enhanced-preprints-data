@@ -36,14 +36,7 @@
 <xref ref-type="aff" rid="a1">1</xref>
 <xref ref-type="aff" rid="a2">2</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0407-8828</contrib-id>
-<name><surname>Hung</surname><given-names>Chun-Hao</given-names></name>
-<xref ref-type="author-notes" rid="n2">&#x0023;</xref>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Hung</surname><given-names>Chun-Hao</given-names></name><email>libur777@hotmail.com</email><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0407-8828</contrib-id><xref ref-type="author-notes" rid="n2">&#x0023;</xref><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib>
 <contrib contrib-type="author">
 <name><surname>Liou</surname><given-names>Yao-Huei</given-names></name>
 <xref ref-type="aff" rid="a2">2</xref>
@@ -76,13 +69,7 @@
 <xref ref-type="aff" rid="a2">2</xref>
 <xref ref-type="aff" rid="a6">6</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Shyu</surname><given-names>Yu-Chiau</given-names></name>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="aff" rid="a3">3</xref>
-<xref ref-type="aff" rid="a6">6</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Shyu</surname><given-names>Yu-Chiau</given-names></name><email>yuchiaushyu@gmail.com</email><xref ref-type="aff" rid="a2">2</xref><xref ref-type="aff" rid="a3">3</xref><xref ref-type="aff" rid="a6">6</xref></contrib>
 <contrib contrib-type="author">
 <name><surname>Hsiao</surname><given-names>Pei-Wen</given-names></name>
 <xref ref-type="aff" rid="a4">4</xref>
@@ -105,13 +92,7 @@
 <name><surname>Liao</surname><given-names>Nah-Shih</given-names></name>
 <xref ref-type="aff" rid="a2">2</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6515-5837</contrib-id>
-<name><surname>Shen</surname><given-names>Che-Kun James</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Shen</surname><given-names>Che-Kun James</given-names></name><email>ckshen@gate.sinica.edu.tw</email><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6515-5837</contrib-id><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib>
 <aff id="a1"><label>1</label>The PhD Program for Neural Regenerative Medicine, Taipei Medical University, Taipei 115, Taiwan</aff>
 <aff id="a2"><label>2</label>Institute of Molecular Biology, Academia Sinica, Nankang, Taipei 115, Taiwan</aff>
 <aff id="a3"><label>3</label>Department of Nursing, Chang Gung University of Science and Technology, Taoyuan City 333, Taiwan</aff>
@@ -123,7 +104,6 @@
 <author-notes>
 <fn fn-type="present-address" id="n1"><label>8</label><p>Current address-Department of Molecular Metabolism, T.H. Clan School of Public Health, Harvard University, 677 Huntington Ave, Boston, MA 02115, USA</p></fn>
 <fn fn-type="equal" id="n2"><label>&#x0023;</label><p>Contributed equally</p></fn>
-<corresp id="cor1"><label>&#x002A;</label>Corresponding Authors Please send all correspondence to: Che-Kun James Shen The PhD Program for Neural Regenerative Medicine Taipei Medical University Taipei 115, Taiwan, ROC E-mail: <email>ckshen@gate.sinica.edu.tw</email> Yu-Chiau Shyu Community Medicine Research Center, Chang Gung Memorial Hospital, Keelung Branch, Keelung 204, Taiwan (R.O.C.) E-mail: <email>yuchiaushyu@gmail.com</email> Chun-Hao Hung The PhD Program for Neural Regenerative Medicine Taipei Medical University Taipei 115, Taiwan, ROC E-mail: <email>libur777@hotmail.com</email></corresp>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.04.21.537849</elocation-id>
