@@ -108,22 +108,8 @@
 <name><surname>Taubenberger</surname><given-names>Anna</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0100-8410</contrib-id>
-<name><surname>Cannistraci</surname><given-names>Carlo V.</given-names></name>
-<xref ref-type="aff" rid="a4">4</xref>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a9">9</xref>
-<xref ref-type="aff" rid="a10">10</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1453-6119</contrib-id>
-<name><surname>Guck</surname><given-names>Jochen</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Cannistraci</surname><given-names>Carlo V.</given-names></name><email>kalokagathos.agon@gmail.com</email><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0100-8410</contrib-id><xref ref-type="aff" rid="a4">4</xref><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a9">9</xref><xref ref-type="aff" rid="a10">10</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Guck</surname><given-names>Jochen</given-names></name><email>jochen.guck@mpl.mpg.de</email><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1453-6119</contrib-id><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib>
 <aff id="a1"><label>1</label>Biotechnology Center, Center for Molecular and Cellular Bioengineering, Technische Universit&#x00E4;t Dresden, Tatzberg 47-49, Dresden 01307, Germany</aff>
 <aff id="a2"><label>2</label>Max Planck Institute for the Science of Light &#x0026; Max-Planck-Zentrum f&#x00FC;r Physik und Medizin, Staudtstra&#x00DF;e 2, Erlangen 91058, Germany</aff>
 <aff id="a3"><label>3</label>Department of Computer Science and Department of Economics, Jamia Millia Islamia, New Delhi 110025, India</aff>

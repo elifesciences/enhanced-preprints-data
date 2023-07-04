@@ -44,19 +44,8 @@
 <xref ref-type="aff" rid="a4">4</xref>
 <xref ref-type="aff" rid="a5">5</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Cho</surname><given-names>Jeiwon</given-names></name>
-<xref ref-type="aff" rid="a4">4</xref>
-<xref ref-type="aff" rid="a5">5</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7964-106X</contrib-id>
-<name><surname>Kim</surname><given-names>Jeansok J.</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a3">3</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Cho</surname><given-names>Jeiwon</given-names></name><email>jelectro21@ewha.ac.kr</email><xref ref-type="aff" rid="a4">4</xref><xref ref-type="aff" rid="a5">5</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Kim</surname><given-names>Jeansok J.</given-names></name><email>jeansokk@uw.edu</email><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7964-106X</contrib-id><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a3">3</xref></contrib>
 <aff id="a1"><label>1</label>Department of Psychology, University of Washington, Seattle, WA 98195-1525, USA</aff>
 <aff id="a2"><label>2</label>Department of Psychiatry and Behavioral Sciences, University of Washington, Seattle, WA 98195-1525, USA</aff>
 <aff id="a3"><label>3</label>Program in Neuroscience, University of Washington, Seattle, WA 98195-1525, USA</aff>
@@ -64,7 +53,6 @@
 <aff id="a5"><label>5</label>Brain Disease Research Institute, Ewha Brain Institute, Ewha Womans University, Seoul, Republic of Korea</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1"><label>&#x002A;</label>Jeansok J. Kim, Jeiwon Cho, Email: <email>jeansokk@uw.edu</email>, <email>jelectro21@ewha.ac.kr</email></corresp>
 <fn id="n1" fn-type="equal"><p>Author Contributions: E.J.K., J.J.K., and J.C. conceived the study. E.J.K. and M.K. performed behavioral, neurophysiological, optogenetic, and tracing experiments. E.J.K., S.G.P., J.C., and J.J.K. analyzed the data. E.J.K., J.C., and J.J.K. wrote the manuscript. J.C. and J.J.K. supervised all aspects of the study.</p></fn>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
