@@ -53,28 +53,14 @@
 <xref ref-type="aff" rid="a2">&#x2021;</xref>
 <xref ref-type="aff" rid="a4">&#x00A7;</xref>
 </contrib>
-<contrib contrib-type="author">
-<name><surname>Bhabha</surname><given-names>Gira</given-names></name>
-<xref ref-type="author-notes" rid="n1">&#x002A;</xref>
-<xref ref-type="aff" rid="a2">&#x2021;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8046-8388</contrib-id>
-<name><surname>Prakash</surname><given-names>Manu</given-names></name>
-<xref ref-type="corresp" rid="cor1">&#x0023;</xref>
-<xref ref-type="aff" rid="a1">&#x2020;</xref>
-<xref ref-type="aff" rid="a5">&#x2225;</xref>
-</contrib>
+<contrib contrib-type="author"><name><surname>Bhabha</surname><given-names>Gira</given-names></name><email>gira.bhabha@gmail.com</email><xref ref-type="author-notes" rid="n1">&#x002A;</xref><xref ref-type="aff" rid="a2">&#x2021;</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Prakash</surname><given-names>Manu</given-names></name><email>manup@stanford.edu</email><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8046-8388</contrib-id><xref ref-type="aff" rid="a1">&#x2020;</xref><xref ref-type="aff" rid="a5">&#x2225;</xref></contrib>
 <aff id="a1"><label>&#x2020;</label>Department of Bioengineering, Stanford University, Stanford, California, United States of America</aff>
 <aff id="a2"><label>&#x2021;</label>Department of Cell Biology, New York University School of Medicine, New York, New York, United States of America</aff>
 <aff id="a3"><label>&#x00B6;</label>Current Address: Center of Excellence for Molecular Biology and Genomics of Shrimp, Department of Biochemistry, Faculty of Science, Chulalongkorn University, Bangkok, Thailand</aff>
 <aff id="a4"><label>&#x00A7;</label>Department of Microbiology, New York University School of Medicine, New York, New York, United States of America</aff>
 <aff id="a5"><label>&#x2225;</label>Woods Institute for the Environment, Stanford University, Stanford, California, United States of America</aff>
 </contrib-group>
-<author-notes>
-<corresp id="cor1"><label>&#x0023;</label> Corresponding author; email: <email>manup@stanford.edu</email></corresp>
-<fn id="n1" fn-type="others"><label>&#x002A;</label><p>E-mail: <email>gira.bhabha@gmail.com</email></p></fn>
-</author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.01.17.524456</elocation-id>
 <history>
