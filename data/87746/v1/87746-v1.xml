@@ -48,27 +48,13 @@
 <xref ref-type="aff" rid="a1">1</xref>
 <xref ref-type="aff" rid="a2">2</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5170-7522</contrib-id>
-<name><surname>Pulver</surname><given-names>Stefan R.</given-names></name>
-<xref ref-type="aff" rid="a3">3</xref>
-<xref ref-type="author-notes" rid="n1">&#x002A;</xref>
-<xref ref-type="corresp" rid="cor1">&#x2020;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4857-5562</contrib-id>
-<name><surname>Gather</surname><given-names>Malte C.</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="author-notes" rid="n1">&#x002A;</xref>
-<xref ref-type="corresp" rid="cor1">&#x2020;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5170-7522</contrib-id><name><surname>Pulver</surname><given-names>Stefan R.</given-names></name><email>sp96@st-andrews.ac.uk</email><xref ref-type="aff" rid="a3">3</xref><xref ref-type="author-notes" rid="n1">&#x002A;</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4857-5562</contrib-id><name><surname>Gather</surname><given-names>Malte C.</given-names></name><email>mcg6@st-andrews.ac.uk</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref><xref ref-type="author-notes" rid="n1">&#x002A;</xref></contrib>
 <aff id="a1"><label>1</label>SUPA, School of Physics and Astronomy, University of St Andrews, Fife, United Kingdom</aff>
 <aff id="a2"><label>2</label>Humboldt Centre for Nano- and Biophotonics, Department of Chemistry, University of Cologne, Germany</aff>
 <aff id="a3"><label>3</label>School of Psychology and Neuroscience, University of St Andrews, Fife, United Kingdom</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1"><label>&#x2020;</label>correspondence: <email>sp96@st-andrews.ac.uk</email>, <email>mcg6@st-andrews.ac.uk</email></corresp>
 <fn id="n1" fn-type="equal"><label>&#x002A;</label><p>equal contribution</p></fn>
 </author-notes>
 <pub-date pub-type="epub">

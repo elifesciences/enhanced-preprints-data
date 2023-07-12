@@ -58,11 +58,7 @@
 <name><surname>Xu</surname><given-names>Dongyi</given-names></name>
 <xref ref-type="aff" rid="a2">2</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Li</surname><given-names>Huanhuan</given-names></name>
-<xref ref-type="aff" rid="a3">3</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author"><name><surname>Li</surname><given-names>Huanhuan</given-names></name><xref ref-type="aff" rid="a3">3</xref></contrib>
 <contrib contrib-type="author" corresp="yes">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1803-3121</contrib-id>
 <name><surname>Liang</surname><given-names>Huanhuan</given-names></name>
