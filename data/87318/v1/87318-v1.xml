@@ -79,18 +79,8 @@
 <xref ref-type="aff" rid="a2">b</xref>
 <xref ref-type="aff" rid="a3">c</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Taylor</surname><given-names>Walter RJ</given-names></name>
-<xref ref-type="aff" rid="a2">b</xref>
-<xref ref-type="aff" rid="a3">c</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>White</surname><given-names>Nicholas J</given-names></name>
-<xref ref-type="aff" rid="a2">b</xref>
-<xref ref-type="aff" rid="a3">c</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Taylor</surname><given-names>Walter RJ</given-names></name><email>bob@tropmedres.ac</email><xref ref-type="aff" rid="a2">b</xref><xref ref-type="aff" rid="a3">c</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>White</surname><given-names>Nicholas J</given-names></name><email>nickw@tropmedres.ac</email><xref ref-type="aff" rid="a2">b</xref><xref ref-type="aff" rid="a3">c</xref></contrib>
 <aff id="a1"><label>a</label>Clinical Therapeutics Unit, Faculty of Tropical Medicine, Mahidol University, Bangkok, 10400, Thailand</aff>
 <aff id="a2"><label>b</label>Mahidol Oxford Tropical Medicine Research Unit, Faculty of Tropical Medicine, Mahidol University, Bangkok, 10400, Thailand</aff>
 <aff id="a3"><label>c</label>Centre for Tropical Medicine and Global Health, Nuffield Department of Medicine, University of Oxford, New Richards Building, Old Road Campus, Roosevelt Drive, Oxford, OX3 7LG, UK</aff>
@@ -98,9 +88,6 @@
 <aff id="a5"><label>e</label>Shoklo Malaria Research Unit, Mahidol Oxford Tropical Medicine Research Unit, Faculty of Tropical Medicine, Mahidol University, Mae Sot, Thailand</aff>
 <aff id="a6"><label>f</label>Department of Molecular Tropical Medicine and Genetics, Faculty of Tropical Medicine, Mahidol University, Bangkok, Thailand</aff>
 </contrib-group>
-<author-notes>
-<corresp id="cor1"><label>&#x002A;</label>For correspondence: <email>bob@tropmedres.ac</email>; <email>nickw@tropmedres.ac</email></corresp>
-</author-notes>
 <pub-date pub-type="epub">
 <year>2023</year>
 </pub-date>
