@@ -30,18 +30,8 @@
 <article-title>Evidence for deliberate burial of the dead by <italic>Homo naledi</italic></article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0367-7629</contrib-id>
-<name><surname>Berger</surname><given-names>Lee R</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="aff" rid="a3">3</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref></contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Makhubela</surname><given-names>Tebogo</given-names></name>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="aff" rid="a4">4</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0367-7629</contrib-id><name><surname>Berger</surname><given-names>Lee R</given-names></name><email>lrberger@ngs.org</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref><xref ref-type="aff" rid="a3">3</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Makhubela</surname><given-names>Tebogo</given-names></name><email>tvmakhubela@uj.ac.za</email><xref ref-type="aff" rid="a2">2</xref><xref ref-type="aff" rid="a4">4</xref></contrib>
 <contrib contrib-type="author">
 <name><surname>Molopyane</surname><given-names>Keneiloe</given-names></name>
 <xref ref-type="aff" rid="a2">2</xref>
@@ -188,12 +178,7 @@
 <name><surname>Spikins</surname><given-names>Penny</given-names></name>
 <xref ref-type="aff" rid="a27">27</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Hawks</surname><given-names>John</given-names></name>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="aff" rid="a18">18</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Hawks</surname><given-names>John</given-names></name><email>jhawks@wisc.edu</email><xref ref-type="aff" rid="a2">2</xref><xref ref-type="aff" rid="a18">18</xref></contrib>
 <aff id="a1"><label>1</label>The National Geographic Society, 1145 17th St NW, Washington DC, 20036</aff>
 <aff id="a2"><label>2</label>Centre for the Exploration of the Deep Human Journey, School of Anatomical Sciences, University of the Witwatersrand; Private Bag 3, Wits 2050, South Africa</aff>
 <aff id="a3"><label>3</label>The Carnegie Institution for Science, 5241 Broad Branch Road NW Washington D.C. 20015</aff>
@@ -222,9 +207,6 @@
 <aff id="a26"><label>26</label>Department of Anthropology, Appalachian State University; 348 Anne Belk Hall 224 Boone, NC, USA 28608</aff>
 <aff id="a27"><label>27</label>Department of Archaeology, University of York; The King&#x2019;s Manor, York, UK, YO1 7EP</aff>
 </contrib-group>
-<author-notes>
-<corresp id="cor1"><label>&#x002A;</label>Corresponding Authors; email: <email xlink:type="simple">lrberger@ngs.org</email></corresp>
-</author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.06.01.543127</elocation-id>
 <history>

@@ -30,14 +30,7 @@
 <article-title>241,000 to 335,000 Years Old Rock Engravings Made by <italic>Homo naledi</italic> in the Rising Star Cave system, South Africa</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0367-7629</contrib-id>
-<name><surname>Berger</surname><given-names>Lee R.</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="aff" rid="a3">3</xref>
-<xref ref-type="author-notes" rid="n1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0367-7629</contrib-id><name><surname>Berger</surname><given-names>Lee R.</given-names></name><email>lrberger@ngs.org</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref><xref ref-type="aff" rid="a3">3</xref><xref ref-type="author-notes" rid="n1">&#x002A;</xref></contrib>
 <contrib contrib-type="author">
 <name><surname>Hawks</surname><given-names>John</given-names></name>
 <xref ref-type="aff" rid="a4">4</xref>
@@ -66,11 +59,7 @@
 <name><surname>Nkwe</surname><given-names>Samuel</given-names></name>
 <xref ref-type="aff" rid="a2">2</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Molopyane</surname><given-names>Keneiloe</given-names></name>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="author-notes" rid="n1">&#x0023;</xref>
-</contrib>
+<contrib contrib-type="author"><name><surname>Molopyane</surname><given-names>Keneiloe</given-names></name><xref ref-type="aff" rid="a2">2</xref><xref ref-type="author-notes" rid="n1">&#x0023;</xref></contrib>
 <aff id="a1"><label>1</label>The National Geographic Society, 1145 17<sup>th</sup> St NW, Washington DC, 20036</aff>
 <aff id="a2"><label>2</label>Centre for the Exploration of the Deep Human Journey, School of Anatomical Sciences, University of the Witwatersrand; Private Bag 3, Wits 2050, South Africa</aff>
 <aff id="a3"><label>3</label>The Carnegie Institution for Science, 5241 Broad Branch Road NW Washington D.C. 20015</aff>
@@ -80,7 +69,6 @@
 </contrib-group>
 <author-notes>
 <fn id="n1" fn-type="equal"><label>&#x002A;</label><p>These authors contributed equally</p></fn>
-<corresp id="cor1"><label>&#x0023;</label>Corresponding authors email address: <email>lrberger@ngs.org</email></corresp>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.06.01.543133</elocation-id>
