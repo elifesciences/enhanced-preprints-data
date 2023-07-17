@@ -63,18 +63,8 @@
 <xref ref-type="aff" rid="a4">4</xref>
 <xref ref-type="aff" rid="a5">5</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4931-8514</contrib-id>
-<name><surname>Aharoni</surname><given-names>Daniel</given-names></name>
-<xref ref-type="corresp" rid="cor1">&#x0023;</xref>
-<xref ref-type="aff" rid="a1">1</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5406-7695</contrib-id>
-<name><surname>Golshani</surname><given-names>Peyman</given-names></name>
-<xref ref-type="corresp" rid="cor1">&#x0023;</xref>
-<xref ref-type="aff" rid="a1">1</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4931-8514</contrib-id><name><surname>Aharoni</surname><given-names>Daniel</given-names></name><email>daharoni@mednet.ucla.edu</email><xref ref-type="aff" rid="a1">1</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5406-7695</contrib-id><name><surname>Golshani</surname><given-names>Peyman</given-names></name><email>pgolshani@mednet.ucla.edu</email><xref ref-type="aff" rid="a1">1</xref></contrib>
 <aff id="a1"><label>1</label>Department of Neurology, DGSOM, University of California Los Angeles, Los Angeles, California, USA</aff>
 <aff id="a2"><label>2</label>Department of Neurobiology, University of California Los Angeles, Los Angeles, California, USA</aff>
 <aff id="a3"><label>3</label>Department of Psychology, University of California Los Angeles, Los Angeles, California, USA</aff>
@@ -82,7 +72,6 @@
 <aff id="a5"><label>5</label>Department of Neurology, Harbor-UCLA Medical Center, Torrance, California, USA</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1"><label>&#x0023;</label>Corresponding authors, email: <email>pgolshani@mednet.ucla.edu</email></corresp>
 <fn id="n1" fn-type="equal"><label>&#x002A;</label><p>These authors contributed equally to this work</p></fn>
 </author-notes>
 <pub-date pub-type="epub">

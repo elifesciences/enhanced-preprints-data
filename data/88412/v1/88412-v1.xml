@@ -35,12 +35,7 @@
 <name><surname>Medeiros</surname><given-names>A. T.</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0106-8336</contrib-id>
-<name><surname>Gratz</surname><given-names>S.J.</given-names></name>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0106-8336</contrib-id><name><surname>Gratz</surname><given-names>S.J.</given-names></name><email>scott_gratz@brown.edu</email><xref ref-type="aff" rid="a2">2</xref></contrib>
 <contrib contrib-type="author">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9712-0305</contrib-id>
 <name><surname>Delgado</surname><given-names>A.</given-names></name>
@@ -52,19 +47,12 @@
 <xref ref-type="aff" rid="a2">2</xref>
 <xref ref-type="aff" rid="a3">3</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-2259-8408</contrib-id>
-<name><surname>O&#x2019;Connor-Giles</surname><given-names>Kate M.</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="aff" rid="a3">3</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-2259-8408</contrib-id><name><surname>O&#x2019;Connor-Giles</surname><given-names>Kate M.</given-names></name><email>kate_oconnor-giles@brown.edu</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref><xref ref-type="aff" rid="a3">3</xref></contrib>
 <aff id="a1"><label>1</label>Neuroscience Graduate Training Program, Brown University, Providence, RI</aff>
 <aff id="a2"><label>2</label>Department of Neuroscience, Brown University, Providence, RI</aff>
 <aff id="a3"><label>3</label>Carney Institute for Brain Science, Brown University, Providence, RI</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1"><label>&#x002A;</label>For correspondence: Scott J. Gratz 185 Meeting St., Providence, RI 02912. Email: scott_gratz@brown.edu; Kate M. O&#x2019;Connor-Giles, 185 Meeting St., Providence, RI 02912. Email: <email>kate_oconnor-giles@brown.edu</email></corresp>
 <fn id="n1"><p>The authors declare no competing interests.</p></fn>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
