@@ -84,12 +84,7 @@
 <xref ref-type="aff" rid="a3">3</xref>
 <xref ref-type="aff" rid="a7">7</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4840-9879</contrib-id>
-<name><surname>Ansel</surname><given-names>K Mark</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4840-9879</contrib-id><name><surname>Ansel</surname><given-names>K Mark</given-names></name><email>mark.ansel@ucsf.edu</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib>
 <aff id="a1"><label>1</label>Department of Microbiology &#x0026; Immunology, University of California San Francisco, San Francisco, CA 94143, USA</aff>
 <aff id="a2"><label>2</label>Sandler Asthma Basic Research Program, University of California, San Francisco, San Francisco, CA, USA</aff>
 <aff id="a3"><label>3</label>Gladstone-UCSF Institute of Genomic Immunology, San Francisco, CA 94158, USA</aff>
@@ -98,9 +93,6 @@
 <aff id="a6"><label>6</label>Chan Zuckerberg Biohub, San Francisco, CA 94158</aff>
 <aff id="a7"><label>7</label>Department of Medicine, University of California San Francisco, San Francisco, CA 94143, USA</aff>
 </contrib-group>
-<author-notes>
-<corresp id="cor1"><label>&#x0023;</label>Corresponding author: <email>mark.ansel@ucsf.edu</email></corresp>
-</author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.04.14.536843</elocation-id>
 <history>
