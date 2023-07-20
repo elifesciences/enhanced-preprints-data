@@ -30,18 +30,8 @@
 <article-title>Human skeletal muscle organoids model fetal myogenesis and sustain uncommitted PAX7 myogenic progenitors</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author">
-<name><surname>Mavrommatis</surname><given-names>Lampros</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="aff" rid="a15">15</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author">
-<name><surname>Jeong</surname><given-names>Hyun-Woo</given-names></name>
-<xref ref-type="aff" rid="a3">3</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Mavrommatis</surname><given-names>Lampros</given-names></name><email>lampros.mavrommatis@rub.de</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref><xref ref-type="aff" rid="a15">15</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Jeong</surname><given-names>Hyun-Woo</given-names></name><email>hyun-woo.jeong@mpi-muenster.mpg.de</email><xref ref-type="aff" rid="a3">3</xref></contrib>
 <contrib contrib-type="author">
 <name><surname>Kindler</surname><given-names>Urs</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
@@ -121,13 +111,7 @@
 <name><surname>Brand-Saberi</surname><given-names>Beate</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8062-8428</contrib-id>
-<name><surname>Zaehres</surname><given-names>Holm</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8062-8428</contrib-id><name><surname>Zaehres</surname><given-names>Holm</given-names></name><email>holm.zaehres@rub.de</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib>
 <aff id="a1"><label>1</label>Ruhr-University Bochum, Medical Faculty, Institute of Anatomy, Department of Anatomy and Molecular Embryology, 44801 Bochum, Germany</aff>
 <aff id="a2"><label>2</label>Max Planck Institute for Molecular Biomedicine, Department of Cell and Developmental Biology, 48149 M&#x00FC;nster, Germany</aff>
 <aff id="a3"><label>3</label>Max Planck Institute for Molecular Biomedicine, Sequencing Core Facility, 48149 M&#x00FC;nster, Germany</aff>
@@ -144,9 +128,6 @@
 <aff id="a14"><label>14</label>Westphalian Wilhelms-University M&#x00FC;nster, Medical Faculty, 48149 M&#x00FC;nster, Germany</aff>
 <aff id="a15"><label>15</label>Department of Neurology with Heimer Institute for Muscle Research, University Hospital Bergmannsheil, 44789 Bochum, Germany</aff>
 </contrib-group>
-<author-notes>
-<corresp id="cor1"><label>&#x002A;</label> Correspondence: Lampros Mavrommatis (<email>lampros.mavrommatis@rub.de</email>); Hyun-Woo Jeong (hyun-woo.jeong@mpi-muenster.mpg.de) for bioinformatics; Holm Zaehres (<email>holm.zaehres@rub.de</email>)</corresp>
-</author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2020.09.14.295832</elocation-id>
 <history>
