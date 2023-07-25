@@ -309,18 +309,8 @@
 <xref ref-type="aff" rid="a1">1</xref>
 <xref ref-type="aff" rid="a2">2</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Phan</surname><given-names>Minh Duy</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Tran</surname><given-names>Le Son</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Phan</surname><given-names>Minh Duy</given-names></name><email>pmduy@yahoo.com</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Tran</surname><given-names>Le Son</given-names></name><email>leson1808@gmail.com</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib>
 <aff id="a1"><label>1</label>Gene Solutions, Ho Chi Minh City, Vietnam</aff>
 <aff id="a2"><label>2</label>Medical Genetics Institute, Ho Chi Minh City, Vietnam</aff>
 <aff id="a3"><label>3</label>University Medical Center, Ho Chi Minh City, Vietnam</aff>
