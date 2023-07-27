@@ -104,14 +104,6 @@
 <title>Significance statement</title>
 <p>We demonstrate that individual differences in <italic>subjective treatment</italic>&#x2014;the belief of receiving the active or placebo condition during an experiment&#x2014;can explain variability in research outcomes better than <italic>objective treatment</italic>, the actual treatment to which participants are assigned. Even though it is a standard practice for intervention studies to collect data on <italic>subjective treatment</italic>, its contribution to research outcomes has been overlooked. By demonstrating the explanatory power of <italic>subjective treatment</italic> beyond <italic>objective treatment</italic> in four independent datasets, we show its potential to provide further insights into the effectiveness of different interventions. We, therefore, encourage researchers to adopt our approach in existing and new studies, to improve experimental design and ultimately increase the rigour and robustness of clinical and non-clinical interventions.</p>
 </sec>
-<sec>
-<title>Credit Author Statement</title>
-<p>Luisa Fassi: Formal analysis; Conceptualisation; Data curation; Methodology; Investigation; Writing - original</p>
-<p>Shachar Hochman: Formal analysis; Data curation; Methodology; Investigation; Writing - review and editing</p>
-<p>Daniel M. Blumberger: Conceptualisation; Data curation; Investigation; Writing - review and editing</p>
-<p>Zafiris J. Daskalakis: Data curation; Investigation; Writing - review and editing</p>
-<p>Roi Cohen Kadosh: Formal analysis; Conceptualisation; Supervision; Methodology; Writing &#x2013; original</p>
-</sec>
 </abstract>
 <kwd-group kwd-group-type="author">
 <title>Keywords</title>
@@ -288,7 +280,7 @@ Author list and author affiliation updated.
 </sec>
 </sec>
 </body>
-<back>
+<back><sec><title>Credit Author Statement</title><p>Luisa Fassi: Formal analysis; Conceptualisation; Data curation; Methodology; Investigation; Writing - original</p><p>Shachar Hochman: Formal analysis; Data curation; Methodology; Investigation; Writing - review and editing</p><p>Daniel M. Blumberger: Conceptualisation; Data curation; Investigation; Writing - review and editing</p><p>Zafiris J. Daskalakis: Data curation; Investigation; Writing - review and editing</p><p>Roi Cohen Kadosh: Formal analysis; Conceptualisation; Supervision; Methodology; Writing &#x2013; original</p></sec>
 <ref-list>
 <title>References</title>
 <ref id="c1"><mixed-citation publication-type="journal"><string-name><surname>Bates</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>M&#x00E4;chler</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Bolker</surname>, <given-names>B.</given-names></string-name>, &#x0026; <string-name><surname>Walker</surname>, <given-names>S</given-names></string-name>. (<year>2015</year>). <article-title>Fitting Linear Mixed-Effects Models Using lme4</article-title>. <source>Journal of Statistical Software</source>, <volume>67</volume>(<elocation-id>1</elocation-id>). <pub-id pub-id-type="doi">10.18637/jss.v067.i01</pub-id></mixed-citation></ref>

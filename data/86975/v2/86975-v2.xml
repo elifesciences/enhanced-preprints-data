@@ -94,21 +94,13 @@
 <name><surname>Bozdech</surname><given-names>Zbynek</given-names></name>
 <xref ref-type="aff" rid="a3">3</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0655-3266</contrib-id>
-<name><surname>Brancucci</surname><given-names>Nicolas M. B.</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0655-3266</contrib-id><name><surname>Brancucci</surname><given-names>Nicolas M. B.</given-names></name><email>nicolas.brancucci@swisstph.ch</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib>
 <aff id="a1"><label>1</label>Department of Medical Parasitology and Infection Biology, Swiss Tropical and Public Health Institute, 4123 Allschwil, Switzerland</aff>
 <aff id="a2"><label>2</label>University of Basel, 4001 Basel, Switzerland</aff>
 <aff id="a3"><label>3</label>School of Biological Sciences, Nanyang Technological University, Singapore</aff>
 <aff id="a4"><label>4</label>Wellcome Center for Integrative Parasitology, Institute of Infection, Immunity and Inflammation, University of Glasgow, Glasgow, UK</aff>
 <aff id="a5"><label>5</label>Institute for Parasitology, VetSuisse and Medical Faculty, University of Zurich, Zurich, Switzerland</aff>
 </contrib-group>
-<author-notes>
-<corresp id="cor1"><bold>Correspondence:</bold> Nicolas M. B. Brancucci, <email>nicolas.brancucci@swisstph.ch</email></corresp>
-</author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2022.12.09.519720</elocation-id>
 <history>

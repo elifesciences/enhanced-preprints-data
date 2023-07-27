@@ -30,12 +30,7 @@
 <article-title>How hibernation in frogs drives brain and reproductive evolution in opposite directions</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Liao</surname><given-names>Wen Bo</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Liao</surname><given-names>Wen Bo</given-names></name><email>liaobo_0_0@126.com</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib>
 <contrib contrib-type="author">
 <name><surname>Jiang</surname><given-names>Ying</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
@@ -46,17 +41,12 @@
 <xref ref-type="aff" rid="a1">1</xref>
 <xref ref-type="aff" rid="a2">2</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>L&#x00FC;pold</surname><given-names>Stefan</given-names></name>
-<xref ref-type="aff" rid="a3">3</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>L&#x00FC;pold</surname><given-names>Stefan</given-names></name><email>stefan.luepold@ieu.uzh.ch</email><xref ref-type="aff" rid="a3">3</xref></contrib>
 <aff id="a1"><label>1</label>Key Laboratory of Southwest China Wildlife Resources Conservation (Ministry of Education), China West Normal University, Nanchong, Sichuan, China</aff>
 <aff id="a2"><label>2</label>Key Laboratory of Artificial Propagation and Utilization in Anurans of Nanchong City, China West Normal University, Nanchong, Sichuan, China</aff>
 <aff id="a3"><label>3</label>Department of Evolutionary Biology and Environmental Studies, University of Zurich, Zurich, Switzerland</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1"><label>&#x002A;</label>Corresponding authors: Wen Bo Liao, Stefan L&#x00FC;pold, <bold>Email:</bold> <email>liaobo_0_0@126.com</email> (WBL) and <email>stefan.luepold@ieu.uzh.ch</email> (SL)</corresp>
 <fn id="n1"><p><bold>Author Contributions:</bold> W.B.L. conceptualized the study; W.B.L., Y.J., and L.J. collected the data; S.L. analyzed the data; and W.B.L. and S.L. wrote the manuscript.</p></fn>
 <fn id="n2"><p><bold>Competing Interest Statement:</bold> The authors declare that they have no conflict of interest.</p></fn>
 </author-notes>
