@@ -30,20 +30,8 @@
 <article-title>Sleep and memory consolidation are linked by RNA processing genes in the <italic>Drosophila</italic> mushroom body</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3618-6041</contrib-id>
-<name><surname>Li</surname><given-names>Yongjun</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8756-4321</contrib-id>
-<name><surname>Chouhan</surname><given-names>Nitin S.</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a4">4</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" equal-contrib="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3618-6041</contrib-id><name><surname>Li</surname><given-names>Yongjun</given-names></name><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref><xref ref-type="fn" rid="n1"/></contrib>
+<contrib contrib-type="author" equal-contrib="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8756-4321</contrib-id><name><surname>Chouhan</surname><given-names>Nitin S.</given-names></name><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a4">4</xref><xref ref-type="fn" rid="n1"/></contrib>
 <contrib contrib-type="author">
 <name><surname>Zhang</surname><given-names>Shirley</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
@@ -62,12 +50,7 @@
 <name><surname>Yue</surname><given-names>Zhifeng</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7354-9641</contrib-id>
-<name><surname>Sehgal</surname><given-names>Amita</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7354-9641</contrib-id><name><surname>Sehgal</surname><given-names>Amita</given-names></name><email>amita@pennmedicine.upenn.edu</email><xref ref-type="aff" rid="a1">1</xref></contrib>
 <aff id="a1"><label>1</label>Howard Hughes Medical Institute and Chronobiology and Sleep Institute, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, PA 19104, United States</aff>
 <aff id="a2"><label>2</label>Department of Biology, University of Pennsylvania, PA 19104, United States</aff>
 <aff id="a3"><label>3</label>Department of Pharmacology, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, PA 19104, United States</aff>
@@ -75,7 +58,6 @@
 <aff id="a5"><label>5</label>Department of Cell Biology, Emory University School of Medicine, Atlanta GA 3032</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1"><label>&#x002A;</label>Correspondence should be addressed to Amita Sehgal at <email>amita@pennmedicine.upenn.edu</email></corresp>
 <fn id="n1"><label>&#x002A;</label><p>Equal contribution</p></fn>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
