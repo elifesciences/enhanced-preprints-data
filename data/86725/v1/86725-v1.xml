@@ -42,20 +42,8 @@
 <xref ref-type="aff" rid="a3">3</xref>
 <xref ref-type="aff" rid="a4">4</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4507-8648</contrib-id>
-<name><surname>Clopath</surname><given-names>Claudia</given-names></name>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="author-notes" rid="n1">&#x002A;</xref>
-<xref ref-type="corresp" rid="cor1">&#x22C6;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5711-0903</contrib-id>
-<name><surname>Akrami</surname><given-names>Athena</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="author-notes" rid="n1">&#x002A;</xref>
-<xref ref-type="corresp" rid="cor1">&#x22C6;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4507-8648</contrib-id><name><surname>Clopath</surname><given-names>Claudia</given-names></name><email>c.clopath@imperial.ac.uk</email><xref ref-type="aff" rid="a2">2</xref><xref ref-type="author-notes" rid="n1">&#x002A;</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5711-0903</contrib-id><name><surname>Akrami</surname><given-names>Athena</given-names></name><email>athena.akrami@ucl.ac.uk</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="author-notes" rid="n1">&#x002A;</xref></contrib>
 <aff id="a1"><label>1</label>Sainsbury Wellcome Centre, University College London</aff>
 <aff id="a2"><label>2</label>Department of Bioengineering, Imperial College London</aff>
 <aff id="a3"><label>3</label>Gatsby Computational Neuroscience Unit, University College London</aff>
@@ -63,7 +51,6 @@
 </contrib-group>
 <author-notes>
 <fn id="n1" fn-type="others"><label>&#x002A;</label><p>These authors jointly supervised this work</p></fn>
-<corresp id="cor1"><label>&#x22C6;</label>Corresponding authors; email: <email>athena.akrami@ucl.ac.uk</email></corresp>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2022.05.16.491352</elocation-id>
