@@ -30,14 +30,7 @@
 <article-title>Multiomics Analyses Reveal Dynamic Bioenergetic Pathways and Functional Remodeling of the Heart During Intermittent Fasting</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3377-0939</contrib-id>
-<name><surname>Arumugam</surname><given-names>Thiruma V.</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="aff" rid="a3">3</xref>
-<xref ref-type="author-notes" rid="fn1">&#x0023;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3377-0939</contrib-id><name><surname>Arumugam</surname><given-names>Thiruma V.</given-names></name><email>g.arumugam@latrobe.edu.au</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref><xref ref-type="aff" rid="a3">3</xref><xref ref-type="author-notes" rid="fn1">&#x0023;</xref></contrib>
 <contrib contrib-type="author">
 <name><surname>Alli-Shaik</surname><given-names>Asfa</given-names></name>
 <xref ref-type="aff" rid="a4">4</xref>
@@ -142,11 +135,7 @@
 <name><surname>Jo</surname><given-names>Dong-Gyu</given-names></name>
 <xref ref-type="aff" rid="a3">3</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Gunaratne</surname><given-names>Jayantha</given-names></name>
-<xref ref-type="aff" rid="a4">4</xref>
-<xref ref-type="aff" rid="a16">16</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Gunaratne</surname><given-names>Jayantha</given-names></name><email>jayanthag@imcb.a-star.edu.sg </email><xref ref-type="aff" rid="a4">4</xref><xref ref-type="aff" rid="a16">16</xref></contrib>
 <aff id="a1"><label>1</label>Centre for Cardiovascular Biology and Disease Research, Department of Microbiology, Anatomy, Physiology and Pharmacology, School of Agriculture, Biomedicine and Environment, La Trobe University, Bundoora, Victoria, Australia</aff>
 <aff id="a2"><label>2</label>Department of Physiology, Yong Loo Lin School Medicine, National University of Singapore, Singapore</aff>
 <aff id="a3"><label>3</label>School of Pharmacy, Sungkyunkwan University, Suwon, Republic of Korea</aff>
@@ -165,7 +154,6 @@
 <aff id="a16"><label>16</label>Department of Anatomy, Yong Loo Lin School of Medicine, National University of Singapore, Singapore</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1">Correspondence: Jayantha Gunaratne, Institute of Molecular and Cell Biology, Agency for Science, Technology and Research (A&#x002A;STAR), Singapore, Singapore. E-mail: <email>jayanthag@imcb.a-star.edu.sg</email> or Thiruma V. Arumugam, Centre for Cardiovascular Biology and Disease Research, Department of Microbiology, Anatomy, Physiology and Pharmacology, School of Agriculture, Biomedicine and Environment, La Trobe University, Bundoora, Victoria, Australia. E-mail: <email>g.arumugam@latrobe.edu.au</email></corresp>
 <fn id="fn1" fn-type="equal"><label>&#x0023;</label><p>These authors contributed equally to this work</p></fn>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
