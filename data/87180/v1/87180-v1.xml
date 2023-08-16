@@ -30,32 +30,17 @@
 <article-title>Convergent evolution in silico reveals shape and dynamic principles of directed locomotion</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9861-630X</contrib-id>
-<name><surname>Biazzi</surname><given-names>Renata B.</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9861-630X</contrib-id><name><surname>Biazzi</surname><given-names>Renata B.</given-names></name><email>biazzi.renata@gmail.com</email><xref ref-type="aff" rid="a1">1</xref></contrib>
 <contrib contrib-type="author">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7756-7051</contrib-id>
 <name><surname>Fujita</surname><given-names>Andr&#x00E9;</given-names></name>
 <xref ref-type="aff" rid="a2">2</xref>
 </contrib>
-<contrib contrib-type="author">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4972-001X</contrib-id>
-<name><surname>Takahashi</surname><given-names>Daniel Y.</given-names></name>
-<xref ref-type="aff" rid="a3">3</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4972-001X</contrib-id><name><surname>Takahashi</surname><given-names>Daniel Y.</given-names></name><email>takahashiyd@gmail.com</email><xref ref-type="aff" rid="a3">3</xref></contrib>
 <aff id="a1"><label>1</label>Bioinformatics, University of S&#x00E3;o Paulo, S&#x00E3;o Paulo, Brazil</aff>
 <aff id="a2"><label>2</label>Department of Computer Science, University of S&#x00E3;o Paulo, S&#x00E3;o Paulo, Brazil</aff>
 <aff id="a3"><label>3</label>Brain Institute, Federal University of Rio Grande do Norte, Natal, Brazil</aff>
 </contrib-group>
-<author-notes>
-<corresp id="cor1"><label>&#x002A;</label> Corresponding author; email: <email>biazzi.renata@gmail.com</email></corresp>
-<fn fn-type="others"><p><email>biazzi.renata@gmail.com</email></p></fn>
-<fn fn-type="others"><p><email>andrefujita@usp.br</email></p></fn>
-<fn fn-type="others"><p><email>takahashiyd@gmail.com</email></p></fn>
-</author-notes>
 <pub-date pub-type="epub">
 <year>2022</year>
 </pub-date>
