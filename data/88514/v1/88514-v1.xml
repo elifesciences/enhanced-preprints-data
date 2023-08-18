@@ -40,8 +40,8 @@
 </contrib>
 <contrib contrib-type="author">
 <name><surname>Razavian</surname><given-names>Reza Sharif</given-names></name>
-<xref ref-type="author-notes" rid="n1">&#x002A;</xref>
-</contrib>
+<xref ref-type="aff" rid="a3">3</xref>
+<xref ref-type="author-notes" rid="n1">&#x002A;</xref></contrib>
 <contrib contrib-type="author">
 <name><surname>Bazzi</surname><given-names>Salah</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
@@ -67,12 +67,9 @@
 <xref ref-type="aff" rid="a4">4</xref>
 <xref ref-type="aff" rid="a6">6</xref>
 </contrib>
-<aff id="a1"><label>1</label>Departments of Biology, Northeastern University, Boston, MA, USA</aff>
-<aff id="a2"><label>2</label>Departments of Electrical and Computer Engineering, Northeastern University, Boston, MA, USA</aff>
-<aff id="a4"><label>4</label>Institute for Experiential Robotics, Northeastern University, Boston, MA, USA</aff>
-<aff id="a5"><label>5</label>Department of Bioengineering, and Center for the Neural Basis of Cognition, University of Pittsburgh, PA, USA</aff>
-<aff id="a6"><label>6</label>Departments of Physics, Northeastern University, Boston, MA, USA</aff>
-</contrib-group>
+<aff id="a1"><label>1</label>Departments of Biology, Northeastern University, Boston, MA, USA</aff><aff id="a2"><label>2</label>Departments of Electrical and Computer Engineering, Northeastern University, Boston, MA, USA</aff>
+<aff id="a3"><label>3</label>Northern Arizona University, AZ, USA</aff>
+<aff id="a4"><label>4</label>Institute for Experiential Robotics, Northeastern University, Boston, MA, USA</aff><aff id="a5"><label>5</label>Department of Bioengineering, and Center for the Neural Basis of Cognition, University of Pittsburgh, PA, USA</aff><aff id="a6"><label>6</label>Departments of Physics, Northeastern University, Boston, MA, USA</aff></contrib-group>
 <author-notes>
 <corresp id="cor1"><label>&#x0025;</label>Corresponding author; email: <email>m.sadeghi@northeastern.edu</email></corresp>
 <fn fn-type="equal" id="n1"><label>&#x002A;</label><p>Equal contribution</p></fn>

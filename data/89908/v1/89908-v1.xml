@@ -57,22 +57,8 @@
 <xref ref-type="aff" rid="a5">e</xref>
 <xref ref-type="aff" rid="a6">f</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8738-3133</contrib-id>
-<name><surname>Buss</surname><given-names>Claudia</given-names></name>
-<xref ref-type="aff" rid="a2">b</xref>
-<xref ref-type="aff" rid="a8">h</xref>
-<xref ref-type="author-notes" rid="n1">&#x002A;</xref>
-<xref ref-type="corresp" rid="cor1">&#x0023;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8922-7292</contrib-id>
-<name><surname>Shing</surname><given-names>Yee Lee</given-names></name>
-<xref ref-type="aff" rid="a1">a</xref>
-<xref ref-type="aff" rid="a9">i</xref>
-<xref ref-type="author-notes" rid="n1">&#x002A;</xref>
-<xref ref-type="corresp" rid="cor1">&#x0023;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8738-3133</contrib-id><name><surname>Buss</surname><given-names>Claudia</given-names></name><email>schommartz@psych.uni-frankfurt.de</email><xref ref-type="aff" rid="a2">b</xref><xref ref-type="aff" rid="a8">h</xref><xref ref-type="author-notes" rid="n1">&#x002A;</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8922-7292</contrib-id><name><surname>Shing</surname><given-names>Yee Lee</given-names></name><email>shing@psych.uni-frankfurt.de</email><xref ref-type="aff" rid="a1">a</xref><xref ref-type="aff" rid="a9">i</xref><xref ref-type="author-notes" rid="n1">&#x002A;</xref></contrib>
 <aff id="a1"><label>a</label>Department of Psychology, Goethe University Frankfurt, Frankfurt, Germany</aff>
 <aff id="a2"><label>b</label>Charit&#x00E9; &#x2013; Universit&#x00E4;tsmedizin Berlin, Department of Medical Psychology, Berlin, Germany</aff>
 <aff id="a3"><label>c</label>Charit&#x00E9; &#x2013; Universit&#x00E4;tsmedizin Berlin, Department of Pediatric Neurology, Berlin, Germany</aff>
@@ -84,7 +70,6 @@
 </contrib-group>
 <author-notes>
 <fn id="n1" fn-type="other"><p>&#x002A;Yee Lee Shing and Claudia Buss should be considered joint senior author.</p></fn>
-<corresp id="cor1"><label>&#x0023;</label>Corresponding authors at: Department of Psychology, Goethe University Frankfurt, Frankfurt, Germany, Theodor-W.-Adorno-Platz, 6, 60323 E-mail addresses: <email>schommartz@psych.uni-frankfurt.de</email> (I. Schommartz), <email>shing@psych.uni-frankfurt.de</email> (Y.L. Shing)</corresp>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.05.11.540422</elocation-id>
