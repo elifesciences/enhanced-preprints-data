@@ -14,7 +14,7 @@
 </journal-meta>
 <article-meta>
 <article-id pub-id-type="doi">10.1101/2023.07.21.550014</article-id>
-<article-version>1.1</article-version>
+<article-version>1.2</article-version>
 <article-categories>
 <subj-group subj-group-type="author-type">
 <subject>Regular Article</subject>
@@ -41,15 +41,15 @@
 <xref ref-type="author-notes" rid="n1">&#x2020;</xref>
 </contrib>
 <contrib contrib-type="author">
-<name><surname>Tonini</surname><given-names>R</given-names></name>
+<name><surname>Tonini</surname><given-names>Raffaella</given-names></name>
 <xref ref-type="aff" rid="a3">3</xref>
 </contrib>
 <contrib contrib-type="author">
-<name><surname>Moratalla</surname><given-names>R</given-names></name>
+<name><surname>Moratalla</surname><given-names>Rosario</given-names></name>
 <xref ref-type="aff" rid="a4">4</xref>
 <xref ref-type="aff" rid="a5">5</xref>
 </contrib>
-<contrib contrib-type="author">
+<contrib contrib-type="author" corresp="yes">
 <name><surname>Fisone</surname><given-names>Gilberto</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
 <xref ref-type="corresp" rid="cor1">&#x002A;</xref>
@@ -82,13 +82,13 @@
 <year>2023</year>
 </date>
 <date date-type="rev-recd">
-<day>21</day>
-<month>7</month>
+<day>08</day>
+<month>8</month>
 <year>2023</year>
 </date>
 <date date-type="accepted">
-<day>22</day>
-<month>7</month>
+<day>08</day>
+<month>8</month>
 <year>2023</year>
 </date>
 </history>
@@ -108,6 +108,10 @@
 <notes>
 <notes notes-type="competing-interest-statement">
 <title>Competing Interest Statement</title><p>The authors have declared no competing interest.</p></notes>
+<fn-group content-type="summary-of-updates">
+<title>Summary of Updates:</title>
+<fn fn-type="update"><p>The supplementary figure 2 and 3 were slightly trimmed on their right margin. In this revision we replaced the supplementary material PDF with the corrected one.</p></fn>
+</fn-group>
 </notes>
 </front>
 <body>
@@ -127,7 +131,7 @@
 <label>Figure 1.</label>
 <caption><title>DRN<sup>DA</sup> and DRN<sup>5-HT</sup> are electrophysiologically distinct cell-types.</title>
 <p>(A) Scheme of the location of the DRN (pink) in a coronal section (top) and at higher magnification together with two patch pipettes (center). Bottom: A representative slice stained post recording for TPH, TH and neurobiotin revealing serotonergic neurons (arrows). The ventricle is indicated with a dashed line. (B) Top: Differential interference contrast (DIC) microscopy image (left) of neurons that were filled with Alexa488 (right) and neurobiotin. Center, bottom: Staining of the same neurons revealing a TPH-positive (DRN<sup>5-HT</sup>) neuron and a TPH- and TH-negative cell. (C) Top: DIC image of recorded neurons that were filled with Alexa488 and neurobiotin. Center, bottom: Staining of the same neurons revealing tdTomato- and TH-positive (DRN<sup>DA</sup>) neurons. (D) Representative fluorescent (top), DIC (center) image and overlay (bottom) of a tdTomato-positive neuron in a DAT-tdTomato mouse. (E) Representative recordings depicting postinhibitory hypoexcitability, slowly ramping currents and rebound oscillations in DRN<sup>DA</sup> neurons. (F) Representative voltage responses to current injections in a TPH-positive (DRN<sup>5-HT</sup>) and TH-positive (DRN<sup>DA</sup>) neuron. (G) Ramping current injections reveal action potential (AP) amplitude accommodation. Grey circles indicate the onset and peak of APs. (H) Amplitude and duration of the AP and action potential afterhyperpolarization (AHP) in a DRN<sup>5-HT</sup> and DRN<sup>DA</sup> neurons. Grey circles indicate onset, peak, and end of the AP and AHP. (I) Quantification of electrophysiological properties distinguishing DRN<sup>5-HT</sup> from DRN<sup>DA</sup> neurons (n&#x003D; 28-43 cells per group, N &#x003D; 9; Wilcoxon Rank Sum Test). (J) Principal component analysis (PCA) of five electrophysiological parameters (insert) and hierarchical cluster analysis based on PCA1 and PCA2 (Ward&#x2019;s method, Euclidean distance). Intrinsic properties were sufficient to separate TPH-positive cells (blue dash) from TH-positive (red dash) cells. Bottom dashes indicate wild type (black) and DAT-tdTomato (gray) mice. Data are shown as mean &#x00B1; SEM, &#x002A;&#x002A;&#x002A;p &#x003C; 0.001. Scale bars: A, 100 &#x03BC;m; B-D, 10 &#x03BC;m.</p></caption>
-<graphic xlink:href="550014v1_fig1.tif"/>
+<graphic xlink:href="550014v2_fig1.tif"/>
 </fig>
 <p>Next, we tested if DRN<sup>DA</sup> neurons can be distinguished from DRN<sup>5-HT</sup> neurons based on these five electrophysiological parameters. To this end, we standardized the data and ran a principal component analysis (PCA) including all DRN<sup>5-HT</sup> neurons (i. e. all TPH-positive), all TH-positive neurons recorded in wild- type mice and all tdTomato-positive cells recorded in DAT-tdTomato mice (except for one outlier shown in Suppl. Figure 2F, G). Plotting the first two principal components (PC) showed two separate clusters (<xref rid="fig1" ref-type="fig">Figure 1J</xref>, insert). Unsupervised hierarchical cluster analysis based on PC1 and PC2 revealed the same two major clusters and potential subclusters (<xref rid="fig1" ref-type="fig">Figure 1J</xref>). Mapping the molecular identity of the cells onto the dendrogram revealed the separation of DRN<sup>5-HT</sup> and DRN<sup>DA</sup> neurons, while there was no branching according to mouse line (wild type vs. DAT-tdTomato), further corroborating the validity of DAT-tdTomato mice as a marker for DRN<sup>DA</sup> neurons. Overall, these data suggest that electrophysiological parameters themselves are sufficient to distinguish between DRN<sup>5-HT</sup> and DRN<sup>DA</sup> neurons.</p>
 <p>In addition to DRN<sup>DA</sup> and DRN<sup>5-HT</sup> the DRN contains an unknown number of cell types and 47 out of 120 recorded neurons were neither TH-positive, nor TPH-positive and did not express tdTomato. To test whether DRN<sup>DA</sup> can also be distinguished from those populations based on their electrophysiological profile, we ran a PCA on 20 standardized parameters and used the first three PCAs for unsupervised hierarchical clustering (Suppl. Figure 3). Our analysis suggests that there might be four major electrophysiological cell types in the DRN. In contrast to DRN<sup>DA</sup> and DRN<sup>5-HT</sup> neurons, a large proportion of the remaining cells showed rebound spiking and biphasic AHPs, resembling the profiles of local interneurons in other brain areas (Suppl. Figure 3D, E). Interestingly, the clustering also indicated that three TH- and tdTomato-negative neurons belonged to the DRN<sup>DA</sup> neurons and further analysis showed that they were indistinguishable from molecularly identified DRN<sup>DA</sup> neurons (Suppl. Figure 3C, F). These findings indicate that clustering can be used to identify neurons that otherwise would have been excluded due to a lack of post-hoc staining data or genetic driver lines.</p>
@@ -140,7 +144,7 @@
 <label>Figure 2.</label>
 <caption><title>DRN<sup>DA</sup> and DRN<sup>5-HT</sup> have distinct morphological profiles.</title>
 <p>(A) Top: representative digital reconstruction of a DRN<sup>5-HT</sup> from a wild-type mouse. Bottom: representative digital reconstruction of a DRN<sup>DA</sup> from a wild-type mouse. Scale bar: 10 &#x03BC;m. (B-F) Morphological parameters describing the soma size and shape of DRN<sup>5-HT</sup> and DRN<sup>DA</sup> neurons in Sham-lesion mice (DRN<sup>5-HT</sup>: n &#x003D; 20, N &#x003D; 3; DRN<sup>DA</sup>: n &#x003D; 27, N &#x003D; 3; unpaired t-test). (G-J) Morphological parameters describing the dendritic tree of DRN<sup>5-HT</sup> and DRN<sup>DA</sup> neurons in Sham-lesion mice (DRN<sup>5-HT</sup>: n &#x003D; 8, N &#x003D; 3; DRN<sup>DA</sup>: n &#x003D; 7, N &#x003D; 3; unpaired t-test). Data are shown as mean &#x00B1; SEM, &#x002A;&#x002A;&#x002A;p &#x003C; 0.001.</p></caption>
-<graphic xlink:href="550014v1_fig2.tif"/>
+<graphic xlink:href="550014v2_fig2.tif"/>
 </fig>
 <p>Altogether, our results show that DRN<sup>5-HT</sup> and DRN<sup>DA</sup> neurons have distinct morphological properties. DRN<sup>5-</sup> <sup>HT</sup> neurons are mostly multipolar neurons, with a big and complex soma and multiple primary dendrites, while DRN<sup>DA</sup> neurons have smaller and more circular cell bodies with bipolar dendrites.</p>
 </sec>
@@ -152,7 +156,7 @@
 <label>Figure 3.</label>
 <caption><title>Lesions targeting primarily nigrostriatal dopamine increase the excitability of DRN<sup>5-HT</sup> neurons whereas loss of NA affects their action potentials.</title>
 <p>(A) Top: Pie charts showing the number of spontaneously active (dark) and silent (pale) DRN<sup>5-HT</sup> neurons in three conditions: Sham (left), 6-OHDA-injected mice (center) and 6-OHDA-injected mice pre- treated with desipramine (DMI &#x002B; 6-OHDA, right). Bottom: Representative recordings of spontaneously active DRN<sup>5-HT</sup> neurons (I &#x003D; 0 pA). (B) Quantification of the rheobase (left), the firing frequency of spontaneously active cells (center), and the resting membrane potential of silent DRN<sup>5-HT</sup> neurons (right). (C) Representative action potentials (APs) of DRN<sup>5-HT</sup> at low (left) and high (right) temporal. Grey circles indicate onset, offset, and peak of the APs as well as the end of the afterhyperpolarization (AHP). (D) Quantification of the amplitude (left) and duration (right) of the APs of DRN<sup>5-HT</sup> neurons. (E) Same as in (D) for the AHP. (F) Representative responses of DRN<sup>5-HT</sup> neurons to current steps (I &#x003D; &#x002B;75 pA). (G) Quantification of firing frequency / injected current. (H) Quantification of the delay to the first AP when injected with current eliciting 2Hz firing. (I) Quantification of the membrane time constant (tau) of DRN<sup>5-HT</sup> neurons (Sham: n &#x003D; 22 - 32, N &#x003D; 6 - 7; 6-OHDA: n &#x003D; 11 - 16, N &#x003D; 7; DMI &#x002B; 6-OHDA: n &#x003D; 18 &#x2013; 21, N &#x003D; 4; unpaired t-test). Data are shown as mean &#x00B1; SEM, &#x002A; p &#x003C; 0.05, &#x002A;&#x002A; p &#x003C; 0.01.</p></caption>
-<graphic xlink:href="550014v1_fig3.tif"/>
+<graphic xlink:href="550014v2_fig3.tif"/>
 </fig>
 <p>While the excitability of DRN<sup>5-HT</sup> neurons was not affected in 6-OHDA mice, we observed that their firing properties were profoundly altered: DRN<sup>5-HT</sup> neurons recorded in 6-OHDA mice displayed significantly smaller and shorter APs and AHPs compared to Sham mice (<xref rid="fig3" ref-type="fig">Figure 3C-E</xref>). Moreover, DRN<sup>5-HT</sup> neurons fired at higher frequencies and with shorter delays in response to current injections (<xref rid="fig3" ref-type="fig">Figure 3F-H</xref>). Finally, the membrane time constant of DRN<sup>5-HT</sup> neurons was shorter in 6-OHDA injected mice than in Sham mice (<xref rid="fig3" ref-type="fig">Figure 3I</xref>). Interestingly, these changes were not observed in 6-OHDA injected mice pre-treated with DMI, suggesting that the noradrenergic lesion &#x2013; and not the dopaminergic lesion &#x2013; underlies the changes in the firing properties of DRN<sup>5-HT</sup> neurons in 6-OHDA mice. Taken together, these results indicate that DRN<sup>5-HT</sup> neurons are affected in the 6-OHDA mouse model of PD. Specifically, lesions of the dopaminergic system increase the excitability of DRN<sup>5-HT</sup> neurons whereas lesions of the noradrenergic systems change the firing properties of DRN<sup>5-HT</sup> neurons.</p>
 </sec>
@@ -163,7 +167,7 @@
 <label>Figure 4.</label>
 <caption><title>Striatal injection of 6-OHDA induced a hypotrophic phenotype in the DRN<sup>5-HT</sup>, which is prevented by pre- treatment with DMI.</title>
 <p>(A) Representative digital reconstructions of a DRN<sup>5-HT</sup> neuron in three different conditions: Sham (left), 6-OHDA-injected mice (center) and 6-OHDA-injected mice pre-treated with desipramine (right). Scale bar: 10 &#x03BC;m (B) Representative confocal pictures of soma from DRN5-HT neurons in Sham (top), 6-OHDA-injected mice (center), and 6-OHDA-injected mice pre-treated with desipramine (bottom). Scale bar: 10 &#x03BC;m. (C-G) Morphological descriptors of the soma size and shape in DRN<sup>5-HT</sup> neurons (Sham: n &#x003D; 20, N &#x003D; 4; 6-OHDA: n &#x003D; 19, N &#x003D; 4; DMI &#x002B; 6-OHDA: n &#x003D; 17, N &#x003D; 3; unpaired t-test).(H-K) Morphological descriptors of the dendritic tree in DRN<sup>5-HT</sup> neurons (Sham: n &#x003D; 8, N &#x003D; 3, 6-OHDA: n &#x003D; 6, N &#x003D; 3: DMI &#x002B; 6-OHDA: n &#x003D; 6, N &#x003D; 2; unpaired t-test). Data are shown as mean &#x00B1; SEM, &#x002A;&#x002A;&#x002A;p&#x003C;0.001, &#x002A;&#x002A;p&#x003C;0.01. Scale bar: 10 &#x00B5;m.</p></caption>
-<graphic xlink:href="550014v1_fig4.tif"/>
+<graphic xlink:href="550014v2_fig4.tif"/>
 </fig>
 </sec>
 <sec id="s2e">
@@ -173,7 +177,7 @@
 <label>Figure 5.</label>
 <caption><title>Lesions targeting primarily SN dopamine depolarize DRN<sup>DA</sup> neurons whereas concomitant loss of NA does not affect their action potentials.</title>
 <p>(A) Top: Pie charts showing the proportion of spontaneously active (dark) and silent (pale) DRN<sup>DA</sup> neurons in three conditions: Sham (left), 6OHDA-injected mice (center) and 6-OHDA-injected mice pre- treated desipramine (DMI, right). Bottom: Representative recordings of spontaneously active DRN<sup>DA</sup> (I &#x003D; 0pA). (B) Quantification of the rheobase (left), the firing frequency of spontaneously active (center), and the resting membrane potential of silent DRN<sup>DA</sup> neurons (right). (C) Representative action potentials (APs) of DRN<sup>DA</sup> at low (left) and high (right) temporal resolution. Grey circles indicate onset, offset, and peak of APs and the end of the afterhyperpolarization (AHP). (D) Quantification of the amplitude (left) and duration (right) of the APs of DRN<sup>DA</sup> neurons. (E) Same as in (D) for the AHP. (F) Representative responses of DRN<sup>DA</sup> neurons to current steps (I &#x003D; 75pA). Grey circles indicate the delay to the first AP. (G-I) Quantification of firing frequency / injected current (G), the delay to the first AP when injected with current eliciting 2 Hz firing (H), and the membrane time constant (tau, I) of DRN<sup>DA</sup> neurons recorded (Sham: n &#x003D; 43, N &#x003D; 8; 6-OHDA: n &#x003D; 29, N &#x003D; 6; DMI &#x002B; 6-OHDA: n &#x003D; 40, N &#x003D; 6; unpaired t-test). Data are shown as mean &#x00B1; SEM, &#x002A; p &#x003C; 0.05.</p></caption>
-<graphic xlink:href="550014v1_fig5.tif"/>
+<graphic xlink:href="550014v2_fig5.tif"/>
 </fig>
 <p>In stark contrast to DRN<sup>5-HT</sup> neurons, the APs and AHPs of DRN<sup>DA</sup> neurons were not affected in any 6-OHDA mice (<xref rid="fig5" ref-type="fig">Figure 5C-E</xref>). In fact, we did not observe any change in the firing properties of DRN<sup>DA</sup> neurons that were dependent on the protection of the NA system with DMI (<xref rid="fig5" ref-type="fig">Figure 5</xref>). Like DRN<sup>5-HT</sup> neurons, DRN<sup>DA</sup> neurons displayed a reduction in spike latency in 6-OHDA mice, but the shortening of the delay was also present in DMI&#x002B;6-OHDA mice. Together, these results suggest that the electrophysiological properties of DRN<sup>DA</sup> neurons are affected in the 6-OHDA mouse model of PD and that these changes are primarily due to the lesion of the nigrostriatal dopaminergic pathway.</p>
 </sec>
@@ -184,7 +188,7 @@
 <label>Figure 6</label>
 <caption><title>Striatal injection of 6-OHDA increased soma complexity and branching in DRN<sup>DA</sup>.</title>
 <p>(A) Representative digital reconstructions of a DRN<sup>DA</sup> neuron in three different conditions: Sham (left), 6-OHDA-injected mice (center) and 6- OHDA-injected mice pre-treated with desipramine (right). (B) Representative confocal pictures of soma from DRN<sup>DA</sup> neurons in Sham (top), 6-OHDA-injected mice (center), and 6-OHDA-injected mice pre-treated with DMI (bottom). (C- G) Morphological descriptors of the soma size and shape in DRN<sup>DA</sup> neurons (Sham: n &#x003D; 27, N &#x003D; 7, 6-OHDA: n &#x003D; 16, N &#x003D; 4; DMI &#x002B; 6-OHDA: n &#x003D; 31, N &#x003D; 5; unpaired t-test). (H-K) Morphological descriptors of the dendritic tree in DRN<sup>DA</sup> neurons. (Sham: n &#x003D; 7, N &#x003D; 3; 6-OHDA: n &#x003D; 11, N &#x003D; 4; DMI &#x002B; 6-OHDA: n &#x003D; 7, N &#x003D; 3; unpaired t-test). Data are shown as mean &#x00B1; SEM, &#x002A;p&#x003C;0.05. Scale bar: 10 &#x00B5;m.</p></caption>
-<graphic xlink:href="550014v1_fig6.tif"/>
+<graphic xlink:href="550014v2_fig6.tif"/>
 </fig>
 </sec>
 </sec>
