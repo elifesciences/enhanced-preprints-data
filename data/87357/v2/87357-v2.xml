@@ -30,17 +30,15 @@
 <article-title>A local ATR-dependent checkpoint pathway is activated by a site-specific replication fork block in human cells</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author">
+<contrib contrib-type="author" equal-contrib="yes">
 <name><surname>Ahmed-Seghir</surname><given-names>Sana</given-names></name>
 <xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="aff" rid="a4">4</xref>
-</contrib>
-<contrib contrib-type="author">
+<xref ref-type="author-notes" rid="fn1">4</xref></contrib>
+<contrib contrib-type="author" equal-contrib="yes">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4467-4934</contrib-id>
 <name><surname>Jalan</surname><given-names>Manisha</given-names></name>
 <xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="aff" rid="a4">4</xref>
-</contrib>
+<xref ref-type="author-notes" rid="fn1">4</xref></contrib>
 <contrib contrib-type="author">
 <name><surname>Grimsley</surname><given-names>Helen E.</given-names></name>
 <xref ref-type="aff" rid="a2">2</xref>
@@ -77,11 +75,10 @@
 <aff id="a1"><label>1</label>Molecular Biology Program, Memorial Sloan Kettering Cancer Center, New York, New York, USA</aff>
 <aff id="a2"><label>2</label>Department of Radiation Oncology, Memorial Sloan Kettering Cancer Center, New York, New York, USA</aff>
 <aff id="a3"><label>3</label>Department of Cell Biology, Albert Einstein College of Medicine, Bronx, NY 10461</aff>
-<aff id="a4"><label>4</label>These authors contributed equally: Sana Ahmed-Seghir and Manisha Jalan</aff>
 </contrib-group>
 <author-notes>
 <corresp id="cor1"><label>&#x002A;</label>Co-corresponding Authors Email: <email>powells@mskcc.org</email>; <email>carl.schildkraut@einsteinmed.edu</email></corresp>
-</author-notes>
+<fn fn-type="equal" id="fn1"><label>4</label><p>These authors contributed equally: Sana Ahmed-Seghir and Manisha Jalan</p></fn></author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.03.26.534293</elocation-id>
 <history>
