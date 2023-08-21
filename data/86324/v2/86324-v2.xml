@@ -256,33 +256,33 @@
 <fig id="data1">
 <label>Figure 1-figure supplement 1.</label>
 <caption><title>Expression variance explained by leading TIP-eQTL and SNP-eQTL in the associations detected for each gene (dot). Panels in A) represent the analysis performed using a combined genotype matrix including all SNPs and TIPs. Panels in B) represent the analysis performed using a combined genotype matrix including TIPs and a subsampled number of SNPs matching the exact number of TIPs.</title></caption>
-<media mimetype="image" mime-subtype="png" xlink:href="2197876-data1.png"/>
+<graphic mimetype="image" mime-subtype="png" xlink:href="2197876-data1.png"/>
 </fig>
 <fig id="data2">
 <label>Figure 2-figure supplement 1</label>
 <caption><title>Effect size of TIP-eQTLs based on their population frequency on the drought condition.</title></caption>
-<media mimetype="image" mime-subtype="png" xlink:href="2197876-data2.png"/>
+<graphic mimetype="image" mime-subtype="png" xlink:href="2197876-data2.png"/>
 </fig>
 <fig id="data3">
 <label>Figure 2-figure supplement 2</label>
 <caption><title>Population frequencies of TIP-eQTLs and TIP-no-eQTLs present at 1Kb upstream genes.</title></caption>
-<media mimetype="image" mime-subtype="png" xlink:href="2197876-data3.png"/>
+<graphic mimetype="image" mime-subtype="png" xlink:href="2197876-data3.png"/>
 </fig>
-<fig id="data4">
+<supplementary-material id="data4">
 <label>Figure 4-figure supplement 1</label>
 <caption><title>Boxplots representing the expression differences between haplotypes in OsJAZ1. Three independent experimental replicates are shown separately.</title></caption>
 <media mimetype="image" mime-subtype="pptx" xlink:href="2197876-data4.pptx"/>
-</fig>
-<fig id="data5">
+</supplementary-material>
+<supplementary-material id="data5">
 <label>Figure 5-figure supplement 1</label>
 <caption><title>Boxplots representing the expression differences between haplotypes in OsGAP. Three independent experimental replicates are shown separately.</title></caption>
 <media mimetype="image" mime-subtype="pptx" xlink:href="2197876-data5.pptx"/>
-</fig>
-<fig id="data6">
+</supplementary-material>
+<supplementary-material id="data6">
 <label>Figure 6-figure supplement 1</label>
 <caption><title>Boxplots representing the expression differences between haplotypes in OsMPH1. Three independent experimental replicates are shown separately.</title></caption>
 <media mimetype="image" mime-subtype="pptx" xlink:href="2197876-data6.pptx"/>
-</fig>
+</supplementary-material>
 <supplementary-material id="data7">
 <label>Supplementary file 1.</label>
 <caption><title>Extended information on significant TIP-eQTLs.</title></caption>
