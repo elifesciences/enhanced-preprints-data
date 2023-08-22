@@ -187,48 +187,11 @@ using stochastic gradient ascent for <inline-formula id="ID3">
 <sec id="s2b3">
 <title><label>2.2.3</label> Inference module</title>
 <p>We implemented the inference module <italic><bold>R</bold></italic> in two forms, one using an LSTM (<xref ref-type="bibr" rid="c21">Hochreiter &#x0026; Schmidhuber, 1997</xref>) and the other using a transformer (<xref ref-type="bibr" rid="c44">Vaswani et al., 2017</xref>) architecture. Separate networks were trained for the analogy and arithmetic tasks using each form of inference module. For each task, the attended grid embeddings of each stimuli obtained from the DPP-A process, were provided to <italic><bold>R</bold></italic> as its inputs. For the arithmetic task, we also concatenated a one-hot tensor, before feeding to <italic><bold>R</bold></italic> that specified which computation to perform (addition or multiplication). As proposed by <xref ref-type="bibr" rid="c20">Hill et al. (2019)</xref>, we treated both the analogy and arithmetic tasks as scoring (i.e., multiple choice) problems. For each analogy, the inference module was presented with multiple problems, each consisting of three stimuli, <italic>A, B, C</italic>, and a set containing <italic>D</italic> (the correct completion) and six foil completions. For each instance of the arithmetic task, it was presented with two stimuli, <italic>A, B</italic>, and a set containing <italic>C</italic> (the correct completion) and six foil completions. A linear output layer was used to generate a score for the candidate completions for each problem. Stimuli were presented sequentially for <italic><bold>R</bold></italic> constructed using an LSTM, and positionally coded (<xref ref-type="bibr" rid="c23">Kazemnejad, 2019</xref>) if it used a transformer. The seven scores (one for the correct completion and for six foil completions) were normalized using a softmax function, such that higher score would correspond to higher probablity and vice versa and the probabilities sum to 1. The inference module was trained using the task specific cross entropy loss (<italic>L<sub>task</sub></italic> = cross-entropy) between the softmax-normalized scores and the index for the correct completion (target).</p>
-<boxed-text id="box1">
+<fig id="box1">
 <label>Algorithm 1</label>
 <caption><title>Training with DPP-A</title></caption>
-<p><bold>Parameters:</bold> inference module <italic><bold>R</bold></italic>, attention weights <italic><bold>w</bold></italic></p>
-<p><bold>Hyperparameters:</bold> number of frequencies <italic>N<sub>f</sub></italic>, number of phases <italic>N<sub>p</sub></italic>, number of epochs optimizing DPP attention <inline-formula id="ID10">
-<inline-graphic xlink:href="2305.18417v1_ieq10.jpg"/>
-</inline-formula>, number of epochs optimizing task loss <inline-formula id="ID11">
-<inline-graphic xlink:href="2305.18417v1_ieq11.jpg"/>
-</inline-formula>, number of batches per epoch <italic>N<sub>b</sub></italic></p>
-<p><bold>Inputs:</bold> covariance matrix <italic><bold>V</bold></italic>, grid code inputs <italic><bold>x</bold></italic> and targets <italic>y</italic> for all training problems</p>
-<p>Initialize <italic><bold>w</bold></italic>, <italic><bold>R</bold></italic></p>
-<p><bold>for</bold> <italic>i</italic> = 1 <bold>to</bold> <inline-formula id="ID12">
-<inline-graphic xlink:href="2305.18417v1_ieq12.jpg"/>
-</inline-formula> <bold>do</bold></p>
-<p>&#x00A0;&#x00A0;<bold>for</bold> <italic>j</italic> = 1 <bold>to</bold> <italic>N<sub>b</sub></italic> <bold>do</bold></p>
-<p>&#x00A0;&#x00A0;&#x00A0;&#x00A0;<inline-formula id="ID13">
-<inline-graphic xlink:href="2305.18417v1_ieq13.jpg"/>
-</inline-formula></p>
-<p>&#x00A0;&#x00A0;&#x00A0;&#x00A0;<inline-formula id="ID14">
-<inline-graphic xlink:href="2305.18417v1_ieq14.jpg"/>
-</inline-formula></p>
-<p>&#x00A0;&#x00A0;&#x00A0;&#x00A0;Update <italic><bold>w</bold></italic></p>
-<p>&#x00A0;&#x00A0;<bold>end for</bold></p>
-<p><bold>end for</bold></p>
-<p><inline-formula id="ID15">
-<inline-graphic xlink:href="2305.18417v1_ieq15.jpg"/>
-</inline-formula></p>
-<p><inline-formula id="ID16">
-<inline-graphic xlink:href="2305.18417v1_ieq16.jpg"/>
-</inline-formula></p>
-<p><bold>for</bold> <italic>i</italic> = 1 <bold>to</bold> <inline-formula id="ID17">
-<inline-graphic xlink:href="2305.18417v1_ieq17.jpg"/>
-</inline-formula> <bold>do</bold></p>
-<p>&#x00A0;&#x00A0;<bold>for</bold> <italic>j</italic> = 1 <bold>to</bold> <italic>N<sub>b</sub></italic> <bold>do</bold></p>
-<p>&#x00A0;&#x00A0;&#x00A0;&#x00A0;<inline-formula id="ID18">
-<inline-graphic xlink:href="2305.18417v1_ieq18.jpg"/>
-</inline-formula></p>
-<p>&#x00A0;&#x00A0;&#x00A0;&#x00A0;<italic>L<sub>task</sub></italic> = cross-entropy(<italic>&#x0177;, y</italic>)</p>
-<p>&#x00A0;&#x00A0;&#x00A0;&#x00A0;Update <italic><bold>R</bold></italic></p>
-<p>&#x00A0;&#x00A0;<bold>end for</bold></p>
-<p><bold>end for</bold></p>
-</boxed-text>
+<graphic xlink:href="2305.18417v1_algo1.tif"/>
+</fig>
 <p>The network that used an LSTM in the inference module had a single layer of 512 hidden units. The hidden and cell state of the LSTM was reinitialized at the start of each sequence for each candidate completion. The network that used a transformer in the inference module had 6 layers, each of which had 8 heads and a dimensionaltiy of 512. We projected the data into 128 dimensions to be more easily divisible by the number of heads, followed by layer normalization (<xref ref-type="bibr" rid="c2">Ba et al., 2016</xref>). We added a learnable positional encoding to the projected input sequence of attended grid code embeddings, concatenated a learned CLS (short for &#x201C;classification&#x201D;) token (analogous to the CLS token in <xref ref-type="bibr" rid="c10">Devlin et al. (2018)</xref>), followed by a transformer encoder. We took the transformed value of the CLS token, and passed it to a linear layer with 1 output unit to generate a score for each candidate completion. This procedure was repeated for each candidate completion.</p>
 </sec>
 </sec>
