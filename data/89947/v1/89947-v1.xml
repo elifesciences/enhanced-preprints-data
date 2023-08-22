@@ -104,21 +104,21 @@
 <table-wrap id="tbl1" orientation="portrait" position="float">
 <label>TABLE I:</label>
 <caption><p>AUC results for the SYNTH and MIMIC-III datasets, with MCAR and MNAR missingness, three holdout sets, and six different imputation methods. Values are expressed as mean &#x00B1; SD (standard deviation) of 10 values for each experiment. DPP-MICE and detDPP-MICE are bold when outperforming MICE and the underlined one is the best of the three. DPP-MissForest and detDPP-MissForest are bold when outperforming MissForest and the underlined one is the best of the three.</p></caption>
-<graphic xlink:href="2303.17893v1_tbl1.tif"/>
+<graphic xlink:href="2303.17893v1_tbl1.jpg"/>
 </table-wrap>
 <table-wrap id="tbl2" orientation="portrait" position="float">
 <label>TABLE II:</label>
 <caption>
 <p>AUC results on the different holdout sets after imputation using MICE, DPP-MICE and detDPP-MICE.In the case of MICE and DPP-MICE, the boxplots correspond to 10 AUC values for 10 iterations of the same imputation and classification algorithms, depicting the lower and upper quartiles as well as the median of these 10 values. The AUC values are the same for every iteration of the detDPP-MICE algorithm.</p>
 </caption>
-<graphic xlink:href="2303.17893v1_tbl2.tif"/>
+<graphic xlink:href="2303.17893v1_tbl2.jpg"/>
 </table-wrap>
 <table-wrap id="tbl3" orientation="portrait" position="float">
 <label>TABLE III</label>
 <caption>
 <p>AUC results on the different holdout sets after imputation using MissForest, DPP-MissForest and detDPP-MissForest. In the case of MissForest and DPP-MissForest, the boxplots correspond to 10 AUC values for 10 iterations of the same imputation and classification algorithm, depicting the lower and upper quartiles as well as the median of these 10 values. The AUC values are always the same for every iteration of the detDPP-MissForest algorithm.</p>
 </caption>
-<graphic xlink:href="2303.17893v1_tbl3.tif"/>
+<graphic xlink:href="2303.17893v1_tbl3.jpg"/>
 </table-wrap>
 <p>Overall, DPP-MICE and DPP-MissForest provide improved results compared to their classical baseline MICE and MissForest. This is the case for both the synthetic and the MIMIC datasets and for both MCAR and MNAR missingness. Even more interestingly, the detDPP-MICE and detDPP-MissForest collapse the variance of the imputed data to 0 and moreover lead in most cases to even higher AUC than the expectation of the previous methods.</p>
 <sec id="s1a">
@@ -150,7 +150,7 @@
 <caption>
 <p>Data matrix sizes used by the quantum DPP circuits to train each tree. The number of rows corresponds to the number of data points and is equal to the number of qubits of every circuit.</p>
 </caption>
-<graphic xlink:href="2303.17893v1_tbl4.tif"/>
+<graphic xlink:href="2303.17893v1_tbl4.jpg"/>
 </table-wrap>
 <p>In the figures of <xref ref-type="table" rid="tbl5">Table V</xref> and in <xref ref-type="table" rid="tbl6">Table VI</xref> we provide for the different dataset experiments the AUC for MissForest, the simulated results of the quantum version of DPP-MissForest, and the actual hardware experimental results of running the quantum version of DPP-MissForest. Even for these very small datasets, when simulating the quantum version of DPP-MissForest, we demonstrate an increase in the AUC compared to the MissForest algorithm. This further highlights the potential advantages of determinantal sampling within imputation methods. Of note, running our algorithms on current hardware introduces variance in the downstream classifier. Importantly, this variance is due to noise in the hardware rather than inherent to the algorithm.</p>
 <table-wrap id="tbl5" orientation="portrait" position="float">
@@ -158,14 +158,14 @@
 <caption>
 <p>Hardware results using the IBM quantum processor, depicting AUC results of the downstream classifier task after imputing missing values using DPP-MissForest. In the case of MissForest and the quantum hardware DPP-MissForest implementations, the boxplots correspond to 10 AUC values for 10 iterations of the same imputation and classification algorithm, depicting the lower and upper quartiles as well as the median of these 10 values. The AUC values are the same for every iteration of the quantum DPP-MissForest algorithm using the simulator.</p>
 </caption>
-<graphic xlink:href="2303.17893v1_tbl5.tif"/>
+<graphic xlink:href="2303.17893v1_tbl5.jpg"/>
 </table-wrap>
 <table-wrap id="tbl6" orientation="portrait" position="float">
 <label>TABLE VI:</label>
 <caption>
 <p>Numerical quantum hardware results showing the AUC results of the downstream classifier task on reduced datasets. Values are represented according to Mean&#x00B1;SD (standard deviation) format given 10 values for each experiment.</p>
 </caption>
-<graphic xlink:href="2303.17893v1_tbl6.tif"/>
+<graphic xlink:href="2303.17893v1_tbl6.jpg"/>
 </table-wrap>
 <p>Our quantum hardware results are competitive with standard methods and in many cases close to the values expected from the simulation. In some cases, we observed a clear deterioration of the AUC due to the noise and errors in the quantum hardware. The results are closer to the simulations when using MCAR missingness with larger batch sizes that use more trees both for synthetic and the MIMIC datasets. As explained above, even though the algorithm with batch size 10 means using a quantum circuit with 10 qubits, the fact that we use four trees overall with a decreasing number of datapoints each time, and thus a decreasing number of qubits (namely, 10, 8, 6, and 4), results in an overall more reliable imputation.</p>
 </sec>
@@ -201,26 +201,7 @@
 <p>Different algorithms have been proposed in the literature to sample from <italic>k</italic> &#x2014; DPPs, namely [<xref ref-type="bibr" rid="c13">13</xref>] where sampling <italic>d</italic> rows from an <italic>N</italic> &#x00D7; <italic>d</italic> matrix takes <italic>0</italic>(<italic>Nd</italic><sup>2</sup>) time. There have been improvements over this initial proposal as in [<xref ref-type="bibr" rid="c19">19</xref>] where there is a preprocessing cost of <italic>0</italic>(<italic>Nd</italic><sup>2</sup>) and each DPP sample requires <italic>0</italic>(<italic>d</italic><sup>3</sup>) arithmetic operations.</p>
 <p><italic>Deterministic k-DPPs</italic>. Stochastic DPP sampling may be efficient in practice, however deterministic algorithms are important for different use cases since they are more interpretable, are less prone to errors and have no failure probability, which is especially relevant for clinical data [<xref ref-type="bibr" rid="c7">7</xref>].</p>
 <p>We use a deterministic version of DPP sampling as proposed in [<xref ref-type="bibr" rid="c10">10</xref>] (see Algorithm 1) which is a greedy maximum volume approach. For each deterministic <italic>k &#x2014;</italic> DPP sample, elements with the highest probability are added iteratively.</p>
-<boxed-text id="box1">
-<caption><title>Algorithm 1: Deterministic k-DPP algorithm</title></caption>
-<preformat>
-<bold>Input:</bold> : Kernel matrix <italic>K</italic> &#x227B; 0, sample size <italic>k</italic>.
-<bold>Initialization</bold> : <italic>&#x03C4;</italic> &#x2190; &#x00D8;
-V &#x2208; &#x211D;<sup><italic>n</italic> &#x00D7; <italic>k</italic></sup> : first <italic>k</italic> eigenvectors of <italic>K</italic>.
-<italic>P</italic> = <italic>vv<sup>T</sup></italic>
-<italic>p</italic>0(<italic>i</italic>) =&#x2225;<italic>V<sup>T</sup></italic> <italic>e<sub>i</sub></italic>&#x2225;<sup>2</sup>, <italic>i</italic> = 1&#x2026;<italic>n</italic>
-<italic>p</italic> &#x2190; <italic>p</italic>0 and <italic>i</italic> = 1
-<bold>while</bold> : <italic>i</italic> &#x2264; <italic>k</italic> <bold>do</bold>
-&#x00A0;&#x00A0;<italic>t<sub>i</sub></italic> &#x2208; arg max <italic>p</italic>
-&#x00A0;&#x00A0;<italic>&#x03C4;</italic> &#x2190; <italic>&#x03C4;</italic> &#x222A; &#x007B;<italic>t<sub>i</sub></italic>&#x007D;
-&#x00A0;&#x00A0;<inline-formula id="ID1">
-<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="2303.17893v1_ieq1.jpg"/>
-</inline-formula>
-&#x00A0;&#x00A0;<italic>i</italic> &#x2190; <italic>i</italic> + 1
-<bold>end while</bold>
-<bold>Output:</bold> <italic>&#x03C4;</italic>.
-</preformat>
-</boxed-text>
+<fig position="float" fig-type="figure" id="box1"><label>Algorithm 1</label><caption><title>Deterministic k-DPP algorithm</title></caption><graphic xlink:href="2303.17893v1_algo1.tif"/></fig>
 </sec>
 <sec id="s3b">
 <title>DPP-Random Forest and detDPP-Random Forest</title>
@@ -267,7 +248,7 @@ V &#x2208; &#x211D;<sup><italic>n</italic> &#x00D7; <italic>k</italic></sup> : f
 <label>TABLE VII:</label>
 <caption>
 <p>Summary of the characteristics of the different quantum DPP circuits. NN = Nearest Neighbor connectivity</p></caption>
-<graphic xlink:href="2303.17893v1_tbl7.tif"/>
+<graphic xlink:href="2303.17893v1_tbl7.jpg"/>
 </table-wrap>
 <p>We can now use the Clifford loaders described above to perform <italic>k &#x2014; DPP</italic> sampling, as described [<xref ref-type="bibr" rid="c12">12</xref>].</p>
 <p>Given an orthogonal matrix <italic>A</italic> = (<italic>a</italic><sup>1</sup>,&#x2026;, <italic>a</italic>), we can apply the qDPP circuit shown in <xref ref-type="fig" rid="fig7">Fig. 7</xref>, which is just a sequential application of <italic>d</italic> Clifford loaders, one for each column of the matrix, to the &#x007C;0<sup>n</sup>) state, and that leads to the following result:
