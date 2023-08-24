@@ -309,12 +309,12 @@
 <table-wrap id="tabS1" orientation="portrait" position="float">
 <label>Table 1</label>
 <caption><p>Data Parsers object returned as well as format definition and extension</p></caption>
-<graphic xlink:href="2212.011914v2_tblS1.tif"/>
+<graphic xlink:href="2212.01191v2_tblS1.tif"/>
 </table-wrap>
 <table-wrap id="tabS2" orientation="portrait" position="float">
 <label>Table 2</label>
 <caption><p>Data Writers and the object returned as well as format definition and extension</p></caption>
-<graphic xlink:href="2212.011914v2_tblS2.tif"/>
+<graphic xlink:href="2212.01191v2_tblS2.tif"/>
 </table-wrap>
 </sec>
 <sec id="s16">
@@ -322,7 +322,7 @@
 <table-wrap id="tabS3" orientation="portrait" position="float">
 <label>Table 1:</label>
 <caption><p>Limited overview of selected competing tools capable of generating MD topologies. &#x201C;Force Field&#x201D; lists the force fields for which this tool can generate topologies without changing the source code. &#x201C;Type of system&#x201D; describes the type of system this tool can generate topologies for. &#x201C;External data files&#x201D; means whether the force field parameters used are included in separate data files, making it possible to easily change them. &#x201C;Notes&#x201D; lists additional remarks and comments, &#x201C;builds coordinates&#x201D; means it is capable of constructing coordinates for complete systems, rather than only for <italic>e.g.</italic> missing sidechains.</p></caption>
-<graphic xlink:href="2212.011914v2_tblS3.tif"/>
+<graphic xlink:href="2212.01191v2_tblS3.tif"/>
 </table-wrap>
 </sec>
 <sec id="s17">
