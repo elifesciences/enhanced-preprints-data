@@ -35,12 +35,7 @@
 <xref ref-type="aff" rid="a1">1</xref>
 <xref ref-type="author-notes" rid="n1">&#x002A;</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Halu</surname><given-names>Arda</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="author-notes" rid="n1">&#x002A;</xref>
-<xref ref-type="corresp" rid="cor1">&#x0023;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Halu</surname><given-names>Arda</given-names></name><email>rehal@channing.harvard.edu</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="author-notes" rid="n1">&#x002A;</xref></contrib>
 <contrib contrib-type="author">
 <name><surname>Marzio</surname><given-names>Margherita De</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
@@ -116,13 +111,7 @@
 <name><surname>Levy</surname><given-names>Bruce D.</given-names></name>
 <xref ref-type="aff" rid="a3">3</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7196-303X</contrib-id>
-<name><surname>Weiss</surname><given-names>Scott. T</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="author-notes" rid="n1">&#x002A;</xref>
-<xref ref-type="corresp" rid="cor1">&#x0023;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7196-303X</contrib-id><name><surname>Weiss</surname><given-names>Scott. T</given-names></name><email>restw@channing.harvard.edu</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="author-notes" rid="n1">&#x002A;</xref></contrib>
 <aff id="a1"><label>1</label>Channing Division of Network Medicine, Department of Medicine, Brigham and Women&#x2019;s Hospital and Harvard Medical School; Boston, MA, USA</aff>
 <aff id="a2"><label>2</label>Department of Environmental Health, Harvard TH Chan School of Public Health; Boston, MA, USA</aff>
 <aff id="a3"><label>3</label>Division of Pulmonary and Critical Care Medicine, Department of Medicine, Brigham and Women&#x2019;s Hospital and Harvard Medical School; Boston, MA, USA</aff>
@@ -137,7 +126,6 @@
 </contrib-group>
 <author-notes>
 <fn id="n1" fn-type="equal"><p>&#x002A;These authors contributed equally to the manuscript.</p></fn>
-<corresp id="cor1"><label>&#x0023;</label>Corresponding author. Arda Halu (<email>rehal@channing.harvard.edu</email>), Scott Weiss (<email>restw@channing.harvard.edu</email>)</corresp>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2022.05.22.491886</elocation-id>
