@@ -30,18 +30,9 @@
 <article-title>The white-footed deermouse, an infection tolerant reservoir for several zoonotic agents, tempers interferon responses to endotoxin in comparison to the mouse and rat</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-6218-0452</contrib-id>
-<name><surname>Milovic</surname><given-names>Ana</given-names></name>
-</contrib>
-<contrib contrib-type="author">
-<name><surname>Duong</surname><given-names>Jonathan V.</given-names></name>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0719-5248</contrib-id>
-<name><surname>Barbour</surname><given-names>Alan G.</given-names></name>
-<xref ref-type="corresp" rid="cor1">1</xref>
-</contrib>
+<contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-6218-0452</contrib-id><name><surname>Milovic</surname><given-names>Ana</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib>
+<contrib contrib-type="author"><name><surname>Duong</surname><given-names>Jonathan V.</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0719-5248</contrib-id><name><surname>Barbour</surname><given-names>Alan G.</given-names></name><xref ref-type="aff" rid="a2">2</xref><xref ref-type="corresp" rid="cor1">1</xref></contrib>
 <aff id="a1"><label>1</label>Department of Microbiology &#x0026; Molecular Genetics University of California Irvine</aff>
 <aff id="a2"><label>2</label>Departments of Microbiology &#x0026; Molecular Genetics, Medicine, and Ecology &#x0026; Evolutionary Biology University of California Irvine</aff>
 </contrib-group>
