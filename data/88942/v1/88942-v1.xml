@@ -48,31 +48,14 @@
 <xref ref-type="aff" rid="a2">2</xref>
 <xref ref-type="author-notes" rid="n1">&#x2020;</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1812-9449</contrib-id>
-<name><surname>Suh</surname><given-names>Jun-Kyu</given-names></name>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0025-6025</contrib-id>
-<name><surname>Ryu</surname><given-names>Ji-Kan</given-names></name>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="aff" rid="a3">3</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5728-912X</contrib-id>
-<name><surname>Park</surname><given-names>Jihwan</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1812-9449</contrib-id><name><surname>Suh</surname><given-names>Jun-Kyu</given-names></name><email>jksuh@inha.ac.kr</email><xref ref-type="aff" rid="a2">2</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0025-6025</contrib-id><name><surname>Ryu</surname><given-names>Ji-Kan</given-names></name><email>rjk0929@inha.ac.kr</email><xref ref-type="aff" rid="a2">2</xref><xref ref-type="aff" rid="a3">3</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5728-912X</contrib-id><name><surname>Park</surname><given-names>Jihwan</given-names></name><email>jihwan.park@gist.ac.kr</email><xref ref-type="aff" rid="a1">1</xref></contrib>
 <aff id="a1"><label>1</label>School of Life Sciences, Gwangju Institute of Science and Technology (GIST), Gwangju, Korea</aff>
 <aff id="a2"><label>2</label>National Research Center for Sexual Medicine and Department of Urology, Inha University School of Medicine, Incheon, Korea</aff>
 <aff id="a3"><label>3</label>Program in Biomedical Science &#x0026; Engineering, Inha University, Incheon, Korea</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1"><label>&#x002A;</label>Corresponding authors Jun-Kyu Suh, MD, PhD National Research Center for Sexual Medicine and Department of Urology, Inha University School of Medicine 100 Inha-ro, Michuhol-gu, Incheon, Republic of Korea, 22212 E-mail: <email>jksuh@inha.ac.kr</email> Ji-Kan Ryu, MD, PhD National Research Center for Sexual Medicine and Department of Urology, Inha University School of Medicine 100 Inha-ro, Michuhol-gu, Incheon, Republic of Korea, 22212 E-mail: <email>rjk0929@inha.ac.kr</email> Jihwan Park, PhD School of Life Sciences, Gwangju Institute of Science and Technology 123 Cheomdangwagi-ro, Buk-gu, Gwangju, Republic of Korea, 61005 Tel: &#x002B;82-62-715-2503 Fax: &#x002B;82-62-715-2484 E-mail: <email>jihwan.park@gist.ac.kr</email></corresp>
 <fn fn-type="equal" id="n1"><label>&#x2020;</label><p>These authors contributed equally to this work.</p></fn>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
