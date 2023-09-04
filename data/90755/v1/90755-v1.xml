@@ -40,14 +40,14 @@
 <name><surname>Klipp</surname><given-names>Robert C.</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
-<contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8099-716X</contrib-id><name><surname>Camenisch</surname><given-names>Abigail</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib>
+<contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8099-716X</contrib-id><name><surname>Camenisch</surname><given-names>Abigail</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib>
 <contrib contrib-type="author" corresp="yes">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9478-2335</contrib-id>
 <name><surname>Bankston</surname><given-names>John R.</given-names></name>
 <xref ref-type="corresp" rid="cor1">&#x002A;</xref>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
-<aff id="aff1"><label>1</label>Department of Physiology and Biophysics, University of Colorado Anschutz Medical Campus, Aurora, CO, USA</aff>
+<aff id="a1"><label>1</label>Department of Physiology and Biophysics, University of Colorado Anschutz Medical Campus, Aurora, CO, USA</aff>
 </contrib-group>
 <author-notes>
 <corresp id="cor1"><label>&#x002A;</label>Corresponding Author: John Bankston, Department of Physiology and Biophysics, Research Complex 1 North, University of Colorado Anschutz Medical Campus, Aurora, CO, 80045. Phone: 303-724-4909 E-mail: <email>john.bankston@cuanschutz.edu</email></corresp>
