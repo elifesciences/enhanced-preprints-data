@@ -63,23 +63,12 @@
 <name><surname>Kamrad</surname><given-names>Stephan</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7141-8936</contrib-id>
-<name><surname>Orengo</surname><given-names>Christine</given-names></name>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="corresp" rid="cor1">&#x002B;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4036-1532</contrib-id>
-<name><surname>B&#x00E4;hler</surname><given-names>J&#x00FC;rg</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x002B;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7141-8936</contrib-id><name><surname>Orengo</surname><given-names>Christine</given-names></name><email>c.orengo@ucl.ac.uk</email><xref ref-type="aff" rid="a2">2</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4036-1532</contrib-id><name><surname>B&#x00E4;hler</surname><given-names>J&#x00FC;rg</given-names></name><email>j.bahler@ucl.ac.uk</email><xref ref-type="aff" rid="a1">1</xref></contrib>
 <aff id="a1"><label>1</label>University College London, Institute of Healthy Ageing and Department of Genetics, Evolution &#x0026; Environment, London, United Kingdom</aff>
 <aff id="a2"><label>2</label>University College London, Institute of Structural and Molecular Biology, London, United Kingdom</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1"><label>&#x002B;</label>Equal senior/corresponding authors; email: <email>j.bahler@ucl.ac.uk</email></corresp>
 <fn id="n1" fn-type="equal"><label>&#x002A;</label><p>Equal contribution</p></fn>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
