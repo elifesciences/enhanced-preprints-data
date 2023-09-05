@@ -58,25 +58,13 @@
 <name><surname>Campelo</surname><given-names>Felix</given-names></name>
 <xref ref-type="aff" rid="a4">4</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Levental</surname><given-names>Kandice R.</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1206-9545</contrib-id>
-<name><surname>Levental</surname><given-names>Ilya</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Levental</surname><given-names>Kandice R.</given-names></name><email>krl6c@virginia.edu</email><xref ref-type="aff" rid="a1">1</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1206-9545</contrib-id><name><surname>Levental</surname><given-names>Ilya</given-names></name><email>il2sy@virginia.edu</email><xref ref-type="aff" rid="a1">1</xref></contrib>
 <aff id="a1"><label>1</label>Department of Molecular Physiology and Biological Physics, Center for Membrane and Cell Physiology, University of Virginia, Charlottesville, VA 22904</aff>
 <aff id="a2"><label>2</label>Department of Chemistry, The University of Tennessee, Knoxville, TN 37996</aff>
 <aff id="a3"><label>3</label>Broad Institute of MIT and Harvard</aff>
 <aff id="a4"><label>4</label>ICFO-Institut de Ciencies Fotoniques, The Barcelona Institute of Science and Technology, Barcelona, Spain</aff>
 </contrib-group>
-<author-notes>
-<corresp id="cor1"><label>&#x002A;</label>corresponding authors: <email>il2sy@virginia.edu</email>, <email>krl6c@virginia.edu</email></corresp>
-</author-notes>
 <pub-date pub-type="epub">
 <year>2023</year>
 </pub-date>
