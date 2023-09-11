@@ -14,7 +14,7 @@
 </journal-meta>
 <article-meta>
 <article-id pub-id-type="doi">10.1101/2023.06.03.23290935</article-id>
-<article-version>1.1</article-version>
+<article-version>1.2</article-version>
 <article-categories>
 <subj-group subj-group-type="hwp-journal-coll">
 <subject>Sexual and Reproductive Health</subject>
@@ -26,50 +26,52 @@
 <contrib-group>
 <contrib contrib-type="author">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-1542-9435</contrib-id>
-<name><surname>AWOYEMI</surname><given-names>Toluwalase</given-names></name>
+<name><surname>Awoyemi</surname><given-names>Toluwalase</given-names></name>
 <degrees>DPhil</degrees>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
 <contrib contrib-type="author">
-<name><surname>JIANG</surname><given-names>Shuhan</given-names></name>
+<name><surname>Jiang</surname><given-names>Shuhan</given-names></name>
 <degrees>MB;BS</degrees>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
 <contrib contrib-type="author">
-<name><surname>BJARKAD&#x00D3;TTIR</surname><given-names>Br&#x00ED;et</given-names></name>
+<name><surname>Bjarkad&#x00F3;ttir</surname><given-names>Br&#x00ED;et</given-names></name>
 <degrees>DPhil</degrees>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
 <contrib contrib-type="author">
-<name><surname>RAHBAR</surname><given-names>Ms. Maryam</given-names></name>
+<name><surname>Rahbar</surname><given-names>Maryam</given-names><prefix>Ms.</prefix></name>
 <degrees>MSc</degrees>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
 <contrib contrib-type="author">
-<name><surname>LOGENTHIRAN</surname><given-names>Prasanna</given-names></name>
+<name><surname>Logenthiran</surname><given-names>Prasanna</given-names></name>
 <degrees>MB;BS</degrees>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
 <contrib contrib-type="author">
-<name><surname>COLLETT</surname><given-names>Gavin</given-names></name>
-<degrees>PhD</degrees>
-</contrib>
-<contrib contrib-type="author">
-<name><surname>ZHANG</surname><given-names>Wei</given-names></name>
+<name><surname>Collett</surname><given-names>Gavin</given-names></name>
 <degrees>PhD</degrees>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
 <contrib contrib-type="author">
-<name><surname>CRIBBS</surname><given-names>Adam</given-names></name>
+<name><surname>Zhang</surname><given-names>Wei</given-names></name>
+<degrees>PhD</degrees>
+<xref ref-type="aff" rid="a1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5288-3077</contrib-id>
+<name><surname>Cribbs</surname><given-names>Adam</given-names></name>
 <degrees>PhD</degrees>
 <xref ref-type="aff" rid="a2">2</xref></contrib>
 <contrib contrib-type="author">
-<name><surname>CERDEIRA</surname><given-names>Ana Sofia</given-names></name>
+<name><surname>Cerdeira</surname><given-names>Ana Sofia</given-names></name>
 <degrees>PhD</degrees>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
 <contrib contrib-type="author" corresp="yes">
-<name><surname>VATISH</surname><given-names>Manu</given-names></name>
+<name><surname>Vatish</surname><given-names>Manu</given-names></name>
 <degrees>DPhil</degrees>
 <xref ref-type="aff" rid="a1">1</xref>
 <xref ref-type="corresp" rid="cor1">&#x002A;</xref>
@@ -78,7 +80,7 @@
 <aff id="a2"><label>2</label>Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences, University of Oxford, Oxford, United Kingdom</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1"><label>&#x002A;</label>Corresponding author: Dr Manu Vatish, MBBCh, BA (Hons), DPhil, MA, FMRCOG <email>Manu.vatish@wrh.ox.ac.uk</email>, Phone number-&#x002B;441865221009, Fax number-01865769141 <bold>Address:</bold> Nuffield Department of Women&#x2019;s and Reproductive Health, University of Oxford, Women&#x2019;s Centre, John Radcliffe Hospital, Oxford OX3 9DU, United Kingdom</corresp>
+<corresp id="cor1"><label>&#x002A;</label><bold>Corresponding author:</bold> Dr Manu Vatish, MBBCh, BA (Hons), DPhil, MA, FMRCOG <email>Manu.vatish@wrh.ox.ac.uk</email>, Phone number- &#x002B;441865221009, Fax number-01865769141 <bold>Address:</bold> Nuffield Department of Women&#x2019;s and Reproductive Health, University of Oxford, Women&#x2019;s Centre, John Radcliffe Hospital, Oxford OX3 9DU, United Kingdom</corresp>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.06.03.23290935</elocation-id>
@@ -89,13 +91,13 @@
 <year>2023</year>
 </date>
 <date date-type="rev-recd">
-<day>03</day>
-<month>6</month>
+<day>05</day>
+<month>9</month>
 <year>2023</year>
 </date>
 <date date-type="accepted">
 <day>05</day>
-<month>6</month>
+<month>9</month>
 <year>2023</year>
 </date>
 </history>
@@ -145,6 +147,11 @@
 <title>Funding Statement</title><p>This study was funded by the Medical Research Council (MRC Programme Grant (MR/J0033601) and the Medical &#x0026; Life Sciences translational fund (BRR00142 HE01.01)</p></notes>
 <notes notes-type="disclosures">
 <title>Author Declarations</title><p>I confirm all relevant ethical guidelines have been followed, and any necessary IRB and/or ethics committee approvals have been obtained.</p><p>Yes</p><p>The details of the IRB/oversight body that provided approval or exemption for the research described are given below:</p><p>Oxfordshire Research Ethics Committee C (07/H0606/148) of the University of Oxford, United Kingdom gave ethical approval for this work</p><p>I confirm that all necessary patient/participant consent has been obtained and the appropriate institutional forms have been archived, and that any patient/participant/sample identifiers included were not known to anyone (e.g., hospital staff, patients or participants themselves) outside the research group so cannot be used to identify individuals.</p><p>Yes</p><p>I understand that all clinical trials and any other prospective interventional studies must be registered with an ICMJE-approved registry, such as ClinicalTrials.gov. I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively, please provide a statement in the trial ID field explaining why the study was not registered in advance).</p><p>Yes</p><p>I have followed all appropriate research reporting guidelines, such as any relevant EQUATOR Network research reporting checklist(s) and other pertinent material, if applicable.</p><p>Yes</p></notes>
+<fn-group content-type="summary-of-updates">
+<title>Summary of Updates:</title>
+<fn fn-type="update"><p>to update all the surnames of authors from all caps to the lowercase
+To add an affiliation to the author Gavin Collett</p></fn>
+</fn-group>
 </notes>
 </front>
 <body>
@@ -187,13 +194,14 @@
 <table-wrap id="tbl1" orientation="portrait" position="float">
 <label>Table 1.</label>
 <caption><title>General descriptive statistics of sample population</title></caption>
-<graphic xlink:href="23290935v1_tbl1.tif"/>
+<graphic xlink:href="23290935v2_tbl1.tif"/>
 </table-wrap>
 <table-wrap id="tbl2" orientation="portrait" position="float">
 <label>Table 2:</label>
 <caption><title>Top ten differentially expressed Proteins between normal and preeclampsia placentas (bold font), medium/large STB-EVs (normal font), small STB-EVs(italics)</title></caption>
-<graphic xlink:href="23290935v1_tbl2.tif"/>
-<graphic xlink:href="23290935v1_tbl2a.tif"/>
+<graphic xlink:href="23290935v2_tbl2.tif"/>
+<graphic xlink:href="23290935v2_tbl2a.tif"/>
+<graphic xlink:href="23290935v2_tbl2b.tif"/>
 </table-wrap>
 </sec>
 </sec>
@@ -209,13 +217,13 @@
 <fig id="fig1" position="float" orientation="portrait" fig-type="figure">
 <label>Figure 1.</label>
 <caption><p>Flow analysis of medium/large STB-EVs in the 10K STB-EV pellet. Apogee beads mix were used to set the flow machine&#x2019;s light scatter resolution to 0.59-1.3 mm and 0.24-1.3</p><p>(A) mm silica beads. Figures B show the application of SSC and FSC PMTVs as determined by apogee beads mix for the analysis of m/lSTB-EVs in the 10K pellet. An investigation gate was created to include only medium/large EVs negative for non-placental markers (C &#x0026; F). Extracellular vesicles from the investigation gate were further analyzed for staining by bioM and expression of PLAP (D &#x0026; G). Figure E and H shows that the bioM<sup>&#x002B;</sup> PLAP<sup>&#x002B;</sup> EVs were sensitive to detergent treatment. The percent of B-Maleimide<sup>&#x002B;</sup> PLAP<sup>&#x002B;</sup> from the 0.59-1.3 micron gate is consistent under both SSC conditions.</p></caption>
-<graphic xlink:href="23290935v1_fig1.tif"/>
+<graphic xlink:href="23290935v2_fig1.tif"/>
 </fig>
 <p>Transmission electron microscopy on 10K STB-EV pellets (<xref rid="fig2" ref-type="fig">Figure 2B</xref> and <xref rid="fig2" ref-type="fig">2C</xref>) and 150K STB-EVs (<xref rid="fig2" ref-type="fig">Figure 2E</xref> and <xref rid="fig2" ref-type="fig">2F</xref>) in our sample preparation showed the typical cup-shaped morphology of extracellular vesicles on transmission electron microscopy (TEM) within the appropriate size range. Western blot confirmed they express the classic syncytiotrophoblast membrane marker, placenta alkaline phosphatase (PLAP), the extracellular vesicle markers ALIX and CD 63. In addition, they lacked the negative EV marker cytochrome C (<xref rid="fig2" ref-type="fig">Figure 2G</xref>). Nanoparticle tracking analysis (NTA) confirmed the homogeneity of the 150K STB-EV pellets (small STB-EVs) (<xref rid="fig2" ref-type="fig">Figure 2A</xref>) with a modal size of (205.8 &#x00B1; 67.7) nm and the heterogeneity of the 10K STB-EV pellets (medium/large STB-EVs) (<xref rid="fig2" ref-type="fig">Figure 2D</xref>) with a size range of (479.4 &#x00B1; 145.6) nm.</p>
 <fig id="fig2" position="float" orientation="portrait" fig-type="figure">
 <label>Figure 2.</label>
 <caption><p>Results of STB-EV characterization. <xref rid="fig2" ref-type="fig">Figure 2A</xref> and <xref rid="fig2" ref-type="fig">2D</xref> show the NTA results of S STB-EVs (2D) and m/lSTB-EVs (2A). <xref rid="fig2" ref-type="fig">Figure 2B</xref>,<xref rid="fig2" ref-type="fig">2C</xref>,2E and 2F displays representative transmission electron microscopy (TEM) images with wide view (2B and 2E), medium/large STB-EVs (2C), and Small STB-EVs (2F).</p></caption>
-<graphic xlink:href="23290935v1_fig2.tif"/>
+<graphic xlink:href="23290935v2_fig2.tif"/>
 </fig>
 </sec>
 <sec id="s3c">
@@ -226,9 +234,9 @@
 <p>Finally, the sSTB-EVs (<xref rid="tbl2" ref-type="table">Table 2</xref>) had <italic>solute carrier family 2, facilitated glucose transporter member (SLC2A11), v-type proton ATPase 16 KDa proteolipid subunit (ATP6V0C), pappalysin 2 (PAPP-A2)</italic> as the most differentially abundant by fold change while <italic>sodium-dependent phosphate transporter 1 (SLC20A1)</italic> and <italic>isoform 2 of ADP-ribosylation factor GTPase-activating protein (ARFGAP3)</italic> were the least differentially abundant. There were 25 differentially carried proteins (DCPs) including <italic>filamin B (FLNB), ERO1-like protein alpha (ERO1A), endoglin (EGLN), pappalysin-2 (PAPP-A2), siglec6 (SIGL6)</italic> shared between m/lSTB-EVS and sSTB-EVs and only one protein, <italic>isoform 1 of kinesin-like protein (KIF2A)</italic> shared between the placenta and the m/l STB-EVs. Only one protein <italic>chloride intracellular channel protein 3 (CLIC3),</italic> was found in all three sample sub-types (<xref rid="tbl3" ref-type="table">Table 3</xref>).</p>
 <table-wrap id="tbl3" orientation="portrait" position="float">
 <label>Table 3.</label>
-<caption><p>List of overlapping differentially carried proteins in the placenta, medium/large STB-EVs and small STB-EVs</p></caption>
-<graphic xlink:href="23290935v1_tbl3.tif"/>
-<graphic xlink:href="23290935v1_tbl3a.tif"/>
+<caption><title>List of overlapping differentially carried proteins in the placenta, medium/large STB-EVs and small STB-EVs</title></caption>
+<graphic xlink:href="23290935v2_tbl3.tif"/>
+<graphic xlink:href="23290935v2_tbl3a.tif"/>
 </table-wrap>
 </sec>
 <sec id="s3d">
@@ -251,7 +259,7 @@
 <title>Results in the context of what is known</title>
 <p>Our analysis found chloride intracellular channel 3 (CLIC3) to be the only protein differentially abundant among all sample types. CLIC3 is expressed in the placenta throughout pregnancy(<xref ref-type="bibr" rid="c19">Money et al., 2007</xref>) and is abundant in PE placentas compared to NP, a finding corroborated by our results. However, it has not previously been described in terms of STB-EVs. CLIC3 also recycles activated integrins back to the plasma membrane and facilitates cell migration and invasion(<xref ref-type="bibr" rid="c4">Dozynkiewicz et al., 2012</xref>) a process that has been identified as abnormal in PE(KHONG et al., 1986).</p>
 <p>We found <italic>COL17A1</italic> to be more abundant in PE m/lSTB-EVs but not detectable in the placenta in both normal and PE. Although collagen 17 has not been described in preeclampsia, a protein of the same family, collagen 1 is deposited in higher amounts in the PE placenta and can induce preeclampsia-like symptoms by suppressing the proliferation and invasion of trophoblasts. This suppression was reversible by treating with ERK and B-catenin agonists(<xref ref-type="bibr" rid="c7">Feng et al., 2021</xref>). Likewise, <italic>PAPP-A2</italic> was significantly more abundant in the PE placenta and m/lSTB-EVs. <italic>PAPP-A2</italic> cleaves insulin-like growth factor binding protein (IGFBP-5 and, to a lesser extent, IGFBP-3). PAPP-A2&#x2019;s mRNA and protein are differentially expressed in the placenta and maternal serum in PE patients(<xref ref-type="bibr" rid="c29">Whitehead et al., 2013</xref>).</p>
-<p>Filamin B was significantly more abundant in PE m/lSTB-EVs and sSTB-EVs compared to NP. Filamin B participates in cellular structural mechanics and signal transduction by interacting with ion channels, signaling molecules, transmembrane proteins, and transcription factors(<xref ref-type="bibr" rid="c32">Zhou et al., 2010</xref>). It also suppresses tumor growth and metastasis(<xref ref-type="bibr" rid="c13">Iguchi et al., 2015</xref>). Interestingly, in contrast to our study wei et al described Filamin B as being up regulated in the placenta (<xref ref-type="bibr" rid="c28">Wei et al., 2019</xref>) . Wei et al used glyceraldehyde 3-phosphate dehydrogenase (GAPDH) as an internal reference while we used total protein normalization to Amido black to quantify and compare protein expression. GAPDH is an unreliable internal reference protein, particularly in preeclampsia(<xref ref-type="bibr" rid="c16">Lanoix et al., 2012</xref>) and this may explain these discordant findings. In addition, in our proteomics data, we found GAPDH to be among the most differentially expressed proteins.</p>
+<p>Filamin B was significantly more abundant in PE m/lSTB-EVs and sSTB-EVs compared to NP. Filamin B participates in cellular structural mechanics and signal transduction by interacting with ion channels, signaling molecules, transmembrane proteins, and transcription factors(<xref ref-type="bibr" rid="c32">Zhou et al., 2010</xref>). It also suppresses tumor growth and metastasis(<xref ref-type="bibr" rid="c13">Iguchi et al., 2015</xref>). Interestingly, in contrast to our study wei et al described Filamin B as being up regulated in the placenta (<xref ref-type="bibr" rid="c28">Wei et al., 2019</xref>). Wei et al used glyceraldehyde 3-phosphate dehydrogenase (GAPDH) as an internal reference while we used total protein normalization to Amido black to quantify and compare protein expression. GAPDH is an unreliable internal reference protein, particularly in preeclampsia(<xref ref-type="bibr" rid="c16">Lanoix et al., 2012</xref>) and this may explain these discordant findings. In addition, in our proteomics data, we found GAPDH to be among the most differentially expressed proteins.</p>
 <p>Likewise, we identified scavenger receptor class B, type 1 (SCARB1/SR-BI) to be significantly increased in PE placenta, m/l and sSTB-EVs. SCARB1/SR-BI, is most abundant in the adrenal glands, placenta, liver, and brain(<xref ref-type="bibr" rid="c8">Ganesan et al., 2016</xref>; <xref ref-type="bibr" rid="c24">Shen et al., 2016</xref>). SR-BI facilitates the uptake of cholesteryl esters from high-density lipoproteins and lipid-soluble vitamin and transthyretin-bound thyroid hormone by placental trophoblast cells(<xref ref-type="bibr" rid="c15">Landers et al., 2018</xref>).</p>
 <p>In terms of potential mechanisms of preeclampsia, we found no overlap in the biological processes and KEGG pathways among the three sample sub-type. In the placenta, gene ontology biological processes (GO: BP) involved in <italic>neurotransmitter secretion and transport</italic> were overrepresented while <italic>platelet activation</italic>, <italic>MAPK</italic> and <italic>Rap 1 signaling</italic> pathways were among the detected KEGG pathways. In m/lSTB-EVs, <italic>protein modification process,</italic> and <italic>decreased oxygen level responses</italic> were among the perturbed GO: BP terms. <italic>Alzheimer&#x2019;s</italic> and <italic>prion disease</italic> were among the identified KEGG pathways. In sSTB-EVs, <italic>post-translational modification processes</italic> and <italic>endoplasmic reticulum protein processing</italic> were the principal GO: BP terms and KEGG pathways.</p>
 <p>Recent research has shown that ischemic hypoxia and the release of proinflammatory cytokines in PE can cause protein misfolding and initiate endoplasmic reticulum (ER) stress due to hypoxia-reoxygenation damage to the endoplasmic reticulum(<xref ref-type="bibr" rid="c9">Gathiram &#x0026; Moodley, 2016</xref>). PE can also cause posttranslational modifications to proteins, such as changing the isoelectric point, which results in different S-nitrosylation outcomes in placental proteins(<xref ref-type="bibr" rid="c31">Zhang et al., 2011</xref>). It is thought that the accumulation of these aggregates of unfolded protein response (UPR) or misfolded proteins contributes to the pathophysiology of PE(<xref ref-type="bibr" rid="c9">Gathiram &#x0026; Moodley, 2016</xref>). Other processes and KEGG pathways have been previously described in preeclampsia, while others found in our study are new and may warrant further research(<xref ref-type="bibr" rid="c17">Lee et al., 2020</xref>; Wan Shumei, Peng Ping, Qiao Lin, 2019).</p>
@@ -289,7 +297,7 @@
 </sec>
 <ref-list>
 <title>References</title>
-<ref id="c1"><label>1.</label><mixed-citation publication-type="other"><string-name><surname>ACOG Practice Bulletin No. 202: Gestational Hypertension and Preeclampsia.</surname></string-name> (<year>2019</year>). <article-title>Obstetrics and Gynecology</article-title>. https://doi.org/10.1097/AOG.0000000000003018</mixed-citation></ref>
+<ref id="c1"><label>1.</label><mixed-citation publication-type="other"><string-name><surname>ACOG Practice Bulletin No. 202: Gestational Hypertension and Preeclampsia.</surname></string-name> (<year>2019</year>). <article-title>Obstetrics and Gynecology</article-title>. <pub-id pub-id-type="doi">10.1097/AOG.0000000000003018</pub-id></mixed-citation></ref>
 <ref id="c2"><label>2.</label><mixed-citation publication-type="journal"><string-name><surname>Billieux</surname>, <given-names>M. H.</given-names></string-name>, <string-name><surname>Petignat</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Fior</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Mhawech</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Blouin</surname>, <given-names>J. L.</given-names></string-name>, <string-name><surname>Dahoun</surname>, <given-names>S.</given-names></string-name>, &#x0026; <string-name><surname>Vassilakos</surname>, <given-names>P</given-names></string-name>. (<year>2004</year>). <article-title>Pre-eclampsia and peripartum cardiomyopathy in molar pregnancy: clinical implication for maternally imprinted genes</article-title>. <source>Ultrasound in Obstetrics &#x0026; Gynecology : The Official Journal of the International Society of Ultrasound in Obstetrics and Gynecology</source>, <volume>23</volume>(), <fpage>398</fpage>&#x2013;<lpage>401</lpage>. <pub-id pub-id-type="doi">10.1002/UOG.1015</pub-id></mixed-citation></ref>
 <ref id="c3"><label>3.</label><mixed-citation publication-type="journal"><string-name><surname>Brown</surname>, <given-names>M. A.</given-names></string-name>, <string-name><surname>Magee</surname>, <given-names>L. A.</given-names></string-name>, <string-name><surname>Kenny</surname>, <given-names>L. C.</given-names></string-name>, <string-name><surname>Karumanchi</surname>, <given-names>S. A.</given-names></string-name>, <string-name><surname>McCarthy</surname>, <given-names>F. P.</given-names></string-name>, <string-name><surname>Saito</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Hall</surname>, <given-names>D. R.</given-names></string-name>, <string-name><surname>Warren</surname>, <given-names>C. E.</given-names></string-name>, <string-name><surname>Adoyi</surname>, <given-names>G.</given-names></string-name>, &#x0026; <string-name><surname>Ishaku</surname>, <given-names>S</given-names></string-name>. (<year>2018</year>). <article-title>Hypertensive disorders of pregnancy: ISSHP classification, diagnosis, and management recommendations for international practice</article-title>. <source>In Hypertension</source>. <pub-id pub-id-type="doi">10.1161/HYPERTENSIONAHA.117.10803</pub-id></mixed-citation></ref>
 <ref id="c4"><label>4.</label><mixed-citation publication-type="journal"><string-name><surname>Dozynkiewicz</surname>, <given-names>M. A.</given-names></string-name>, <string-name><surname>Jamieson</surname>, <given-names>N. B.</given-names></string-name>, <string-name><surname>MacPherson</surname>, <given-names>I.</given-names></string-name>, <string-name><surname>Grindlay</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>vandenBerghe</surname>, <given-names>P. V. E.</given-names></string-name>, <string-name><surname>vonThun</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Morton</surname>, <given-names>J. P.</given-names></string-name>, <string-name><surname>Gourley</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Timpson</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Nixon</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>McKay</surname>, <given-names>C. J.</given-names></string-name>, <string-name><surname>Carter</surname>, <given-names>R.</given-names></string-name>, <string-name><surname>Strachan</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Anderson</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Sansom</surname>, <given-names>O. J.</given-names></string-name>, <string-name><surname>Caswell</surname>, <given-names>P. T.</given-names></string-name>, &#x0026; <string-name><surname>Norman</surname>, <given-names>J. C.</given-names></string-name> (<year>2012</year>). <article-title>Rab25 and CLIC3 Collaborate to Promote Integrin Recycling from Late Endosomes/Lysosomes and Drive Cancer Progression</article-title>. <source>Developmental Cell</source>, <volume>22</volume>(), <elocation-id>131</elocation-id>. <pub-id pub-id-type="doi">10.1016/J.DEVCEL.2011.11.008</pub-id></mixed-citation></ref>
@@ -300,10 +308,10 @@
 <ref id="c9"><label>9.</label><mixed-citation publication-type="journal"><string-name><surname>Gathiram</surname>, <given-names>P.</given-names></string-name>, &#x0026; <string-name><surname>Moodley</surname>, <given-names>J</given-names></string-name>. (<year>2016</year>). <article-title>Pre-eclampsia: its pathogenesis and pathophysiolgy</article-title>. <source>Cardiovascular Journal of Africa</source>, <volume>27</volume>(), <fpage>71</fpage>&#x2013;<lpage>78</lpage>. <pub-id pub-id-type="doi">10.5830/CVJA-2016-009</pub-id></mixed-citation></ref>
 <ref id="c10"><label>10.</label><mixed-citation publication-type="journal"><string-name><surname>Germain</surname>, <given-names>S. J.</given-names></string-name>, <string-name><surname>Sacks</surname>, <given-names>G. P.</given-names></string-name>, <string-name><surname>Sooranna</surname>, <given-names>S. R.</given-names></string-name>, <string-name><surname>Soorana</surname>, <given-names>S. R.</given-names></string-name>, <string-name><surname>Sargent</surname>, <given-names>I. L.</given-names></string-name>, &#x0026; <string-name><surname>Redman</surname>, <given-names>C. W.</given-names></string-name> (<year>2007</year>). <article-title>Systemic inflammatory priming in normal pregnancy and preeclampsia: the role of circulating syncytiotrophoblast microparticles</article-title>. <source>Journal of Immunology (Baltimore, Md. : 1950)</source>, <volume>178</volume>(), <fpage>5949</fpage>&#x2013;<lpage>5956</lpage>. <pub-id pub-id-type="doi">10.4049/JIMMUNOL.178.9.5949</pub-id></mixed-citation></ref>
 <ref id="c11"><label>11.</label><mixed-citation publication-type="journal"><string-name><surname>Goswamia</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Tannetta</surname>, <given-names>D. S.</given-names></string-name>, <string-name><surname>Magee</surname>, <given-names>L. A.</given-names></string-name>, <string-name><surname>Fuchisawa</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Redman</surname>, <given-names>C. W. G.</given-names></string-name>, <string-name><surname>Sargent</surname>, <given-names>I. L.</given-names></string-name>, &#x0026; <string-name><surname>von Dadelszen</surname>, <given-names>P.</given-names></string-name> (<year>2006</year>). <article-title>Excess syncytiotrophoblast microparticle shedding is a feature of early-onset pre-eclampsia, but not normotensive intrauterine growth restriction</article-title>. <source>Placenta</source>, <volume>27</volume>(), <fpage>56</fpage>&#x2013;<lpage>61</lpage>. <pub-id pub-id-type="doi">10.1016/J.PLACENTA.2004.11.007</pub-id></mixed-citation></ref>
-<ref id="c12"><label>12.</label><mixed-citation publication-type="journal"><string-name><surname>Hailu</surname>, <given-names>F. G.</given-names></string-name>, <string-name><surname>Yihunie</surname>, <given-names>G. T.</given-names></string-name>, <string-name><surname>Essa</surname>, <given-names>A. A.</given-names></string-name>, &#x0026; Tsega, W. kindie. (<year>2017</year>). <article-title>Advanced abdominal pregnancy, with live fetus and severe preeclampsia, case report</article-title>. <source>BMC Pregnancy and Childbirth</source>, <volume>17</volume>(<elocation-id>1</elocation-id>). <pub-id pub-id-type="doi">10.1186/S12884-017-1437-Y</pub-id></mixed-citation></ref>
+<ref id="c12"><label>12.</label><mixed-citation publication-type="journal"><string-name><surname>Hailu</surname>, <given-names>F. G.</given-names></string-name>, <string-name><surname>Yihunie</surname>, <given-names>G. T.</given-names></string-name>, <string-name><surname>Essa</surname>, <given-names>A. A.</given-names></string-name>, &#x0026; <string-name><surname>Tsega</surname>, <given-names>W. kindie</given-names></string-name>. (<year>2017</year>). <article-title>Advanced abdominal pregnancy, with live fetus and severe preeclampsia, case report</article-title>. <source>BMC Pregnancy and Childbirth</source>, <volume>17</volume>(<elocation-id>1</elocation-id>). <pub-id pub-id-type="doi">10.1186/S12884-017-1437-Y</pub-id></mixed-citation></ref>
 <ref id="c13"><label>13.</label><mixed-citation publication-type="journal"><string-name><surname>Iguchi</surname>, <given-names>Y.</given-names></string-name>, <string-name><surname>Ishihara</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Uchida</surname>, <given-names>Y.</given-names></string-name>, <string-name><surname>Tajima</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Mizutani</surname>, <given-names>T.</given-names></string-name>, <string-name><surname>Kawabata</surname>, <given-names>K.</given-names></string-name>, &#x0026; <string-name><surname>Haga</surname>, <given-names>H</given-names></string-name>. (<year>2015</year>). <article-title>Filamin B enhances the invasiveness of cancer cells into 3D collagen matrices</article-title>. <source>Cell Structure and Function</source>, <volume>40</volume>(<elocation-id>2</elocation-id>). <pub-id pub-id-type="doi">10.1247/csf.15001</pub-id></mixed-citation></ref>
-<ref id="c14"><label>14.</label><mixed-citation publication-type="journal"><string-name><given-names>KHONG</given-names>, <surname>T</surname></string-name>. <string-name><given-names>Y.</given-names>, <surname>de WOLF</surname></string-name>, <string-name><given-names>F.</given-names>, <surname>ROBERTSON</surname></string-name>, <string-name><given-names>W. B.</given-names>, <surname>&#x0026; BROSENS</surname></string-name>, I. (<year>1986</year>). <article-title>Inadequate maternal vascular response to placentation in pregnancies complicated by pre-eclampsia and by small-for-gestational age infants</article-title>. <source>BJOG: An International Journal of Obstetrics &#x0026; Gynaecology</source>, <volume>93</volume>(<elocation-id>10</elocation-id>). <pub-id pub-id-type="doi">10.1111/j.1471-0528.1986.tb07830.x</pub-id></mixed-citation></ref>
-<ref id="c15"><label>15.</label><mixed-citation publication-type="journal"><string-name><surname>Landers</surname>, <given-names>K. A.</given-names></string-name>, <string-name><surname>Li</surname>, <given-names>H.</given-names></string-name>, <string-name><surname>Mortimer</surname>, <given-names>R. H.</given-names></string-name>, <string-name><surname>McLeod</surname>, <given-names>D. S. A.</given-names></string-name>, d&#x2019;Emden, M. C., &#x0026; Richard, K. (<year>2018</year>). <article-title>Transthyretin uptake in placental cells is regulated by the high-density lipoprotein receptor, scavenger receptor class B member 1</article-title>. <source>Molecular and Cellular Endocrinology</source>, <volume>474</volume>. <pub-id pub-id-type="doi">10.1016/j.mce.2018.02.014</pub-id></mixed-citation></ref>
+<ref id="c14"><label>14.</label><mixed-citation publication-type="journal"><string-name><surname>Khong</surname>, <given-names>T. Y.</given-names></string-name>, <string-name><surname>de Wolf</surname>, <given-names>F.</given-names></string-name>, <string-name><surname>Robertson</surname>, <given-names>W. B.</given-names></string-name>, &#x0026; <string-name><surname>Brosens</surname>, <given-names>I.</given-names></string-name> (<year>1986</year>). <article-title>Inadequate maternal vascular response to placentation in pregnancies complicated by pre-eclampsia and by small-for-gestational age infants</article-title>. <source>BJOG: An International Journal of Obstetrics &#x0026; Gynaecology</source>, <volume>93</volume>(<elocation-id>10</elocation-id>). <pub-id pub-id-type="doi">10.1111/j.1471-0528.1986.tb07830.x</pub-id></mixed-citation></ref>
+<ref id="c15"><label>15.</label><mixed-citation publication-type="journal"><string-name><surname>Landers</surname>, <given-names>K. A.</given-names></string-name>, <string-name><surname>Li</surname>, <given-names>H.</given-names></string-name>, <string-name><surname>Mortimer</surname>, <given-names>R. H.</given-names></string-name>, <string-name><surname>McLeod</surname>, <given-names>D. S. A.</given-names></string-name>, <string-name><surname>d&#x2019;Emden</surname>, <given-names>M. C.</given-names></string-name>, &#x0026; <string-name><surname>Richard</surname>, <given-names>K.</given-names></string-name> (<year>2018</year>). <article-title>Transthyretin uptake in placental cells is regulated by the high-density lipoprotein receptor, scavenger receptor class B member 1</article-title>. <source>Molecular and Cellular Endocrinology</source>, <volume>474</volume>. <pub-id pub-id-type="doi">10.1016/j.mce.2018.02.014</pub-id></mixed-citation></ref>
 <ref id="c16"><label>16.</label><mixed-citation publication-type="journal"><string-name><surname>Lanoix</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>St-Pierre</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Lacasse</surname>, <given-names>A. A.</given-names></string-name>, <string-name><surname>Viau</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Lafond</surname>, <given-names>J.</given-names></string-name>, &#x0026; <string-name><surname>Vaillancourt</surname>, <given-names>C</given-names></string-name>. (<year>2012</year>). <article-title>Stability of reference proteins in human placenta: General protein stains are the benchmark</article-title>. <source>Placenta</source>, <volume>33</volume>(<elocation-id>3</elocation-id>). <pub-id pub-id-type="doi">10.1016/j.placenta.2011.12.008</pub-id></mixed-citation></ref>
 <ref id="c17"><label>17.</label><mixed-citation publication-type="journal"><string-name><surname>Lee</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Chow</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Skeith</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Nicholas</surname>, <given-names>J. A.</given-names></string-name>, <string-name><surname>Poon</surname>, <given-names>M.-C.</given-names></string-name>, <string-name><surname>Poole</surname>, <given-names>A. W.</given-names></string-name>, &#x0026; <string-name><surname>Agbani</surname>, <given-names>E. O</given-names></string-name>. (<year>2020</year>). <article-title>Platelet Membrane Procoagulation in Preeclampsia</article-title>. <source>Blood</source>, <volume>136</volume>(<elocation-id>Supplement 1</elocation-id>). <pub-id pub-id-type="doi">10.1182/blood-2020-137213</pub-id></mixed-citation></ref>
 <ref id="c18"><label>18.</label><mixed-citation publication-type="journal"><string-name><surname>Lisonkova</surname>, <given-names>S.</given-names></string-name>, &#x0026; <string-name><surname>Joseph</surname>, <given-names>K. S</given-names></string-name>. (<year>2013</year>). <article-title>Incidence of preeclampsia: risk factors and outcomes associated with early-versus late-onset disease</article-title>. <source>American Journal of Obstetrics and Gynecology</source>, <volume>209</volume>(), <fpage>544.e1</fpage>&#x2013;<lpage>544.e12</lpage>. <pub-id pub-id-type="doi">10.1016/J.AJOG.2013.08.019</pub-id></mixed-citation></ref>
@@ -312,10 +320,10 @@
 <ref id="c21"><label>21.</label><mixed-citation publication-type="journal"><string-name><surname>Raudvere</surname>, <given-names>U.</given-names></string-name>, <string-name><surname>Kolberg</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Kuzmin</surname>, <given-names>I.</given-names></string-name>, <string-name><surname>Arak</surname>, <given-names>T.</given-names></string-name>, <string-name><surname>Adler</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Peterson</surname>, <given-names>H.</given-names></string-name>, &#x0026; <string-name><surname>Vilo</surname>, <given-names>J</given-names></string-name>. (<year>2019</year>). <article-title>G:Profiler: A web server for functional enrichment analysis and conversions of gene lists (2019 update)</article-title>. <source>Nucleic Acids Research</source>, <volume>47</volume>(<elocation-id>W1</elocation-id>). <pub-id pub-id-type="doi">10.1093/nar/gkz369</pub-id></mixed-citation></ref>
 <ref id="c22"><label>22.</label><mixed-citation publication-type="journal"><string-name><surname>Redman</surname>, <given-names>C</given-names></string-name>. (<year>2014</year>). <article-title>Pre-eclampsia: A complex and variable disease</article-title>. <source>Pregnancy Hypertension</source>, <volume>4</volume>(), <fpage>241</fpage>&#x2013;<lpage>242</lpage>. <pub-id pub-id-type="doi">10.1016/J.PREGHY.2014.04.009</pub-id></mixed-citation></ref>
 <ref id="c23"><label>23.</label><mixed-citation publication-type="journal"><string-name><surname>Redman</surname>, <given-names>C. W. G.</given-names></string-name>, <string-name><surname>Staff</surname>, <given-names>A. C.</given-names></string-name>, &#x0026; <string-name><surname>Roberts</surname>, <given-names>J. M</given-names></string-name>. (<year>2022</year>). <article-title>Syncytiotrophoblast stress in preeclampsia: the convergence point for multiple pathways</article-title>. <source>American Journal of Obstetrics and Gynecology</source>, <volume>226</volume>(), <fpage>S907</fpage>&#x2013;<lpage>S927</lpage>. <pub-id pub-id-type="doi">10.1016/J.AJOG.2020.09.047</pub-id></mixed-citation></ref>
-<ref id="c24"><label>24.</label><mixed-citation publication-type="journal"><string-name><surname>Shen</surname>, <given-names>W. J.</given-names></string-name>, <string-name><surname>Azhar</surname>, <given-names>S.</given-names></string-name>, &#x0026; <string-name><surname>Kraemer</surname>, <given-names>F. B</given-names></string-name>. (<year>2016</year>). <article-title>ACTH regulation of adrenal SR-B1</article-title>. <source>In Frontiers in Endocrinology</source> (Vol. <volume>7</volume>, Issue MAY). <pub-id pub-id-type="doi">10.3389/fendo.2016.00042</pub-id></mixed-citation></ref>
+<ref id="c24"><label>24.</label><mixed-citation publication-type="journal"><string-name><surname>Shen</surname>, <given-names>W. J.</given-names></string-name>, <string-name><surname>Azhar</surname>, <given-names>S.</given-names></string-name>, &#x0026; <string-name><surname>Kraemer</surname>, <given-names>F. B</given-names></string-name>. (<year>2016</year>). <article-title>ACTH regulation of adrenal SR-B1</article-title>. <source>In Frontiers in Endocrinology</source> (Vol. <volume>7</volume>, Issue ). <pub-id pub-id-type="doi">10.3389/fendo.2016.00042</pub-id></mixed-citation></ref>
 <ref id="c25"><label>25.</label><mixed-citation publication-type="journal"><string-name><surname>Soto-Wright</surname>, <given-names>V.</given-names></string-name>, <string-name><surname>Bernstein</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Goldstein</surname>, <given-names>D. P.</given-names></string-name>, &#x0026; <string-name><surname>Berkowitz</surname>, <given-names>R. S</given-names></string-name>. (<year>1995</year>). <article-title>The changing clinical presentation of complete molar pregnancy</article-title>. <source>Obstetrics and Gynecology</source>, <volume>86</volume>(), <fpage>775</fpage>&#x2013;<lpage>779</lpage>. <pub-id pub-id-type="doi">10.1016/0029-7844(95)00268-V</pub-id></mixed-citation></ref>
 <ref id="c26"><label>26.</label><mixed-citation publication-type="journal"><string-name><surname>Thadhani</surname>, <given-names>R.</given-names></string-name>, <string-name><surname>Lemoine</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Rana</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Costantine</surname>, <given-names>M. M.</given-names></string-name>, <string-name><surname>Calsavara</surname>, <given-names>V. F.</given-names></string-name>, <string-name><surname>Boggess</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Wylie</surname>, <given-names>B. J.</given-names></string-name>, <string-name><surname>Simas</surname>, <given-names>T. A. M.</given-names></string-name>, <string-name><surname>Louis</surname>, <given-names>J. M.</given-names></string-name>, <string-name><surname>Espinoza</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Gaw</surname>, <given-names>S. L.</given-names></string-name>, <string-name><surname>Murtha</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Wiegand</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Gollin</surname>, <given-names>Y.</given-names></string-name>, <string-name><surname>Singh</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Silver</surname>, <given-names>R. M.</given-names></string-name>, <string-name><surname>Durie</surname>, <given-names>D. E.</given-names></string-name>, <string-name><surname>Panda</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Norwitz</surname>, <given-names>E. R.</given-names></string-name>, &#x2026; <string-name><surname>Kilpatrick</surname>, <given-names>S</given-names></string-name>. (<year>2022</year>). <article-title>Circulating Angiogenic Factor Levels in Hypertensive Disorders of Pregnancy</article-title>. <source>NEJM Evidence</source>, <volume>1</volume>(<elocation-id>12</elocation-id>). <pub-id pub-id-type="doi">10.1056/EVIDOA2200161</pub-id></mixed-citation></ref>
-<ref id="c27"><label>27.</label><mixed-citation publication-type="journal"><string-name><given-names>Wan</given-names> <surname>Shumei</surname></string-name>, <string-name><given-names>Peng</given-names> <surname>Ping</surname></string-name>, <string-name><given-names>Qiao</given-names> <surname>Lin</surname></string-name>, <string-name><given-names>G.</given-names> <surname>Y</surname></string-name>. (<year>2019</year>). <article-title>Expression of miR-144, titin-Ab and MAPK signal transduction pathway related proteins in pre-eclampsia patients</article-title>. <source>INTERNATIONAL JOURNAL OF CLINICAL AND EXPERIMENTAL MEDICINE</source>, <volume>11</volume>(), <fpage>11</fpage>&#x2013;<lpage>20</lpage>. <ext-link ext-link-type="uri" xlink:href="http://www.ijcem.com">www.ijcem.com</ext-link> /ISSN:1940-5901/IJCEM0098123</mixed-citation></ref>
+<ref id="c27"><label>27.</label><mixed-citation publication-type="journal"><string-name><given-names>Wan</given-names> <surname>Shumei</surname></string-name>, <string-name><given-names>Peng</given-names> <surname>Ping</surname></string-name>, <string-name><given-names>Qiao</given-names> <surname>Lin</surname></string-name>, G. Y. (<year>2019</year>). <article-title>Expression of miR-144, titin-Ab and MAPK signal transduction pathway related proteins in pre-eclampsia patients</article-title>. <source>INTERNATIONAL JOURNAL OF CLINICAL AND EXPERIMENTAL MEDICINE</source>, <volume>11</volume>(), <fpage>11</fpage>&#x2013;<lpage>20</lpage>. <ext-link ext-link-type="uri" xlink:href="http://www.ijcem.com/ISSN:1940-5901/IJCEM0098123">www.ijcem.com/ISSN:1940-5901/IJCEM0098123</ext-link></mixed-citation></ref>
 <ref id="c28"><label>28.</label><mixed-citation publication-type="journal"><string-name><surname>Wei</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Fu</surname>, <given-names>Y.</given-names></string-name>, <string-name><surname>Mao</surname>, <given-names>X.</given-names></string-name>, <string-name><surname>Jing</surname>, <given-names>Y.</given-names></string-name>, <string-name><surname>Guo</surname>, <given-names>J.</given-names></string-name>, &#x0026; <string-name><surname>Ye</surname>, <given-names>Y</given-names></string-name>. (<year>2019</year>). <article-title>Decreased Filamin b expression regulates trophoblastic cells invasion through ERK/MMP-9 pathway in pre-eclampsia</article-title>. <source>Ginekologia Polska</source>, <volume>90</volume>(), <fpage>39</fpage>&#x2013;<lpage>45</lpage>. <pub-id pub-id-type="doi">10.5603/GP.2019.0006</pub-id></mixed-citation></ref>
 <ref id="c29"><label>29.</label><mixed-citation publication-type="journal"><string-name><surname>Whitehead</surname>, <given-names>C. L.</given-names></string-name>, <string-name><surname>Walker</surname>, <given-names>S. P.</given-names></string-name>, <string-name><surname>Ye</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Mendis</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Kaitu&#x2019;u-Lino</surname>, <given-names>T. J.</given-names></string-name>, <string-name><surname>Lappas</surname>, <given-names>M.</given-names></string-name>, &#x0026; <string-name><surname>Tong</surname>, <given-names>S</given-names></string-name>. (<year>2013</year>). <article-title>Placental specific mRNA in the maternal circulation are globally dysregulated in pregnancies complicated by fetal growth restriction</article-title>. <source>Journal of Clinical Endocrinology and Metabolism</source>, <volume>98</volume>(<elocation-id>3</elocation-id>). <pub-id pub-id-type="doi">10.1210/jc.2012-2468</pub-id></mixed-citation></ref>
 <ref id="c30"><label>30.</label><mixed-citation publication-type="journal"><string-name><surname>Zeisler</surname>, <given-names>H.</given-names></string-name>, <string-name><surname>Llurba</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Chantraine</surname>, <given-names>F.</given-names></string-name>, <string-name><surname>Vatish</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Staff</surname>, <given-names>A. C.</given-names></string-name>, <string-name><surname>Sennstr&#x00F6;m</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Olovsson</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Brennecke</surname>, <given-names>S. P.</given-names></string-name>, <string-name><surname>Stepan</surname>, <given-names>H.</given-names></string-name>, <string-name><surname>Allegranza</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Dilba</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Schoedl</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Hund</surname>, <given-names>M.</given-names></string-name>, &#x0026; <string-name><surname>Verlohren</surname>, <given-names>S</given-names></string-name>. (<year>2016</year>). <article-title>Predictive Value of the sFlt-1:PlGF Ratio in Women with Suspected Preeclampsia</article-title>. <source>The New England Journal of Medicine</source>, <volume>374</volume>(), <fpage>13</fpage>&#x2013;<lpage>22</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMOA1414838</pub-id></mixed-citation></ref>
@@ -327,7 +335,7 @@
 <p>Supplemental Methods</p>
 <p>Supplemental table S1-4</p>
 <p>Supplemental figure S1</p>
-<p>List of differentially abundant proteins and functional enrichment analysis: <ext-link ext-link-type="uri" xlink:href="https://data.mendeley.com/datasets/j2x4h9ddcj/draft?a&#x003D;8ccd383c-c6e5-495d-b66b-29c691608995">https://data.mendeley.com/datasets/j2x4h9ddcj/draft?a&#x003D;8ccd383c-c6e5-495d-b66b-29c691608995</ext-link></p>
+<p>List of differentially abundant proteins and functional enrichment analysis: <ext-link ext-link-type="uri" xlink:href="https://data.mendeley.com/datasets/j2x4h9ddcj/draft?a=8ccd383c-c6e5-495d-b66b-29c691608995">https://data.mendeley.com/datasets/j2x4h9ddcj/draft?a=8ccd383c-c6e5-495d-b66b-29c691608995</ext-link></p>
 </sec>
 <sec id="s8">
 <title>Supplemental data</title>
@@ -336,7 +344,7 @@
 <fig id="figs1" position="float" orientation="portrait" fig-type="figure">
 <label>Supplemental figure 1.</label>
 <caption><p>Flow chart illustrating the steps involved in characterizing m/lSTB-EVs and sSTB-EVs obtained via differential ultracentrifugation (10,000 and 150,000 g) of maternal perfusate. Nanoparticle trafficking analysis, transmission electron microscopy, flow cytometry, and western blot were used to characterize the pellets from both spins.</p></caption>
-<graphic xlink:href="23290935v1_figs1.tif"/>
+<graphic xlink:href="23290935v2_figs1.tif"/>
 </fig>
 </sec>
 <sec id="s8b">
@@ -351,12 +359,12 @@
 <sec id="s9">
 <title>Western blotting</title>
 <table-wrap id="tbls1" orientation="portrait" position="float">
-<label>Supplemental table 1.</label><caption><p>Reagents used for western blot.</p></caption>
-<graphic xlink:href="23290935v1_tbls1.tif"/>
+<label>Supplemental table 1.</label><caption><title>Reagents used for western blot.</title></caption>
+<graphic xlink:href="23290935v2_tbls1.tif"/>
 </table-wrap>
 <table-wrap id="tbls2" orientation="portrait" position="float">
-<label>Supplemental table 2.</label><caption><p>Antibodies used for western blot.</p></caption>
-<graphic xlink:href="23290935v1_tbls2.tif"/>
+<label>Supplemental table 2.</label><caption><title>Antibodies used for western blot.</title></caption>
+<graphic xlink:href="23290935v2_tbls2.tif"/>
 </table-wrap>
 <sec id="s9a">
 <title>Bioinformatic analysis of proteomic data from placenta tissue, medium/large and small STB-EVs</title>
@@ -366,25 +374,25 @@
 <sec id="s9b">
 <title>Functional enrichment of differentially expressed proteins (DEPs) in preeclampsia (PE)</title>
 <table-wrap id="tbls3" orientation="portrait" position="float">
-<label>Supplemental table 3:</label><caption><p>The top three functionally enriched gene ontologies are: biological process (GO: BP) Placenta (bold font), medium/large STB-EVs (normal font), and small STB-EVs (italics).</p></caption>
-<graphic xlink:href="23290935v1_tbls3.tif"/>
+<label>Supplemental table 3:</label><caption><title>The top three functionally enriched gene ontologies are: biological process (GO: BP) Placenta (bold font), medium/large STB-EVs (normal font), and small STB-EVs (italics).</title></caption>
+<graphic xlink:href="23290935v2_tbls3.tif"/>
 </table-wrap>
 <table-wrap id="tbls4" orientation="portrait" position="float">
-<label>Supplemental table 4:</label><caption><p>The top three functionally enriched KEGG Pathways in the placenta, medium/large STB-EVs, and small STB-EVs (only 1 KEGG). Placenta (bold font), medium/large STB-EVs (normal font), and small STB-EVs (italics)</p></caption>
-<graphic xlink:href="23290935v1_tbls4.tif"/>
+<label>Supplemental table 4:</label><caption><title>The top three functionally enriched KEGG Pathways in the placenta, medium/large STB-EVs, and small STB-EVs (only 1 KEGG). Placenta (bold font), medium/large STB-EVs (normal font), and small STB-EVs (italics)</title></caption>
+<graphic xlink:href="23290935v2_tbls4.tif"/>
 </table-wrap>
 </sec>
 <sec id="s9c">
 <title>Major Resources Table</title>
 <table-wrap id="utbl1" orientation="portrait" position="float">
-<graphic xlink:href="23290935v1_utbl1.tif"/>
+<graphic xlink:href="23290935v2_utbl1.tif"/>
 </table-wrap>
 </sec>
 <sec id="s9d">
 <title>Flow cytometry resources</title>
 <table-wrap id="utbl2" orientation="portrait" position="float">
-<graphic xlink:href="23290935v1_utbl2.tif"/>
-<graphic xlink:href="23290935v1_utbl2a.tif"/>
+<graphic xlink:href="23290935v2_utbl2.tif"/>
+<graphic xlink:href="23290935v2_utbl2a.tif"/>
 </table-wrap>
 </sec>
 </sec>
