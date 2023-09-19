@@ -309,18 +309,8 @@
 <xref ref-type="aff" rid="a1">1</xref>
 <xref ref-type="aff" rid="a2">2</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Phan</surname><given-names>Minh Duy</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Tran</surname><given-names>Le Son</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Phan</surname><given-names>Minh Duy</given-names></name><email>pmduy@yahoo.com</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Tran</surname><given-names>Le Son</given-names></name><email>leson1808@gmail.com</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib>
 <aff id="a1"><label>1</label>Gene Solutions, Ho Chi Minh City, Vietnam</aff>
 <aff id="a2"><label>2</label>Medical Genetics Institute, Ho Chi Minh City, Vietnam</aff>
 <aff id="a3"><label>3</label>University Medical Center, Ho Chi Minh City, Vietnam</aff>
@@ -333,7 +323,6 @@
 </contrib-group>
 <author-notes>
 <fn id="n1" fn-type="equal"><label>&#x0023;</label><p>Van Thien Chi Nguyen and Trong-Hieu Nguyen contributed equally to this study.</p></fn>
-<corresp id="cor1"><label>&#x002A;</label>Correspondence: <email>pmduy@yahoo.com</email>; <email>leson1808@gmail.com</email></corresp>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.04.12.23288460</elocation-id>
@@ -611,7 +600,7 @@
 <back>
 <ref-list>
 <title>References</title>
-<ref id="c1"><label>1.</label><mixed-citation publication-type="book"><string-name><surname>Sung</surname> <given-names>H</given-names></string-name>, <string-name><surname>Ferlay</surname> <given-names>J</given-names></string-name>, <string-name><surname>Siegel</surname> <given-names>RL</given-names></string-name>, <string-name><surname>Laversanne</surname> <given-names>M</given-names></string-name>, <string-name><surname>Soerjomataram</surname> <given-names>I</given-names></string-name>, <string-name><surname>Jemal</surname> <given-names>A</given-names></string-name>, et al. Global Cancer Statistics <year>2020</year>: <source>GLOBOCAN Estimates of Incidence and Mortality Worldwide for 36 Cancers in 185 Countries</source>. <publisher-loc>CA</publisher-loc>: <publisher-name>A Cancer Journal for Clinicians</publisher-name>. <elocation-id>2021</elocation-id>;71(3):209-49.</mixed-citation></ref>
+<ref id="c1"><label>1.</label><mixed-citation publication-type="journal"><string-name><surname>Sung</surname><given-names>H</given-names></string-name>, <string-name><surname>Ferlay</surname><given-names>J</given-names></string-name>, <string-name><surname>Siegel</surname><given-names>RL</given-names></string-name>, <string-name><surname>Laversanne</surname><given-names>M</given-names></string-name>, <string-name><surname>Soerjomataram</surname><given-names>I</given-names></string-name>, <string-name><surname>Jemal</surname><given-names>A</given-names></string-name>, <string-name><surname>Bray</surname><given-names>F</given-names></string-name>. <article-title>Global Cancer Statistics 2020: GLOBOCAN Estimates of Incidence and Mortality Worldwide for 36 Cancers in 185 Countries</article-title>. <source>CA: A Cancer Journal for Clinicians</source>. <year>2021</year>;<volume>71</volume>(<issue>3</issue>):<fpage>209</fpage>-<lpage>49</lpage>.</mixed-citation></ref>
 <ref id="c2"><label>2.</label><mixed-citation publication-type="journal"><string-name><surname>Pham</surname> <given-names>T</given-names></string-name>, <string-name><surname>Bui</surname> <given-names>L</given-names></string-name>, <string-name><surname>Kim</surname> <given-names>G</given-names></string-name>, <string-name><surname>Hoang</surname> <given-names>D</given-names></string-name>, <string-name><surname>Tran</surname> <given-names>T</given-names></string-name>, <string-name><surname>Hoang</surname> <given-names>M</given-names></string-name>. <article-title>Cancers in Vietnam-Burden and Control Efforts: A Narrative Scoping Review</article-title>. <source>Cancer Control</source>. <year>2019</year>;<volume>26</volume>():<elocation-id>1073274819863802</elocation-id>.</mixed-citation></ref>
 <ref id="c3"><label>3.</label><mixed-citation publication-type="journal"><string-name><surname>Hawkes</surname> <given-names>N</given-names></string-name>. <article-title>Cancer survival data emphasise importance of early diagnosis</article-title>. <source>BMJ</source>. <year>2019</year>;<volume>364</volume>:.</mixed-citation></ref>
 <ref id="c4"><label>4.</label><mixed-citation publication-type="journal"><string-name><surname>Kakushadze</surname> <given-names>Z</given-names></string-name>, <string-name><surname>Raghubanshi</surname> <given-names>R</given-names></string-name>, <string-name><surname>Yu</surname> <given-names>W</given-names></string-name>. <article-title>Estimating Cost Savings from Early Cancer Diagnosis</article-title>. <source>Data [Internet</source>]. <year>2017</year>; <volume>2</volume>().</mixed-citation></ref>
