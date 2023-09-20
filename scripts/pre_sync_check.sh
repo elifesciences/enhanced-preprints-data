@@ -2,7 +2,7 @@
 set -e
 
 # This requires git
-# pass the remote url (organitsation/repo) as first param
+# pass the remote url (organisation/repo) as first param
 # example run:
 # ./scripts/pre_sync_check.sh [GITHUB_ORG_AND_REPO]
 
