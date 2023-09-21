@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2d1 20170631//EN" "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="article" dtd-version="1.2d1" specific-use="production" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">BIORXIV</journal-id>
+<journal-title-group>
+<journal-title>bioRxiv</journal-title>
+<abbrev-journal-title abbrev-type="publisher">bioRxiv</abbrev-journal-title>
+</journal-title-group>
+<publisher>
+<publisher-name>Cold Spring Harbor Laboratory</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1101/2023.06.01.543292</article-id>
+<article-version>1.5</article-version>
+<article-categories>
+<subj-group subj-group-type="author-type">
+<subject>Regular Article</subject>
+</subj-group>
+<subj-group subj-group-type="heading">
+<subject>New Results</subject>
+</subj-group>
+<subj-group subj-group-type="hwp-journal-coll">
+<subject>Molecular Biology</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Scaling of an antibody validation procedure enables quantification of antibody performance in major research applications</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6633-655X</contrib-id>
+<name><surname>Ayoubi</surname><given-names>Riham</given-names></name>
+<xref ref-type="aff" rid="a1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7295-815X</contrib-id>
+<name><surname>Ryan</surname><given-names>Joel</given-names></name>
+<xref ref-type="aff" rid="a2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9853-8815</contrib-id>
+<name><surname>Biddle</surname><given-names>Michael S</given-names></name>
+<xref ref-type="aff" rid="a3">3</xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7999-1297</contrib-id>
+<name><surname>Alshafie</surname><given-names>Walaa</given-names></name>
+<xref ref-type="aff" rid="a1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8937-4719</contrib-id>
+<name><surname>Fotouhi</surname><given-names>Maryam</given-names></name>
+<xref ref-type="aff" rid="a1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4299-8281</contrib-id>
+<name><surname>Bolivar</surname><given-names>Sara Gonzalez</given-names></name>
+<xref ref-type="aff" rid="a1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3728-3158</contrib-id>
+<name><surname>Moleon</surname><given-names>Vera Ruiz</given-names></name>
+<xref ref-type="aff" rid="a1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5388-9451</contrib-id>
+<name><surname>Eckmann</surname><given-names>Peter</given-names></name>
+<xref ref-type="aff" rid="a4">4</xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5676-5473</contrib-id>
+<name><surname>Worrall</surname><given-names>Donovan</given-names></name>
+<xref ref-type="aff" rid="a1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9031-4729</contrib-id>
+<name><surname>McDowell</surname><given-names>Ian</given-names></name>
+<xref ref-type="aff" rid="a1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4125-3608</contrib-id>
+<name><surname>Southern</surname><given-names>Kathleen</given-names></name>
+<xref ref-type="aff" rid="a1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5466-7885</contrib-id>
+<name><surname>Reintsch</surname><given-names>Wolfgang</given-names></name>
+<xref ref-type="aff" rid="a5">5</xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3942-1956</contrib-id>
+<name><surname>Durcan</surname><given-names>Thomas M</given-names></name>
+<xref ref-type="aff" rid="a5">5</xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-1622-663X</contrib-id>
+<name><surname>Brown</surname><given-names>Claire M</given-names></name>
+<xref ref-type="aff" rid="a2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5497-0243</contrib-id>
+<name><surname>Bandrowski</surname><given-names>Anita</given-names></name>
+<xref ref-type="aff" rid="a4">4</xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9739-9593</contrib-id>
+<name><surname>Virk</surname><given-names>Harvinder S</given-names></name>
+<xref ref-type="aff" rid="a3">3</xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4782-6016</contrib-id>
+<name><surname>Edwards</surname><given-names>Aled M</given-names></name>
+<xref ref-type="aff" rid="a6">6</xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7806-5662</contrib-id>
+<name><surname>McPherson</surname><given-names>Peter S</given-names></name>
+<xref ref-type="aff" rid="a1">1</xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5906-025X</contrib-id>
+<name><surname>Laflamme</surname><given-names>Carl</given-names></name>
+<xref ref-type="aff" rid="a1">1</xref>
+</contrib>
+<aff id="a1"><label>1</label>Department of Neurology and Neurosurgery, Structural Genomics Consortium, The Montreal Neurological Institute, McGill University, Montreal, Quebec, Canada</aff>
+<aff id="a2"><label>2</label>Advanced BioImaging Facility (ABIF), McGill University, Montreal, Canada</aff>
+<aff id="a3"><label>3</label>NIHR Respiratory BRC, Department of Respiratory Sciences, University of Leicester, Leicester, UK</aff>
+<aff id="a4"><label>4</label>Department of Neuroscience, UC San Diego, La Jolla, CA, United States of America</aff>
+<aff id="a5"><label>5</label>The Neuro&#x2019;s Early Drug Discovery Unit (EDDU), Structural Genomics Consortium, McGill University, Montreal, Quebec, Canada</aff>
+<aff id="a6"><label>6</label>Structural Genomics Consortium, University of Toronto, Toronto, Ontario, Canada</aff>
+</contrib-group>
+<author-notes>
+<corresp id="cor1">Address correspondence to: Dr. Carl Laflamme Department of Neurology and Neurosurgery Montreal Neurological Institute McGill University 3801 University Street Montreal, QC H3A 2B4 Canada phone: phone: (514) 398-7355 Email: <email>carl.laflamme@mcgill.ca</email></corresp>
+</author-notes>
+<pub-date pub-type="epub"><year>2023</year></pub-date>
+<elocation-id>2023.06.01.543292</elocation-id>
+<history>
+<date date-type="received">
+<day>01</day>
+<month>6</month>
+<year>2023</year>
+</date>
+<date date-type="rev-recd">
+<day>04</day>
+<month>8</month>
+<year>2023</year>
+</date>
+<date date-type="accepted">
+<day>04</day>
+<month>8</month>
+<year>2023</year>
+</date>
+</history>
+<permissions>
+<copyright-statement>&#x00A9; 2023, Posted by Cold Spring Harbor Laboratory</copyright-statement>
+<copyright-year>2023</copyright-year>
+<license license-type="creative-commons" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><license-p>This pre-print is available under a Creative Commons License (Attribution-NonCommercial-NoDerivs 4.0 International), CC BY-NC-ND 4.0, as described at <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link></license-p></license>
+</permissions>
+<self-uri xlink:href="543292.pdf" content-type="pdf" xlink:role="full-text"/>
+<abstract>
+<p>Antibodies are critical reagents to detect and characterize proteins. It is commonly understood that many commercial antibodies do not recognize their intended targets, but information on the scope of the problem remains largely anecdotal, and as such, feasibility of the goal of at least one potent and specific antibody targeting each protein in a proteome cannot be assessed. Focusing on antibodies for human proteins, we have scaled a standardized characterization approach using parental and knockout cell lines (<xref ref-type="bibr" rid="c7">Laflamme et al., 2019</xref>) to assess the performance of 614 commercial antibodies for 65 neuroscience-related proteins. Side-by-side comparisons of all antibodies against each target, obtained from multiple commercial partners, demonstrates that: <italic>i)</italic> more than 50&#x0025; of all antibodies failed in one or more tests, <italic>ii</italic>) yet, &#x223C;50-75&#x0025; of the protein set was covered by at least one high-performing antibody, depending on application, suggesting that coverage of human proteins by commercial antibodies is significant; and <italic>iii</italic>) recombinant antibodies performed better than monoclonal or polyclonal antibodies. The hundreds of underperforming antibodies identified in this study were found to have been used in a large number of published articles, which should raise alarm. Encouragingly, more than half of the underperforming commercial antibodies were reassessed by the manufacturers, and many had alterations to their recommended usage or were removed from the market. This first such study helps demonstrate the scale of the antibody specificity problem but also suggests an efficient strategy toward achieving coverage of the human proteome; mine the existing commercial antibody repertoire, and use the data to focus new renewable antibody generation efforts.</p>
+</abstract>
+<kwd-group kwd-group-type="author">
+<title>Key words</title>
+<kwd>antibody</kwd>
+<kwd>antibody validation</kwd>
+<kwd>antibody characterization</kwd>
+<kwd>open science</kwd>
+</kwd-group>
+<counts>
+<page-count count="32"/>
+</counts>
+</article-meta>
+<notes>
+<notes notes-type="competing-interest-statement">
+<title>Competing Interest Statement</title><p>The authors have declared no competing interest.</p></notes>
+<fn-group content-type="summary-of-updates">
+<title>Summary of Updates:</title>
+<fn fn-type="update"><p>Slight changes in the abstract and discussion.</p></fn>
+</fn-group>
+<fn-group content-type="external-links">
+<fn fn-type="dataset"><p>
+<ext-link ext-link-type="uri" xlink:href="https://f1000research.com/ycharos">https://f1000research.com/ycharos</ext-link>
+</p></fn>
+<fn fn-type="dataset"><p>
+<ext-link ext-link-type="uri" xlink:href="https://zenodo.org/communities/ycharos/">https://zenodo.org/communities/ycharos/</ext-link>
+</p></fn>
+</fn-group>
+</notes>
+</front>
+<body>
+<sec id="s1">
+<title>Introduction</title>
+<p>Antibodies are critical reagents used in a range of applications, enabling the identification, quantification, and localization of proteins studied in biomedical and clinical research. The research enterprise spends significantly on the &#x223C;1.6M commercially available antibodies targeting &#x223C;96&#x0025; of human proteins [<xref ref-type="bibr" rid="c1">1</xref>]. Unfortunately, a significant percentage of these antibodies do not recognize the intended protein or recognize the protein but also recognize non-intended targets, with estimates that &#x0024;0.375 to &#x0024;1.75 billion is wasted yearly on non-specific antibodies [<xref ref-type="bibr" rid="c2">2</xref>-<xref ref-type="bibr" rid="c4">4</xref>]. Perhaps worse, the use of poor-quality antibodies is a major factor in the scientific reproducibility crisis [<xref ref-type="bibr" rid="c3">3</xref>-<xref ref-type="bibr" rid="c5">5</xref>]. With tens to hundreds of antibodies available for any given protein target, it is difficult for antibody users to select the best performing antibody [<xref ref-type="bibr" rid="c6">6</xref>], and a growing number of cases reveal that use of previously published antibodies is not a reliable method to assess performance [<xref ref-type="bibr" rid="c7">7</xref>-<xref ref-type="bibr" rid="c12">12</xref>]. Academic and industry scientists aspire to have at least one, and ideally more, potent and selective and renewable antibody for each human protein for each of the most common applications [<xref ref-type="bibr" rid="c13">13</xref>]. Unfortunately, there is no agreed-upon mechanism to determine, validate or compare antibody performance and there are multiple strategies for antibody validation [<xref ref-type="bibr" rid="c14">14</xref>], with unequal scientific value. Most information on how commercial antibodies perform is anecdotal. It is thus difficult to assess progress toward the objective of well-validated antibodies for each human protein, or to design a strategy to accomplish this aim.</p>
+<p>We sought to address this issue by developing optimized protocols to assess antibody specificity in the three most common uses of antibodies in biomedical research laboratories; Western blot (WB), immunoprecipitation (IP), and immunofluorescence (IF). We used these protocols to test antibodies against a variety of neuroscience targets, chosen by funders, to predict requirements for the larger goal of coverage of an entire mammalian proteome. The optimal antibody testing methodology is largely settled; using an appropriately selected wild type cell and an isogenic CRISPR knockout (KO) version of the same cell as the basis for testing, yields rigorous and broadly applicable results (this study, as well as [<xref ref-type="bibr" rid="c7">7</xref>, <xref ref-type="bibr" rid="c15">15</xref>, <xref ref-type="bibr" rid="c16">16</xref>]). However, the cost of antibody characterization using engineered KO cells is higher than that of other methods, mainly because of the cost of custom edited cells. Commercial antibody suppliers support a large and diverse catalogue of products, with most antibody products generating &#x003C;&#x0024;5,000 in total sales, far less than the costs of KO-based validation, estimated at &#x0024;25,000. While leading companies are increasingly assessing antibody performance, it is exceedingly difficult, and cost restrained, to properly characterize all their products. Even when available, high-performing antibodies may remain hidden within the millions of reagents of unknown quality.</p>
+<p>To begin the process of large-scale antibody validation and to provide a large enough dataset to allow for more accurate estimates of the work and financing required to complete such a project, we began with the human proteome. We created a partnership of academics, funders, and commercial antibody manufacturers, including 10 companies representing approximately 27&#x0025; of antibody manufacturing worldwide. For each protein target, we tested commercial antibodies from various manufacturers in parallel using standardized protocols, agreed upon by all parties, in WB, IP, and IF applications. All data are shared rapidly and openly on ZENODO, a preprint server. We have tested 614 commercially available antibodies targeting 65 proteins, and found that approximately two thirds of this protein set was covered by at least one high-performing antibody, and half was covered by at least one high-performing renewable antibody, suggesting that coverage of human proteins by high-performing antibodies is significant. This sample is large enough to observe several trends in antibody performance across various parameters and estimate the scale of the antibody liability crisis.</p>
+</sec>
+<sec id="s2">
+<title>Results</title>
+<sec id="s2a">
+<title>Assembling KO cell lines and antibodies</title>
+<p>Our initiative has thus far validated antibodies for 65 protein targets, which were chosen by disease charities, academia, and industry without consideration of antibody coverage. The list comprises 32 Alzheimer&#x2019;s disease (AD)-related proteins that were community-nominated through an NIH-funded project on dark AD genes (<ext-link ext-link-type="uri" xlink:href="https://agora.adknowledgeportal.org/">https://agora.adknowledgeportal.org/</ext-link>), 22 proteins nominated within the amyotrophic lateral sclerosis (ALS) Reproducible Antibody Platform project, 5 Parkinson&#x2019;s disease (PD)-linked proteins nominated by the Michael J. Fox Foundation, and 6 proteins nominated by industry (<xref rid="fig1" ref-type="fig">Figure 1A</xref>). Within the 65 target proteins, 56 are predicted intracellular and 9 are predicted secreted. The description of each protein target is indicated in Table 1.</p>
+<fig id="fig1" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 1:</label>
+<caption><title>Antibody characterization platform</title>
+<p>(<bold>A</bold>) The funders of the targets analyzed in this study and the number of targets proposed by each are indicated. (<bold>B</bold>) Bioinformatic analyses of nominated proteins using Uniprot to determine their molecular mass, unique Uniprot ID and published/expected subcellular distribution. In parallel, analyses of the Cancer Dependency Map (&#x00022;DepMap&#x00022;) portal provided RNA sequencing data for the designated target, which guided our selection of cell lines with adequate expression for the generation of custom KO cell lines. A subset of cell lines amenable for genome engineering were prioritized. (<bold>C</bold>) Receive relevant KO cell lines or generate custom KO lines and (<bold>D</bold>) receive antibodies from manufacturing partners. All contributed antibodies were tested in parallel by (<bold>E</bold>) WB using WT and KO cell lysates ran side-by-side, (<bold>F</bold>) IP followed by WB using a KO-validated antibody identified in <bold>E</bold> and by (<bold>G</bold>) IF using a mosaic strategy to avoid imaging and analysis biases. (<bold>H</bold>) Antibody characterization data for all tested antibodies were presented in a form of a protein target report. All reports were shared with participating manufacturers for their review. (<bold>I</bold>) Reviewed reports were published on ZENODO, an open access repository. ALS- RAP&#x003D;amyotrophic lateral sclerosis-reproducible antibody platform, AD&#x003D;Alzheimer&#x2019;s disease, MJFF&#x003D;Michael J. Fox Foundation. KO&#x003D;knockout cell line</p></caption>
+<graphic xlink:href="543292v5_fig1.tif"/>
+</fig>
+<p>The proteins were searched to determine the Uniprot identifier, the predicted molecular mass, and whether the protein is secreted or intracellular (<xref rid="fig1" ref-type="fig">Figure 1B</xref>). Our strategy was predicated on identifying a parental cell line that expressed sufficient levels of the target protein to be detected by an antibody with a binding affinity of 1-50 nM. To identify candidate lines, we searched the Cancer Dependency Map Portal (DepMap) using the &#x201C;Expression 22Q1&#x201D; database, which houses the RNA-level analysis of &#x003E;1800 cancer cell lines [<xref ref-type="bibr" rid="c17">17</xref>] (<xref rid="fig1" ref-type="fig">Figure 1B</xref>). After our initial experience with a few dozen targets comparing RNA expression and the ability to detect a clear signal, we selected 2.5 log<sub>2</sub>(TPM&#x002B;1) as an RNA-level threshold to select a candidate cell line to create a KO. Among the cell lines showing expression above this level, we prioritized a group of 8 common cell line backgrounds representing different cell/tissue types because their doubling time is short, and they are amenable to CRISPR-Cas9 technology (<xref rid="fig1" ref-type="fig">Figure 1B</xref>). These 8 cell lines were used in 62 out of the 65 antibody characterization studies (Table 1).</p>
+<p>After identifying candidate cell lines for each target, we either obtained KO lines from our industry consortium partners or generated them in-house (<xref rid="fig1" ref-type="fig">Figure 1C</xref>). Antibodies were provided from antibody manufacturers, who were responsible for selecting antibodies to be tested from their collections (<xref rid="fig1" ref-type="fig">Figure 1D</xref>). Most antibody manufacturers prioritized renewable antibodies. The highest priority was given to recombinant antibodies as they represent the ultimate renewable reagent [<xref ref-type="bibr" rid="c13">13</xref>] and have advantages in terms of adaptability, such as switching IgG subclass [<xref ref-type="bibr" rid="c18">18</xref>] or using molecular engineering to achieve higher affinity binding than B-cell generated antibodies [<xref ref-type="bibr" rid="c19">19</xref>].</p>
+<p>All available antibodies from all companies were tested side-by-side in parental and KO lines. The protocols used were established by our previous work [<xref ref-type="bibr" rid="c7">7</xref>] and refined in collaboration with antibody manufacturers. On occasion, our protocols differed from those the companies used in their internal characterization. All antibodies were tested for all 3 applications (except that secreted proteins were not tested in IF), independent of the antibody manufacturers&#x2019; recommendations. We received on average 9.5 antibodies per protein target contributed from an average of 5 different antibody manufacturers (<xref rid="fig1" ref-type="fig">Figure 1E</xref>, F, G). Companies often contributed more than one antibody per target (Table 1).</p>
+</sec>
+<sec id="s2b">
+<title>Antibody and cell line characterization</title>
+<p>For WB, antibodies were tested on cell lysates for intracellular proteins or cell media for secreted proteins (<xref rid="fig1" ref-type="fig">Figure 1E</xref>). For 55/65 of the target proteins, we identified one or more antibodies that successfully immunodetected their cognate protein, identifying well-performing antibodies and validating the efficacy of the KO lines. For the remaining 9 targets, we identified at least one specific, non-selective antibody that detects the cognate protein by WB, but also recognizes unrelated proteins, that is, non-specific bands not lost in the KO controls. All 614 antibodies were tested by immunoprecipitation on non-denaturing cell lysates for intracellular proteins or cell media for secreted proteins, using WB with a successful antibody from the previous step to evaluate the immunocapture (<xref rid="fig1" ref-type="fig">Figure 1F</xref>). All antibodies against intracellular proteins were tested for IF using a strategy that imaged a mosaic of parental and KO cells in the same visual field to reduce imaging and analysis biases (<xref rid="fig1" ref-type="fig">Figure 1G</xref>).</p>
+<p>For each protein target, we consolidated all screening data into a report, which is made available without restriction on ZENODO, a data-sharing website operated by CERN. On ZENODO, all 65 reports are gathered under the Antibody Characterization through Open Science (YCharOS) community: <ext-link ext-link-type="uri" xlink:href="https://ZENODO.org/communities/ycharos/">https://ZENODO.org/communities/ycharos/</ext-link> (<xref rid="fig1" ref-type="fig">Figure 1</xref>). Prior to release, each antibody characterization report underwent technical peer review by a group of scientific advisors from academia and industry (<xref rid="fig1" ref-type="fig">Figure 1</xref>).</p>
+</sec>
+<sec id="s2c">
+<title>Coverage of human proteins by renewable antibodies</title>
+<p>The Antibody Registry (<ext-link ext-link-type="uri" xlink:href="http://www.antibodyregistry.org">www.antibodyregistry.org</ext-link>, SCR_006397) indicates that there are &#x223C;1.6 million antibodies covering &#x223C;96&#x0025; of human proteins [<xref ref-type="bibr" rid="c1">1</xref>], with 53&#x0025; covered by at least five renewable antibodies (<xref rid="fig2" ref-type="fig">Figure 2A</xref>, Supplementary Data 1). Approximately 21&#x0025; of human proteins are covered by only one or two renewable antibodies, and &#x223C;15&#x0025; have no renewable antibodies available (<xref rid="fig2" ref-type="fig">Figure 2A</xref>). In our set of 65 proteins, and from the manufacturers represented, 49 were covered by at least 3 renewable antibodies, 15 by one or two renewable antibodies, and one was not covered by any renewables (Table 1).</p>
+<fig id="fig2" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 2:</label>
+<caption><title>Analysis of human protein coverage by antibodies</title>
+<p>(<bold>A</bold>) Cumulative plot showing the percentage of the human proteome that is covered by polyclonal antibodies (blue line) and renewable antibodies (monoclonal &#x002B; recombinant; orange line). The number of antibodies per protein was extracted from the Antibody Registry database. (<bold>B</bold>) Percentage of target proteins covered by minimally one renewable successful antibody (orange column) or covered by only successful polyclonal antibodies (blue column) is showed for each indicated applications using a bar graph. Lack of successful antibody (&#x201C;none&#x201D;) is also shown (black column).</p></caption>
+<graphic xlink:href="543292v5_fig2.tif"/>
+</fig>
+<p>We found a well-performing renewable antibody for 50 targets in WB (<xref rid="fig2" ref-type="fig">Figure 2B</xref>, left bar graph), for 49 targets in IP (<xref rid="fig2" ref-type="fig">Figure 2B</xref>, middle bar graph), and for 30 targets in IF (<xref rid="fig2" ref-type="fig">Figure 2B</xref>, right bar graph). For some proteins lacking coverage by renewable antibodies or lacking successful renewable antibodies, well-performing polyclonal antibodies were identified (<xref rid="fig2" ref-type="fig">Figure 2B</xref>). Some proteins were not covered by any successful antibodies depending on application; notably &#x223C;40&#x0025; of our protein set lacked a successful antibody for IF (<xref rid="fig2" ref-type="fig">Figure 2B</xref>, right bar graph).</p>
+</sec>
+<sec id="s2d">
+<title>Recombinant antibody performance</title>
+<p>The antibody set constituted 258 polyclonal antibodies, 165 monoclonal antibodies and 191 recombinants. For WB, 27&#x0025; of the polyclonal antibodies, 41&#x0025; of the monoclonal antibodies and 67&#x0025; of the recombinant antibodies immunodetected their target protein (<xref rid="fig3" ref-type="fig">Figure 3</xref>, left bar graph). For IP, trends were similar: 39&#x0025;, 32&#x0025; and 54&#x0025; of polyclonal, monoclonal and recombinants, respectively (<xref rid="fig3" ref-type="fig">Figure 3</xref>, middle bar graph). For IF, we tested 529 antibodies against the set of intracellular proteins; 22&#x0025; of polyclonal antibodies, 31&#x0025; of monoclonal antibodies, and 48&#x0025; of recombinant antibodies generated selective fluorescence signals in images of parental versus KO cells (<xref rid="fig3" ref-type="fig">Figure 3</xref>, right bar graph). Thus, recombinant antibodies are on average better performers than polyclonal or monoclonal antibodies in each of the applications. It should be noted that recombinant antibodies are newer protein reagents compared to polyclonal and monoclonal hybridomas, and their superior performance could be a consequence of enhanced internal characterization by the commercial suppliers.</p>
+<fig id="fig3" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 3:</label>
+<caption><title>Analysis of antibody performance by antibody types</title>
+<p>The percentage of successful antibodies based on their clonality is shown using a bar graph, for each indicated application. The number of antibodies represented in each category is indicated above the corresponding bar.</p></caption>
+<graphic xlink:href="543292v5_fig3.tif"/>
+</fig>
+</sec>
+<sec id="s2e">
+<title>Optimizing an antibody characterization strategy</title>
+<p>While the parental versus KO method is the consensus superior method for antibody validation [<xref ref-type="bibr" rid="c7">7</xref>, <xref ref-type="bibr" rid="c15">15</xref>, <xref ref-type="bibr" rid="c16">16</xref>, <xref ref-type="bibr" rid="c20">20</xref>], not all antibodies on the market are characterized this way, largely due to cost and the range of alternative methods [<xref ref-type="bibr" rid="c14">14</xref>]. To assess if the cost of KO characterization is justified, we compared the performance of antibodies in our dataset to the performance predicted by the characterization methods used by the companies. In all, 578 of the 614 antibodies tested were recommended for WB by the manufacturers. Of these, 44&#x0025; were successful, 35&#x0025; were specific but non-selective, and 21&#x0025; failed (Supplemental Figure 2, left bar graph). Most antibodies are not recommended for IP by the suppliers, perhaps because they are not tested. 143 of 614 antibodies were recommended for IP, and 58&#x0025; enriched their cognate target from cell extracts. Interestingly, of the 471 remaining antibodies that had no recommendation for IP, 37&#x0025; were able to enrich their cognate antigen (Supplemental Figure 2, middle bar graph). In this regard, the manufacturers are under recommending successful products. Of the 529 antibodies tested in IF, 293 were recommended for this application by the suppliers and 236 were not. Only 39&#x0025; of the antibodies recommended for IF were successful (Supplemental Figure 2, right bar graph).</p>
+<p>We next investigated if antibody validation strategies have equal scientific value. Broadly, antibodies are characterized using genetic approaches, which exploit KO or knockdown (KD) samples as controls, or using orthogonal approaches, which use known information about the target protein of interest as a correlate to validate performance. For WB, 61&#x0025; of antibodies were recommended by manufacturers based on orthogonal approaches, 30&#x0025; based on genetic approaches and 9&#x0025; using other strategies. For IF, 83&#x0025; of the antibodies were recommended based on orthogonal approaches, 7&#x0025; using genetic approaches and 10&#x0025; using other strategies (<xref rid="fig4" ref-type="fig">Figure 4A</xref>). For WB, 80&#x0025; of the antibodies recommended by the manufacturers based on orthogonal strategies and 89&#x0025; of antibodies recommended based on genetic strategies could detect the intended target protein (<xref rid="fig4" ref-type="fig">Figure 4B</xref>, left bar graph). For IF, 38&#x0025; of the antibodies recommended by the manufacturers based on orthogonal strategies were confirmed using KO cells as controls. Of the 20 antibodies validated by the manufacturers for IF on the basis of genetic strategies, we confirmed the performance of 16 (80&#x0025;) (<xref rid="fig4" ref-type="fig">Figure 4B</xref>, histogram right). Of the 4 antibodies that failed in our hand, one has already been withdrawn from the market by the manufacturer. Thus, while orthogonal strategies are somewhat suitable for WB, genetic strategies generate far more robust characterization data for IF.</p>
+<fig id="fig4" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 4:</label>
+<caption><title>Scientific value of antibody characterization methods and research usage</title>
+<p>(<bold>A</bold>) Percentage of antibodies validated by suppliers using one of the indicated methods for WB or IF showed using a bar graph with stacked columns. The percentage corresponding to each section of the bar graph is shown directly in the bar graph. Orthogonal&#x003D; orthogonal strategies, genetic&#x003D; genetic strategies. (<bold>B</bold>) Percentage of successful (light gray), specific, non-selective (dark gray-only for WB) and unsuccessful (black) antibodies according to the validation method used by the manufacturer for WB and IF as compared to the KO strategy used in this study. Data are shown using a bar graph with stacked columns. The percentage corresponding to each section of the bar graph is shown directly in the bar graph. The number of antibodies analyzed corresponding to each condition is shown above each bar. (<bold>C</bold>) Percentage of publications that used antibodies that successfully passed validation (correct usage) or to antibodies that were unsuccessful in validation (incorrect usage) showed using a bar graph with stacked columns. The number of publications was found by searching CiteAb. The percentage corresponding to each section of the bar graph is shown in the bar graph and the number of publications represented in each category is shown above the corresponding bar. (<bold>D</bold>) Percentage of publications that used an unsuccessful antibody for IF from (C) that provided validation data for the corresponding antibodies. Data is shown as a bar graph. The number of publications represented in each category is shown above the corresponding bar.</p></caption>
+<graphic xlink:href="543292v5_fig4.tif"/>
+</fig>
+</sec>
+<sec id="s2f">
+<title>Antibodies and reproducible science</title>
+<p>The availability of renewable, well-characterized antibodies would be expected to increase the reproducibility of research. To assess the bibliometric impact of underperforming antibodies, we used the reagent search engine CiteAb (<ext-link ext-link-type="uri" xlink:href="https://www.citeab.com/">https://www.citeab.com/</ext-link>) to quantify how antibodies in our dataset have been used in the literature. We identified 2010 publications that employed one of the 180 antibodies we tested for WB. Of those, 69&#x0025; used a well-performing antibody that specifically immunodetected its target protein by WB, while 31&#x0025; used an antibody unsuccessful in our protocol (<xref rid="fig4" ref-type="fig">Figure 4C</xref>). For IP, 105 publications employed 41 of our tested antibodies while 65&#x0025; of these used a well-performing antibody but 35&#x0025; employed an antibody unable to immunocapture its target protein (<xref rid="fig4" ref-type="fig">Figure 4C</xref>). For IF, we found 548 publications that employed 80 of the antibodies we tested. Of these publications, 22&#x0025; used an antibody unable to immunolocalize its target protein (<xref rid="fig4" ref-type="fig">Figure 4C</xref>), with 88&#x0025; containing no validation data (<xref rid="fig4" ref-type="fig">Figure 4D</xref>). If our results are representative, this suggests that 20-30&#x0025; of figures in the literature are generated using antibodies that do not recognize their intended target, and that more effort in antibody characterization is highly justified.</p>
+<p>A Research Resource Identification (RRID) was assigned to each of the 614 antibodies tested, indicated in each 65 antibody characterization reports available on ZENODO (<xref rid="fig5" ref-type="fig">Figure 5</xref>, bottom right image). Antibody characterization data generated by this organization are being disseminated by the RRID community and are directly connected through the Antibody Registry, or the RRID Portal (<xref rid="fig5" ref-type="fig">Figure 5</xref>, bottom left image) and participating antibody manufacturers&#x2019; websites (<xref rid="fig5" ref-type="fig">Figure 5</xref>, top image).</p>
+<fig id="fig5" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 5:</label>
+<caption><title>Accessing antibody characterization data using RRIDs</title>
+<p>An antibody RRID can be used to search characterization studies across various databases, such as vendor page, the Antibody Registry and on the YCharOS community page on ZENODO. AB_2037651 is given as an example.</p></caption>
+<graphic xlink:href="543292v5_fig5.tif"/>
+</fig>
+</sec>
+</sec>
+<sec id="s3">
+<title>Discussion</title>
+<p>Here we present the analysis of a dataset of commercial antibodies as an assessment of the problem of antibody performance, and as a step toward a comprehensive and standardized ecosystem to validate commercial antibodies. We evaluated 614 antibodies against 65 human proteins side-by-side in WB, IP and IF. All raw data are openly available (<ext-link ext-link-type="uri" xlink:href="https://ZENODO.org/communities/ycharos/">https://ZENODO.org/communities/ycharos/</ext-link>), identifiable on the RRID portal and on participating antibody manufacturers&#x2019; websites. Our studies provide an unbiased and scalable analytical framework for the representation and comparison of antibody performance, an estimate of the coverage of human proteins with renewable antibodies, an assessment of the scientific value of common antibody characterization methods, and they inform a strategy to identify renewable antibodies for all human proteins.</p>
+<p>Our approach, developed in collaboration with manufacturers, and intended to be applied to entire proteomes, uses universal protocols for all tested antibodies in each application. Scientists use variants of such protocols, optimized for their protein of interest, which can have a major impact on antibody performance [<xref ref-type="bibr" rid="c21">21</xref>-<xref ref-type="bibr" rid="c23">23</xref>]. Nevertheless, the process robustly identifies antibodies that fail to recognize their intended target, which becomes evident when other antibodies tested in parallel perform well. At a minimum, removal of these poorly performing products from the market will have significant impact in that hundreds of published papers report the use of such antibodies. Importantly, from a total of 409 antibodies that presented conflicting data between our characterization data and antibody supplier&#x2019;s recommendations, the participating companies have withdrawn 73 antibodies from the market and changed recommendations for 153 antibodies (Supplemental Figure 3). In turn, high-quality antibodies are being promoted. We expect to see additional changes and an overall improvement in the general quality of commercial reagents as more antibody characterization reports are generated.</p>
+<p>The impacts of poorly performing antibodies are well documented [<xref ref-type="bibr" rid="c4">4</xref>, <xref ref-type="bibr" rid="c8">8</xref>, <xref ref-type="bibr" rid="c24">24</xref>, <xref ref-type="bibr" rid="c25">25</xref>]; our analyses provide insight into the magnitude of the problem. In our set of 65 proteins, we found that an average of &#x223C;12 papers per protein included use of an antibody that failed to recognize the intended protein target using our protocols. Scientists are not entirely to blame; dozens of antibodies can be used in a single study, often unrelated to the authors&#x2019; protein of interest. Genetic validation of every antibody used in a study remains a difficult, if not impossible task. In addition, even with our optimized protocol, the cost of characterizing antibodies for a single protein is estimated at &#x223C;&#x0024;25,000 USD. And if each investigator performs such an analysis, there will be multiple overlapping validation of any given antibody. We estimate a cost of &#x0024;50 million USD to characterize antibodies against all proteins in a proteome, considering parallelization and industrialization of the procedure. The costs mentioned exclude the expenses of antibodies and knockout cell lines. However, it should be noted that this estimated cost for validation is far below the predicted waste on bad antibodies, currently estimated at &#x223C;&#x0024;1B/year [<xref ref-type="bibr" rid="c4">4</xref>]. Thus, independent antibody characterization with openly published data, funded by various global organizations, is an important, if not essential, initiative that is certain to save large amounts of money and increase the quality and reproducibility of the literature. This study demonstrates the feasibility of such an initiative.</p>
+<p>Life scientists tend to focus on a small subset of human proteins, leading to an imbalance between a small percentage of well-studied proteins, and a higher percentage of poorly characterized proteins [<xref ref-type="bibr" rid="c26">26</xref>]. Our set of 65 funder-designated proteins is an unbiased sample, representative of the heterogeneity of knowledge of the human proteome; a search of the NIH protein database revealed that 15 proteins (23&#x0025; of our protein sample) are well studied with more than 500 publications and 50 proteins (77&#x0025; of our protein sample) have corresponding publications ranging from 37 to 498 (Table 1). Although we observed that there are more commercial antibodies available for the best-studied proteins (Table 1), an encouraging result of our work is that more than half of our protein targets are covered by well-performing, renewable antibodies for WB, IP and IF - including both well characterized and more poorly studied proteins. Within the antibodies we tested, we found a successful renewable antibody for WB for 77&#x0025; of proteins (50/65), for IP for 75&#x0025; of proteins (49/65) and for IF for 54&#x0025; of proteins (30/56) examined. Extrapolation of our findings to the human proteome would suggest that it might be possible to identify well-performing renewable reagents for half the human proteome, including poorly characterized proteins, simply by mining commercial collections. Indeed, it is likely that the coverage is greater because our corporate partners only represent 27&#x0025; of the antibody production worldwide.</p>
+<p>The research market is heavily dominated by polyclonal antibodies, and their use contributes to reproducibility issues in biomedical research [<xref ref-type="bibr" rid="c2">2</xref>, <xref ref-type="bibr" rid="c5">5</xref>] and present important ethical concerns. From a scientific perspective, polyclonal antibodies suffer from batch-to-batch variation and are thus in conflict with the scientific community desire to use and provide only renewable reagents. From an ethical perspective, the generation of polyclonal antibodies requires large numbers of animals yearly [<xref ref-type="bibr" rid="c27">27</xref>]. While recombinant antibodies may rely on the use of animals for the initiation of an antibody generation program, animal-free <italic>in vitro</italic> molecular strategies are also used for production, and to generate new batches of these antibodies [<xref ref-type="bibr" rid="c19">19</xref>]. As of today, the uptake of recombinant antibodies by the scientific community has not been satisfactory. For example, while leading antibody manufacturers are converting top-cited polyclonal antibodies into recombinant antibodies and removing underperforming antibodies from their catalogues, polyclonals remain the most purchased. This situation has also been acknowledged by the EU Reference Laboratory for Alternatives to Animal Testing and a lack of understanding in the use of recombinant methods has been suggested by authors of a recent correspondence to the editors of Nature Biotechnology [<xref ref-type="bibr" rid="c19">19</xref>]. One reason for this confusion could be the absence of large-scale performance data comparing the various antibody generation technologies. In our dataset, recombinant antibodies performed well in all applications tested, arguing there is no reason not to adopt the recombinant technology. Moreover, our study strongly supports the idea that future antibody generation programs should focus on recombinant technologies.</p>
+<p>Our analyses also inform the characterization pipelines to use for newly generated antibodies. Currently, it is common to use WB as the initial screen [<xref ref-type="bibr" rid="c28">28</xref>]. However, we find that success in IF is the best predictor of performance in WB and IP (Supplemental Figure 4). Given that it is difficult to imagine a process dependent on IF, we suggest that using KO (or knockdown in the case of an essential gene) strategies to screen antibodies for the intended application will provide the most effective approach to identify selective antibodies. Currently, one of the main barriers to large-scale production of high-quality antibodies is the lack of availability of KO lines derived from cells express detectable levels of each human protein. Creation of a broadly accessible biobank of bespoke KO cells for each human gene should be a priority for the community.</p>
+<p>Our studies are rapidly shared via the open platform ZENODO, and selected studies were published on the F1000 publication platform (<ext-link ext-link-type="uri" xlink:href="https://f1000research.com/ycharos">https://f1000research.com/ycharos</ext-link>). This data generation and dissemination is intended to benefit the global life science community, but its impact depends on the real-world uptake of the data. In addition, we recognize that antibodies are used in other protocols or in variations of our protocols that may yield important new or different outcomes. Posting of such information from users worldwide on open platforms will allow continued improvements to the data. Thus, we have partnered with the RRID Portal Community to improve our dissemination strategies. The Antibody Registry is a comprehensive repository of over 2.5 million commercial antibodies that have been assigned with RRIDs to ensure proper reagent identification [<xref ref-type="bibr" rid="c1">1</xref>]. Our data can be searched in the AntibodyRegistry.org and other portals that display this data such as the RRID.site portal and dkNet.org. The search term &#x00022;ycharos&#x00022; will return all the currently available antibodies that have been characterized and searching for the target or the catalogue number of the antibody in any of these portals will also bring back the YCharOs information. In the RRID.site portal and dkNet there will also be a green star, tagging the antibodies to further highlight the contribution of YCharOS. The project is also being promoted through large international bioimaging networks including Canada BioImaging (CBI - <ext-link ext-link-type="uri" xlink:href="https://www.canadabioimaging.org/">https://www.canadabioimaging.org/</ext-link>), BioImaging North America (BINA - <ext-link ext-link-type="uri" xlink:href="https://www.bioimagingnorthamerica.org/">https://www.bioimagingnorthamerica.org/</ext-link>) and Global BioImaging (GBI - <ext-link ext-link-type="uri" xlink:href="https://globalbioimaging.org/">https://globalbioimaging.org/</ext-link>).</p>
+<p>Overall, this project provides the global life sciences community with a tremendous resource for the study of human proteins and will result in significant improvements in rigour and reproducibility in antibody-based assays and scientific discovery.</p>
+</sec>
+<sec id="s4">
+<title>Materials and methods</title>
+<sec id="s4a">
+<title>Data analysis</title>
+<p>Performance of each antibody was retrieved from the corresponding ZENODO report or publication (Table 1), for WB, IP and IF, and analyzed following the performance criteria described in Box 1. Antibody properties, application recommendations and antibody characterization strategies were taken from the manufacturers&#x2019; datasheets. Throughout the manuscript, renewable antibodies refer to monoclonal antibodies from hybridomas and to recombinant antibodies (monoclonal and polyclonal recombinant antibodies) generated <italic>in vitro</italic>.</p>
+<boxed-text id="box1" position="float">
+<label>Box 1:</label>
+<caption><title>Antibody performance criteria</title></caption>
+<table-wrap id="utbl2" orientation="portrait" position="float">
+<graphic xlink:href="543292v5_utbl2.tif"/>
+</table-wrap>
+</boxed-text>
+<p>For <xref rid="fig2" ref-type="fig">Figure 2A</xref>, the analysis of the antibody coverage of human proteins was performed as previously described [<xref ref-type="bibr" rid="c1">1</xref>] and antibodies were divided into polyclonal and renewable categories.</p>
+<p>To evaluate the number of citations corresponding to each tested antibody (<xref rid="fig4" ref-type="fig">Figure 4C</xref>), we searched CiteAb (between November 2022 and March 2023) and used the provided analysis of citations per application. We then searched for publications mentioning the use of a poorly performing antibody for IF. Publications were filtered by application (ICC, ICC-IF and IF) and reactivity (Homo sapiens) on CiteAb (on July 2023), each publication being manually checked to confirm antibody and technique. This resulted in 112 publications, which were then assessed for characterisation data (<xref rid="fig4" ref-type="fig">Figure 4D</xref>).</p>
+<p>We asked participating antibody suppliers to indicate the number of antibodies eliminated from the market, and the number of antibodies for which there was a change in recommendation due to their evaluation of our characterization data (Supplemental Figure 3).</p>
+<p>The correlation of antibody performance between two applications were evaluated by the McNemar test, followed by the chi-square statistic (Supplemental Figure 4). The number of antibodies was reported in each corresponding cell of the 2&#x000D7;2 contingency tables, and chi-square statistic was computed as follows: <italic>X</italic><sup>2</sup> &#x003D; (<italic>b</italic> &#x2212; <italic>c</italic>)<sup>2</sup>/<italic>b</italic> &#x002B; <italic>c</italic>. The null hypothesis is p<sub>b</sub>&#x003D;p<sub>c</sub> (where p is the population proportion). Note that these hypotheses relate only for the cells that assess change in status, that is cell b which contains the number of antibodies which passed application &#x0023;2, but failed application &#x0023;1, whereas cell c contains the number of antibodies which passed application &#x0023;1, but failed application &#x0023;2. The test measures the effectiveness of antibodies for one application (from fail to pass) against the other application (change from pass to fail). If p<sub>b</sub>&#x003D;p<sub>c</sub>, the performance of one application is not correlated with the performance of another application, whereas if p<sub>b</sub>&#x0003C;or&#x0003E;p<sub>C</sub>, then antibody performance from one application can inform on the performance of the other application. The computed value is compared to the chi-square probability table to identify the p-value (degree of freedom is 1). The percentage of antibodies indicated in the double y-axis graph was computed by dividing the number of antibodies in the corresponding cell to the total number of antibodies (sum of cell a, b, c and d).</p>
+<p>The number of articles corresponding to each human target protein was assessed by searching the NIH protein database (<ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/protein/">https://www.ncbi.nlm.nih.gov/protein/</ext-link>) on May 4, 2023.</p>
+</sec>
+<sec id="s4b">
+<title>Resource information (alphabetical order)</title>
+<table-wrap id="utbl1" orientation="portrait" position="float">
+<graphic xlink:href="543292v5_utbl1.tif"/>
+</table-wrap>
+</sec>
+</sec>
+</body>
+<back>
+<sec><title>Abbreviations</title><list list-type="simple"><list-item><p>DepMap</p><p>Cancer Dependency Map Portal</p></list-item><list-item><p>KO</p><p>knockout</p></list-item><list-item><p>KD</p><p>knockdown</p></list-item><list-item><p>ID</p><p>identifier</p></list-item><list-item><p>IP</p><p>immunoprecipitation</p></list-item><list-item><p>IF</p><p>immunofluorescence</p></list-item><list-item><p>MWM</p><p>molecular weight mass</p></list-item><list-item><p>RRID</p><p>Research Resource Identifier</p></list-item><list-item><p>SOP</p><p>Standard Operating Procedure</p></list-item><list-item><p>TPM</p><p>Transcripts Per Million</p></list-item><list-item><p>WB</p><p>Western blot</p></list-item></list></sec>
+<ack>
+<title>Acknowledgement</title>
+<p>This work was supported by the Emory-Sage-SGC TREAT-AD center established by the National Institutes of Aging (NIA) U54AG065187 grant and additional support by RF1AG057443, by a grant from the Michael J. Fox Foundation for Parkinson&#x2019;s Research (no. 18331), by a grant from the Motor Neurone Disease Association (UK), The ALS Association (USA) and ALS Canada to develop ALS-RAP, by a Canadian Institutes of Health Research Foundation Grant (FDN154305) and by the Government of Canada through Genome Canada, Genome Quebec and Ontario Genomics (OGI-210). The Structural Genomics Consortium is a registered charity (no. 1097737) that receives funds from Bayer AG, Boehringer Ingelheim, Bristol Myers Squibb, Genentech, Genome Canada through Ontario Genomics Institute (grant no. OGI-196), the EU and EFPIA through the Innovative Medicines Initiative 2 Joint Undertaking (EUbOPEN grant no. 875510), Janssen, Merck KGaA (also known as EMD in Canada and the United States), Pfizer and Takeda. RA is supported by a Mitacs postdoctoral fellowship. AB is the co-founder and serves as the CEO of SciCrunch Inc, a company that works with publishers to improve the rigor and transparency of scientific manuscripts. Images were collected and/or image processing and analysis for this manuscript was performed in the McGill University Advanced BioImaging Facility (ABIF), RRID:SCR_017697. We thank Chetan Raina (YCharOS Inc.) for his important contribution to the creation of an open scientific ecosystem of antibody manufacturers and knockout cell line suppliers.</p>
+</ack>
+<sec id="s5">
+<title>Competing interests</title>
+<p>The authors declare no competing interests.</p>
+</sec>
+<ref-list>
+<title>References</title>
+<ref id="c1"><label>1.</label><mixed-citation publication-type="journal"><string-name><surname>Bandrowski</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>et al.</surname></string-name>, <article-title>The Antibody Registry: ten years of registering antibodies</article-title>. <source>Nucleic Acids Res</source>, <year>2023</year>. <volume>51</volume>(): p. <fpage>D358</fpage>&#x2013;<lpage>D367</lpage> DOI: <pub-id pub-id-type="doi">10.1093/nar/gkac927</pub-id>.</mixed-citation></ref>
+<ref id="c2"><label>2.</label><mixed-citation publication-type="journal"><string-name><surname>Baker</surname>, <given-names>M</given-names></string-name>., <article-title>Reproducibility crisis: Blame it on the antibodies</article-title>. <source>Nature</source>, <year>2015</year>. <volume>521</volume>(): p. <fpage>274</fpage>&#x2013;<lpage>6</lpage> DOI: <pub-id pub-id-type="doi">10.1038/521274a</pub-id>.</mixed-citation></ref>
+<ref id="c3"><label>3.</label><mixed-citation publication-type="journal"><string-name><surname>Bradbury</surname>, <given-names>A.</given-names></string-name> and <string-name><given-names>A.</given-names> <surname>Pluckthun</surname></string-name>, <article-title>Reproducibility: Standardize antibodies used in research</article-title>. <source>Nature</source>, <year>2015</year>. <volume>518</volume>(): p. <fpage>27</fpage>&#x2013;<lpage>9</lpage> DOI: <pub-id pub-id-type="doi">10.1038/518027a</pub-id>.</mixed-citation></ref>
+<ref id="c4"><label>4.</label><mixed-citation publication-type="journal"><string-name><surname>Voskuil</surname>, <given-names>J.L.A.</given-names></string-name>, <string-name><surname>et al.</surname></string-name>, <article-title>The Antibody Society&#x2019;s antibody validation webinar series</article-title>. <source>MAbs</source>, <year>2020</year>. <volume>12</volume>(): p. <elocation-id>1794421</elocation-id> DOI: <pub-id pub-id-type="doi">10.1080/19420862.2020.1794421</pub-id>.</mixed-citation></ref>
+<ref id="c5"><label>5.</label><mixed-citation publication-type="journal"><string-name><surname>Baker</surname>, <given-names>M</given-names></string-name>., <article-title>When antibodies mislead: the quest for validation</article-title>. <source>Nature</source>, <year>2020</year>. <volume>585</volume>(): p. <fpage>313</fpage>&#x2013;<lpage>314</lpage> DOI: <pub-id pub-id-type="doi">10.1038/d41586-020-02549-1</pub-id>.</mixed-citation></ref>
+<ref id="c6"><label>6.</label><mixed-citation publication-type="journal"><string-name><surname>Voskuil</surname>, <given-names>J</given-names></string-name>., <article-title>Commercial antibodies and their validation</article-title>. <source>F1000Res</source>, <year>2014</year>. <volume>3</volume>: p. <elocation-id>232</elocation-id> DOI: <pub-id pub-id-type="doi">10.12688/f1000research.4966.2</pub-id>.</mixed-citation></ref>
+<ref id="c7"><label>7.</label><mixed-citation publication-type="journal"><string-name><surname>Laflamme</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>et al.</surname></string-name>, <article-title>Implementation of an antibody characterization procedure and application to the major ALS/FTD disease gene C9ORF72</article-title>. <source>Elife</source>, <year>2019</year>. <volume>8</volume> DOI: <pub-id pub-id-type="doi">10.7554/eLife.48363</pub-id>.</mixed-citation></ref>
+<ref id="c8"><label>8.</label><mixed-citation publication-type="journal"><string-name><surname>Sato</surname>, <given-names>Y.</given-names></string-name>, <string-name><surname>et al.</surname></string-name>, <article-title>Nonspecific binding of common anti-CFTR antibodies in ciliated cells of human airway epithelium</article-title>. <source>Sci Rep</source>, <year>2021</year>. <volume>11</volume>(): p. <elocation-id>23256</elocation-id> DOI: <pub-id pub-id-type="doi">10.1038/s41598-021-02420-x</pub-id>.</mixed-citation></ref>
+<ref id="c9"><label>9.</label><mixed-citation publication-type="journal"><string-name><surname>Li</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>et al.</surname></string-name>, <article-title>Issues with RNF43 antibodies to reliably detect intracellular location</article-title>. <source>PLoS One</source>, <year>2023</year>. <volume>18</volume>(): p. <elocation-id>e0283894</elocation-id> DOI: <pub-id pub-id-type="doi">10.1371/journal.pone.0283894</pub-id>.</mixed-citation></ref>
+<ref id="c10"><label>10.</label><mixed-citation publication-type="journal"><string-name><surname>Sicherre</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>et al.</surname></string-name>, <article-title>Non-Specific Binding, a Limitation of the Immunofluorescence Method to Study Macrophages In Situ</article-title>. <source>Genes (Basel</source>), <year>2021</year>. <volume>12</volume>() DOI: <pub-id pub-id-type="doi">10.3390/genes12050649</pub-id>.</mixed-citation></ref>
+<ref id="c11"><label>11.</label><mixed-citation publication-type="journal"><string-name><surname>Haytural</surname>, <given-names>H.</given-names></string-name>, <string-name><surname>et al.</surname></string-name>, <article-title>Non-specific Detection of a Major Western Blotting Band in Human Brain Homogenates by a Multitude of Amyloid Precursor Protein Antibodies</article-title>. <source>Front Aging Neurosci</source>, <year>2019</year>. <volume>11</volume>: p. <elocation-id>273</elocation-id> DOI: <pub-id pub-id-type="doi">10.3389/fnagi.2019.00273</pub-id>.</mixed-citation></ref>
+<ref id="c12"><label>12.</label><mixed-citation publication-type="journal"><string-name><surname>Virk</surname>, <given-names>H.S.</given-names></string-name>, <string-name><surname>et al.</surname></string-name>, <article-title>Validation of antibodies for the specific detection of human TRPA1</article-title>. <source>Sci Rep</source>, <year>2019</year>. <volume>9</volume>(): p. <elocation-id>18500</elocation-id> DOI: <pub-id pub-id-type="doi">10.1038/s41598-019-55133-7</pub-id>.</mixed-citation></ref>
+<ref id="c13"><label>13.</label><mixed-citation publication-type="journal"><string-name><surname>Marx</surname>, <given-names>V</given-names></string-name>., <article-title>Change-makers bring on recombinant antibodies</article-title>. <source>Nat Methods</source>, <year>2020</year>. <volume>17</volume>(): p. <fpage>763</fpage>&#x2013;<lpage>766</lpage> DOI: <pub-id pub-id-type="doi">10.1038/s41592-020-0915-8</pub-id>.</mixed-citation></ref>
+<ref id="c14"><label>14.</label><mixed-citation publication-type="journal"><string-name><surname>Uhlen</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>et al.</surname></string-name>, <article-title>A proposal for validation of antibodies</article-title>. <source>Nat Methods</source>, <year>2016</year>. <volume>13</volume>(): p. <fpage>823</fpage>&#x2013;<lpage>7</lpage> DOI: <pub-id pub-id-type="doi">10.1038/nmeth.3995</pub-id>.</mixed-citation></ref>
+<ref id="c15"><label>15.</label><mixed-citation publication-type="journal"><string-name><surname>Ellis</surname>, <given-names>M.J.</given-names></string-name>, et al., <article-title>Validation of Tau Antibodies for Use in Western Blotting and Immunohistochemistry</article-title>. <source>bioRxiv</source>, <year>2023</year>: p. 2023.04.13.536711 DOI: <pub-id pub-id-type="doi">10.1101/2023.04.13.536711</pub-id>.</mixed-citation></ref>
+<ref id="c16"><label>16.</label><mixed-citation publication-type="journal"><string-name><surname>Davies</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>et al.</surname></string-name>, <article-title>Comprehensive characterization and optimization of anti-LRRK2 (leucine-rich repeat kinase 2) monoclonal antibodies</article-title>. <source>Biochem J</source>, <year>2013</year>. <volume>453</volume>(): p. <fpage>101</fpage>&#x2013;<lpage>13</lpage> DOI: <pub-id pub-id-type="doi">10.1042/BJ20121742</pub-id>.</mixed-citation></ref>
+<ref id="c17"><label>17.</label><mixed-citation publication-type="journal"><string-name><surname>Ghandi</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>et al.</surname></string-name>, <article-title>Next-generation characterization of the Cancer Cell Line Encyclopedia</article-title>. <source>Nature</source>, <year>2019</year>. <volume>569</volume>(): p. <fpage>503</fpage>&#x2013;<lpage>508</lpage> DOI: <pub-id pub-id-type="doi">10.1038/s41586-019-1186-3</pub-id>.</mixed-citation></ref>
+<ref id="c18"><label>18.</label><mixed-citation publication-type="journal"><string-name><surname>Andrews</surname>, <given-names>N.P.</given-names></string-name>, <string-name><surname>et al.</surname></string-name>, <article-title>A toolbox of IgG subclass-switched recombinant monoclonal antibodies for enhanced multiplex immunolabeling of brain</article-title>. <source>Elife</source>, <year>2019</year>. <volume>8</volume> DOI: <pub-id pub-id-type="doi">10.7554/eLife.43322</pub-id>.</mixed-citation></ref>
+<ref id="c19"><label>19.</label><mixed-citation publication-type="journal"><string-name><surname>Gray</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>et al.</surname></string-name>, <article-title>Animal-free alternatives and the antibody iceberg</article-title>. <source>Nat Biotechnol</source>, <year>2020</year>. <volume>38</volume>(): p. <fpage>1234</fpage>&#x2013;<lpage>1239</lpage> DOI: <pub-id pub-id-type="doi">10.1038/s41587-020-0687-9</pub-id>.</mixed-citation></ref>
+<ref id="c20"><label>20.</label><mixed-citation publication-type="journal"><string-name><surname>Lutz</surname>, <given-names>A.K.</given-names></string-name>, <string-name><surname>et al.</surname></string-name>, <article-title>SHANK3 Antibody Validation: Differential Performance in Western Blotting, Immunocyto-and Immunohistochemistry</article-title>. <source>Front Synaptic Neurosci</source>, <year>2022</year>. <volume>14</volume>: p. <elocation-id>890231</elocation-id> DOI: <pub-id pub-id-type="doi">10.3389/fnsyn.2022.890231</pub-id>.</mixed-citation></ref>
+<ref id="c21"><label>21.</label><mixed-citation publication-type="journal"><string-name><surname>Pillai-Kastoori</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>et al.</surname></string-name>, <article-title>Antibody validation for Western blot: By the user, for the user</article-title>. <source>J Biol Chem</source>, <year>2020</year>. <volume>295</volume>(): p. <fpage>926</fpage>&#x2013;<lpage>939</lpage> DOI: <pub-id pub-id-type="doi">10.1074/jbc.RA119.010472</pub-id>.</mixed-citation></ref>
+<ref id="c22"><label>22.</label><mixed-citation publication-type="journal"><string-name><surname>Pina</surname>, <given-names>R.</given-names></string-name>, <string-name><surname>et al.</surname></string-name>, <article-title>Ten Approaches That Improve Immunostaining: A Review of the Latest Advances for the Optimization of Immunofluorescence</article-title>. <source>Int J Mol Sci</source>, <year>2022</year>. <volume>23</volume>() DOI: <pub-id pub-id-type="doi">10.3390/ijms23031426</pub-id>.</mixed-citation></ref>
+<ref id="c23"><label>23.</label><mixed-citation publication-type="journal"><string-name><surname>Marcon</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>et al.</surname></string-name>, <article-title>Assessment of a method to characterize antibody selectivity and specificity for use in immunoprecipitation</article-title>. <source>Nat Methods</source>, <year>2015</year>. <volume>12</volume>(): p. <fpage>725</fpage>&#x2013;<lpage>31</lpage> DOI: <pub-id pub-id-type="doi">10.1038/nmeth.3472</pub-id>.</mixed-citation></ref>
+<ref id="c24"><label>24.</label><mixed-citation publication-type="journal"><string-name><given-names>Aponte</given-names> <surname>Santiago</surname></string-name>, <string-name><given-names>N.</given-names>, <surname>et al</surname></string-name>., <article-title>Tales of the unexpected</article-title>. <source>Elife</source>, <year>2023</year>. <volume>12</volume> DOI: <pub-id pub-id-type="doi">10.7554/eLife.87444</pub-id>.</mixed-citation></ref>
+<ref id="c25"><label>25.</label><mixed-citation publication-type="journal"><string-name><surname>Freedman</surname>, <given-names>L.P.</given-names></string-name>, <string-name><surname>et al.</surname></string-name>, <article-title>[Letter to the Editor] The need for improved education and training in research antibody usage and validation practices</article-title>. <source>Biotechniques</source>, <year>2016</year>. <volume>61</volume>(): p. <fpage>16</fpage>&#x2013;<lpage>8</lpage> DOI: <pub-id pub-id-type="doi">10.2144/000114431</pub-id>.</mixed-citation></ref>
+<ref id="c26"><label>26.</label><mixed-citation publication-type="journal"><string-name><surname>Carter</surname>, <given-names>A.J.</given-names></string-name>, <string-name><surname>et al.</surname></string-name>, <article-title>Target 2035: probing the human proteome</article-title>. <source>Drug Discov Today</source>, <year>2019</year>. <volume>24</volume>(): p. <fpage>2111</fpage>&#x2013;<lpage>2115</lpage> DOI: <pub-id pub-id-type="doi">10.1016/j.drudis.2019.06.020</pub-id>.</mixed-citation></ref>
+<ref id="c27"><label>27.</label><mixed-citation publication-type="journal"><string-name><surname>Gray</surname>, <given-names>A.C.</given-names></string-name>, <string-name><surname>et al.</surname></string-name>, <article-title>Animal-Friendly Affinity Reagents: Replacing the Needless in the Haystack</article-title>. <source>Trends Biotechnol</source>, <year>2016</year>. <volume>34</volume>(): p. <fpage>960</fpage>&#x2013;<lpage>969</lpage> DOI: <pub-id pub-id-type="doi">10.1016/j.tibtech.2016.05.017</pub-id>.</mixed-citation></ref>
+<ref id="c28"><label>28.</label><mixed-citation publication-type="journal"><string-name><surname>Lund-Johansen</surname>, <given-names>F.</given-names></string-name> and <string-name><given-names>M.D.</given-names> <surname>Browning</surname></string-name>, <article-title>Should we ignore western blots when selecting antibodies for other applications?</article-title> <source>Nat Methods</source>, <year>2017</year>. <volume>14</volume>(): p. <elocation-id>215</elocation-id> DOI: <pub-id pub-id-type="doi">10.1038/nmeth.4192</pub-id>.</mixed-citation></ref>
+</ref-list>
+<sec id="s55">
+<fig id="figs1" position="float" orientation="portrait" fig-type="figure">
+<label>Supplemental Figure 1:</label>
+<caption><title>Schematic representations of antibody performance</title>
+<p>(<bold>A</bold>) Schematic representations of a successful antibody (left schematic), specific, non-selective antibody (middle schematic), and a non-successful antibody (right schematic) for WB. (<bold>B</bold>) Schematic representations of a successful antibody (left schematic) and non-successful antibodies (middle and right schematics) for IP. (<bold>C</bold>) Schematic representation of the mosaic strategy used (left schematic). WT cells are labelled with a fluorescent cell dye (green), and KO cells are labelled with a different fluorescent cell dye (magenta) plated together as a mosaic. Schematic representations of a successful antibody (antibody &#x0023;1) and a non-successful antibody (antibody &#x0023;2) for IF are shown.</p></caption>
+<graphic xlink:href="543292v5_figs1.tif"/>
+</fig>
+<fig id="figs2" position="float" orientation="portrait" fig-type="figure">
+<label>Supplemental Figure 2:</label>
+<caption><title>Analysis of antibody performance by manufacturer&#x2019;s catalogue recommendation</title>
+<p>Percentage of successful or unsuccessful antibodies for the indicated applications are shown using a bar graph with stacked columns. Antibodies were divided according to whether they were recommended or not recommended by the manufacturers for the indicated applications. The percentage corresponding to each section of the bar graph is shown in the graph, and the total number of antibodies represented in each category is indicated above the corresponding bar.</p></caption>
+<graphic xlink:href="543292v5_figs2.tif"/>
+</fig>
+<fig id="figs3" position="float" orientation="portrait" fig-type="figure">
+<label>Supplemental Figure 3:</label>
+<caption><title>Actions taken from participating companies</title>
+<p>The percentage of antibodies removed from the market, or for which catalogue recommendations were modified following assessment of our data by our antibody manufacturing partners. The number of antibodies represented in each category is indicated above the corresponding bar.</p></caption>
+<graphic xlink:href="543292v5_figs3.tif"/>
+</fig>
+<fig id="figs4" position="float" orientation="portrait" fig-type="figure">
+<label>Supplemental Figure 4:</label>
+<caption><title>Correlation of antibody performance between applications</title>
+<p>(<bold>A</bold>) Representation of a 2 x 2 contingency table used to apply the McNemar Test as well as the equation of the chi-square (&#x03A7;<sup>2</sup>) statistic used. Analysis of antibody performance correlation, represented as a contingency table and as a double y-axis graph between (<bold>B</bold>) WB and IP, (<bold>C</bold>) IF and IP and (<bold>D</bold>) IF and WB. n/s &#x003D; non-significant antibody characterization</p></caption>
+<graphic xlink:href="543292v5_figs4.tif"/>
+</fig>
+</sec>
+</back>
+</article>

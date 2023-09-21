@@ -275,6 +275,7 @@
 <p>--media_type lb --atmosphere aerobic</p>
 <p>In all cases, an objective value cut-off of &#x2265;10<sup>-4</sup> was used to indicate binarised growth as per previous studies (<xref ref-type="bibr" rid="c14">14</xref>, <xref ref-type="bibr" rid="c72">72</xref>).</p>
 <p><italic>In silico</italic> predictions were compared to matched phenotype data and the following accuracy metrics were calculated:</p>
+<disp-quote/>
 <disp-formula id="ueqn1">
 <graphic xlink:href="530115v2_ueqn1.gif"/>
 </disp-formula>
