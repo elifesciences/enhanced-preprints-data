@@ -106,23 +106,9 @@
 <xref ref-type="aff" rid="a6">6</xref>
 <xref ref-type="aff" rid="a7">7</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Ren</surname><given-names>Feng</given-names></name>
-<xref ref-type="aff" rid="a3">3</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Feng</surname><given-names>Zhiwei</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4267-0198</contrib-id>
-<name><surname>Jia</surname><given-names>Huijie</given-names></name>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Ren</surname><given-names>Feng</given-names></name><email>renfeng@xxmu.edu.cn</email><xref ref-type="aff" rid="a3">3</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Feng</surname><given-names>Zhiwei</given-names></name><email>123066@xxmu.edu.cn</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4267-0198</contrib-id><name><surname>Jia</surname><given-names>Huijie</given-names></name><email>131010@xxmu.edu.cn</email><xref ref-type="aff" rid="a2">2</xref></contrib>
 <aff id="a1"><label>1</label>Department of Immunology, School of Basic Medical Sciences, Xinxiang Medical University, Xinxiang, Henan 453000, P.R.China</aff>
 <aff id="a2"><label>2</label>Xinxiang Engineering Technology Research Center of immune checkpoint drug for Liver-Intestinal Tumors, Xinxiang Medical University, Xinxiang, Henan 453000, P.R.China</aff>
 <aff id="a3"><label>3</label>Henan International Joint Laboratory of Immunity and Targeted Therapy for Liver-Intestinal Tumors, Xinxiang Medical University, Xinxiang, Henan 453000, P.R.China</aff>
@@ -133,7 +119,6 @@
 </contrib-group>
 <author-notes>
 <fn id="n1" fn-type="equal"><label>&#x2020;</label><p>Tiesuo Zhao and Pengkun Wei have contributed equally to this work</p></fn>
-<corresp id="cor1"><label>&#x002A;</label>Correspondence: <email>131010@xxmu.edu.cn</email>; <email>123066@xxmu.edu.cn</email>; <email>renfeng@xxmu.edu.cn</email></corresp>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.09.03.556121</elocation-id>

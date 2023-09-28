@@ -30,12 +30,7 @@
 <article-title>Large-scale deorphanization of <italic>Nematostella vectensis</italic> neuropeptide GPCRs supports the independent expansion of bilaterian and cnidarian peptidergic systems</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Thiel</surname><given-names>Daniel</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="author-notes" rid="n1">&#x2020;</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Thiel</surname><given-names>Daniel</given-names></name><email>d.thiel@exeter.ac.uk</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="author-notes" rid="n1">&#x2020;</xref></contrib>
 <contrib contrib-type="author">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-2523-1310</contrib-id>
 <name><surname>Ya&#x00F1;ez-Guerra</surname><given-names>Luis Alfonso</given-names></name>
@@ -58,13 +53,7 @@
 <name><surname>Technau</surname><given-names>Ulrich</given-names></name>
 <xref ref-type="aff" rid="a3">3</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8496-9836</contrib-id>
-<name><surname>J&#x00E9;kely</surname><given-names>G&#x00E1;sp&#x00E1;r</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a4">4</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8496-9836</contrib-id><name><surname>J&#x00E9;kely</surname><given-names>G&#x00E1;sp&#x00E1;r</given-names></name><email>gaspar.jekely@cos.uni-heidelberg.de</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a4">4</xref></contrib>
 <aff id="a1"><label>1</label>Living Systems Institute, University of Exeter, Stocker Road, Exeter, UK</aff>
 <aff id="a2"><label>2</label>Animal Physiology &#x0026; Neurobiology, Department of Biology, University of Leuven (KU Leuven), Leuven, Belgium</aff>
 <aff id="a3"><label>3</label>Department of Neurosciences and Developmental Biology, Faculty of Life Sciences, University of Vienna, Vienna, Austria</aff>
@@ -72,7 +61,6 @@
 </contrib-group>
 <author-notes>
 <fn id="n1" fn-type="equal"><label>&#x2020;</label><p>These authors contributed equally</p></fn>
-<corresp id="cor1"><label>&#x002A;</label>Correspondence: <email>d.thiel@exeter.ac.uk</email>, <email>gaspar.jekely@cos.uni-heidelberg.de</email></corresp>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.07.03.547448</elocation-id>
