@@ -30,15 +30,10 @@
 <article-title>Active Dendrites Enable Robust Spiking Computations Despite Timing Jitter</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2238-6111</contrib-id>
-<name>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2238-6111</contrib-id><name>
 <surname>Burger</surname>
 <given-names>Thomas SJ</given-names>
-</name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+</name><email>tsjb2@cam.ac.uk</email><xref ref-type="aff" rid="a1">1</xref></contrib>
 <contrib contrib-type="author">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4196-774X</contrib-id>
 <name>
@@ -47,22 +42,13 @@
 </name>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1029-0158</contrib-id>
-<name>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1029-0158</contrib-id><name>
 <surname>O&#x2019;Leary</surname>
 <given-names>Timothy</given-names>
-</name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+</name><email>timothy.oleary@eng.cam.ac.uk</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib>
 <aff id="a1"><label>1</label>Department of Engineering, University of Cambridge, UK</aff>
 <aff id="a2"><label>2</label>Theoretical Sciences Visiting Program, Okinawa Institute of Science and Technology Graduate University, Onna, 904-0495, Japan</aff>
 </contrib-group>
-<author-notes>
-<corresp id="cor1"><label>&#x002A;</label>Correspondence: <email>tsjb2@cam.ac.uk</email>, <email>timothy.oleary@eng.cam.ac.uk</email></corresp>
-</author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.03.22.533815</elocation-id>
 <history>
