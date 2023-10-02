@@ -14,7 +14,7 @@
 </journal-meta>
 <article-meta>
 <article-id pub-id-type="doi">10.1101/2023.06.14.544906</article-id>
-<article-version>1.1</article-version>
+<article-version>1.2</article-version>
 <article-categories>
 <subj-group subj-group-type="author-type">
 <subject>Regular Article</subject>
@@ -84,12 +84,12 @@
 <year>2023</year>
 </date>
 <date date-type="rev-recd">
-<day>14</day>
+<day>26</day>
 <month>6</month>
 <year>2023</year>
 </date>
 <date date-type="accepted">
-<day>14</day>
+<day>26</day>
 <month>6</month>
 <year>2023</year>
 </date>
@@ -119,6 +119,10 @@
 <notes>
 <notes notes-type="competing-interest-statement">
 <title>Competing Interest Statement</title><p>The authors have declared no competing interest.</p></notes>
+<fn-group content-type="summary-of-updates">
+<title>Summary of Updates:</title>
+<fn fn-type="update"><p>Tthe figures were uploaded incorrectly. We have changed the order of the figures.</p></fn>
+</fn-group>
 </notes>
 </front>
 <body>
@@ -135,7 +139,7 @@
 <fig id="fig1" position="float" orientation="portrait" fig-type="figure">
 <label>Figure 1</label>
 <caption><p>The cytotoxicity of ultrasound (US) irradiation on myotubes was investigated. Viability of myotubes was assessed by (A) MTT assay and (B) Zombie Red<sup>TM</sup> staining at 24 h after US irradiation. (red: Zombie Red<sup>TM</sup>, blue: DAPI). (C) Total protein content was measured by the Bradford method at 24 h after US irradiation. (D) Energy metabolism in C2C12 myotubes was measured by citrate synthase assay at 24 h after US irradiation. The US intensities of 1.0 W/cm<sup>2</sup>, 2.0 W/cm<sup>2</sup>, and 3.0 W/cm<sup>2</sup> were tested. Data are expressed as mean &#x00B1; SEM. n &#x003D; 4.</p></caption>
-<graphic xlink:href="544906v1_fig1.tif"/>
+<graphic xlink:href="544906v2_fig1.tif"/>
 </fig>
 </sec>
 <sec id="s2b">
@@ -144,7 +148,7 @@
 <fig id="fig2" position="float" orientation="portrait" fig-type="figure">
 <label>Figure 2</label>
 <caption><p>Characterization of extracellular vesicles (EVs) from ultrasound (US)-treated/untreated myotubes. EVs were isolated using ExoQuick reagent 12 h after US irradiation. (A) EV concentration in each group was quantified by a qNano system. (B) Size distribution of EVs in each group was investigated by a qNano system. The mode value was indicated as a red line. The US intensities of 1.0 W/cm<sup>2</sup>, 2.0 W/cm<sup>2</sup>, and 3.0 W/cm<sup>2</sup> were tested. Data are expressed as mean &#x00B1; SEM. &#x002A;p &#x003C; 0.01, vs. Control. n &#x003D; 6.</p></caption>
-<graphic xlink:href="544906v1_fig2.tif"/>
+<graphic xlink:href="544906v2_fig2.tif"/>
 </fig>
 </sec>
 <sec id="s2c">
@@ -153,7 +157,7 @@
 <fig id="fig3" position="float" orientation="portrait" fig-type="figure">
 <label>Figure 3</label>
 <caption><p>Ca<sup>2&#x002B;</sup> mediates the promotive effect of ultrasound (US) on extracellular vesicle (EV) release from myotubes. (A) Intracellular Ca<sup>2&#x002B;</sup> levels were measured after US irradiation. The US intensities of 1.0 W/cm<sup>2</sup>, 2.0 W/cm<sup>2</sup>, and 3.0 W/cm<sup>2</sup> were tested. (B) Cell culture with Ca<sup>2&#x002B;</sup>-free medium decreased the intracellular Ca<sup>2&#x002B;</sup> level and canceled the facilitating effect of US on Ca<sup>2&#x002B;</sup> uptake by myotubes. (C) Cell culture with Ca<sup>2&#x002B;</sup>-free medium inhibited the facilitating effect of US on EV release from myotubes. (D) Size distribution of EVs in each group. EV concentration and size distribution were quantified by a qNano system. (E) Cytotoxicity of cell culture with Ca<sup>2&#x002B;</sup>-free medium was investigated by MTT assay. Control: untreated; US: 3.0 W/cm<sup>2</sup> US treatment; Ca(-): Ca<sup>2&#x002B;</sup>-free culture; USCa(-): 3.0 W/cm<sup>2</sup> US treatment and Ca<sup>2&#x002B;</sup>-free culture. Data are expressed as mean &#x00B1; SEM. &#x002A;p &#x003C; 0.01 vs. Control, <sup>&#x2020;</sup>p &#x003C; 0.05 vs. 1W, <sup>&#x2021;</sup>p&#x003C; 0.01 vs. US. n &#x003D; 4.</p></caption>
-<graphic xlink:href="544906v1_fig3.tif"/>
+<graphic xlink:href="544906v2_fig3.tif"/>
 </fig>
 <p>Next, we investigated the calcium dependency of the promotive effect of US on EV release using Ca<sup>2&#x002B;</sup>-free medium. Here we used the US intensity of 3.0 W/cm<sup>2</sup>, which showed the greatest EV release enhancement effect. The groups with Ca<sup>2&#x002B;</sup>-free medium showed significantly lower levels of Ca<sup>2&#x002B;</sup> compared with the control and US groups (<xref rid="fig3" ref-type="fig">Figure 3B</xref>). The concentration of EVs in US group was significantly increased compared to the control group while this increase was not observed in absence of Ca<sup>2&#x002B;</sup> (<xref rid="fig3" ref-type="fig">Figure 3C</xref>). Most of the extracted EVs were 50-150 nm in diameter (<xref rid="fig3" ref-type="fig">Figure 3D</xref>). Myotube viability did not decrease by Ca<sup>2&#x002B;</sup>-free culture (<xref rid="fig3" ref-type="fig">Figure 3E</xref>).</p>
 </sec>
@@ -163,7 +167,7 @@
 <fig id="fig4" position="float" orientation="portrait" fig-type="figure">
 <label>Figure 4</label>
 <caption><p>Anti-inflammatory effect of extracellular vesicles (EVs) from ultrasound (US)-treated myotubes on bone marrow-derived macrophages (BMDMs). (A) The mRNA expression levels of <italic>Il-1b</italic> and <italic>Il-6</italic> were measured by qPCR. LPS: LPS-treated BMDMs; CM: BMDMs treated with C2C12 conditioned medium and LPS; US-CM: BMDMs treated with US-irradiated C2C12 conditioned medium and LPS; EV-depleted CM: BMDMs treated with EV-depleted C2C12 conditioned medium and LPS; USEV-depleted: BMDMs treated with EV-depleted C2C12 (US-irradiated) conditioned medium and LPS. (B) When the concentration of EVs are equated, the enhancement of anti-inflammatory effect of EVs by US was not observed. LPS: LPS-treated BMDMs; CM: BMDMs treated with myotube EVs and LPS; diluted US-CM: BMDMs treated with US-EVs at the same concentration as the EV group and LPS. (C) Cytotoxicity of C2C12 conditioned medium on BMDMs was investigated by MTT assay. (D) EV concentration in each condition was measured by a qNano system. Data are expressed as mean &#x00B1;SEM. &#x002A;p &#x003C; 0.05 vs. LPS, <sup>&#x2020;</sup>p &#x003C; 0.01 vs. CM, <sup>&#x2021;</sup>p&#x003C; 0.01 vs. Control, <sup>&#x00A7;</sup>p&#x003C; 0.01 vs. US. n &#x003D; 4.</p></caption>
-<graphic xlink:href="544906v1_fig4.tif"/>
+<graphic xlink:href="544906v2_fig4.tif"/>
 </fig>
 </sec>
 <sec id="s2e">
@@ -172,17 +176,17 @@
 <fig id="fig5" position="float" orientation="portrait" fig-type="figure">
 <label>Figure 5</label>
 <caption><p>miRNA-sequencing analysis in extracellular vesicles (EVs) from ultrasound (US)-treated/untreated C2C12 myotubes. (A) miRNA characterization in EVs from US-treated/untreated myotubes. (B) Percentage of miRNAs that were common to the control and US groups and those that were not. (C) Volcano plot of differentially expressed RNAs in the control group vs. US group. Blue dots represent miRNAs with statistically significant difference and red dots show miRNAs with no statistically significant difference between the control group vs. US group. (D) Top 10 abundant miRNAs and their proportion to total miRNA content in each group. n &#x003D; 3.</p></caption>
-<graphic xlink:href="544906v1_fig5.tif"/>
+<graphic xlink:href="544906v2_fig5.tif"/>
 </fig>
 <table-wrap id="tbl1" orientation="portrait" position="float">
 <label>Table 1</label>
 <caption><p>Upregulated miRNAs in myotube-derived extracellular vesicles by ultrasound irradiation.</p></caption>
-<graphic xlink:href="544906v1_tbl1.tif"/>
+<graphic xlink:href="544906v2_tbl1.tif"/>
 </table-wrap>
 <table-wrap id="tbl2" orientation="portrait" position="float">
 <label>Table 2</label>
 <caption><p>Downregulated miRNAs in myotube-derived extracellular vesicles by ultrasound irradiation.</p></caption>
-<graphic xlink:href="544906v1_tbl2.tif"/>
+<graphic xlink:href="544906v2_tbl2.tif"/>
 </table-wrap>
 </sec>
 </sec>
@@ -190,7 +194,7 @@
 <title>Discussion</title>
 <p>This study demonstrated the facilitatory effect of US irradiation on EV release from cultured skeletal myotubes and the enhanced anti-inflammatory effect of EVs from US-irradiated myotubes. These findings contribute to the development of non-invasive complementary therapy using skeletal muscle-derived EVs for various inflammatory diseases.</p>
 <p>Skeletal muscle-derived EVs have been reported to exert therapeutic effects in various dysfunctional organs (<xref ref-type="bibr" rid="c41">Rome et al., 2019</xref>), including prevention of cardiac damage by ischemia-reperfusion injury (<xref ref-type="bibr" rid="c2">Bei et al., 2017</xref>), enhancement of neurite outgrowth in motor neurons (<xref ref-type="bibr" rid="c32">Madison et al., 2014</xref>), and enhancement of angiogenesis (<xref ref-type="bibr" rid="c31">Ma et al., 2018</xref>). Furthermore, since skeletal muscle EVs mediate cross-talk between skeletal muscle and other tissues (<xref ref-type="bibr" rid="c54">Whitham et al., 2018</xref>), methods to enhance the release of skeletal muscle-derived EVs are potentially beneficial in the treatment of various diseases and health management.</p>
-<p>Our results showed that the intracellular Ca level significantly increased in the US-irradiated group, indicating that US irradiation promoted the uptake of Ca<sup>2&#x002B;</sup> to myotubes. This result is supported by previous reports investigating Ca<sup>2&#x002B;</sup> uptake by US in various types of cells (<xref ref-type="bibr" rid="c1">Ambattu et al., 2020</xref>; Scheffer et al., 2010; <xref ref-type="bibr" rid="c16">Fan et al., 2010</xref>; <xref ref-type="bibr" rid="c29">Lentacker et al., 2014</xref>; <xref ref-type="bibr" rid="c21">Honda et al., 2004</xref>). In the present study, the effect of US on Ca<sup>2&#x002B;</sup> uptake was observed in an intensity-dependent manner. US irradiation has been reported to exert a physiological action to promote transient membrane permeabilization, which can promote the Ca<sup>2&#x002B;</sup> influx pathways (<xref ref-type="bibr" rid="c16">Fan et al., 2010</xref>; Cao et al., 2008; <xref ref-type="bibr" rid="c62">Zhou et al., 2008</xref>), and the efficiency of permeabilization depends on the intensity of irradiation (<xref ref-type="bibr" rid="c28">Kumon et al., 2009</xref>; <xref ref-type="bibr" rid="c59">Zeghimi et al., 2015</xref>). Thus, the change of cell membrane structure is supposed to be the mechanism of the enhancement of Ca<sup>2&#x002B;</sup> influx. In this study, EV release was promoted by US of 3.0 W/cm<sup>2</sup>, and this effect was cancelled by inhibition of Ca<sup>2&#x002B;</sup>. Since intracellular Ca<sup>2&#x002B;</sup> level is reported to be a factor that promotes EVs release (<xref ref-type="bibr" rid="c43">Savina et al., 2003</xref>; <xref ref-type="bibr" rid="c48">Taylor et al., 2020</xref>), US irradiation was shown to enhance EV release from myotubes via promotion of influx of Ca<sup>2&#x002B;</sup>.</p>
+<p>Our results showed that the intracellular Ca<sup>2&#x002B;</sup> level significantly increased in the US-irradiated group, indicating that US irradiation promoted the uptake of Ca<sup>2&#x002B;</sup> to myotubes. This result is supported by previous reports investigating Ca<sup>2&#x002B;</sup> uptake by US in various types of cells (<xref ref-type="bibr" rid="c1">Ambattu et al., 2020</xref>; Scheffer et al., 2010; <xref ref-type="bibr" rid="c16">Fan et al., 2010</xref>; <xref ref-type="bibr" rid="c29">Lentacker et al., 2014</xref>; <xref ref-type="bibr" rid="c21">Honda et al., 2004</xref>). In the present study, the effect of US on Ca<sup>2&#x002B;</sup> uptake was observed in an intensity-dependent manner. US irradiation has been reported to exert a physiological action to promote transient membrane permeabilization, which can promote the Ca<sup>2&#x002B;</sup> influx pathways (<xref ref-type="bibr" rid="c16">Fan et al., 2010</xref>; Cao et al., 2008; <xref ref-type="bibr" rid="c62">Zhou et al., 2008</xref>), and the efficiency of permeabilization depends on the intensity of irradiation (<xref ref-type="bibr" rid="c28">Kumon et al., 2009</xref>; <xref ref-type="bibr" rid="c59">Zeghimi et al., 2015</xref>). Thus, the change of cell membrane structure is supposed to be the mechanism of the enhancement of Ca<sup>2&#x002B;</sup> influx. In this study, EV release was promoted by US of 3.0 W/cm<sup>2</sup>, and this effect was cancelled by inhibition of Ca<sup>2&#x002B;</sup>. Since intracellular Ca<sup>2&#x002B;</sup> level is reported to be a factor that promotes EVs release (<xref ref-type="bibr" rid="c43">Savina et al., 2003</xref>; <xref ref-type="bibr" rid="c48">Taylor et al., 2020</xref>), US irradiation was shown to enhance EV release from myotubes via promotion of influx of Ca<sup>2&#x002B;</sup>.</p>
 <p>We found that C2C12 myotube conditioned medium was capable of suppressing LPS-induced inflammatory responses in macrophages, and this effect was enhanced by US irradiation to myotubes. In addition, the anti-inflammatory effects were cancelled by eliminating EVs from the culture medium. This indicates that EVs in the culture medium were responsible for this effect, which is consistent with our previous study (<xref ref-type="bibr" rid="c57">Yamaguchi et al., 2023</xref>).</p>
 <p>IL-1&#x03B2; is essential for an adequate acute inflammatory response to a variety of pathogens and injuries, but its excessive overexpression leads to sepsis, septic shock, or chronic inflammation (<xref ref-type="bibr" rid="c11">Dinarello, 2009</xref>; Piccioli et al., 2013). IL-6 also contributes to host defense, however, dysregulated continual synthesis of it leads to prolonged chronic inflammation (<xref ref-type="bibr" rid="c47">Tanaka et al., 2014</xref>) and can drive tumorigenesis (<xref ref-type="bibr" rid="c5">Chang et al., 2014</xref>). Since blockade of these factors is reported to alleviate several inflammatory diseases (<xref ref-type="bibr" rid="c7">Chevalier et al, 2005</xref>; <xref ref-type="bibr" rid="c15">Emsley et al., 2005</xref>; <xref ref-type="bibr" rid="c8">Choy et al., 2002</xref>; <xref ref-type="bibr" rid="c38">Nishimoto et al., 2004</xref>; <xref ref-type="bibr" rid="c23">Ito et al., 2004</xref>; <xref ref-type="bibr" rid="c58">Yokota et al., 2005</xref>), eliciting the anti-inflammatory effects of skeletal muscle-derived EVs by US and suppressing the production of IL-1&#x03B2; and IL-6 suggests a new therapeutic strategy against inflammatory diseases utilizing US.</p>
 <p>Meanwhile, it has been reported that the contents of EVs released from cells vary depending on the cellular microenvironment and that certain factors are selectively internalized in response to specific stimuli (<xref ref-type="bibr" rid="c53">van Niel et al., 2018</xref>). The results of our analysis on miRNAs in EVs revealed that the EVs from US-exposed myotubes contain several unique miRNAs. However, only about 0.01&#x0025; of the total miRNAs were altered by US irradiation, suggesting that the change was very small. Furthermore, no upregulation of the anti-inflammatory effect of myotube EVs by US was observed when the EV concentrations were equalized. Thus, the enhancement of the anti-inflammatory effect of myotube conditioned medium by US irradiation is assumed to be due to changes in the amount of EVs, not to changes in the content of EVs. Consistent with our results, a previous study reported that MSC-EVs regulated inflammatory responses in macrophages concentration-dependently (<xref ref-type="bibr" rid="c25">Kim et al., 2019</xref>).</p>
@@ -210,9 +214,9 @@
 <fig id="fig6" position="float" orientation="portrait" fig-type="figure">
 <label>Figure 6</label>
 <caption><p>In vitro ultrasound (US) irradiation system. The culture dish was placed on the probe of a US transducer (SONICTIZER SZ-100, Minato Medical Science Co., Ltd., Japan). US waves are sent out from the probe placed under the culture dish, and surplus energy is absorbed by the silicon.</p></caption>
-<graphic xlink:href="544906v1_fig6.tif"/>
+<graphic xlink:href="544906v2_fig6.tif"/>
 </fig>
-<p>To investigate the involvement of intracellular Ca in the mechanism of EV release from myotubes, Ca<sup>2&#x002B;</sup>-free medium (Nacalai Tesque Inc., Japan) was used. The culture medium for Ca<sup>2&#x002B;</sup>-free groups were changed from normal medium (serum free DMEM with calcium) to Ca<sup>2&#x002B;</sup>-free medium (serum free DMEM without calcium) 1 h before US irradiation.</p>
+<p>To investigate the involvement of intracellular Ca<sup>2&#x002B;</sup> in the mechanism of EV release from myotubes, Ca<sup>2&#x002B;</sup>-free medium (Nacalai Tesque Inc., Japan) was used. The culture medium for Ca<sup>2&#x002B;</sup>-free groups were changed from normal medium (serum free DMEM with calcium) to Ca<sup>2&#x002B;</sup>-free medium (serum free DMEM without calcium) 1 h before US irradiation.</p>
 </sec>
 <sec id="s4c">
 <title>EV isolation</title>
@@ -244,7 +248,7 @@
 </sec>
 <sec id="s4j">
 <title>Intracellular Ca<sup>2&#x002B;</sup> levels</title>
-<p>The concentration of intracellular Ca in the medium of C2C12 myotubes was measured using a Metallo assay calcium kit LS (CPZIII) (Metallogenics LTD., Japan). This method determines intracellular Ca<sup>2&#x002B;</sup> levels by observing the coloration in the visible region caused by the chelate complex formation between Chlrophosphonazo-III (CPZIII) and Ca<sup>2&#x002B;</sup>. Briefly, the cells were collected and centrifuged at 13,000 rpm for 20 sec to remove the supernatant. The pellet was suspended with a mixture of 200 &#x03BC;L of RIPA buffer (RIPA Lysis Buffer, SCB Ltd., Japan) and 1 &#x03BC;L of hydrochloric acid (2 M). After incubation for 30 min, the samples were centrifuged at 10,000 rpm for 10 min and the Ca<sup>2&#x002B;</sup> concentration in the supernatant was analyzed. Ca<sup>2&#x002B;</sup> was dissociated by low pH and collected as the supernatant. Finally, the absorbance was converted to concentration (mM) according to the manufacturer&#x2019;s protocol.</p>
+<p>The concentration of intracellular Ca<sup>2&#x002B;</sup> in the medium of C2C12 myotubes was measured using a Metallo assay calcium kit LS (CPZIII) (Metallogenics LTD., Japan). This method determines intracellular Ca<sup>2&#x002B;</sup> levels by observing the coloration in the visible region caused by the chelate complex formation between Chlrophosphonazo-III (CPZIII) and Ca<sup>2&#x002B;</sup>. Briefly, the cells were collected and centrifuged at 13,000 rpm for 20 sec to remove the supernatant. The pellet was suspended with a mixture of 200 &#x03BC;L of RIPA buffer (RIPA Lysis Buffer, SCB Ltd., Japan) and 1 &#x03BC;L of hydrochloric acid (2 M). After incubation for 30 min, the samples were centrifuged at 10,000 rpm for 10 min and the Ca<sup>2&#x002B;</sup> concentration in the supernatant was analyzed. Ca<sup>2&#x002B;</sup> was dissociated by low pH and collected as the supernatant. Finally, the absorbance was converted to concentration (mM) according to the manufacturer&#x2019;s protocol.</p>
 </sec>
 <sec id="s4k">
 <title>Quantitative real-time PCR</title>
