@@ -53,22 +53,9 @@
 <name><surname>Zhang</surname><given-names>Juan</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
-<contrib contrib-type="author">
-<name><surname>Yan</surname><given-names>Min</given-names></name>
-<xref ref-type="aff" rid="a3">3</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1402-7402</contrib-id>
-<name><surname>Duan</surname><given-names>Yuyou</given-names></name>
-<xref ref-type="aff" rid="a4">4</xref>
-<xref ref-type="aff" rid="a5">5</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Yang</surname><given-names>Na</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Yan</surname><given-names>Min</given-names></name><email>yanmin@sysucc.org.cn</email><xref ref-type="aff" rid="a3">3</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1402-7402</contrib-id><name><surname>Duan</surname><given-names>Yuyou</given-names></name><email>yuyouduan@scut.edu.cn</email><xref ref-type="aff" rid="a4">4</xref><xref ref-type="aff" rid="a5">5</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Yang</surname><given-names>Na</given-names></name><email>eyyangna@scut.edu.cn</email><xref ref-type="aff" rid="a1">1</xref></contrib>
 <aff id="a1"><label>1</label>Department of Laboratory Medicine, Guangzhou First People&#x2019;s Hospital, South China University of Technology, Guangzhou, Guangdong, 510180, China</aff>
 <aff id="a2"><label>2</label>Department of Breast Surgery, Guangzhou Red Cross Hospital, Guangzhou Red Cross Hospital of Jinan University, Guangzhou, Guangdong, 510220, China</aff>
 <aff id="a3"><label>3</label>Sun Yat-sen University Cancer Center, State Key Laboratory of Oncology in South China, Collaborative Innovation Center of Cancer Medicine, Guangzhou, 510060, China</aff>
@@ -77,7 +64,6 @@
 </contrib-group>
 <author-notes>
 <fn id="n1" fn-type="equal"><label>&#x2020;</label><p>These authors contributed equally to this work.</p></fn>
-<corresp id="cor1"><label>&#x002A;</label>Correspondence to: Na Yang, M.D., Ph.D. Department of Laboratory Medicine Guangzhou First People&#x2019;s Hospital South China University of Technology Panfu Road, Guangzhou 510180, P.R. China E-mail: <email>eyyangna@scut.edu.cn</email> Yuyou Duan, Ph.D. Laboratory of Stem Cells and Translational Medicine Institutes for Life Sciences, School of Medicine South China University of Technology No.382 Waihuan East Road, Suite 406 Higher Education Mega Center Guangzhou 510006, P.R. China E-mail: <email>yuyouduan@scut.edu.cn</email> Min Yan, Ph.D State Key Laboratory of Oncology in South China Sun Yat-sen University Cancer Center 651 Dongfeng Road East, Guangzhou, 510060, P.R. China Email: <email>yanmin@sysucc.org.cn</email></corresp>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.04.03.535330</elocation-id>
