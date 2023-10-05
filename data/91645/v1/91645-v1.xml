@@ -14,7 +14,7 @@
 </journal-meta>
 <article-meta>
 <article-id pub-id-type="doi">10.1101/2023.06.01.543292</article-id>
-<article-version>1.5</article-version>
+<article-version>1.6</article-version>
 <article-categories>
 <subj-group subj-group-type="author-type">
 <subject>Regular Article</subject>
@@ -124,6 +124,7 @@
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5906-025X</contrib-id>
 <name><surname>Laflamme</surname><given-names>Carl</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
+<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
 </contrib>
 <aff id="a1"><label>1</label>Department of Neurology and Neurosurgery, Structural Genomics Consortium, The Montreal Neurological Institute, McGill University, Montreal, Quebec, Canada</aff>
 <aff id="a2"><label>2</label>Advanced BioImaging Facility (ABIF), McGill University, Montreal, Canada</aff>
@@ -133,7 +134,7 @@
 <aff id="a6"><label>6</label>Structural Genomics Consortium, University of Toronto, Toronto, Ontario, Canada</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1">Address correspondence to: Dr. Carl Laflamme Department of Neurology and Neurosurgery Montreal Neurological Institute McGill University 3801 University Street Montreal, QC H3A 2B4 Canada phone: phone: (514) 398-7355 Email: <email>carl.laflamme@mcgill.ca</email></corresp>
+<corresp id="cor1"><label>&#x002A;</label>Address correspondence to: Dr. Carl Laflamme Department of Neurology and Neurosurgery Montreal Neurological Institute McGill University 3801 University Street Montreal, QC H3A 2B4 Canada phone: phone: (514) 398-7355 Email: <email>carl.laflamme@mcgill.ca</email></corresp>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.06.01.543292</elocation-id>
@@ -144,12 +145,12 @@
 <year>2023</year>
 </date>
 <date date-type="rev-recd">
-<day>04</day>
+<day>17</day>
 <month>8</month>
 <year>2023</year>
 </date>
 <date date-type="accepted">
-<day>04</day>
+<day>17</day>
 <month>8</month>
 <year>2023</year>
 </date>
@@ -157,7 +158,7 @@
 <permissions>
 <copyright-statement>&#x00A9; 2023, Posted by Cold Spring Harbor Laboratory</copyright-statement>
 <copyright-year>2023</copyright-year>
-<license license-type="creative-commons" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><license-p>This pre-print is available under a Creative Commons License (Attribution-NonCommercial-NoDerivs 4.0 International), CC BY-NC-ND 4.0, as described at <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link></license-p></license>
+<license license-type="creative-commons" xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This pre-print is available under a Creative Commons License (Attribution 4.0 International), CC BY 4.0, as described at <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link></license-p></license>
 </permissions>
 <self-uri xlink:href="543292.pdf" content-type="pdf" xlink:role="full-text"/>
 <abstract>
@@ -179,7 +180,7 @@
 <title>Competing Interest Statement</title><p>The authors have declared no competing interest.</p></notes>
 <fn-group content-type="summary-of-updates">
 <title>Summary of Updates:</title>
-<fn fn-type="update"><p>Slight changes in the abstract and discussion.</p></fn>
+<fn fn-type="update"><p>One problem I'm having with the bioRxiv preprint itself is the automatic generation of 3 sentences that appear at the top of each page and mask some of the text in the figures. I brought down the content of each of the figures.</p></fn>
 </fn-group>
 <fn-group content-type="external-links">
 <fn fn-type="dataset"><p>
@@ -207,7 +208,7 @@
 <label>Figure 1:</label>
 <caption><title>Antibody characterization platform</title>
 <p>(<bold>A</bold>) The funders of the targets analyzed in this study and the number of targets proposed by each are indicated. (<bold>B</bold>) Bioinformatic analyses of nominated proteins using Uniprot to determine their molecular mass, unique Uniprot ID and published/expected subcellular distribution. In parallel, analyses of the Cancer Dependency Map (&#x00022;DepMap&#x00022;) portal provided RNA sequencing data for the designated target, which guided our selection of cell lines with adequate expression for the generation of custom KO cell lines. A subset of cell lines amenable for genome engineering were prioritized. (<bold>C</bold>) Receive relevant KO cell lines or generate custom KO lines and (<bold>D</bold>) receive antibodies from manufacturing partners. All contributed antibodies were tested in parallel by (<bold>E</bold>) WB using WT and KO cell lysates ran side-by-side, (<bold>F</bold>) IP followed by WB using a KO-validated antibody identified in <bold>E</bold> and by (<bold>G</bold>) IF using a mosaic strategy to avoid imaging and analysis biases. (<bold>H</bold>) Antibody characterization data for all tested antibodies were presented in a form of a protein target report. All reports were shared with participating manufacturers for their review. (<bold>I</bold>) Reviewed reports were published on ZENODO, an open access repository. ALS- RAP&#x003D;amyotrophic lateral sclerosis-reproducible antibody platform, AD&#x003D;Alzheimer&#x2019;s disease, MJFF&#x003D;Michael J. Fox Foundation. KO&#x003D;knockout cell line</p></caption>
-<graphic xlink:href="543292v5_fig1.tif"/>
+<graphic xlink:href="543292v6_fig1.tif"/>
 </fig>
 <p>The proteins were searched to determine the Uniprot identifier, the predicted molecular mass, and whether the protein is secreted or intracellular (<xref rid="fig1" ref-type="fig">Figure 1B</xref>). Our strategy was predicated on identifying a parental cell line that expressed sufficient levels of the target protein to be detected by an antibody with a binding affinity of 1-50 nM. To identify candidate lines, we searched the Cancer Dependency Map Portal (DepMap) using the &#x201C;Expression 22Q1&#x201D; database, which houses the RNA-level analysis of &#x003E;1800 cancer cell lines [<xref ref-type="bibr" rid="c17">17</xref>] (<xref rid="fig1" ref-type="fig">Figure 1B</xref>). After our initial experience with a few dozen targets comparing RNA expression and the ability to detect a clear signal, we selected 2.5 log<sub>2</sub>(TPM&#x002B;1) as an RNA-level threshold to select a candidate cell line to create a KO. Among the cell lines showing expression above this level, we prioritized a group of 8 common cell line backgrounds representing different cell/tissue types because their doubling time is short, and they are amenable to CRISPR-Cas9 technology (<xref rid="fig1" ref-type="fig">Figure 1B</xref>). These 8 cell lines were used in 62 out of the 65 antibody characterization studies (Table 1).</p>
 <p>After identifying candidate cell lines for each target, we either obtained KO lines from our industry consortium partners or generated them in-house (<xref rid="fig1" ref-type="fig">Figure 1C</xref>). Antibodies were provided from antibody manufacturers, who were responsible for selecting antibodies to be tested from their collections (<xref rid="fig1" ref-type="fig">Figure 1D</xref>). Most antibody manufacturers prioritized renewable antibodies. The highest priority was given to recombinant antibodies as they represent the ultimate renewable reagent [<xref ref-type="bibr" rid="c13">13</xref>] and have advantages in terms of adaptability, such as switching IgG subclass [<xref ref-type="bibr" rid="c18">18</xref>] or using molecular engineering to achieve higher affinity binding than B-cell generated antibodies [<xref ref-type="bibr" rid="c19">19</xref>].</p>
@@ -225,7 +226,7 @@
 <label>Figure 2:</label>
 <caption><title>Analysis of human protein coverage by antibodies</title>
 <p>(<bold>A</bold>) Cumulative plot showing the percentage of the human proteome that is covered by polyclonal antibodies (blue line) and renewable antibodies (monoclonal &#x002B; recombinant; orange line). The number of antibodies per protein was extracted from the Antibody Registry database. (<bold>B</bold>) Percentage of target proteins covered by minimally one renewable successful antibody (orange column) or covered by only successful polyclonal antibodies (blue column) is showed for each indicated applications using a bar graph. Lack of successful antibody (&#x201C;none&#x201D;) is also shown (black column).</p></caption>
-<graphic xlink:href="543292v5_fig2.tif"/>
+<graphic xlink:href="543292v6_fig2.tif"/>
 </fig>
 <p>We found a well-performing renewable antibody for 50 targets in WB (<xref rid="fig2" ref-type="fig">Figure 2B</xref>, left bar graph), for 49 targets in IP (<xref rid="fig2" ref-type="fig">Figure 2B</xref>, middle bar graph), and for 30 targets in IF (<xref rid="fig2" ref-type="fig">Figure 2B</xref>, right bar graph). For some proteins lacking coverage by renewable antibodies or lacking successful renewable antibodies, well-performing polyclonal antibodies were identified (<xref rid="fig2" ref-type="fig">Figure 2B</xref>). Some proteins were not covered by any successful antibodies depending on application; notably &#x223C;40&#x0025; of our protein set lacked a successful antibody for IF (<xref rid="fig2" ref-type="fig">Figure 2B</xref>, right bar graph).</p>
 </sec>
@@ -236,7 +237,7 @@
 <label>Figure 3:</label>
 <caption><title>Analysis of antibody performance by antibody types</title>
 <p>The percentage of successful antibodies based on their clonality is shown using a bar graph, for each indicated application. The number of antibodies represented in each category is indicated above the corresponding bar.</p></caption>
-<graphic xlink:href="543292v5_fig3.tif"/>
+<graphic xlink:href="543292v6_fig3.tif"/>
 </fig>
 </sec>
 <sec id="s2e">
@@ -247,7 +248,7 @@
 <label>Figure 4:</label>
 <caption><title>Scientific value of antibody characterization methods and research usage</title>
 <p>(<bold>A</bold>) Percentage of antibodies validated by suppliers using one of the indicated methods for WB or IF showed using a bar graph with stacked columns. The percentage corresponding to each section of the bar graph is shown directly in the bar graph. Orthogonal&#x003D; orthogonal strategies, genetic&#x003D; genetic strategies. (<bold>B</bold>) Percentage of successful (light gray), specific, non-selective (dark gray-only for WB) and unsuccessful (black) antibodies according to the validation method used by the manufacturer for WB and IF as compared to the KO strategy used in this study. Data are shown using a bar graph with stacked columns. The percentage corresponding to each section of the bar graph is shown directly in the bar graph. The number of antibodies analyzed corresponding to each condition is shown above each bar. (<bold>C</bold>) Percentage of publications that used antibodies that successfully passed validation (correct usage) or to antibodies that were unsuccessful in validation (incorrect usage) showed using a bar graph with stacked columns. The number of publications was found by searching CiteAb. The percentage corresponding to each section of the bar graph is shown in the bar graph and the number of publications represented in each category is shown above the corresponding bar. (<bold>D</bold>) Percentage of publications that used an unsuccessful antibody for IF from (C) that provided validation data for the corresponding antibodies. Data is shown as a bar graph. The number of publications represented in each category is shown above the corresponding bar.</p></caption>
-<graphic xlink:href="543292v5_fig4.tif"/>
+<graphic xlink:href="543292v6_fig4.tif"/>
 </fig>
 </sec>
 <sec id="s2f">
@@ -258,7 +259,7 @@
 <label>Figure 5:</label>
 <caption><title>Accessing antibody characterization data using RRIDs</title>
 <p>An antibody RRID can be used to search characterization studies across various databases, such as vendor page, the Antibody Registry and on the YCharOS community page on ZENODO. AB_2037651 is given as an example.</p></caption>
-<graphic xlink:href="543292v5_fig5.tif"/>
+<graphic xlink:href="543292v6_fig5.tif"/>
 </fig>
 </sec>
 </sec>
@@ -277,12 +278,12 @@
 <title>Materials and methods</title>
 <sec id="s4a">
 <title>Data analysis</title>
-<p>Performance of each antibody was retrieved from the corresponding ZENODO report or publication (Table 1), for WB, IP and IF, and analyzed following the performance criteria described in Box 1. Antibody properties, application recommendations and antibody characterization strategies were taken from the manufacturers&#x2019; datasheets. Throughout the manuscript, renewable antibodies refer to monoclonal antibodies from hybridomas and to recombinant antibodies (monoclonal and polyclonal recombinant antibodies) generated <italic>in vitro</italic>.</p>
+<p>Performance of each antibody was retrieved from the corresponding ZENODO report or publication (Table 1), for WB, IP and IF, and analyzed following the performance criteria described in <xref ref-type="boxed-text" rid="box1">Box 1</xref>. Antibody properties, application recommendations and antibody characterization strategies were taken from the manufacturers&#x2019; datasheets. Throughout the manuscript, renewable antibodies refer to monoclonal antibodies from hybridomas and to recombinant antibodies (monoclonal and polyclonal recombinant antibodies) generated <italic>in vitro</italic>.</p>
 <boxed-text id="box1" position="float">
 <label>Box 1:</label>
 <caption><title>Antibody performance criteria</title></caption>
 <table-wrap id="utbl2" orientation="portrait" position="float">
-<graphic xlink:href="543292v5_utbl2.tif"/>
+<graphic xlink:href="543292v6_utbl2.tif"/>
 </table-wrap>
 </boxed-text>
 <p>For <xref rid="fig2" ref-type="fig">Figure 2A</xref>, the analysis of the antibody coverage of human proteins was performed as previously described [<xref ref-type="bibr" rid="c1">1</xref>] and antibodies were divided into polyclonal and renewable categories.</p>
@@ -294,7 +295,7 @@
 <sec id="s4b">
 <title>Resource information (alphabetical order)</title>
 <table-wrap id="utbl1" orientation="portrait" position="float">
-<graphic xlink:href="543292v5_utbl1.tif"/>
+<graphic xlink:href="543292v6_utbl1.tif"/>
 </table-wrap>
 </sec>
 </sec>
@@ -345,25 +346,25 @@
 <label>Supplemental Figure 1:</label>
 <caption><title>Schematic representations of antibody performance</title>
 <p>(<bold>A</bold>) Schematic representations of a successful antibody (left schematic), specific, non-selective antibody (middle schematic), and a non-successful antibody (right schematic) for WB. (<bold>B</bold>) Schematic representations of a successful antibody (left schematic) and non-successful antibodies (middle and right schematics) for IP. (<bold>C</bold>) Schematic representation of the mosaic strategy used (left schematic). WT cells are labelled with a fluorescent cell dye (green), and KO cells are labelled with a different fluorescent cell dye (magenta) plated together as a mosaic. Schematic representations of a successful antibody (antibody &#x0023;1) and a non-successful antibody (antibody &#x0023;2) for IF are shown.</p></caption>
-<graphic xlink:href="543292v5_figs1.tif"/>
+<graphic xlink:href="543292v6_figs1.tif"/>
 </fig>
 <fig id="figs2" position="float" orientation="portrait" fig-type="figure">
 <label>Supplemental Figure 2:</label>
 <caption><title>Analysis of antibody performance by manufacturer&#x2019;s catalogue recommendation</title>
 <p>Percentage of successful or unsuccessful antibodies for the indicated applications are shown using a bar graph with stacked columns. Antibodies were divided according to whether they were recommended or not recommended by the manufacturers for the indicated applications. The percentage corresponding to each section of the bar graph is shown in the graph, and the total number of antibodies represented in each category is indicated above the corresponding bar.</p></caption>
-<graphic xlink:href="543292v5_figs2.tif"/>
+<graphic xlink:href="543292v6_figs2.tif"/>
 </fig>
 <fig id="figs3" position="float" orientation="portrait" fig-type="figure">
 <label>Supplemental Figure 3:</label>
 <caption><title>Actions taken from participating companies</title>
 <p>The percentage of antibodies removed from the market, or for which catalogue recommendations were modified following assessment of our data by our antibody manufacturing partners. The number of antibodies represented in each category is indicated above the corresponding bar.</p></caption>
-<graphic xlink:href="543292v5_figs3.tif"/>
+<graphic xlink:href="543292v6_figs3.tif"/>
 </fig>
 <fig id="figs4" position="float" orientation="portrait" fig-type="figure">
 <label>Supplemental Figure 4:</label>
 <caption><title>Correlation of antibody performance between applications</title>
 <p>(<bold>A</bold>) Representation of a 2 x 2 contingency table used to apply the McNemar Test as well as the equation of the chi-square (&#x03A7;<sup>2</sup>) statistic used. Analysis of antibody performance correlation, represented as a contingency table and as a double y-axis graph between (<bold>B</bold>) WB and IP, (<bold>C</bold>) IF and IP and (<bold>D</bold>) IF and WB. n/s &#x003D; non-significant antibody characterization</p></caption>
-<graphic xlink:href="543292v5_figs4.tif"/>
+<graphic xlink:href="543292v6_figs4.tif"/>
 </fig>
 </sec>
 </back>
