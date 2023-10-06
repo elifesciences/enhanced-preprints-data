@@ -49,6 +49,7 @@
 <contrib contrib-type="author" corresp="yes">
 <name><surname>Wong</surname><given-names>G. William</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
+<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
 </contrib>
 <aff id="a1"><label>1</label>Department of Physiology, Johns Hopkins University School of Medicine, Baltimore, Maryland, USA</aff>
 <aff id="a2"><label>2</label>Department of Orthopaedic Surgery, Johns Hopkins University School of Medicine, Baltimore, Maryland, USA</aff>
@@ -57,7 +58,7 @@
 <aff id="a5"><label>5</label>Research and Development Service, Baltimore Veterans Administration Medical Center, Baltimore, Maryland, USA</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1">Corresponding author: G. William Wong, E-mail: <email>gwwong@jhmi.edu</email>, Department of Physiology, Johns Hopkins University School of Medicine, Baltimore, MD 21205 Tel: 410-502-4862 Fax: 410-614-8033</corresp>
+<corresp id="cor1"><label>&#x002A;</label>Corresponding author: G. William Wong, E-mail: <email>gwwong@jhmi.edu</email>, Department of Physiology, Johns Hopkins University School of Medicine, Baltimore, MD 21205 Tel: 410-502-4862 Fax: 410-614-8033</corresp>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.08.02.551694</elocation-id>

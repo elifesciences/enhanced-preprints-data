@@ -56,32 +56,10 @@
 <name><surname>Weng</surname><given-names>Jiaming</given-names></name>
 <xref ref-type="aff" rid="a2">2</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Jiang</surname><given-names>Hui</given-names></name>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="aff" rid="a4">4</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Li</surname><given-names>Wei</given-names></name>
-<xref ref-type="aff" rid="a3">3</xref>
-<xref ref-type="aff" rid="a5">5</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9449-9321</contrib-id>
-<name><surname>Chen</surname><given-names>Jia-Yu</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a6">6</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-<xref ref-type="author-notes" rid="n2">8</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Liu</surname><given-names>Chao</given-names></name>
-<xref ref-type="aff" rid="a3">3</xref>
-<xref ref-type="aff" rid="a5">5</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Jiang</surname><given-names>Hui</given-names></name><email>jianghui55@163.com</email><xref ref-type="aff" rid="a2">2</xref><xref ref-type="aff" rid="a4">4</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Li</surname><given-names>Wei</given-names></name><email>leways@gwcmc.org</email><xref ref-type="aff" rid="a3">3</xref><xref ref-type="aff" rid="a5">5</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9449-9321</contrib-id><name><surname>Chen</surname><given-names>Jia-Yu</given-names></name><email>jiayuchen@nju.edu.cn</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a6">6</xref><xref ref-type="author-notes" rid="n2">8</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Liu</surname><given-names>Chao</given-names></name><email>liuchsdu@163.com</email><xref ref-type="aff" rid="a3">3</xref><xref ref-type="aff" rid="a5">5</xref></contrib>
 <aff id="a1"><label>1</label>State Key Laboratory of Pharmaceutical Biotechnology, School of Life Sciences, Chemistry and Biomedicine Innovation Center (ChemBIC), Nanjing Drum Tower Hospital, Nanjing University, Nanjing 210023, China</aff>
 <aff id="a2"><label>2</label>Department of Urology, Department of Reproductive Medicine Center, Peking University Third Hospital, Beijing 100191, China</aff>
 <aff id="a3"><label>3</label>Guangzhou Women and Children&#x2019;s Medical Center, Guangzhou Medical University, Guangzhou 510623, R.P. China</aff>
@@ -92,7 +70,6 @@
 <author-notes>
 <fn id="n1" fn-type="equal"><label>7</label><p>These authors contributed equally</p></fn>
 <fn id="n2" fn-type="others"><label>8</label><p>Lead contact</p></fn>
-<corresp id="cor1"><label>&#x002A;</label>Correspondence: Dr. Wei Li, Phone: 86-20-38857720, Email: <email>leways@gwcmc.org</email>; Dr. Jia-Yu Chen, Phone: 86-18061496681, Email: <email>jiayuchen@nju.edu.cn</email>; Dr. Chao Liu, Phone: 86-20-38857720, Email: <email>liuchsdu@163.com</email>; Dr. Hui Jiang, Phone: 86-10-82020576, Email: <email>jianghui55@163.com</email></corresp>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.02.27.530352</elocation-id>
