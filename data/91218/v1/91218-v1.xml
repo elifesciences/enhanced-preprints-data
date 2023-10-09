@@ -30,18 +30,18 @@
 <article-title>A binding site for phosphoinositide modulation of voltage-gated sodium channels described by multiscale simulations</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author">
+<contrib contrib-type="author" corresp="yes" equal-contrib="yes">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9836-132X</contrib-id>
 <name><surname>Lin</surname><given-names>Yiechang</given-names></name>
 <xref ref-type="author-notes" rid="n1">&#x002A;</xref>
-<xref ref-type="author-notes" rid="n2">&#x0023;</xref>
+<xref ref-type="corresp" rid="cor1">&#x0023;</xref>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
-<contrib contrib-type="author">
+<contrib contrib-type="author" corresp="yes" equal-contrib="yes">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0332-1646</contrib-id>
 <name><surname>Tao</surname><given-names>Elaine</given-names></name>
 <xref ref-type="author-notes" rid="n1">&#x002A;</xref>
-<xref ref-type="author-notes" rid="n2">&#x0023;</xref>
+<xref ref-type="corresp" rid="cor1">&#x0023;</xref>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
 <contrib contrib-type="author">
@@ -51,16 +51,14 @@
 <contrib contrib-type="author" corresp="yes">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-6324-442X</contrib-id>
 <name><surname>Corry</surname><given-names>Ben</given-names></name>
-<xref ref-type="author-notes" rid="n2">&#x0023;</xref>
+<xref ref-type="corresp" rid="cor1">&#x0023;</xref>
 <xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x00A7;</xref>
 </contrib>
 <aff id="a1"><label>1</label>Research School of Biology, Australian National University, Canberra</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1"><label>&#x00A7;</label> Corresponding author; email: <email>ben.corry@anu.edu.au</email></corresp>
 <fn id="n1" fn-type="equal"><label>&#x002A;</label><p>These authors contributed equally.</p></fn>
-<fn id="n2" fn-type="others"><label>&#x0023;</label><p><email>yiechang.lin@anu.edu.au</email>, <email>elaine.tao@anu.edu.au</email>, <email>ben.corry@anu.edu.au</email></p></fn>
+<corresp id="cor1"><label>&#x0023;</label><email>yiechang.lin@anu.edu.au</email>, <email>elaine.tao@anu.edu.au</email>, <email>ben.corry@anu.edu.au</email></corresp>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.07.16.547149</elocation-id>
