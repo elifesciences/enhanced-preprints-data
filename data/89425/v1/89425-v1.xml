@@ -44,19 +44,12 @@
 <xref ref-type="aff" rid="a2">2</xref>
 <xref ref-type="aff" rid="a3">3</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Jarvis</surname><given-names>Erich D.</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a4">4</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Jarvis</surname><given-names>Erich D.</given-names></name><email>ejarvis@rockefeller.edu</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a4">4</xref></contrib>
 <aff id="a1"><label>1</label>Laboratory Language Neurogenetics, The Rockefeller University, New York, NY, USA</aff>
 <aff id="a2"><label>2</label>Department of Molecular Genetics and Microbiology,</aff>
 <aff id="a3"><label>3</label>Department of Neurobiology, Duke Institute for Brain Sciences, Duke University School of Medicine, Durham, NC, USA</aff>
 <aff id="a4"><label>4</label>Howard Hughes Medical Institute, Chevy Chase, MD</aff>
 </contrib-group>
-<author-notes>
-<corresp id="cor1"><label>&#x002A;</label> Corresponding author; email: <email>ejarvis@rockefeller.edu</email></corresp>
-</author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2021.07.12.452102</elocation-id>
 <history>
