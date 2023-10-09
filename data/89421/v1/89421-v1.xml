@@ -893,6 +893,7 @@ where <italic>T</italic><sub><italic>j</italic></sub> is the number of time bins
 <disp-formula id="eqnS6">
 <graphic xlink:href="535396v2_eqnS6.gif"/>
 </disp-formula>
+<disp-quote/>
 <italic>W</italic> can then be fit via a regularized regression,
 <disp-formula id="eqnS7">
 <graphic xlink:href="535396v2_eqnS7.gif"/>

@@ -30,12 +30,7 @@
 <article-title>Neural spiking signatures predict behavioral phenotypes of cerebellar movement disorders</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>van der Heijden</surname><given-names>Meike E.</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a5">5</xref>
-<xref ref-type="corresp" rid="cor1">&#x0023;</xref>
-<xref ref-type="author-notes" rid="n1">&#x002A;</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>van der Heijden</surname><given-names>Meike E.</given-names></name><email>meheijde@bcm.edu</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a5">5</xref><xref ref-type="author-notes" rid="n1">&#x002A;</xref></contrib>
 <contrib contrib-type="author">
 <name><surname>Brown</surname><given-names>Amanda M.</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
@@ -45,14 +40,7 @@
 <name><surname>Kizek</surname><given-names>Dominic J.</given-names></name>
 <xref ref-type="aff" rid="a5">5</xref>
 </contrib>
-<contrib contrib-type="author">
-<name><surname>Sillitoe</surname><given-names>Roy V.</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="aff" rid="a3">3</xref>
-<xref ref-type="aff" rid="a4">4</xref>
-<xref ref-type="aff" rid="a5">5</xref>
-</contrib>
+<contrib corresp="yes" contrib-type="author"><name><surname>Sillitoe</surname><given-names>Roy V.</given-names></name><email>sillitoe@bcm.edu</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref><xref ref-type="aff" rid="a3">3</xref><xref ref-type="aff" rid="a4">4</xref><xref ref-type="aff" rid="a5">5</xref></contrib>
 <aff id="a1"><label>1</label>Department of Pathology &#x0026; Immunology, Baylor College of Medicine, Houston, Texas, USA</aff>
 <aff id="a2"><label>2</label>Department of Neuroscience, Baylor College of Medicine, Houston, Texas, USA</aff>
 <aff id="a3"><label>3</label>Department of Pediatrics, Baylor College of Medicine, Houston, Texas, USA</aff>
@@ -60,7 +48,6 @@
 <aff id="a5"><label>5</label>Jan and Dan Duncan Neurological Research Institute at Texas Children&#x2019;s Hospital, Houston, Texas, 77030, USA</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1"><label>&#x0023;</label>Address correspondence to: Dr. Roy V. Sillitoe Tel: 832-824-8913, Fax: 832-825-1251, Email: <email>sillitoe@bcm.edu</email>; Dr. Meike E. van der Heijden Email: <email>meheijde@bcm.edu</email></corresp>
 <fn id="n1" fn-type="equal"><label>&#x002A;</label><p>These authors contributed equally</p></fn>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
