@@ -30,11 +30,7 @@
 <article-title>Evaluation of surface-based hippocampal registration using ground-truth subfield definitions</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4093-0582</contrib-id>
-<name><surname>DeKraker</surname><given-names>Jordan</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>DeKraker</surname><given-names>Jordan</given-names></name><email>jordan.dekraker@mail.mcgill.ca</email><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4093-0582</contrib-id><xref ref-type="aff" rid="a1">1</xref></contrib>
 <contrib contrib-type="author">
 <name><surname>Palomero-Gallagher</surname><given-names>Nicola</given-names></name>
 <xref ref-type="aff" rid="a2">2</xref>
@@ -66,24 +62,15 @@
 <name><surname>Khan</surname><given-names>Ali R.</given-names></name>
 <xref ref-type="aff" rid="a4">4</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9256-6041</contrib-id>
-<name><surname>Bernhardt</surname><given-names>Boris</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Evans</surname><given-names>Alan C.</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9256-6041</contrib-id><name><surname>Bernhardt</surname><given-names>Boris</given-names></name><xref ref-type="aff" rid="a1">1</xref><xref ref-type="fn" rid="fn1">&#x002A;</xref></contrib>
+<contrib contrib-type="author"><name><surname>Evans</surname><given-names>Alan C.</given-names></name><xref ref-type="aff" rid="a1">1</xref><xref ref-type="fn" rid="fn1">&#x002A;</xref></contrib>
 <aff id="a1"><label>1</label>Montreal Neurological Institute and Hospital, McGill University, Montreal, Canada</aff>
 <aff id="a2"><label>2</label>Institute of Neuroscience and Medicine INM-1, Research Centre J&#x00FC;lich, Germany</aff>
 <aff id="a3"><label>3</label>C. &#x0026; O. Vogt Institute for Brain Research, University Hospital D&#x00FC;sseldorf, Heinrich-Heine-University, D&#x00FC;sseldorf, Germany</aff>
 <aff id="a4"><label>4</label>Robarts Research Institute, University of Western Ontario, London, Canada</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1"><label>&#x002A;</label>co-senior authors email: <email>jordan.dekraker@mail.mcgill.ca</email></corresp>
+<fn id="fn1"><p>co-senior authors</p></fn>
 </author-notes>
 <pub-date pub-type="epub">
 <year>2023</year>
