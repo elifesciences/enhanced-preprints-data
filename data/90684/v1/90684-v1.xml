@@ -215,25 +215,7 @@ and hence, after <italic>n</italic> visits of (<italic>s, a</italic>), the assoc
 <p><xref ref-type="disp-formula" rid="eqn1">Equation 1</xref> can be understood as a TD algorithm (specifically, using the sarsa algorithm (<xref ref-type="bibr" rid="CIT0039">Rummery and Niranjan, 1994</xref>; <xref ref-type="bibr" rid="CIT0048">Sutton and Barto, 2018</xref>)) in the particular case that all the rewards signals are assumed to be <italic>r</italic> = 0, and estimates are initialized at 1. The extended model (<xref ref-type="boxed-text" rid="box1">Algorithm 1</xref>) is a direct generalization of that correspondence to the TD (<italic>&#x03BB;</italic>) case.</p>
 <boxed-text id="box1">
 <caption><p>Algorithm 1 TD (<italic>&#x03BB;</italic>) learning for <italic>E</italic>-values</p></caption>
-<preformat preformat-type="algorithm">
-<bold>Require:</bold> Parameters <italic>&#x03B7;, &#x03BB;, &#x03B3;</italic>
-<bold>Initialize</bold> <italic>E</italic> (<italic>s, a</italic>) = 1 for all <italic>s, a</italic>
-<bold>for</bold> all episodes <bold>do</bold>
-<bold>set</bold> <italic>&#x03B5;</italic> (<italic>s, a</italic>) = 0 for all <italic>s, a</italic>                                                                                                                                                                                                                                                                       &#x22B3; eligibility-traces
-<bold>set</bold> <italic>&#x03C4;</italic> = {}                                                                                                                                                                                                                                                                                                                   &#x22B3; trajectory in this episode
-set <italic>s</italic> to the initial state and choose action <italic>a</italic>
-<bold>while</bold> <italic>s</italic> is not a terminal state <bold>do</bold>
-sample the next state and action <italic>s&#x2032;, a&#x2032;</italic>
-increment <italic>&#x03B5;</italic> (<italic>s, a</italic>) &#x2190; <italic>&#x03B5;</italic> (<italic>s, a</italic>) + 1 and concatenate (<italic>s, a</italic>) to <italic>&#x03C4;</italic>
-<bold>for all</bold> (<italic>s<sub>t</sub>, a<sub>t</sub></italic>) in <italic>&#x03C4;</italic> <bold>do</bold>
-<italic>E</italic> (<italic>s<sub>t</sub>, a<sub>t</sub></italic>) &#x2190; <italic>E</italic> (<italic>s<sub>t</sub>, a<sub>t</sub></italic>) + <italic>&#x03B7;&#x03B5;</italic> (<italic>s<sub>t</sub>, a<sub>t</sub></italic>) (<italic>&#x03B3;E</italic> (<italic>s&#x2032;, a&#x2032;</italic>) &#x2212; <italic>E</italic> (<italic>s, a</italic>))        &#x22B3; update <italic>E</italic>-value
-<italic>&#x03B5;</italic> (<italic>s<sub>t</sub>, a<sub>t</sub></italic>) &#x2190; <italic>&#x03B3;&#x03BB;&#x03B5;</italic> (<italic>s<sub>t</sub>, a<sub>t</sub></italic>)                                                                                                                                                                    &#x22B3; decay eligibility-trace
-<bold>end for</bold>
-<italic>s &#x2190; s&#x2032;, a &#x2190; a&#x2032;</italic>
-<bold>end while</bold>
-<italic>E</italic> (<italic>s, a</italic>) &#x2190; (1 &#x2212; <italic>&#x03B7;</italic>) <italic>E</italic> (<italic>s, a</italic>)                                                                                                                                                                             &#x22B3; update in terminal-state
-<bold>end for</bold>
-</preformat>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="algo1.tif"/>
 </boxed-text>
 </sec>
 </sec>
