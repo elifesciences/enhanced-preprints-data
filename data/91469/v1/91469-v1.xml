@@ -112,14 +112,8 @@
 <xref ref-type="aff" rid="a10">10</xref>
 <xref ref-type="aff" rid="a14">14</xref>
 </contrib>
-<contrib contrib-type="author">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4625-2508</contrib-id>
-<name><surname>Schiffman</surname><given-names>Mark</given-names></name>
-</contrib>
-<contrib contrib-type="author">
-<name><surname>the PAVE Study Group</surname></name>
-<xref ref-type="aff" rid="a1">1</xref>
-</contrib>
+<contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4625-2508</contrib-id><name><surname>Schiffman</surname><given-names>Mark</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib>
+<contrib contrib-type="author"><name><surname>for the PAVE Study Group</surname></name></contrib>
 <aff id="a1"><label>1</label>Division of Cancer Epidemiology and Genetics, National Cancer Institute, National Institutes of Health, Rockville, MD, USA</aff>
 <aff id="a2"><label>2</label>ISGlobal, Barcelona, Spain</aff>
 <aff id="a3"><label>3</label>University Chobanian and Avedisian School of Medicine/Boston Medical Center, Boston, MA, USA</aff>
