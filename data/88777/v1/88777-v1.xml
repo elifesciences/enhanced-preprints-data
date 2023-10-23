@@ -625,7 +625,7 @@
 </disp-formula>
 </p>
 <p>This is the case since we just showed that the fixed point <italic>x</italic><sup>*</sup> satisfies <inline-formula id="ID32">
-<inline-graphic xlink:href="2302.14157v3_ieq32.tif"/>
+<inline-graphic xlink:href="2302.14157v3_ieq32a.tif"/><inline-graphic xlink:href="2302.14157v3_ieq32b.tif"/>
 </inline-formula> for all <italic>k</italic> &#x2208; [<italic>n<sub>I</sub></italic>].</p>
 <p>We now compute the eigenvalues of &#x2212;<italic>I + W</italic>, which are the &#x03BB; such that
 <disp-formula id="ID33">
