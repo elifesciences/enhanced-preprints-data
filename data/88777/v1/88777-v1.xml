@@ -143,7 +143,7 @@
 </p>
 <p><italic>where w<sub>ij</sub></italic> &#x2208; &#x211D;<sup>+</sup> &#x2200; <italic>i, j</italic> &#x2208; [<italic>n</italic>].</p>
 <p><italic>Then, TLN(W, b) has a unique globally asymptotically stable fixed point.</italic></p>
-    <p><bold>Theorem 2.</bold> <italic>Let G be a cyclical graph with n<sub>I</sub></italic> &#x2208; &#x2115;<sup>+</sup> <italic>inhibitory nodes and n<sub>E</sub></italic> &#x2208; &#x2115; <italic>excitatory nodes such that n<sub>I</sub></italic> + n<sub>E</sub> &#x2265; 2 (&#x2265; 3 <italic>when n<sub>I</sub></italic> =1). <italic>Assume that the nodes follow the TLN(W, b) dynamics (<xref ref-type="disp-formula" rid="FD1">eq. 1</xref>) with for all i, j</italic> &#x2208; [<italic>n</italic>], <italic>w<sub>j</sub></italic> &#x2208; &#x211D;<sup>+</sup>,
+<p><bold>Theorem 2.</bold> <italic>Let G be a cyclical graph with n<sub>I</sub></italic> &#x2208; &#x2115;<sup>+</sup> <italic>inhibitory nodes and n<sub>E</sub></italic> &#x2208; &#x2115; <italic>excitatory nodes such that n<sub>I</sub></italic> + n<sub>E</sub> &#x2265; 2 (&#x2265; 3 <italic>when n<sub>I</sub></italic> =1). <italic>Assume that the nodes follow the TLN(W, b) dynamics (<xref ref-type="disp-formula" rid="FD1">eq. 1</xref>) with for all i, j</italic> &#x2208; [<italic>n</italic>], <italic>w<sub>j</sub></italic> &#x2208; &#x211D;<sup>+</sup>,
 <disp-quote/>
 <disp-formula id="FD5">
 <graphic xlink:href="2302.14157v3_eqn5.tif"/>
