@@ -263,9 +263,10 @@
 <graphic xlink:href="273730v2_eqn7.gif"/>
 </disp-formula> where <italic>t</italic><sub>2</sub> is the time of the <italic>n</italic><sup>th</sup> spike, <inline-formula><inline-graphic xlink:href="273730v2_inline6.gif"/></inline-formula> is a vector representing the stimuli preceding <italic>t</italic><sub>2</sub>, and <italic>N</italic> is the total number of spikes, and <italic>&#x00C2;</italic> is the STA (as computed in equation (<xref rid="eqn6" ref-type="disp-formula">6</xref>)).</p>
 <p><italic>&#x0108;<sub>post</sub></italic> contains the multidimensional variance structure of the spike-triggered stimulus ensemble, such that the variance of the STE along any direction <italic>u</italic> (<italic>u</italic> is a unit vector) is <italic>u<sup>T</sup>&#x0108;<sub>post</sub> u</italic>. We were interested in finding the features in the stimulus space for which the variance changes from that of the prior distribution of stimuli, which is Gaussian along all stimulus dimensions, independent of the response. We first construct the covariance difference matrix by subtracting <italic>&#x0108;<sub>prior</sub></italic> from <italic>&#x0108;<sub>post</sub></italic>.
+<disp-quote/>
 <disp-formula id="eqn8">
 <graphic xlink:href="273730v2_eqn8.gif"/>
-</disp-formula> where <inline-formula><inline-graphic xlink:href="273730v2_inline7.gif"/></inline-formula>.</p>
+</disp-formula><disp-quote/> where <inline-formula><inline-graphic xlink:href="273730v2_inline7.gif"/></inline-formula>.</p>
 <p>Then the posterior second moment matrix <italic>&#x0108;<sub>post</sub></italic> can in general only differ from <italic>&#x0108;<sub>prior</sub></italic> in directions spanned by the model filters<sup><xref ref-type="bibr" rid="c49">49</xref></sup>. An eigenvector analysis of this matrix can determine the stimulus directions that account for most of the variance.</p>
 </sec>
 <sec id="s4i">
