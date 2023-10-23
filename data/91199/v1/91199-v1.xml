@@ -14,7 +14,7 @@
 </journal-meta>
 <article-meta>
 <article-id pub-id-type="doi">10.1101/2023.08.29.555374</article-id>
-<article-version>1.1</article-version>
+<article-version>1.2</article-version>
 <article-categories>
 <subj-group subj-group-type="author-type">
 <subject>Regular Article</subject>
@@ -57,7 +57,8 @@
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
 <contrib contrib-type="author">
-<name><surname>Axelrod</surname><given-names>Jeffery</given-names></name>
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6094-7392</contrib-id>
+<name><surname>Axelrod</surname><given-names>Jeffrey D.</given-names></name>
 <xref ref-type="aff" rid="a2">2</xref>
 </contrib>
 <contrib contrib-type="author">
@@ -67,13 +68,13 @@
 <contrib contrib-type="author" corresp="yes">
 <name><surname>Wang</surname><given-names>Jianbo</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">@</xref>
+<xref ref-type="corresp" rid="cor1">&#x0040;</xref>
 </contrib>
 <aff id="a1"><label>1</label>Department of Cell, Developmental and Integrative Biology, University of Alabama at Birmingham, 1918 University Blvd., Birmingham, AL 35294</aff>
 <aff id="a2"><label>2</label>Department of Pathology, Stanford University School of Medicine, Stanford, CA, 94305</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1"><label><sup>&#x0040;</sup></label>Correspondence: <email>j18wang@uab.edu</email></corresp>
+<corresp id="cor1"><label>&#x0040;</label>Correspondence: <email>j18wang@uab.edu</email></corresp>
 <fn id="n1" fn-type="equal"><label>&#x002A;</label><p>These authors contributed equally to this work.</p></fn>
 <fn id="n2" fn-type="present-address"><label>&#x0023;</label><p>iCura Diagnostics, 107 Great Valley Parkway, Malvern, PA 19355</p></fn>
 </author-notes>
@@ -87,12 +88,12 @@
 </date>
 <date date-type="rev-recd">
 <day>29</day>
-<month>8</month>
+<month>9</month>
 <year>2023</year>
 </date>
 <date date-type="accepted">
 <day>30</day>
-<month>8</month>
+<month>9</month>
 <year>2023</year>
 </date>
 </history>
@@ -112,6 +113,10 @@
 <notes>
 <notes notes-type="competing-interest-statement">
 <title>Competing Interest Statement</title><p>The authors have declared no competing interest.</p></notes>
+<fn-group content-type="summary-of-updates">
+<title>Summary of Updates:</title>
+<fn fn-type="update"><p>Correction of mis-spelled coauthor name; correction of spelling mistake; correction of mis-labeling in Fig. 2 and 6</p></fn>
+</fn-group>
 </notes>
 </front>
 <body>
@@ -136,7 +141,7 @@
 <label>Figure 1.</label>
 <caption><title>PK synergize with Vangl to suppress Dvl during CE</title>
 <p>Injecting 0.1 ng mouse <italic>Vangl2</italic> mRNA (<italic>mVangl2</italic>) into the DMZ results in moderate CE defects and reduction of the length-to-width ration (LWR), and the phenotypes are significantly enhanced by co-injecting a small dose of <italic>Xpk</italic> (a, a&#x2019;) or <italic>mPk2</italic> (b, b&#x2019;) mRNA that causes minimal or no CE defect <italic>per se</italic>. On the other hand, higher dose <italic>mVangl2</italic> (0.15 ng) induced more severe CE defects can be rescued by knocking down endogenous Pk using <italic>Xpk</italic>MO (c, c&#x2019;); whereas knockdown of endogenous <italic>vangl2</italic> (<italic>XV</italic>MO) induced CE defects can be rescued by moderate mPk2 overexpression (d, d&#x2019;). Conversely, 0.5 ng mouse <italic>Dvl2</italic> injection induced CE defects can be dose-dependently rescued by <italic>mPk2</italic> (e, e&#x2019;) and <italic>Xpk</italic> (f, f&#x2019;) co-overexpression; and mVangl2-mPk2 co-overexpression induced severe CE defect can be rescued by co-injecting Dvl2 (g, g&#x2019;).</p></caption>
-<graphic xlink:href="555374v1_fig1.tif"/>
+<graphic xlink:href="555374v2_fig1.tif"/>
 </fig>
 <p>Conversely, we found that knocking down endogenous XPk level using antisense morpholino (<italic>Xpk</italic>MO, <xref rid="figs1" ref-type="fig">Suppl. Fig. 1b-d&#x2019;</xref>) can rescue <italic>mVangl2</italic> over-expression induced CE defect (<xref rid="fig1" ref-type="fig">Fig. 1c, c&#x2019;</xref>), whereas over-expressing Pk can dose-dependently rescue <italic>Xvangl2</italic> morpholino (<italic>XV</italic>MO) knockdown-induced CE defect (<xref rid="fig1" ref-type="fig">Fig. 1d, d&#x2019;</xref>). These gain- and loss-of-function results together demonstrate that Pk functionally synergize with Vangl during CE.</p>
 <p>We then tested how Pk may affect Dvl function during CE. When co-injected, <italic>mPk2</italic> or <italic>Xpk</italic> can dose-dependently rescued the CE defects induced by <italic>Dvl2</italic> over-expression (<xref rid="fig1" ref-type="fig">Fig. 1e-f&#x2019;</xref>), suggesting that Pk functionally antagonizes Dvl during CE. Together with our previous finding that Vangl exerts bimodal regulation of Dvl (<xref ref-type="bibr" rid="c39">Seo et al., 2017</xref>), these results suggest that Pk may synergize with Vangl to suppress Dvl function during CE. Consistent with this idea, we found that the severe CE defects induced by <italic>Pk</italic> and <italic>Vangl2</italic> co-injection could be rescued by overexpressing <italic>Dvl2</italic> (<xref rid="fig1" ref-type="fig">Fig. 1g, g&#x2019;</xref>).</p>
@@ -150,7 +155,7 @@
 <label>Figure 2.</label>
 <caption><title>Vangl2 RH variant diminishes membrane recruitment of Pk and reduces functional synergy with Pk</title>
 <p>Schematic illustration showing the structure of the tetraspan protein Vangl2 and location of the R177H variant at the intracellular loop region between transmembrane domain 2 and 3 (a). When expressed in <italic>Xenopus</italic> animal cap cells, EGFP-Vangl2 RH displays plasma membrane localization, indistinguishable from wild-type EGFP-Vangl2 (b, b&#x2019;). Immunostaining shows that flag-XPk displays diffuse cytoplasmic localization with some membrane enrichment when expressed alone (c, c&#x2019;). The plasma membrane localization of flag-XPk is enhanced significantly by co-expression of wild-type Vangl2 (d, d&#x2019;), but only modestly by Vangl2 RH variant (e, e&#x2019;). (f) Quantification of the ratio of plasma membrane vs. cytoplasmic flag-XPk in (c), (d) and (e). Co-IP and western blot show that binding to flag-XPk is reduced by Vangl2 RH variant (g). Functionally, co-injection of 0.05 ng <italic>Vangl2</italic> and 0.5 ng <italic>Xpk</italic> can strongly synergize to disrupt CE, but the synergy is significantly reduced when <italic>Vangl2 RH</italic> variant mRNA is co-injected with <italic>Xpk</italic> (h). The CE phenotype is quantified by the LWR measurement in (i).</p></caption>
-<graphic xlink:href="555374v1_fig2.tif"/>
+<graphic xlink:href="555374v2_fig2.tif"/>
 </fig>
 <p>Functionally, R177H variant significantly reduced the synergy between Vangl2 and Pk during CE (<xref rid="fig2" ref-type="fig">Fig. 2h, i</xref>). Moreover, compared to wild-type Vangl2, Vangl2 R177H results in significantly less severe CE defects when over-expressed alone in the DMZ (<xref rid="figs5" ref-type="fig">Suppl. Fig. 5a, a&#x2019;</xref>), and is less capable of suppressing Dvl-Fz mediated signaling activation during CE when co-expressed (<xref rid="figs5" ref-type="fig">Suppl. Fig. 5b, b&#x2019;</xref>). We interpret these data to suggest that: 1) direct binding of Vangl2 to Pk, through which Pk is recruited to the plasma membrane, is crucial for their functional synergy during CE; and 2) direct binding of Vangl to Dvl alone may not be sufficient to suppress Dvl, and simultaneous interaction with Pk may be required for Vangl to efficiently inhibit Dvl during CE.</p>
 </sec>
@@ -163,7 +168,7 @@
 <label>Figure 3.</label>
 <caption><title>Pk synergizes with Vangl2 to inhibit Wnt11-induced formation of Dvl patches</title>
 <p>0.25 ng <italic>Wnt11</italic> injection with 0.5 ng of mCh-tagged mouse <italic>Dvl2</italic> and membrane-GFP induces formation of distinct Dvl2 patches at the cell-cell contact (a-c&#x2019;). Co-injection indicates that these Dvl2 patches completely overlap with Fz7 (d-f&#x2019;). In contrast, Vangl2, when expressed at moderate levels, is distributed more broadly along the plasma membrane (g-i), but also displays enrichment immediately outside and at the edge of Dvl2 patches (g&#x2019;-I&#x2019;, arrowheads and arrows, respectively). High level of <italic>Vangl2</italic> injection inhibits Wnt11-induced Dvl2 patch formation and makes Dvl2 more evenly distributed with Vangl2 (j-l&#x2019;). The same effect can also be achieved by co-expressing Pk with moderate level of Vangl2 (m-o&#x2019;). (p-t) Measurement of the relative intensity of Dvl2 along the patches with either membrane GFP, Fz7, Vangl2 at moderate (0.1 ng) and high (0.5 ng) levels, or Vangl2 (0.1 ng) and XPk (0.5 ng) co-injection.</p></caption>
-<graphic xlink:href="555374v1_fig3.tif"/>
+<graphic xlink:href="555374v2_fig3.tif"/>
 </fig>
 <p>To quantitatively assess their spatial distribution, we measured and plotted the relative intensity of Dvl2 against Fz7, Vangl2 or membrane-GFP control along the length of ten representative patches (<xref rid="fig3" ref-type="fig">Fig. 3p-r</xref>). Our analyses revealed that membrane-GFP displayed no enrichment along Wnt11-induced Dvl2 patches (<xref rid="fig3" ref-type="fig">Fig. 3p</xref>). Fz7, however, showed enrichment that correlated strongly with Dvl2: their intensities follow a similar pattern of increasing sharply from the edge and peaking coincidentally at the center of the patches. In contrast, Vangl2 enrichment starts to appear slightly outside of Dvl2 patches (<xref rid="fig3" ref-type="fig">Fig. 3g&#x2019;, i&#x2019;</xref>, r, green arrowheads), peaks at the edges as Dvl2 intensity begins to rise, and dips at the center where Dvl2 and Fz7 intensities reach the maximum (<xref rid="fig3" ref-type="fig">Fig. 3g&#x2019;, i&#x2019;</xref>, r, green arrows). These imaging analyses are consistent with our co-IP data (<xref rid="figs7" ref-type="fig">Suppl. Fig. 7</xref>), and further suggest the possibility that Dvl may leave Vangl and transition to Fz upon Wnt11 induction.</p>
 <p>We then tested whether addition of Pk can help Vangl2 to counter the effect of Wnt11. Indeed, co-injecting Pk with 0.1 ng Vangl2 effectively inhibited Wnt11-induced Dvl2 patch formation, making Dvl2 more evenly distributed along the plasma membrane (<xref rid="figs3" ref-type="fig">Fig.3m-o</xref>) and overlap with Vangl2 (<xref rid="fig3" ref-type="fig">Fig.3m&#x2019;-o&#x2019;, t</xref>). Similar inhibition of Dvl patch formation can also be achieved, albeit less effectively, by over-expression of high level Vangl2 alone (<xref rid="fig3" ref-type="fig">Fig.3j-l&#x2019;, s</xref>).</p>
@@ -172,7 +177,7 @@
 <label>Figure 4.</label>
 <caption><title>Pk helps Vangl2 to inhibit Wnt11-induced clustering of Fz7-Dvl2 complexes</title>
 <p>Wnt11 induces formation of overlapping Fz7 and Dvl2 patches at the cell-cell contact (a-c&#x2019;). These patches are not affected by over-expressing moderate level of Vangl2 (d-f&#x2019;) or Pk (g-i&#x2019;) individually. Vangl2 and Pk co-expression, however, not only disrupt Dvl2 patches but also disperse Fz7 patches into small puncta (j-l). Enlarged views revealed that some of the Fz7 puncta are on the plasma membrane and remain co-localized with Dvl2, while the others are located in the cytoplasm near the plasma membrane (k&#x2019;&#x2019;, l&#x2019;, arrows) and contain only Fz7 but not Dvl2 (compare arrows in j&#x2019; to k&#x2019;).</p></caption>
-<graphic xlink:href="555374v1_fig4.tif"/>
+<graphic xlink:href="555374v2_fig4.tif"/>
 </fig>
 <p>To confirm that the cytoplasmic Fz7 puncta are endocytosed vesicles, we performed FM4-64 dye uptake experiment (<xref ref-type="bibr" rid="c9">Cho et al., 2015</xref>; <xref ref-type="bibr" rid="c10">Classen et al., 2005</xref>). FM4-64 is a membrane impermeable fluorescent dye that can only be internalized through endocytosis. When we incubated the explants with FM4-64, we found that many Fz7 puncta induced by Vangl2/Pk co-injection were also positive for FM4-64 (<xref rid="figs9" ref-type="fig">Suppl. Fig. 9d-f&#x2019;</xref>), indicating that they are indeed endocytic vesicles.</p>
 <p>These data imply that Pk may assist Vangl to sequester Dvl, thereby reducing the accessibility of Dvl to attenuate Fz-Dvl complex formation in response to Wnt11, and resulting in Fz destabilization at the plasma membrane. To test this idea, we reduced Dvl availability at the plasma membrane using another strategy. Over-expression of DshMA, a mitochondrial tethered Dvl, can sequester endogenous Dvl to the mitochondria (and away from the plasma membrane) through DIX-domain mediated oligomerization (<xref ref-type="bibr" rid="c33">Park et al., 2005</xref>). We found that DshMA injection indeed mimicked the effect of Vangl2/Pk co-injection on Fz, resulting in reduced Fz7 clustering upon Wnt11 induction, formation of cytoplasmic puncta near the plasma membrane, and diminished plasma membrane localization (<xref rid="figs10" ref-type="fig">Suppl. Fig. 10</xref>).</p>
@@ -181,14 +186,14 @@
 <label>Figure 5.</label>
 <caption><title>Vangl2 R177H variant fails to synergize with Pk to inhibit Fz patch formation and down-regulate Fz stability at the plasma membrane</title>
 <p>Wnt11 induced formation of Fz7-GFP patches on the plasma membrane (a, a&#x2019;) was not affected by moderate expression either wild-type Vangl2 (b, b&#x2019;) or Vangl2 R177H variant (c, c&#x2019;) alone. Pk co-injection synergized with wild-type Vangl2 to diminish Fz7 patch formation and induce cytoplasmic Fz7 puncta (d, d&#x2019;), but the synergy was not observed with Vangl2 R177H (e, e&#x2019;).</p></caption>
-<graphic xlink:href="555374v1_fig5.tif"/>
+<graphic xlink:href="555374v2_fig5.tif"/>
 </fig>
 <p>As a final test for this idea, we examined Dvl phosphorylation known to be inducible by Fz and non-canonical Wnt signaling activation (<xref ref-type="bibr" rid="c2">Axelrod, 2001</xref>; <xref ref-type="bibr" rid="c28">Klein et al., 2006</xref>; <xref ref-type="bibr" rid="c37">Rothbacher et al., 2000</xref>; <xref ref-type="bibr" rid="c40">Shimada et al., 2001</xref>; <xref ref-type="bibr" rid="c45">Strutt et al., 2019</xref>; <xref ref-type="bibr" rid="c46">Strutt et al., 2006</xref>). <italic>Xenopus</italic> extract from embryos injected with <italic>flag-Dvl2</italic> in the DMZ often shows Dvl2 migrating as two bands. The upper, slower migrating band increases in intensity from stage 10 to 12, correlating with the onset and progression of CE (<xref rid="fig6" ref-type="fig">Fig. 6a</xref>). The slower migrating form of Dvl2 is increased by Fz7 co-injection, but eliminated by phosphatase treatment (<xref rid="fig6" ref-type="fig">Fig. 6b</xref>). Interestingly, high level Vangl2 over-expression can reduce the phosphorylated form of Dvl2, while Fz7 can counter Vangl2&#x2019;s effect to increase Dvl2 phosphorylation when co-injected (<xref rid="fig6" ref-type="fig">Fig. 6c</xref>). Importantly, our co-IP experiment demonstrated that only the faster migrating, presumably unphosphorylated form of Dvl2 could be precipitated by Vangl2 in <italic>Xenopus</italic> (<xref rid="fig6" ref-type="fig">Fig. 6d</xref>), suggesting that Vangl2-bound Dvl2 may be shielded from Fz-induced phosphorylation. High level Pk (1 ng <italic>Xpk</italic>) is not sufficient to significantly reduce phosphorylated form of Dvl2 when injected alone, but can synergize with moderate level of co-injected Vangl2 to suppress Dvl2 phosphorylation (<xref rid="fig6" ref-type="fig">Fig 6e, f</xref>). Together with our previous findings, these data suggest that Pk facilitates Vangl2 to sequester Dvl2 from Fz and, in turn, Fz-induced phosphorylation.</p>
 <fig id="fig6" position="float" orientation="portrait" fig-type="figure">
 <label>Figure 6.</label>
 <caption><title>Pk synergize with Vangl2 to prevent Fz-induced phosphorylation of Dvl.</title>
 <p>In <italic>Xenopus</italic> extract, DMZ injected Dvl2 migrates as two bands, with the slower migrating band increasing in intensity from stage 10 to 12 as CE starts and progresses during gastrulation (a). The slower migrating form of Dvl2 is increased by Fz7 co-injection, but eliminated by phosphatase treatment (b). High level Vangl2 injection can reduce the phosphorylated form of Dvl2, while Fz7 can counter Vangl2&#x2019;s effect to increase Dvl2 phosphorylation (c). Co-IP experiment indicates that only the faster migrating, unphosphorylated form of Dvl2 can be co-immunoprecipitated by Vangl2 (d). High level <italic>Xpk</italic> (1 ng) or moderate <italic>Vangl2</italic> (0.25 ng) cannot significantly reduce phosphorylated form of Dvl2 when injected individually, but their co-injection can suppress Dvl2 phosphorylation (e). (f) Quantification of the ratio between the fast migrating/ unphosphorylated and the slow migrating/ phosphorylated forms of Dvl2 in (e).</p></caption>
-<graphic xlink:href="555374v1_fig6.tif"/>
+<graphic xlink:href="555374v2_fig6.tif"/>
 </fig>
 </sec>
 <sec id="s2d">
@@ -200,7 +205,7 @@
 <label>Figure 7.</label>
 <caption><title>Ror2 is an obligatory component of the Fz/Dvl cluster complex induced by Wnt11.</title>
 <p>(a-c) Co-injection of <italic>Wnt11</italic> with EGFP-tagged <italic>Xror2</italic> (0.1 ng) and <italic>Dvl2-mCh</italic> shows that Ror2 and Dvl2 both form patches that largely overlap, but unlike Dvl2, Ror2 additionally displays broad distribution along the entire cell cortex. (c&#x2019;-e&#x2019;) The enlarged views show that both Ror2 and Dvl2 accumulate at the center of the patches (red arrowhead), but Ror2 patches are slightly longer and extend beyond the border of Dvl2 patches (green arrowheads). (d) Measurement of the relative intensity of Dvl2-mCh along the patches with Ror2-EGFP. (e) Injection of <italic>Wnt11</italic> induces co-injected Dvl2-mCh to cluster into patches on the cell cortex. (b) Co-injection of 25 ng <italic>X</italic>ror2 morpholino (<italic>Xror2-</italic>MO) blocks Wnt11-induced Dvl2 clustering.</p></caption>
-<graphic xlink:href="555374v1_fig7.tif"/>
+<graphic xlink:href="555374v2_fig7.tif"/>
 </fig>
 <p>To test whether Ror2 is required for Dvl2 patch formation in response to Wnt11, we used a verified morpholino to knock down endogenous XRor2 (<xref ref-type="bibr" rid="c38">Schambony and Wedlich, 2007</xref>) and found that Dvl2 patch formation is significantly diminished in Xror2 morphants (<xref rid="fig7" ref-type="fig">Fig.7e, f</xref>). Collectively, these data indicate that Ror2, a molecular partner of Vangl2, is an obligatory component of the Fz/Dvl cluster induced by Wnt11.</p>
 <p>To further scrutinize the molecular mechanism, we tested biochemically whether Ror2 is required for Dvl2 to dissociate from Vangl2 in response to Wnt11. Indeed, we found that Wnt11-induced dissociation of Dvl2 from Vangl2 was significantly reduced when endogenous Ror2 level was knocked down by <italic>Xror2</italic>-MO (<xref rid="figs12" ref-type="fig">Supplementary Fig. 12a</xref>).</p>
@@ -214,14 +219,14 @@
 <label>Figure 8.</label>
 <caption><title>Vangl2/Pk exert bimodal regulation of Ror2 in non-canonical Wnt signaling.</title>
 <p>(a-c) Wnt11 induces injected XRor2-td-Tomanto and Fz7-GFP to co-cluster into patches on the cell cortex. Overexpression of Vangl2 (d-f) or Pk (g-i) individually does not perturb co-clustering of Ror2 with Fz7 in response to Wnt11, but their co-overexpression (j-l) diminishes Ror2-Fz7 co-clustering into patches and cause Fz7 to form cytoplasmic puncta whereas Ror2 remained on the plasma membrane (compare arrows in j&#x2019;-l&#x2019;). a&#x2019;-l&#x2019; are enlarged view of a-l, respectively. Conversely, partial knockdown of endogenous <italic>XVangl2</italic> with moderate level of <italic>XV</italic>MO (14 ng) also diminished Ror2/Fz7 patches formed in response to Wnt11 (<xref rid="fig8" ref-type="fig">Fig.8m-o&#x2019;</xref>) with simultaneous formation of intracellular vesicles around the plasma membrane which contain Fz7 but not Ror2 (<xref rid="fig8" ref-type="fig">Fig.8m&#x2019;-o&#x2019;</xref>, arrows).</p></caption>
-<graphic xlink:href="555374v1_fig8.tif"/>
+<graphic xlink:href="555374v2_fig8.tif"/>
 </fig>
 <p>We then tested whether Vangl2 may also be required for Ror2 to form Wnt11-induced patches with Fz7 since our model predicts that, by bridging Ror2 and Dvl into a complex, Vangl2 helps Ror2 to shuttle Dvl to Fz in response to non-canonical Wnt (<xref rid="fig9" ref-type="fig">Fig. 9</xref>). We found that partial knockdown of endogenous <italic>XVangl2</italic> with <italic>XV</italic>MO indeed diminished Ror2/Fz7 patches formed in response to Wnt11 (<xref rid="fig8" ref-type="fig">Fig.8m-o&#x2019;</xref>) with simultaneous formation of Fz7 intracellular vesicles around the plasma membrane (<xref rid="fig8" ref-type="fig">Fig.8m&#x2019;, n&#x2019;</xref>, arrows), similar to co-overexpression of Vangl2 and XPk (<xref rid="fig8" ref-type="fig">Fig.8k&#x2019;, l&#x2019;</xref>). Collectively, these data support our model and suggest that with Pk, Vangl2 exerts bimodal regulation of Ror2 in non-canonical Wnt signaling.</p>
 <fig id="fig9" position="float" orientation="portrait" fig-type="figure">
 <label>Figure 9.</label>
 <caption><title>An integrated model for how core PCP proteins mediates non-canonical Wnt signaling to regulate CE.</title>
 <p>(a, a&#x2019;) In the absence of non-canonical Wnt, Pk helps Vangl to act as an adaptor that brings together Dvl and Ror, through either simultaneous binding of both Dvl and Ror to a single Vangl (a) or oligomerization of Vangl proteins bound separately to Dvl and Ror (a&#x2019;), and keeps both Dvl and Ror inactive to prevent ectopic non-canonical Wnt signaling. (b, b&#x2019;) Non-canonical Wnt initiates signaling by triggering Fz-Ror heterodimerization, and in turn, the complexes consisting of Ror/Vangl/Dvl are brought close to Fz to deliver Dvl for activation of downstream targets. (c, c&#x2019;) Non-canonical Wnt also induces other events such as Dvl phosphorylation, likely through CK1, that may cause Dvl dissociation from Vangl and transition to Fz in a spatially and temporally controlled manner.</p></caption>
-<graphic xlink:href="555374v1_fig9.tif"/>
+<graphic xlink:href="555374v2_fig9.tif"/>
 </fig>
 </sec>
 </sec>
@@ -289,62 +294,62 @@
 <fig id="figs1" position="float" orientation="portrait" fig-type="figure">
 <label>Supplementary Figure 1.</label>
 <caption><p>In the DMZ, both over-expression (a, a&#x2019;) and morpholino knockdown (b, b&#x2019;) of <italic>Xpk</italic> can dose-dependently block CE, resulting in shorten body axes and reduced LWR. In the animal cap, <italic>Xpk</italic>MO knockdown can also block activin induced CE (c, c&#x2019;), but the defect can be rescued by co-injecting RNA encoding mouse Pk2 (d, d&#x2019;).</p></caption>
-<graphic xlink:href="555374v1_figs1.tif"/>
+<graphic xlink:href="555374v2_figs1.tif"/>
 </fig>
 <fig id="figs2" position="float" orientation="portrait" fig-type="figure">
 <label>Supplementary Figure 2.</label>
 <caption><p><italic>EGFP-Vangl2</italic>, <italic>flag-Dvl</italic>2 and <italic>GFP-mPk2</italic> mRNA were injected into the DMZ, either alone or together, at 4 cell stage, and embryos were harvested at stages 10.5-11 for westernblot. Co-overexpressing Vangl2 with mPk2, or Dvl2 with mPk2, does not significantly alter each other&#x2019;s protein level (a). Similarly, co-overexpressing Flag-XPk with EGFP-Vangl2 in activin treated animal cap explant also does not alter each other&#x2019;s protein level (b). Knocking down endogenous <italic>Xvangl2</italic> does not alter the protein level of injected Flag-XPk either (c). Interestingly, however, co-transfecting Vangl2 with XPk into 293T cells significantly reduced XPk protein level (d).</p></caption>
-<graphic xlink:href="555374v1_figs2.tif"/>
+<graphic xlink:href="555374v2_figs2.tif"/>
 </fig>
 <fig id="figs3" position="float" orientation="portrait" fig-type="figure">
 <label>Supplementary Figure 3.</label>
 <caption><p>EGFP tagged mPk2 display uniform cytoplasmic distribution with some enrichment at the plasma membrane when expressed alone in animal cap cells (a, c, and enlarged view in c). Plasma membrane enrichment of mPk2 is enhanced by co-injection of mVangl2 (b), but eliminated by morpholino knockdown of endogenous XVangl2 (d). Injecting a small amount of <italic>mVangl2</italic> (50 pg) could restore mPk2 plasma membrane enrichment in <italic>XVangl2</italic> morphants (e).</p></caption>
-<graphic xlink:href="555374v1_figs3.tif"/>
+<graphic xlink:href="555374v2_figs3.tif"/>
 </fig>
 <fig id="figs4" position="float" orientation="portrait" fig-type="figure">
 <label>Supplementary Figure 4.</label>
 <caption><p>Dvl2-EGFP display uniform cytoplasmic distribution when expressed alone in <italic>Xenopus</italic> animal cap cells (a, a&#x2019;), but co-expression with either wild-type Vangl2 (b, b&#x2019;) or Vangl2 R177H variant (c, c&#x2019;) recruits Dvl2-EGFP to the plasma membrane. (d) Quantification of the ratio of plasma membrane vs. cytoplasmic Dvl2-EGFP in (a), (b) and (c). Co-IP and westernblot show that binding to Dvl2 is not affected by Vangl2 RH variant (e).</p></caption>
-<graphic xlink:href="555374v1_figs4.tif"/>
+<graphic xlink:href="555374v2_figs4.tif"/>
 </fig>
 <fig id="figs5" position="float" orientation="portrait" fig-type="figure">
 <label>Supplementary Figure 5.</label>
 <caption><p>When injected into the DMZ, 0.2 ng and 0.1 ng wild-type mouse <italic>Vangl2</italic> mRNA causes severe and moderate CE defect, respectively. <italic>Vangl2 R177H</italic> mRNA, however, causes significantly milder CE defect (a). (a&#x2019;) Quantification of the LWR of embryos in (a). <italic>Fz7</italic> and <italic>Dvl2</italic> co-injection caused severe CE defects can be rescued by 0.1 wild-type <italic>Vangl2</italic>, but not by <italic>Vangl2 R177H</italic> (b). (b&#x2019;) Quantification of the LWR of embryos in (b).</p></caption>
-<graphic xlink:href="555374v1_figs5.tif"/>
+<graphic xlink:href="555374v2_figs5.tif"/>
 </fig>
 <fig id="figs6" position="float" orientation="portrait" fig-type="figure">
 <label>Supplementary Figure 6.</label>
 <caption><p>In both animal cap and DMZ cells, Fz7 can recruit Dvl2 from the cytoplasm to the plasma membrane (compare b to a, and e to d). Over-expression of Pk2 does not inhibit Fz7-mediated plasma membrane recruitment of Dvl2 (c, f).</p></caption>
-<graphic xlink:href="555374v1_figs6.tif"/>
+<graphic xlink:href="555374v2_figs6.tif"/>
 </fig>
 <fig id="figs7" position="float" orientation="portrait" fig-type="figure">
 <label>Supplementary Figure 7.</label>
 <caption><p>(a) In DMZ explant, binding between flag-Dvl2 and EGFP-Vangl2 is reduced by Wnt11. But over-expression of Pk2 can prevent Wnt11-induced dissociation of Dvl2 and Vangl2. (b) Quantification of EGFP-Vangl2 co-IP efficiency from 3 separate experiments.</p></caption>
-<graphic xlink:href="555374v1_figs7.tif"/>
+<graphic xlink:href="555374v2_figs7.tif"/>
 </fig>
 <fig id="figs8" position="float" orientation="portrait" fig-type="figure">
 <label>Supplementary Figure 8.</label>
 <caption><p>Moderate level of <italic>EGFP-Vangl2</italic> (0.1 ng) was co-injected with <italic>Wnt11</italic> and mCherry tagged <italic>Dvl2</italic>. 3D reconstruction of confocal images shows that under this condition, all Dvl2 proteins on the plasma membrane formed discrete patches at the apical cell-cell junctions (a), while Vangl2 was distributed more diffusely on the plasma membrane (b) with enrichment overlapping with Dvl2 patches (c, white arrows). Enlarged views (a&#x2019;-c&#x2019;) show that enriched Vangl2 forms rings that encircle Dvl2 patches.</p></caption>
-<graphic xlink:href="555374v1_figs8.tif"/>
+<graphic xlink:href="555374v2_figs8.tif"/>
 </fig>
 <fig id="figs9" position="float" orientation="portrait" fig-type="figure">
 <label>Supplementary Figure 9.</label>
 <caption><p><italic>Xenopus</italic> explants were incubated with FM4-64FX, a fluorescent dye that is membrane impermeable and can only be internalized through endocytosis. In explants in which <italic>Fz7-GFP</italic> was co-injected only with <italic>Wnt11</italic>, Fz7 primarily formed patches on the cell cortex. Most of the internalized FM4-64FX puncta were devoid of Fz7, and the few Fz7 puncta were devoid of FM4-64FX (arrowheads in a-c, and enlarged views a&#x2019;-c&#x2019;). In contrast, in explants in which <italic>Fz7-GFP</italic> and <italic>Wnt11</italic> were co-injected with <italic>Vangl2/Pk</italic>, majority of the Fz7-GFP puncta are positive for FM4-64FX (arrows in d-f and enlarged views d&#x2019;-f&#x2019;), indicating that they were largely formed through endocytosis.</p></caption>
-<graphic xlink:href="555374v1_figs9.tif"/>
+<graphic xlink:href="555374v2_figs9.tif"/>
 </fig>
 <fig id="figs10" position="float" orientation="portrait" fig-type="figure">
 <label>Supplementary Figure 10.</label>
 <caption><p>Wnt11 induces formation of Fz7 patches along the plasma membrane (a). Over-expression of DshMA, a mitochondria tethered form of Dvl that can sequester endogenous Dvl/Dsh away from the plasma membrane, inhibits Fz7 patch formation, reduces membrane level of Fz7, and results in Fz7 cytoplasmic puncta (b).</p></caption>
-<graphic xlink:href="555374v1_figs10.tif"/>
+<graphic xlink:href="555374v2_figs10.tif"/>
 </fig>
 <fig id="figs11" position="float" orientation="portrait" fig-type="figure">
 <label>Supplementary Figure 11.</label>
 <caption><p>DMZ injection of 0.2 ng of <italic>Vangl2</italic> mRNA induces severe CE defects, which can be rescued by co-injecting 0.05 or 0.1 ng of <italic>Xror2</italic> mRNA (a). The severity of the CE phenotype is quantified by measuring the length-to-width ratio (b).</p></caption>
-<graphic xlink:href="555374v1_figs11.tif"/>
+<graphic xlink:href="555374v2_figs11.tif"/>
 </fig>
 <fig id="figs12" position="float" orientation="portrait" fig-type="figure">
 <label>Supplementary Figure 12.</label>
 <caption><p>In <italic>Xenopus</italic> embryo extract, co-IP experiment shows that binding between flag-Dvl2 and HA-Vangl2 is reduced by Wnt11 (compare lane2 and 3). Knocking down endogenous XRor2 with morpholino (xRor2 MO) can prevent Wnt11-induced dissociation of Dvl2 and Vangl2 (compare lane 4 and 5) (a). (b) Co-IP experiment shows that Ror2-Flag can pull down co-injected EGFP-Vangl2 but not Myc-Dvl2. (c) Fluorescence-detection size exclusion chromatography (FSEC) with protein extract from <italic>Xenopus</italic> embryos injected with Ror2-EGFP, HA-Vangl2 and Flag-Dvl2. A peak of EGFP signal is detected around fraction 15 (lower panel). Western blot analyses show co-fractionation of Ror2-EGFP, HA-Vangl2 and Flag-Dvl2 in fractions 14 (approximate molecular weight 773-1717 kD), 15 (&#x223C;348-773 kD) and 16 (&#x223C;166-348 kD).</p></caption>
-<graphic xlink:href="555374v1_figs12.tif"/>
+<graphic xlink:href="555374v2_figs12.tif"/>
 </fig>
 </sec>
 <ref-list>
