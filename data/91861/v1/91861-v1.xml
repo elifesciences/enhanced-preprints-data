@@ -71,11 +71,7 @@
 <xref ref-type="aff" rid="a2">2</xref>
 <xref ref-type="aff" rid="a3">3</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Tobin</surname><given-names>Andrew B.</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author"><name><surname>Tobin</surname><given-names>Andrew B.</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib>
 <contrib contrib-type="author" corresp="yes">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-6946-3519</contrib-id>
 <name><surname>Milligan</surname><given-names>Graeme</given-names></name>
