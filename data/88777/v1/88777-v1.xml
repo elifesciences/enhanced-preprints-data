@@ -135,28 +135,36 @@
 <sec id="s2d">
 <title>Analytical results</title>
 <p><bold>Theorem 1.</bold> <italic>Let a network of inhibitory and excitatory nodes be connected through a graph G which does not contain any directed cycle. Assume that its nodes follow TLN(W, b) dynamics (<xref ref-type="disp-formula" rid="FD1">eq. 1</xref>) with</italic>
+<disp-quote/>
 <disp-formula id="FD4">
 <graphic xlink:href="2302.14157v3_eqn4.tif"/>
 </disp-formula>
+<disp-quote/>
 </p>
 <p><italic>where w<sub>ij</sub></italic> &#x2208; &#x211D;<sup>+</sup> &#x2200; <italic>i, j</italic> &#x2208; [<italic>n</italic>].</p>
 <p><italic>Then, TLN(W, b) has a unique globally asymptotically stable fixed point.</italic></p>
 <p><bold>Theorem 2.</bold> <italic>Let G be a cyclical graph with n<sub>I</sub></italic> &#x2208; &#x2115;<sup>+</sup> <italic>inhibitory nodes and n<sub>E</sub></italic> &#x2208; &#x2115; <italic>excitatory nodes such that n<sub>I</sub></italic> + n<sub>E</sub> &#x2265; 2 (&#x2265; 3 <italic>when n<sub>I</sub></italic> =1). <italic>Assume that the nodes follow the TLN(W, b) dynamics (<xref ref-type="disp-formula" rid="FD1">eq. 1</xref>) with for all i, j</italic> &#x2208; [<italic>n</italic>], <italic>w<sub>j</sub></italic> &#x2208; &#x211D;<sup>+</sup>,
+<disp-quote/>
 <disp-formula id="FD5">
 <graphic xlink:href="2302.14157v3_eqn5.tif"/>
 </disp-formula>
+<disp-quote/>
 </p>
 <p><italic>and b<sub>i</sub></italic> = 0 <italic>when the node i</italic>&#x2212;1 <italic>is excitatory and b<sub>i</sub></italic> &#x003E; 0 <italic>otherwise. Moreover, using convention (<xref ref-type="disp-formula" rid="FD3">eq. 2</xref>), assume that the initial state is bounded</italic>,
+<disp-quote/>
 <disp-formula id="FD6">
 <graphic xlink:href="2302.14157v3_eqn6.tif"/>
 <label>(3)</label>
 </disp-formula>
+<disp-quote/>
 </p>
 <p><italic>Then, the long time behaviour of the network depends on the following conditions</italic>,
+<disp-quote/>
 <disp-formula id="FD7">
 <graphic xlink:href="2302.14157v3_eqn7.tif"/>
 <label>(4)</label>
 </disp-formula>
+<disp-quote/>
 <disp-formula id="FD8">
 <graphic xlink:href="2302.14157v3_eqn8.tif"/>
 <label>(5)</label>
@@ -165,10 +173,12 @@
 <graphic xlink:href="2302.14157v3_eqn9.tif"/>
 <label>(6)</label>
 </disp-formula>
+<disp-quote/>
 <disp-formula id="FD10">
 <graphic xlink:href="2302.14157v3_eqn10.tif"/>
 <label>(7)</label>
 </disp-formula>
+<disp-quote/>
 </p>
 <p><italic>If n<sub>I</sub> is even and</italic>
 <list list-type="bullet">
@@ -184,10 +194,12 @@
 </list>
 </p>
 <p><italic>Remark</italic> 1. First, note that <xref ref-type="disp-formula" rid="FD7">eq. 4</xref> implies
+<disp-quote/>
 <disp-formula id="FD11">
 <graphic xlink:href="2302.14157v3_eqn11.tif"/>
 <label>(8)</label>
 </disp-formula>
+<disp-quote/>
 </p>
 <p>and similarly, <xref ref-type="disp-formula" rid="FD8">eq. 5</xref> implies
 <disp-formula id="FD12">
@@ -208,9 +220,11 @@
 <inline-graphic xlink:href="2302.14157v3_ieq8.tif"/>
 </inline-formula>.</p>
 <p><italic>Remark</italic> 3. In Theorem 2, we assume that the external inputs are absent for excited nodes. Assume that the external input to any excited node, say node <italic>a<sub>k</sub></italic> &#x003C; <italic>i</italic> &#x003C; a<sub>k</sub>+1, is strictly positive. Then, bounding its dynamics as in Lemma 1, we know that its activity will be more than b<sub>i</sub>. Hence, the next inhibited node a<sub>k</sub>+1 can be silenced forever if
+<disp-quote/>
 <disp-formula id="FD13">
 <graphic xlink:href="2302.14157v3_eqn13.tif"/>
 </disp-formula>
+<disp-quote/>
 </p>
 <p>thus destroying the cycle structure and thus preventing oscillation from emerging. On the other hand, if the external inputs to excited nodes are strictly negative, Theorem 2 conclusion will be similar but now with condition described in <xref ref-type="disp-formula" rid="FD7">eq. 4</xref> replaced by
 <disp-formula id="FD14">
@@ -556,9 +570,11 @@
 <p><italic>Proof.</italic> Since we have at least one inhibitory node in the network, then <inline-formula id="ID28">
 <inline-graphic xlink:href="2302.14157v3_ieq28.tif"/>
 </inline-formula>. First, for all <italic>k &#x2208; [n<sub>I</sub>]</italic>, every dynamics of inhibited nodes <italic>a<sub>k</sub></italic> satisfies
+<disp-quote/>
 <disp-formula id="FD29">
 <graphic xlink:href="2302.14157v3_eqn29.tif"/>
 </disp-formula>
+<disp-quote/>
 </p>
 <p>When 0 &#x2264; <italic>x<sub>a<sub>k</sub></sub></italic> (0) &#x2264; b<sub>a<sub>k</sub></sub>, the dynamics driven by the first term converges to 0 from above and the one driven by the last term converges to <italic>b<sub>a<sub>k</sub></sub></italic> from below. Thus, condition from <xref ref-type="disp-formula" rid="FD6">eq. 3</xref> implies that for all <italic>t</italic> &#x2265; 0, 0 &#x2264; <italic>x<sub>a<sub>k</sub></sub></italic> (<italic>t</italic>) &#x2265; <italic>b<sub>a<sub>k</sub></sub></italic>.</p>
 <p>Then, for nodes in between two inhibited nodes, say <inline-formula id="ID29">
