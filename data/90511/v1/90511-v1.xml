@@ -30,14 +30,14 @@
 <article-title>Neural correlates of individual odor preference in <italic>Drosophila</italic></article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author">
+<contrib contrib-type="author" equal-contrib="yes">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2299-0124</contrib-id>
 <name><surname>Churgin</surname><given-names>Matthew A.</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
 <xref ref-type="aff" rid="a2">2</xref>
 <xref ref-type="author-notes" rid="n1">&#x002A;</xref>
 </contrib>
-<contrib contrib-type="author">
+<contrib contrib-type="author" equal-contrib="yes">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8432-9596</contrib-id>
 <name><surname>Lavrentovich</surname><given-names>Danylo O.</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
@@ -170,7 +170,7 @@ The original "biological signal" analysis has been redone as an inference of lat
 <sec id="s2">
 <title>Results</title>
 <sec id="s2a">
-<title>Individual flies encode odors idiosyncratically!</title>
+<title>Individual flies encode odors idiosyncratically</title>
 <p>Focusing on behavioral variation within a genotype, we used isogenic animals expressing the fluorescent calcium reporter GCamp6m (<xref ref-type="bibr" rid="c11">Chen et al., 2013</xref>) in either of the two most peripheral neural subpopulations of the <italic>Drosophila</italic> olfactory circuit, ORNs or PNs (<xref rid="fig1" ref-type="fig">Figure 1E</xref>). We performed head-fixed 2-photon calcium imaging after measuring odor preference in an untethered assay (<xref ref-type="bibr" rid="c25">Honegger et al., 2019</xref>) (<xref rid="fig1" ref-type="fig">Figure 1B-D</xref>, <xref rid="figs1" ref-type="fig">Figure 1 &#x2013; figure supplement 1A</xref>). Individual odor preferences are stable over timescales longer than this experiment (<xref rid="figs1" ref-type="fig">Figure 1 &#x2013; figure supplement 1B-E</xref>).</p>
 <p>We measured volumetric calcium responses in the antennal lobe (AL), where ORNs synapse onto PNs in &#x223C;50 discrete microcircuits called glomeruli (<xref rid="fig1" ref-type="fig">Figure 1A</xref>) (<xref ref-type="bibr" rid="c13">Couto et al., 2005</xref>; <xref ref-type="bibr" rid="c22">Grabe et al., 2015</xref>). Flies were stimulated with a panel of 12 odors plus air (<xref rid="fig1" ref-type="fig">Figure 1D</xref>, <xref rid="figs2" ref-type="fig">Figure 1 &#x2013; figure supplement 2</xref>) and <italic>k</italic>-means clustering was used to automatically segment the voxels of 5 glomeruli from the resulting 4-D calcium image stacks (<xref rid="fig1" ref-type="fig">Figure 1E</xref>, <xref rid="figs4" ref-type="fig">Figure 1 &#x2013; figure supplement 4</xref>, Materials and Methods) (<xref ref-type="bibr" rid="c13">Couto et al., 2005</xref>). Both ORN and PN odor responses were roughly stereotyped across individuals (<xref rid="fig1" ref-type="fig">Figure 1G,H</xref>), but also idiosyncratic (<xref ref-type="bibr" rid="c25">Honegger et al., 2019</xref>). Responses in PNs appeared to be more idiosyncratic than ORNs (<xref rid="fig1" ref-type="fig">Figure 1J</xref>); a logistic linear classifier decoding fly identity from glomerular responses was more accurate when trained on PN than ORN responses (<xref rid="figs5" ref-type="fig">Figure 1 &#x2013; figure supplement 5A</xref>). While the responses of single ORNs are known to vary more than those of single PNs (<xref ref-type="bibr" rid="c73">Wilson, 2013</xref>), our recordings represent the total response of all ORNs or PNs in a glomerulus. This might explain our observation that ORNs exhibited less idiosyncrasy than PNs. PN responses were more variable within flies, as measured across the left and right hemisphere ALs, compared to ORN responses (<xref rid="figs5" ref-type="fig">Figure 1 &#x2013; figure supplement 5C</xref>), consistent with the hypothesis that odor representations become more idiosyncratic farther from the sensory periphery.</p>
 </sec>
