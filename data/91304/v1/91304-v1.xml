@@ -70,26 +70,9 @@
 <name><surname>McStay</surname><given-names>Brian</given-names></name>
 <xref ref-type="aff" rid="a2">2</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-6454-6796</contrib-id>
-<name><surname>Hodny</surname><given-names>Zdenek</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2013-7525</contrib-id>
-<name><surname>Bartek</surname><given-names>Jiri</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a3">3</xref>
-<xref ref-type="aff" rid="a4">4</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9733-9929</contrib-id>
-<name><surname>Vasicova</surname><given-names>Pavla</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-6454-6796</contrib-id><name><surname>Hodny</surname><given-names>Zdenek</given-names></name><email>hodny@img.cas.cz</email><xref ref-type="aff" rid="a1">1</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2013-7525</contrib-id><name><surname>Bartek</surname><given-names>Jiri</given-names></name><email>jb@cancer.dk</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a3">3</xref><xref ref-type="aff" rid="a4">4</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9733-9929</contrib-id><name><surname>Vasicova</surname><given-names>Pavla</given-names></name><email>pavla.vasicova@img.cas.cz</email><xref ref-type="aff" rid="a1">1</xref></contrib>
 <aff id="a1"><label>1</label>Laboratory of Genome Integrity, Institute of Molecular Genetics of the Czech Academy of Sciences, Prague 142 20, Czech Republic</aff>
 <aff id="a2"><label>2</label>Centre for Chromosome Biology, College of Science and Engineering, University of Galway, Galway, Ireland</aff>
 <aff id="a3"><label>3</label>Genome Integrity Unit, Danish Cancer Society Research Center, Copenhagen, Denmark, Copenhagen DK-2100, Denmark</aff>
@@ -97,7 +80,6 @@
 </contrib-group>
 <author-notes>
 <fn id="n1" fn-type="present-address"><label>&#x0024;</label><p><bold>SSH</bold>, Centre for Experimental Medicine, Institute for Clinical and Experimental Medicine, Prague 140 21, Czech Republic; <bold>SS</bold>, Department of Biochemistry, University of Zurich, 8057 Zurich, Switzerland; <bold>AU</bold>, DIANA Biotechnologies s.r.o., Vestec, Prague-West, Czech Republic</p></fn>
-<corresp id="cor1"><label>&#x002A;</label>Correspondence to: <bold>PV</bold>, Ph.D.; Department of Genome Integrity, Institute of Molecular Genetics of the CAS, Videnska 1083, CZ 142 20 Prague 4, Czech Republic; Tel: (420)-24106 3151, Fax. (420)-24106 2289; E-mail: <email>pavla.vasicova@img.cas.cz</email> <bold>ZH</bold>, MD, Ph.D. E-mail: <email>hodny@img.cas.cz</email> and <bold>JB</bold>, MD, Ph.D.; E-mail: <email>jb@cancer.dk</email></corresp>
 <fn id="n2" fn-type="equal"><label>&#x0023;</label><p>equal contribution</p></fn>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
