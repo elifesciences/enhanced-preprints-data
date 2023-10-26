@@ -50,22 +50,19 @@
 <contrib contrib-type="author" corresp="yes">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7768-623X</contrib-id>
 <name><surname>Frank</surname><given-names>Stuart J.</given-names></name>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
+<email>sjfrank@uab.edu</email>
 <xref ref-type="aff" rid="a2">2</xref>
 </contrib>
 <contrib contrib-type="author" corresp="yes">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-2647-2693</contrib-id>
 <name><surname>Leier</surname><given-names>Andr&#x00E9;</given-names></name>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
+<email>leier@uab.edu</email>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
 <aff id="a1"><label>1</label>Department of Genetics, University of Alabama at Birmingham, Birmingham, USA</aff>
 <aff id="a2"><label>2</label>Division of Endocrinology, Diabetes, and Metabolism, Department of Medicine, University of Alabama at Birmingham, Birmingham, USA</aff>
 <aff id="a3"><label>3</label>Department of Cell, Developmental, and Integrative Biology, University of Alabama at Birmingham, Birmingham, USA</aff>
 </contrib-group>
-<author-notes>
-<corresp id="cor1"><label>&#x002A;</label>Co-corresponding authors; email: <email>leier@uab.edu</email></corresp>
-</author-notes>
 <pub-date pub-type="epub">
 <year>2023</year>
 </pub-date>
