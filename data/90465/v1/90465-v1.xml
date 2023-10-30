@@ -129,12 +129,12 @@
 <fig id="fig1" position="float" fig-type="figure">
 <label>Figure 1.</label>
 <caption><p>Simulation results on the effect of the number of diffusion times involved in the fitting of the sub-diffusion model (<xref ref-type="disp-formula" rid="FD3">3</xref>) parameters (<italic><bold>D</bold>&#x03B2;</italic>, <italic><bold>&#x03B2;</bold></italic>) and computing <italic><bold>K</bold></italic><sup>*</sup> following (<xref ref-type="disp-formula" rid="FD9">9</xref>) at various SNR levels. The ground truth values for (<italic><bold>D</bold>&#x03B2;</italic>, <italic><bold>&#x03B2;</bold></italic>, <italic><bold>K</bold></italic><sup>*</sup>) are set to (3 &#x00D7; 10<sup>-4</sup>, 0.75, 0.8125) to represent white matter (blue) and (5 &#x00D7; 10<sup>-4</sup>, 0.85, 0.4733) to represent gray matter (orange). Rows 1-3: Distributions of fitted parameter values using different number of diffusion times. 2&#x2032; represents an additional simulation using two diffusion times but set to be the same, so it has the same number of data points in the fitting as for using two different diffusion times. Row 4: Coefficient of variation (CV) of the parameter values fitted using different number of diffusion times.</p></caption>
-<graphic xlink:href="2211.16879v2_fig1.jpg"/>
+<graphic xlink:href="2211.16879v2_fig1.tif"/>
 </fig>
 <fig id="fig2" position="float" fig-type="figure">
 <label>Figure 2.</label>
 <caption><p>Surface plots of <italic><bold>R</bold></italic><sup>2</sup> values achieved with fitting simulated data with two diffusion times, &#x0394;<sub>1</sub> and &#x0394;<sub>2</sub>, to the sub-diffusion model (<xref ref-type="disp-formula" rid="FD3">3</xref>) at various SNR levels. <italic><bold>R</bold></italic><sup>2</sup> values were computed by comparing the estimated mean kurtosis with the ground truth kurtosis. <italic><bold>R</bold></italic><sup>2</sup> contours at the 0.85, 0.90, 0.95 and 0.99 levels have been provided for visualisation purposes.</p></caption>
-<graphic xlink:href="2211.16879v2_fig2.jpg"/>
+<graphic xlink:href="2211.16879v2_fig2.tif"/>
 </fig>
 </sec>
 <sec id="s2c">
@@ -145,21 +145,21 @@
 <fig id="fig3" position="float" fig-type="figure">
 <label>Figure 3.</label>
 <caption><p>Scatter plots of simulated <italic><bold>K</bold></italic> values vs. fitted <italic><bold>K</bold></italic> values for simulated data with different number of diffusion times at various SNR levels. The simulated data is created using the sub-diffusion model with random normal noise (<xref ref-type="disp-formula" rid="FD10">10</xref>). Blue dots represent kurtosis based on fitting the sub-diffusion model (<xref ref-type="disp-formula" rid="FD3">3</xref>). Orange dots represent kurtosis based on fitting the traditional DKI model (<xref ref-type="disp-formula" rid="FD6">6</xref>). Black line is a reference line for <italic><bold>R</bold><sup>2</sup></italic> = 1.00, indicating fitted kurtosis values are 100&#x0025; matching the simulated ones.</p></caption>
-<graphic xlink:href="2211.16879v2_fig3.jpg"/>
+<graphic xlink:href="2211.16879v2_fig3.tif"/>
 </fig>
 <fig id="fig4" position="float" fig-type="figure">
 <label>Figure 4.</label>
 <caption><p>Time-dependence in DKI metrics using simulated data at different diffusion times (<inline-formula id="ID1">
-<inline-graphic xlink:href="2211.16879v2_ieq1.jpg"/>
+<inline-graphic xlink:href="2211.16879v2_ieq1.tif"/>
 </inline-formula>). The ground truth values for (<italic><bold>D<sub>&#x03B2;</sub></bold></italic>, <italic><bold>&#x03B2;</bold></italic>, <italic><bold>K</bold></italic><sup>*</sup>) used in the simulations are set to (3 &#x00D7; 10<sup>-4</sup>, 0.75, 0.8125) to represent white matter (blue dotted lines) and (5 &#x00D7; 10<sup>-4</sup>, 0.85, 0.4733) to represent gray matter (orange dotted lines). (A) and (B) use data with added random Gaussian noise (SNR = 20) to estimate the parameters <italic>D<sub>DKI</sub></italic> and <italic><bold>K<sub>DKI</sub></bold></italic>. (C) and (D) use noiseless data to obtain estimates for large <inline-formula id="ID2">
-<inline-graphic xlink:href="2211.16879v2_ieq2.jpg"/>
+<inline-graphic xlink:href="2211.16879v2_ieq2.tif"/>
 </inline-formula> values. Shaded regions in (A) and (B) represent the 95&#x0025; confidence intervals of the estimates.</p></caption>
-<graphic xlink:href="2211.16879v2_fig4.jpg"/>
+<graphic xlink:href="2211.16879v2_fig4.tif"/>
 </fig>
 <fig id="fig5" position="float" fig-type="figure">
 <label>Figure 5.</label>
 <caption><p><italic>R</italic><sup>2</sup> values for the b-value sampling optimisation based on DW-MRI data with SNR = 5, 10 and 20. The specifically investigated b-value combinations using two, three and four non-zero b-values have been ordered by the size of the <italic><bold>R</bold></italic><sup>2</sup> value. The colour bar depicts the proportion of &#x0394; = 19 ms and &#x0394; = 49 ms b-values needed to produce the corresponding <italic><bold>R</bold></italic><sup>2</sup> value. Note, the different b-value combinations were assigned a unique identifier, and these appear along the abscissa for each of the three non-zero b-value cases. The b-value combinations achieving the highest <italic><bold>R</bold></italic><sup>2</sup> values are displayed in the inset pictures and the b-values are provided in <xref ref-type="table" rid="tbl1">Table 1</xref>.</p></caption>
-<graphic xlink:href="2211.16879v2_fig5.jpg"/>
+<graphic xlink:href="2211.16879v2_fig5.tif"/>
 </fig>
 <table-wrap id="tbl1" orientation="portrait" position="float">
 <label>Table 1.</label>
@@ -183,12 +183,12 @@
 <fig id="fig6" position="float" fig-type="figure">
 <label>Figure 6.</label>
 <caption><p>Spatially resolved maps of mean kurtosis shown for two example slices and two different subjects, Subject 3 rescan slice 71 (Panel A) and Subject 5 slice 74 (Panel B) from the Connectome 1.0 DW-MRI data. Individual maps were generated using the sub-diffusion model framework (<italic><bold>K</bold></italic><sup>*</sup>), as well as using the traditional approach (<italic><bold>K<sub>DKI</sub></bold></italic>). The diffusion times, &#x0394;, used to generate each plot are provided for each case. We consider the mean kurtosis maps using two diffusion times (&#x0394; = 19, 49ms) as the benchmarks.</p></caption>
-<graphic xlink:href="2211.16879v2_fig6.jpg"/>
+<graphic xlink:href="2211.16879v2_fig6.tif"/>
 </fig>
 <fig id="fig7" position="float" fig-type="figure">
 <label>Figure 7.</label>
 <caption><p>Representative error map and sample parameter fits for Subject 5 slice 74. The DW-MRI data with two diffusion times was fitted to the sub-diffusion model in both q-space (A-D) and b-space (E-H), following (<xref ref-type="disp-formula" rid="FD3">3</xref>) and (<xref ref-type="disp-formula" rid="FD4">4</xref>) respectively. The first and second columns are voxels in white matter (30,20,74) and (45,56,74), respectively. The third and fourth columns are voxels in grey matter (58,35,74) and (34,78,74), respectively.</p></caption>
-<graphic xlink:href="2211.16879v2_fig7.jpg"/>
+<graphic xlink:href="2211.16879v2_fig7.tif"/>
 </fig>
 <table-wrap id="tbl2" orientation="portrait" position="float">
 <label>Table 2.</label>
@@ -198,12 +198,12 @@
 <fig id="fig8" position="float" fig-type="figure">
 <label>Figure 8.</label>
 <caption><p>Distributions of the estimated parameter pair (<italic><bold>D,K</bold></italic>) in different regions of the brain of all subjects, colored by the probability density. Yellow indicates high probability density, light blue indicates low probability density. Panel A: distributions of (<italic><bold>D</bold></italic><sup>*</sup>,<italic><bold>K</bold></italic><sup>*</sup>), generated using the sub-diffusion model (<xref ref-type="disp-formula" rid="FD3">3</xref>) with both &#x0394; = 19, 49ms. Panel B: distributions of (<bold><italic>D<sub>DKI</sub>,K<sub>DKI</sub></italic></bold>), generated using the standard DKI model (<xref ref-type="disp-formula" rid="FD6">6</xref>) with &#x0394; = 19ms. Kurtosis is dimensionless and diffusivity is in units of &#x00D7; 10<sup>-3</sup> mm<sup>2</sup>/s.</p></caption>
-<graphic xlink:href="2211.16879v2_fig8.jpg"/>
+<graphic xlink:href="2211.16879v2_fig8.tif"/>
 </fig>
 <fig id="fig9" position="float" fig-type="figure">
 <label>Figure 9.</label>
 <caption><p>Spatially resolved maps of mean kurtosis shown for two example slices and two different subjects, Subject 3 rescan slice 71 (Panel A) and Subject 5 slice 74 (Panel B), based on SNR reduction of the Connectome 1.0 DW-MRI data. Individual maps were generated using the sub-diffusion model framework (<italic><bold>K</bold></italic><sup>*</sup>), considering optimal and sub-optimal four non-zero b-value sampling schemes. Here, two b-values with &#x0394; = 19 ms and two b-values with &#x0394; = 49 ms were selected for each case. The optimal b-values were chosen as the best for each SNR shown in <xref ref-type="table" rid="tbl1">Table 1</xref>. The sub-optimal b-values were chosen to have an <italic><bold>R</bold></italic><sup>2</sup> = 0.3, 0.45, 0.5 to be about half of the maximum <italic><bold>R</bold></italic>2, for SNR = 6 (<italic><bold>b</bold></italic> = 800, 1500,200,2300 s/mm<sup>2</sup>), SNR = 10 (<italic><bold>b</bold></italic> = 1500, 3450, 6750, 13500 s/mm<sup>2</sup>) and SNR = 20 (<italic><bold>b</bold></italic> = 3450, 4750, 2300, 4250 s/mm<sup>2</sup>), respectively. The benchmark kurtosis map is provided in <xref ref-type="fig" rid="fig6">Figure 6</xref>.</p></caption>
-<graphic xlink:href="2211.16879v2_fig9.jpg"/>
+<graphic xlink:href="2211.16879v2_fig9.tif"/>
 </fig>
 </sec>
 <sec id="s2f">
@@ -225,7 +225,7 @@
 <fig id="fig10" position="float" fig-type="figure">
 <label>Figure 10.</label>
 <caption><p>Interclass correlation coefficient (ICC) results for mean kurtosis are depicted for the 12 brain regions analysed. The mean (<italic><bold>&#x03BC;</bold></italic>) and standard deviation (<italic><bold>&#x03C3;</bold></italic>) computed based on all the Connectome 1.0 DW-MRI data (A), and the reduced data achieving an SNR = 10 with optimal four non-zero b-value sampling (O), are provided for each brain region. Histograms were generated using all data. Mean kurtosis based on the optimised protocol was computed using the sub-diffusion framework using DW-MRI data with the four non-zero b-values suggested in <xref ref-type="table" rid="tbl1">Table 1</xref> and diffusion encoding directions down sampled to achieve an SNR = 10.</p></caption>
-<graphic xlink:href="2211.16879v2_fig10.jpg"/>
+<graphic xlink:href="2211.16879v2_fig10.tif"/>
 </fig>
 <p>Mean kurtosis values can be generated based on having limited number of diffusion encoding directions (refer to <xref ref-type="fig" rid="fig9">Figure 9</xref> and <xref ref-type="table" rid="tbl3">Table 3</xref>). Given that each direction for each b-shell takes a fixed amount of time, then a four b-shell acquisition with six directions per shell will take 25 times longer than a single diffusion encoding data acquisition (assuming a single b-value = 0 data is collected). The total acquisition time for the diffusion MRI protocol for the Connectome 1.0 data was 55 minutes, including 50 b = 0 s/mm<sup>2</sup> scans plus seven b-values with 32 and nine with 64 diffusion encoding directions (<italic><bold><xref ref-type="bibr" rid="c48">Tian et al., 2022</xref></bold></italic>). This gives a total of 850 scans per dataset. As such, a single 3D image volume took 3.88 s to acquire. Conservatively allowing 4 s per scan, and considering SNR = 20 data (i.e. 64 directions) over four b-values and a single b-value = 0 scan, DW-MRI data for mean kurtosis estimation can be completed in 17 min 8 s (<italic><bold>R</bold></italic><sup>2</sup> = 0.96). At SNR = 10 (i.e. 32 directions), DW-MRI data with the same number of b-values can be acquired in 4 min 20 s (<italic><bold>R</bold></italic><sup>2</sup> = 0.91). If an <italic><bold>R</bold></italic><sup>2</sup> = 0.85 (SNR = 10) is deemed adequate, then one less b-shell is required, saving an additional 64 s. We should point out that even though 2-shell optimised protocols can achieve <italic><bold>R</bold></italic><sup>2</sup> = 0.85 with SNR = 20, this is not equivalent in time to using 3-shells with SNR = 10 (also <italic><bold>R</bold></italic><sup>2</sup> = 0.85). This is because 4x additional data are required to double the SNR (equivalent to acquiring an additional 4-shells). However, only one extra b-shell is required to convert 2-shell data to 3-shells with SNR = 10. Our expected DW-MRI data acquisition times are highly feasible clinically, where generally neuroimaging scans take around 15 min involving numerous different MRI contrasts and often a DTI acquisition.</p>
 <p>An early study on estimating mean kurtosis demonstrated the mapping of a related metric in less than 1 min over the brain (<italic><bold><xref ref-type="bibr" rid="c11">Hansen et al., 2013</xref></bold></italic>). Clinical adoption of the protocol lacked, possibly since b-values are a function <italic><bold>&#x03B4;</bold></italic>, <italic><bold>G</bold></italic> and &#x0394;. Hence, different b-values can be obtained using different DW-MRI protocol settings, leading to differences in the mapping of mean kurtosis based on the data (we showed the &#x0394; effect in <xref ref-type="fig" rid="fig6">Figure 6</xref> and <xref ref-type="table" rid="tbl2">Table 2</xref>). Our findings suggest this impediment is removed by sampling and fitting data with b-values across two distinct diffusion times. Nonetheless, we should consider what might be an acceptable DW-MRI data acquisition time.</p>
@@ -250,9 +250,9 @@
 <sec id="s3e">
 <title>Time-dependence of diffusivity and kurtosis</title>
 <p>The time-dependence of diffusivity and kurtosis has attracted much interest in the field of tissue microstructure imaging. Although our motivation here is not to map time-dependent diffusion, we can nonetheless point out that the assumption ofa sub-diffusion model provides an explanation of the observed time-dependence of diffusivity and kurtosis. From (<xref ref-type="disp-formula" rid="FD5">5</xref>), the diffusivity that arises from the sub-diffusion model is of the form <inline-formula id="ID3">
-<inline-graphic xlink:href="2211.16879v2_ieq3.jpg"/>
+<inline-graphic xlink:href="2211.16879v2_ieq3.tif"/>
 </inline-formula>, where <inline-formula id="ID4">
-<inline-graphic xlink:href="2211.16879v2_ieq4.jpg"/>
+<inline-graphic xlink:href="2211.16879v2_ieq4.tif"/>
 </inline-formula> is the effective diffusion time, <italic><bold>D<sub>SUB</sub></bold></italic> has the standard units for a diffusion coefficient mm<sup>2</sup>/s, and <italic><bold>D<sub>&#x03B2;</sub></bold></italic> is the anomalous diffusion coefficient (with units mm<sup>2</sup>/s<sup><italic>&#x03B2;</italic></sup>) associated with sub-diffusion. In the sub-diffusion framework (<xref ref-type="disp-formula" rid="FD1">1</xref>), <italic><bold>D<sub>&#x03B2;</sub></bold></italic> and <italic><bold>&#x03B2;</bold></italic> are assumed to be constant, and hence <italic><bold>D<sub>SUB</sub></bold></italic> exhibits a fractional power-law dependence on diffusion time. Then, following (<xref ref-type="disp-formula" rid="FD8">8</xref>), <italic><bold>D</bold></italic><sup>*</sup> is obtained simply by scaling <italic><bold>D<sub>SUB</sub></bold></italic> by a constant 1/&#x0393;(1 + <italic><bold>&#x03B2;</bold></italic>), and hence also follows a fractional power-law dependence on diffusion time. This time-dependence effect of diffusivity was illustrated in our simulation results, <xref ref-type="fig" rid="fig4">Figure 4</xref>(A) and (C).</p>
 <p>When it comes to kurtosis, the literature on the time-dependence is mixed. Some work showed kurtosis to be increasing with diffusion time in both white and gray matter (<italic><bold><xref ref-type="bibr" rid="c1">Aggarwal et al., 2020</xref></bold></italic>), and in gray matter (<italic><bold><xref ref-type="bibr" rid="c19">Ianus et al., 2021</xref></bold></italic>), while others showed kurtosis to be decreasing with diffusion time in gray matter (<italic><bold><xref ref-type="bibr" rid="c32">Lee et al., 2020</xref></bold></italic>; <italic><bold><xref ref-type="bibr" rid="c42">Olesen et al., 2022</xref></bold></italic>; <italic><bold><xref ref-type="bibr" rid="c23">Jelescu et al., 2022</xref></bold></italic>). In this study, we provide an explanation of these mixed results. We construct a simulation of diffusion MRI signal data based on the sub-diffusion model (<xref ref-type="disp-formula" rid="FD3">3</xref>) augmented with random Gaussian noise. Then we fit the conventional DKI model to the synthetic data. As shown in <xref ref-type="fig" rid="fig4">Figure 4</xref>(D), when there is no noise, <italic><bold>K<sub>DKI</sub></bold></italic> increases with diffusion time in white matter, while decreasing with diffusion time in gray matter. When there is added noise, as shown in <xref ref-type="fig" rid="fig4">Figure 4</xref>(B), the time-dependency of kurtosis within the timescale of a usual MR experiment is not clear. This goes some way to explaining why the results in the literature on the time-dependence of kurtosis are quite mixed.</p>
 <p>Furthermore, we summarise the benefits of using the sub-diffusion based mean kurtosis measurement <italic><bold>K</bold></italic><sup>*</sup>. First, as shown in (<xref ref-type="disp-formula" rid="FD9">9</xref>), sub-diffusion based mean kurtosis <italic><bold>K</bold></italic><sup>*</sup> is not time-dependent, and hence has the potential to become a tissue-specific imaging biomarker. Second, the fitting of the sub-diffusion model is straightforward, fast and robust, from which the kurtosis <italic><bold>K</bold></italic><sup>*</sup> is simply computed as a function of the sub-diffusion model parameter <italic><bold>&#x03B2;</bold></italic>, (<xref ref-type="disp-formula" rid="FD9">9</xref>). Third, the kurtosis <italic><bold>K</bold></italic><sup>*</sup> is not subject to any restriction on the maximum b-value, as in standard DKI. Hence its value truly reflects the information contained in the full range of b-values.</p>
@@ -278,37 +278,37 @@
 <title>Sub-diffusion modelling framework</title>
 <p>In biological tissue, the motion of water molecules is hindered by various microstructures, and hence the diffusion can be considerably slower than unhindered, unrestricted, free diffusion of water. The continuous time random walk formalism provides a convenient mathematical framework to model this sub-diffusive behaviour using fractional calculus (<italic><bold><xref ref-type="bibr" rid="c41">Metzler and Klafter, 2000</xref></bold></italic>). The resulting probability density function <italic><bold>P</bold></italic>(<italic><bold>x,t</bold></italic>) of water molecules at location <italic><bold>x</bold></italic> (in units of mm) at time <italic><bold>t</bold></italic> (in units of s) satisfies the time fractional diffusion equation:
 <disp-formula id="FD1">
-<graphic xlink:href="2211.16879v2_eqn1.jpg"/>
+<graphic xlink:href="2211.16879v2_eqn1.tif"/>
 <label>(1)</label>
 </disp-formula>
 where <inline-formula id="ID5">
-<inline-graphic xlink:href="2211.16879v2_ieq5.jpg"/>
+<inline-graphic xlink:href="2211.16879v2_ieq5.tif"/>
 </inline-formula> is the time fractional derivative of order <italic><bold>&#x03B2;</bold></italic> (0 &#x003C; <italic>&#x03B2;</italic> &#x2264; 1) in the Caputo sense, <italic><bold>D<sub>&#x03B2;</sub></bold></italic> is the generalised anomalous diffusion coefficient with unit of mm<sup>2</sup>/s<sup><italic>&#x03B2;</italic></sup>, and the parameter <italic><bold>&#x03B2;</bold></italic> characterises the distribution of waiting times between two consecutive steps in the continuous time random walk interpretation. When <italic><bold>&#x03B2;</bold></italic> = 1, the waiting times have finite mean; when 0 &#x003C; <italic>&#x03B2;</italic> &#x003C; 1, the waiting times have infinite mean, leading to sub-diffusion behaviour. The solution to the time fractional diffusion <xref ref-type="disp-formula" rid="FD1">equation (1)</xref> in Fourier space is:
 <disp-formula id="FD2">
-<graphic xlink:href="2211.16879v2_eqn2.jpg"/>
+<graphic xlink:href="2211.16879v2_eqn2.tif"/>
 <label>(2)</label>
 </disp-formula>
 where <inline-formula id="ID6">
-<inline-graphic xlink:href="2211.16879v2_ieq6.jpg"/>
+<inline-graphic xlink:href="2211.16879v2_ieq6.tif"/>
 </inline-formula> is the single-parameter Mittag-Leffler function, &#x0393; is the standard Gamma function and by definition <italic><bold>E</bold></italic><sub>1</sub>(<italic><bold>z</bold></italic>) = exp(<italic><bold>z</bold></italic>). In the context of diffusion DW-MRI, <italic><bold>k</bold></italic> in (<xref ref-type="disp-formula" rid="FD2">2</xref>) represents the q-space parameter <italic><bold>q</bold></italic> = <italic><bold>&#x03B3;G&#x03B4;</bold></italic>, <italic><bold>t</bold></italic> represents the effective diffusion time <inline-formula id="ID7">
-<inline-graphic xlink:href="2211.16879v2_ieq7.jpg"/>
+<inline-graphic xlink:href="2211.16879v2_ieq7.tif"/>
 </inline-formula> and <italic><bold>p</bold></italic>(<italic><bold>k, t</bold></italic>) represents the signal intensity <inline-formula id="ID8">
-<inline-graphic xlink:href="2211.16879v2_ieq8.jpg"/>
+<inline-graphic xlink:href="2211.16879v2_ieq8.tif"/>
 </inline-formula>, leading to the diffusion signal equation (<italic><bold><xref ref-type="bibr" rid="c38">Magin et al., 2020</xref></bold></italic>):
 <disp-formula id="FD3">
-<graphic xlink:href="2211.16879v2_eqn3.jpg"/>
+<graphic xlink:href="2211.16879v2_eqn3.tif"/>
 <label>(3)</label>
 </disp-formula>
 Defining <inline-formula id="ID9">
-<inline-graphic xlink:href="2211.16879v2_ieq9.jpg"/>
+<inline-graphic xlink:href="2211.16879v2_ieq9.tif"/>
 </inline-formula>, the DW-MRI signal then can be expressed in terms of b-values:
 <disp-formula id="FD4">
-<graphic xlink:href="2211.16879v2_eqn4.jpg"/>
+<graphic xlink:href="2211.16879v2_eqn4.tif"/>
 <label>(4)</label>
 </disp-formula>
 where
 <disp-formula id="FD5">
-<graphic xlink:href="2211.16879v2_eqn5.jpg"/>
+<graphic xlink:href="2211.16879v2_eqn5.tif"/>
 <label>(5)</label>
 </disp-formula>
 has the standard unit for a diffusion coefficient, s/mm<sup>2</sup>.</p>
@@ -317,7 +317,7 @@ has the standard unit for a diffusion coefficient, s/mm<sup>2</sup>.</p>
 <title>Diffusional kurtosis imaging</title>
 <p>The traditional DKI approach was proposed by Jensen et al. (<italic><bold><xref ref-type="bibr" rid="c25">Jensen et al., 2005</xref></bold></italic>; <bold><italic><xref ref-type="bibr" rid="c24">Jensen and Helpern, 2010</xref>)</italic></bold> to measure the extent of non-Gaussian diffusion in biological tissues using DW-MRI data:
 <disp-formula id="FD6">
-<graphic xlink:href="2211.16879v2_eqn6.jpg"/>
+<graphic xlink:href="2211.16879v2_eqn6.tif"/>
 <label>(6)</label>
 </disp-formula>
 where <italic><bold>S</bold></italic> is the signal for a given diffusion weighting <italic><bold>b</bold></italic> (i.e., b-value), <italic><bold>S</bold></italic><sub>0</sub> is the signal when <italic><bold>b</bold></italic> = 0, <italic>D<sub>DKI</sub></italic> and <italic><bold>K<sub>DKI</sub></bold></italic> are the apparent diffusivity and kurtosis. A major limitation of (<xref ref-type="disp-formula" rid="FD6">6</xref>) is that it was developed based on the Taylor expansion of the logarithm of the signal at <italic><bold>b</bold></italic> = 0, as such b-values should be chosen in the neighbourhood of b-value = 0 (<italic><bold><xref ref-type="bibr" rid="c56">Yang et al., 2022</xref></bold></italic>; <italic><bold><xref ref-type="bibr" rid="c26">Kiselev, 2010</xref></bold></italic>). Hence, to estimate diffusivity and kurtosis, Jensen and Helpern (<italic><bold><xref ref-type="bibr" rid="c24">Jensen and Helpern, 2010</xref></bold></italic>) suggested the use of three different b-values (such as o, 1ooo, 2ooo s/mm<sup>2</sup>) and the maximum b-value should be in the range 2ooo s/mm<sup>2</sup> to 3ooo s/mm<sup>2</sup> for brain studies. Subsequently, the optimal maximum b-value was found to be dependent on the tissue types and specific pathologies, which makes the experimental design optimal for a whole brain challenging (<italic><bold><xref ref-type="bibr" rid="c4">Chuhutin et al., 2017</xref></bold></italic>). The procedure for fitting kurtosis and diffusivity tensors is also not trivial, and a variety of fitting procedures are currently in use. We refer readers to the descriptive and comparative studies for detail on the implementation and comparison of methods (<italic><bold><xref ref-type="bibr" rid="c52">Veraart et al., 2011b</xref></bold></italic>,a; <italic><bold><xref ref-type="bibr" rid="c4">Chuhutin et al., 2017</xref></bold></italic>).</p>
@@ -326,24 +326,24 @@ where <italic><bold>S</bold></italic> is the signal for a given diffusion weight
 <title>Mean kurtosis from the sub-diffusion model</title>
 <p><italic><bold><xref ref-type="bibr" rid="c56">Yang et al. (2022)</xref></bold></italic> established that the traditional DKI model corresponds to the first two terms in the expansion of the sub-diffusion model:
 <disp-formula id="FD7">
-<graphic xlink:href="2211.16879v2_eqn7.jpg"/>
+<graphic xlink:href="2211.16879v2_eqn7.tif"/>
 <label>(7)</label>
 </disp-formula>
 where diffusivity, <italic><bold>D</bold></italic><sup>*</sup>, and kurtosis, <italic><bold>K</bold></italic><sup>*</sup>, are computed directly via sub-diffusion parameters <italic><bold>D<sub>SUB</sub></bold></italic> and <italic><bold>&#x03B2;</bold></italic>:
 <disp-formula id="FD8">
-<graphic xlink:href="2211.16879v2_eqn8.jpg"/>
+<graphic xlink:href="2211.16879v2_eqn8.tif"/>
 <label>(8)</label>
 </disp-formula>
 <disp-formula id="FD9">
-<graphic xlink:href="2211.16879v2_eqn9.jpg"/>
+<graphic xlink:href="2211.16879v2_eqn9.tif"/>
 <label>(9)</label>
 </disp-formula>
 where <italic><bold>D<sub>SUB</sub></bold></italic> is defined in (<xref ref-type="disp-formula" rid="FD5">5</xref>). Note the mean kurtosis expression in (<xref ref-type="disp-formula" rid="FD9">9</xref>) was also derived by Ingo et al. (<italic><bold><xref ref-type="bibr" rid="c21">Ingo et al., 2015</xref></bold></italic>) using a different method. Their derivation follows the definition of kurtosis, <inline-formula id="ID10">
-<inline-graphic xlink:href="2211.16879v2_ieq10.jpg"/>
+<inline-graphic xlink:href="2211.16879v2_ieq10.tif"/>
 </inline-formula>, i.e., by computing the fourth moment <inline-formula id="ID11">
-<inline-graphic xlink:href="2211.16879v2_ieq11.jpg"/>
+<inline-graphic xlink:href="2211.16879v2_ieq11.tif"/>
 </inline-formula> and the second moment <inline-formula id="ID12">
-<inline-graphic xlink:href="2211.16879v2_ieq12.jpg"/>
+<inline-graphic xlink:href="2211.16879v2_ieq12.tif"/>
 </inline-formula> based on the sub-diffusion <xref ref-type="disp-formula" rid="FD1">equation (1)</xref>.</p>
 </sec>
 </sec>
@@ -356,13 +356,13 @@ where <italic><bold>D<sub>SUB</sub></bold></italic> is defined in (<xref ref-typ
 <title>Simulated DW-MRI data at specific b-values</title>
 <p>DW-MRI data were simulated to establish (i) the correspondence between actual versus fitted mean kurtosis using the traditional DKI and sub-diffusion models based on various choices for &#x0394;, and (ii) to investigate the impact of SNR levels and sub-sampling of b-values on the mean kurtosis estimate. The DW-MRI signal was simulated using the sub-diffusion model (<xref ref-type="disp-formula" rid="FD3">3</xref>) with random Gaussian noise added to every normalised DW-MRI signal instance:
 <disp-formula id="FD10">
-<graphic xlink:href="2211.16879v2_eqn10.jpg"/>
+<graphic xlink:href="2211.16879v2_eqn10.tif"/>
 <label>(10)</label>
 </disp-formula>
 where <italic><bold>N</bold></italic>(0, <italic>&#x03C3;</italic><sup>2</sup>) is white noise with mean of zero and standard deviation of <italic><bold>&#x03C3;</bold></italic> according to the normal distribution.</p>
 <p>Two aspects influence <italic><bold>&#x03C3;</bold></italic> in the case of real-valued DW-MRI data. These include the SNR achieved with a single diffusion encoding direction (i.e., Connectome 1.0 DW-MRI data SNR was derived using only b-value = 0 s/mm<sup>2</sup> data), and the number of diffusion encoding directions in each b-shell across which the powder average is computed:
 <disp-formula id="FD11">
-<graphic xlink:href="2211.16879v2_eqn11.jpg"/>
+<graphic xlink:href="2211.16879v2_eqn11.tif"/>
 <label>(11)</label>
 </disp-formula>
 where <italic><bold>N</bold></italic><sub>DIR</sub> is the number of diffusion encoding directions for each b-shell and assuming it is consistent across b-shells. The <italic><bold>&#x03C3;</bold></italic> for the Connectome 1.0 data is approximately 1/(23.10&#x00D7;8) = 0.0054 based on 64 diffusion encoding directions. Achieving of SNR = 5, 10 and 20 for the simulation study can therefore be accomplished by changing only the <italic><bold>&#x03C3;</bold></italic> and keeping <italic><bold>N</bold></italic><sub>DIR</sub> = 64. As such, <italic><bold>&#x03C3;</bold></italic><sub>SNR=5</sub> = 0.0250, <italic><bold>&#x03C3;</bold></italic><sub>SNR=10</sub> = 0.0125 and <italic><bold>&#x03C3;</bold></italic><sub>SNR=20</sub> = 0.0063.</p>
@@ -384,22 +384,22 @@ where <italic><bold>N</bold></italic><sub>DIR</sub> is the number of diffusion e
 <title>Sub-diffusion model</title>
 <p>For the single diffusion time case, the sub-diffusion model in (<xref ref-type="disp-formula" rid="FD3">3</xref>) was fitted to the powder averaged DW-MRI data in a voxelwise manner using the same MATLAB functions as in the previous section. For each subject, spatially resolved maps of <italic><bold>D<sub>&#x03B2;</sub></bold></italic> and <italic><bold>&#x03B2;</bold></italic> were generated. The fitting strategy for multiple diffusion time data is to solve:
 <disp-formula id="FD12">
-<graphic xlink:href="2211.16879v2_eqn12.jpg"/>
+<graphic xlink:href="2211.16879v2_eqn12.tif"/>
 <label>(12)</label>
 </disp-formula>
 where <italic><bold>S<sub>ij</sub></bold></italic> is the signal at the <italic><bold>i</bold></italic>th effective diffusion time <inline-formula id="ID13">
-<inline-graphic xlink:href="2211.16879v2_ieq13.jpg"/>
+<inline-graphic xlink:href="2211.16879v2_ieq13.tif"/>
 </inline-formula>, and the <italic><bold>j</bold></italic>th q-space parameter <italic><bold>q<sub>j</sub></bold></italic>, <italic><bold>SUB</bold></italic> is the sub-diffusion model (<xref ref-type="disp-formula" rid="FD3">3</xref>) at <inline-formula id="ID14">
-<inline-graphic xlink:href="2211.16879v2_ieq14.jpg"/>
+<inline-graphic xlink:href="2211.16879v2_ieq14.tif"/>
 </inline-formula>, and <italic><bold>q<sub>j</sub></bold></italic> for a given set of (<italic><bold>D<sub>&#x03B2;</sub>,&#x03B2;</bold></italic>), <italic><bold>n</bold></italic> is the number of diffusion times, and <italic><bold>J<sub>i</sub></bold></italic>, is the number of <italic><bold>q</bold></italic>-values corresponding to <inline-formula id="ID15">
-<inline-graphic xlink:href="2211.16879v2_ieq15.jpg"/>
+<inline-graphic xlink:href="2211.16879v2_ieq15.tif"/>
 </inline-formula>, in data acquisition. This objective function allows incorporation of an arbitrary number of diffusion times, each having arbitrary number of <italic><bold>q</bold></italic>-values. Parameters were bounded to the ranges of 0 &#x003C; <italic><bold>&#x03B2;</bold></italic> &#x2264; 1 and <italic><bold>D<sub>&#x03B2;</sub></bold></italic> &#x003E; 0. Model parameters were found to be insensitive to the choice of initial values. Parameters <italic><bold>D</bold></italic><sup>*</sup> and <italic><bold>K</bold></italic><sup>*</sup> were computed analytically using the estimated <italic><bold>D<sub>&#x03B2;</sub></bold></italic> and <italic><bold>&#x03B2;</bold></italic> according to (<xref ref-type="disp-formula" rid="FD8">8</xref>) and (<xref ref-type="disp-formula" rid="FD9">9</xref>).</p>
 </sec>
 </sec>
 <sec id="s4f">
 <title>Goodness-of-fit and region-based statistical analysis</title>
 <p>The coefficient of determination, referred to as <italic><bold>R</bold></italic><sup>2</sup>, was used to assess how well the mean kurtosis values in the simulation were able to be fitted. It is generally accepted that an <italic><bold>R</bold></italic><sup>2</sup> value above 0.5 should be achieved and a value of 1.0 is unreasonable for data with realistic noise. Negative values imply the model is a very poor fit. For human data, we computed the region specific mean and standard deviation for each subject, and reported the weighted mean and pooled standard deviation along with the coefficient of variation (CV), defined as the ratio of the standard deviation to the mean. The weights were the number of voxels in the associated regions in each subject. Following <italic><bold><xref ref-type="bibr" rid="c2">Barrick et al. (2020)</xref></bold></italic>, the tissue contrast is computed as <inline-formula id="ID16">
-<inline-graphic xlink:href="2211.16879v2_ieq16.jpg"/>
+<inline-graphic xlink:href="2211.16879v2_ieq16.tif"/>
 </inline-formula>, where <italic><bold>&#x03BC;<sub>WM</sub></bold></italic> and <italic><bold>&#x03BC;<sub>GM</sub></bold></italic> are the mean parameter values in white and grey matters; and <italic><bold>&#x03C3;<sub>WM</sub></bold></italic> and <italic><bold>&#x03C3;<sub>GM</sub></bold></italic> are the standard deviations of parameter values. Higher TC values indicate greater tissue contrast.</p>
 <p>Human data were analysed voxelwise, and also based on regions-of-interest. We considered three categories of brain regions, namely sub-cortical grey matter (scGM), cortical grey matter (cGM) and white matter (WM). The scGM region constituted the thalamus (FreeSurfer labels 10 and 49 for left and right hemisphere), caudate (11, 50), putamen (12, 51) and pallidum (13, 52). The cGM region was all regions (1000 to 2999) and separately analysed the fusiform (1007, 2007) and lingual (1013, 2013) brain regions, while the WM had white matter fibre regions from the cerebral (2, 41), cerebellum (7, 46) and corpus callosum (CC; 251 to 255) areas. The average number of voxels in each region were 3986 (scGM), 53326 (cGM), 52121 (WM), 1634 (thalamus), 831 (caudate), 1079 (putamen), 443 (pallidum), 2089 (fusiform), 1422 (lingual), 48770 (cerebral WM), 2904 (cerebellum WM) and 447 (CC). For each brain region a t-test was performed to test for differences in mean kurtosis population means.</p>
 </sec>
