@@ -51,12 +51,7 @@
 <xref ref-type="aff" rid="a1">1</xref>
 <xref ref-type="aff" rid="a2">2</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5145-5289</contrib-id>
-<name><surname>Bray</surname><given-names>Sarah</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1642-599X</contrib-id><name><surname>Bray</surname><given-names>Sarah</given-names></name><xref ref-type="aff" rid="a1">1</xref><xref ref-type="corresp" rid="cor1">&#x002A;</xref></contrib>
 <aff id="a1"><label>1</label>Department of Physiology Development and Neuroscience University of Cambridge, Downing Street, Cambridge, CB2 3DY, UK</aff>
 <aff id="a2"><label>2</label>Instituto de Biomedicina de Sevilla (IBiS), Hospital Universitario Virgen del Roc&#x000ED;o/CSIC/Universidad de Sevilla, Departamento de Biolog&#x00ED;a Celular, 41013 Seville, Spain</aff>
 </contrib-group>
