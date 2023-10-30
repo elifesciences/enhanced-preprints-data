@@ -371,7 +371,6 @@
 <p><sup>2</sup>Science of Intelligence Excellence Cluster, Technical University Berlin, Berlin 10623, Germany</p>
 <p><sup>3</sup>Center for Adaptive Rationality, Max Planck Institute for Human Development, Berlin 14195, Germany</p>
 <p>&#x002A;alexis_breen@eva.mpg.de</p>
-</sec>
 <sec id="s8">
 <title>Abstract</title>
 <p>How might differences in dispersal and learning interact in range expansion dynamics? To begin to answer this question, in this preregistration we detail the background, hypothesis plus associated predictions, and methods of our proposed study, including the development and validation of a mechanistic reinforcement learning model, which we aim to use to assay colour-reward reinforcement learning (and the influence of two candidate latent parameters&#x2014;speed and sampling rate&#x2014;on this learning) in great-tailed grackles&#x2014;a species undergoing rapid range expansion, where males disperse.</p>
@@ -483,6 +482,7 @@
 <caption><p>Comparison of information-updating rate &#x03C6; and risk-sensitivity rate &#x03BB; estimates (top and bottom row, respectively) in initial learning excluding and including extra initial learning trials (left and right column, respectively), which are present in the original data set (see Methods and materials). Because this comparison does not show any noticeable difference depending on their inclusion or exclusion, we excluded extra learning trials from our analyses. All plots are generated via model estimates using our full sample size: 32 males and 17 females.</p></caption>
 <graphic xlink:href="533319v2_figs2.tif"/>
 </fig>
+</sec>
 </sec>
 </back>
 </article>
