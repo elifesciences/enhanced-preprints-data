@@ -30,13 +30,13 @@
 <article-title>Myelin dystrophy in the aging prefrontal cortex leads to impaired signal transmission and working memory decline: a multiscale computational study</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author" corresp="yes">
+<contrib contrib-type="author" equal-contrib="yes">
 <name><surname>Iba&#x00F1;ez</surname><given-names>Sara</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
 <xref ref-type="aff" rid="a2">2</xref>
 <xref ref-type="author-notes" rid="n1">&#x002A;</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
+<contrib contrib-type="author" equal-contrib="yes">
 <name><surname>Sengupta</surname><given-names>Nilapratim</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
 <xref ref-type="aff" rid="a3">3</xref>
@@ -46,16 +46,12 @@
 <name><surname>Luebke</surname><given-names>Jennifer I.</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
-<contrib contrib-type="author">
+<contrib contrib-type="author" equal-contrib="yes">
 <name><surname>Wimmer</surname><given-names>Klaus</given-names></name>
 <xref ref-type="aff" rid="a2">2</xref>
 <xref ref-type="author-notes" rid="n2">&#x0023;</xref>
 </contrib>
-<contrib contrib-type="author">
-<name><surname>Weaver</surname><given-names>Christina M.</given-names></name>
-<xref ref-type="aff" rid="a3">3</xref>
-<xref ref-type="author-notes" rid="n2">&#x0023;</xref>
-</contrib>
+<contrib contrib-type="author" equal-contrib="yes" corresp="yes"><name><surname>Weaver</surname><given-names>Christina M.</given-names></name><email>christina.weaver@fandm.edu</email><xref ref-type="aff" rid="a3">3</xref><xref ref-type="author-notes" rid="n2">&#x0023;</xref></contrib>
 <aff id="a1"><label>1</label>Department of Anatomy &#x0026; Neurobiology, Boston University Chobanian &#x0026; Avedisian School of Medicine, Boston, MA USA 02118</aff>
 <aff id="a2"><label>2</label>Centre de Recerca Matem&#x00E0;tica, Edifici C, Campus Bellaterra, 08193 Bellaterra, Spain</aff>
 <aff id="a3"><label>3</label>Department of Mathematics, Franklin and Marshall College, Lancaster, PA, USA 17604</aff>
@@ -63,7 +59,6 @@
 <author-notes>
 <fn id="n1" fn-type="equal"><label>&#x002A;</label><p>Co-first authors: All authors consent that for their CV/Resume and other purposes, co-first authors may list themselves in either order.</p></fn>
 <fn id="n2" fn-type="equal"><label>&#x0023;</label><p>Co-senior authors</p></fn>
-<corresp id="cor1">Corresponding author; email: <email>christina.weaver@fandm.edu</email></corresp>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.08.30.555476</elocation-id>
@@ -261,9 +256,11 @@ where <italic>&#x03C4;</italic><sub><italic>E</italic></sub> and <italic>&#x03C4
 <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="555476v1_ueqn3.gif"/>
 </disp-formula>
 where subindices <italic>a</italic> and <italic>n</italic> represent the excitatory AMPA and NMDA glutamatergic receptors, and <italic>g</italic> an inhibitory GABA receptor. Each synaptic current is given as in (<bold><xref ref-type="bibr" rid="c36">Hansel and Mato, 2013</xref></bold>), with synaptic decay time constants for each receptor, <italic>&#x03C4;</italic><sub><italic>a</italic></sub>, <italic>&#x03C4;</italic><sub><italic>n</italic></sub>, and <italic>&#x03C4;</italic><sub><italic>g</italic></sub>, respectively. Short-term plasticity was incorporated to the excitatory-to-excitatory synaptic connections through the variables <italic>u</italic> and <italic>x</italic>, given by (<bold><xref ref-type="bibr" rid="c50">Markram et al., 1998</xref></bold>)
+<disp-quote/>
 <disp-formula>
 <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="555476v1_ueqn4.gif"/>
 </disp-formula>
+<disp-quote/>
 <italic>x</italic> and <italic>u</italic> are updated as <italic>x</italic> &#x2192; <italic>x</italic> (1 &#x2212; <italic>u</italic>) and <italic>u</italic> &#x2192; <italic>u</italic> &#x002B; <italic>U</italic> &#x2217; (1 &#x2212; <italic>u</italic>), each time that there is a presynaptic spike. The variable <italic>x</italic> represents the amount of available neurotransmitter resources in the presynaptic terminal and <italic>u</italic> is the utilization parameter, indicating the residual calcium level (<bold><xref ref-type="bibr" rid="c6">Bertram et al., 1996</xref></bold>; <bold><xref ref-type="bibr" rid="c100">Zucker and Regehr, 2002</xref></bold>; <bold><xref ref-type="bibr" rid="c53">Mongillo et al., 2008</xref></bold>). With each spike, and amount <italic>ux</italic> of the available resources is used to produce the postsynaptic current. Thus, <italic>x</italic> is reduced, representing neurotransmitter depletion, and <italic>u</italic> is increased, representing the calcium influx into the presynaptic terminal and its effect on release probability. Between spikes, <italic>x</italic> and <italic>u</italic> recover to their baseline levels (<italic>x</italic> &#x003D; 1 and <italic>u</italic> &#x003D; <italic>U</italic>; 0 &#x003C; <italic>x</italic> &#x003C; 1) with time constants <italic>&#x03C4;</italic><sub><italic>d</italic></sub>and <italic>&#x03C4;</italic><sub><italic>f</italic></sub>. We set <italic>&#x03C4;</italic><sub><italic>f</italic></sub> &#x003E; <italic>&#x03C4;</italic><sub><italic>d</italic></sub> so that they facilitate signal transmission (<bold><xref ref-type="bibr" rid="c92">Tsodyks et al., 1998</xref></bold>).</p>
 <p>The sensory input current to excitatory neuron <italic>i</italic> during the cue period, and for a specific location of the stimulus, <inline-formula><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="555476v1_inline6.gif"/></inline-formula> is given by.
 <disp-formula>
@@ -299,9 +296,11 @@ where <italic>&#x03B8;</italic><sub><italic>i</italic></sub> is the preferred di
 <sec id="s4b3a1">
 <title>Memory strength</title>
 <p>The memory strength was defined as the modulus <italic>M</italic>(<italic>t</italic>) of the population vector, <italic>Z</italic>(<italic>t</italic>), which characterizes the spatial modulation of the excitatory neuronal activity at time t, given by
+<disp-quote/>
 <disp-formula>
 <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="555476v1_ueqn6.gif"/>
 </disp-formula>
+<disp-quote/>
 <italic>r</italic><sub><italic>j</italic></sub>(<italic>t</italic>) is the firing rate of neuron <italic>j</italic> with preferred direction <italic>&#x03B8;</italic><sub><italic>j</italic></sub>. Firing rates <italic>r</italic><sub><italic>j</italic></sub>(<italic>t</italic>) were estimated as spike counts in a 250 ms window. A memory strength <italic>M</italic>(<italic>t</italic>) close to 0 indicates homogeneous activity of the network and <italic>M</italic>(<italic>t</italic>) close to 1 indicates a sharply modulated activity (<bold><xref rid="fig6" ref-type="fig">Figure 6C</xref></bold>).</p>
 </sec>
 <sec id="s4b3a">
