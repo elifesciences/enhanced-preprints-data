@@ -325,10 +325,12 @@ where <italic><bold>S</bold></italic> is the signal for a given diffusion weight
 <sec id="s4a3">
 <title>Mean kurtosis from the sub-diffusion model</title>
 <p><italic><bold><xref ref-type="bibr" rid="c56">Yang et al. (2022)</xref></bold></italic> established that the traditional DKI model corresponds to the first two terms in the expansion of the sub-diffusion model:
+<disp-quote/>
 <disp-formula id="FD7">
 <graphic xlink:href="2211.16879v2_eqn7.tif"/>
 <label>(7)</label>
 </disp-formula>
+<disp-quote/>
 where diffusivity, <italic><bold>D</bold></italic><sup>*</sup>, and kurtosis, <italic><bold>K</bold></italic><sup>*</sup>, are computed directly via sub-diffusion parameters <italic><bold>D<sub>SUB</sub></bold></italic> and <italic><bold>&#x03B2;</bold></italic>:
 <disp-formula id="FD8">
 <graphic xlink:href="2211.16879v2_eqn8.tif"/>
