@@ -14,7 +14,7 @@
 </journal-meta>
 <article-meta>
 <article-id pub-id-type="doi">10.1101/2023.04.24.538182</article-id>
-<article-version>1.2</article-version>
+<article-version>1.3</article-version>
 <article-categories>
 <subj-group subj-group-type="author-type">
 <subject>Regular Article</subject>
@@ -57,13 +57,12 @@
 <xref ref-type="corresp" rid="cor1">&#x002A;</xref>
 </contrib>
 <contrib contrib-type="author" corresp="yes">
-<name><surname>Luo</surname><given-names>Zhao-Qing</given-names></name>
-<xref ref-type="aff" rid="a3">3</xref>
+<name><surname>Luo</surname><given-names>Zhaoqing</given-names></name>
+<xref ref-type="aff" rid="a1">1</xref>
 <xref ref-type="corresp" rid="cor1">&#x002A;</xref>
 </contrib>
 <aff id="a1"><label>1</label>Department of Respiratory Medicine, Infectious Diseases and Pathogen Biology Center, Key Laboratory of Organ Regeneration and Transplantation of the Ministry of Education, State Key Laboratory for Zoonotic Diseases, The First Hospital of Jilin University, Changchun, China</aff>
 <aff id="a2"><label>2</label>Bioinformatics Laboratory, The First Hospital of Jilin University, Changchun, China</aff>
-<aff id="a3"><label>3</label>Department of Biological Sciences, 915 Mitch Daniels Blvd, Purdue University, West Lafayette, IN 47907</aff>
 </contrib-group>
 <author-notes>
 <corresp id="cor1"><label>&#x002A;</label>Correspondence: <email>chuxiao@jlu.edu.cn</email>, <email>lsong@jlu.edu.cn</email>, and <email>luoz@jlu.edu.cn</email></corresp>
@@ -77,13 +76,13 @@
 <year>2023</year>
 </date>
 <date date-type="rev-recd">
-<day>06</day>
-<month>9</month>
+<day>09</day>
+<month>10</month>
 <year>2023</year>
 </date>
 <date date-type="accepted">
-<day>06</day>
-<month>9</month>
+<day>09</day>
+<month>10</month>
 <year>2023</year>
 </date>
 </history>
@@ -94,7 +93,8 @@
 </permissions>
 <self-uri xlink:href="538182.pdf" content-type="pdf" xlink:role="full-text"/>
 <abstract>
-<title>Abstract</title><p>Identification of unique essential bacterial genes is important for not only the understanding of their cell biology but also the development of new antimicrobials. Here we report a previously unrecognized core component of the <italic>Acinetobacter baumannii</italic> divisome. Our results reveal that the protein, termed Aeg1 interacts with multiple cell division proteins, including FtsN, which is required for components of the divisome to localize to the midcell. We demonstrate that the FtsA<sub>E202K</sub> and FtsB<sub>E65A</sub> mutants effectively bypassed the need of Aeg1 by <italic>A</italic>. <italic>baumannii</italic>, as did the activation variants FtsW<sub>M254I</sub> and FtsW<sub>S274G</sub>. Our results suggest that Aeg1 is a cell division protein that arrives at the division site to initiate cell division by recruiting FtsN, which activates FtsQLB and FtsA to induce the septal peptidoglycan synthase FtsWI. The discovery of the new essential cell division protein has provided a new target for the development of antibacterial agents.</p>
+<title>Abstract</title>
+<p>Identification of unique essential bacterial genes is important for not only the understanding of their cell biology but also the development of new antimicrobials. Here we report a previously unrecognized core component of the <italic>Acinetobacter baumannii</italic> divisome. Our results reveal that the protein, termed Aeg1 interacts with multiple cell division proteins, including FtsN, which is required for components of the divisome to localize to the midcell. We demonstrate that the FtsA<sub>E202K</sub> and FtsB<sub>E65A</sub> mutants effectively bypassed the need of Aeg1 by <italic>A. baumannii</italic>, as did the activation variants FtsW<sub>M254I</sub> and FtsW<sub>S274G</sub>. Our results suggest that Aeg1 is a cell division protein that arrives at the division site to initiate cell division by recruiting FtsN, which activates FtsQLB and FtsA to induce the septal peptidoglycan synthase FtsWI. The discovery of the new essential cell division protein has provided a new target for the development of antibacterial agents.</p>
 </abstract>
 <kwd-group kwd-group-type="author">
 <title>Keywords</title>
@@ -112,7 +112,7 @@
 <title>Competing Interest Statement</title><p>The authors have declared no competing interest.</p></notes>
 <fn-group content-type="summary-of-updates">
 <title>Summary of Updates:</title>
-<fn fn-type="update"><p>Figure 2 revised; Figure 3 revised; Figure 4 revised; Figure 5 revised.</p></fn>
+<fn fn-type="update"><p>There is a mistake regarding the affiliation of one of the authors. I have made the necessary correction and highlighted it in yellow for your convenience.Apart from this amendment, no other changes have been made to the manuscript.</p></fn>
 </fn-group>
 </notes>
 </front>
@@ -133,7 +133,7 @@
 <label>Fig. 1</label>
 <caption><title>Identification of <italic>aeg1</italic> as an essential gene for <italic>A. baumannii</italic> viability on rich medium</title>
 <p><bold>A.</bold> A diagram depicting the method for conditional deletion of potential essential genes. The gene to be examined was expressed from the arabinose-inducible promoter on a plasmid and the gene was deleted from the chromosome using the standard allele exchange method (upper panel) and strains lacking the chromosomal gene were tested for essentiality by spotting diluted cells on media with and without arabinose, respectively (lower panel).</p><p><bold>B.</bold> Identification of <italic>A1S_0137</italic>, <italic>A1S_2249,</italic> and <italic>A1S_3387</italic> as <italic>A. baumannii</italic> essential genes. Each of the 10 genes predicted to be essential were deleted by the method described in A and the resulting bacterial strains were tested for growth by spotting serially diluted cells on medium with or without 1&#x0025; arabinose. Images were acquired after incubation at 37&#x00B0;C for 18 h. Similar results were obtained in at least three independent experiments.</p><p><bold>C-D.</bold> The predicted transmembrane (TM) domain in the amino terminal end of Aeg1 is required for its activity. A diagram illustrating the location of the TM domain which is predicted to span between the 7<sup>th</sup> and the 29<sup>th</sup> residues of Aeg1 <bold>(C)</bold>. Cells harboring differentially regulated HA-Aeg1 and HA-Aeg1<sup>&#x0394;TM</sup> spotted onto LB agar supplemented with 0.5 mM IPTG or 1&#x0025; ara, images were acquired after 18 h incubation at 37&#x00B0;C <bold>(D upper two panels)</bold>. The expression of the Aeg1 and Aeg1<sup>&#x0394;TM</sup> were examined by immunoblotting with the HA-specific antibody. The metabolic enzyme isocitrate dehydrogenase (ICDH) was probed as a loading control <bold>(D, lower two panels)</bold>. Similar results were obtained in three independent experiments.</p></caption>
-<graphic xlink:href="538182v2_fig1.tif"/>
+<graphic xlink:href="538182v3_fig1.tif"/>
 </fig>
 <p>Our initial analysis of 10 genes (<bold><xref ref-type="table" rid="tbls1">Table S1</xref></bold>) identified <italic>A1S_0137</italic>, <italic>A1S_2249</italic>, and <italic>A1S_3387</italic> (<xref ref-type="bibr" rid="c26">26</xref>) that met the criteria of being required for growth on LB agar (<bold><xref rid="fig1" ref-type="fig">Fig. 1B</xref></bold>). Importantly, gene <italic>A1S_3387</italic> is also essential for <italic>A. baumannii</italic> growth in the Vogel-Bonner minimal medium with succinate (VBS) as the sole carbon source (<xref ref-type="bibr" rid="c27">27</xref>) <bold>(<xref ref-type="fig" rid="figs1">Fig. S1</xref>)</bold>. These genes were thus designated as <italic><underline>A</underline>. baumannii</italic> <underline>e</underline>ssential <underline>g</underline>enes (Aeg) and Aeg1 (<italic>A1S_3387</italic>) was chosen for detailed study.</p>
 <p>Sequence analysis revealed that Aeg1 has orthologs in a number of Gram-negative bacteria, including <italic>Klebsiella pneumoniae</italic>, <italic>Salmonella enterica</italic> members of the <italic>Moraxellaceae</italic> family and some strains of <italic>Escherichia coli</italic>, with sequence similarity ranging from 80&#x0025; to identical <bold>(<xref ref-type="fig" rid="figs2">Fig. S2</xref>).</bold> Aeg1 is predicted to harbor a single transmembrane domain composing of 23 residues close to its amino terminal end <bold>(<xref rid="fig1" ref-type="fig">Fig. 1C</xref>)</bold>. To determine the importance of the putative membrane spanning region in its function, we employed a dual inducible system with two compatible plasmids that use promoters that respond to ara and isopropyl-&#x03B2;-D-thiogalactopyranoside (IPTG), respectively. Strain &#x0394;<italic>aeg1</italic>(P<sub>BAD</sub>::Aeg1, P<sub>TAC</sub>::Aeg1) was able to grow on medium containing 1&#x0025; ara or 0.5 mM IPTG <bold>(<xref rid="fig1" ref-type="fig">Fig. 1D</xref>)</bold> indicating that the chromosomal deletion can be complemented by either of the constructs when expression of Aeg1 was induced. Aeg1 is a bitopic integral membrane protein similar to ZipA (<xref ref-type="bibr" rid="c28">28</xref>). It has a similar arrangement where the N terminus of the protein traverses the membrane once, while the rest of the protein present in the cytoplasm. Importantly, expression of the Aeg1 mutant lacking the predicted membrane anchoring region (residues 7-29) was unable to restore the growth of the strain (<bold><xref rid="fig1" ref-type="fig">Fig. 1D</xref></bold>), suggesting that association with membrane is essential for its activity.</p>
@@ -145,7 +145,7 @@
 <label>Fig. 2</label>
 <caption><title>Aeg1 deficiency causes cell elongation in <italic>A. baumannii</italic>.</title>
 <p><bold>A.</bold> Cell morphology of the wild-type and strain &#x0394;<italic>aeg1</italic>(P<sub>BAD</sub>::Aeg1) grown in medium with or without ara. The &#x0394;<italic>aeg1</italic>(P<sub>BAD</sub>::Aeg1) and the wild-type strains were grown in medium with or without ara for 18 h, samples were processed for scanning electron microscope imaging. Images shown are representative of three parallel cultures. Bar, 2 &#x00B5;m.</p><p><bold>B-C.</bold> Expression of Aeg1 reversed the cell elongation phenotype caused by its depletion. Saturated bacterial cultures of &#x0394;<italic>aeg1</italic>(P<sub>BAD</sub>::Aeg1) diluted in fresh LB broth with (I) or without (II) ara were incubated for 18 h. The culture from the uninduced sample was split into two subcultures, ara was added to one of the subcultures and the morphology of the cells was determined at 4 h (III) post induction. Images are representative of three parallel cultures. Bar, 10 &#x00B5;m <bold>(B)</bold>. Quantitation of the cell length in samples differently expressing Aeg1. Cell length was categorized into groups of 0-5 &#x03BC;m, 5-10 &#x03BC;m, and more than 10 &#x03BC;m. At least 300 cells were counted for each sample <bold>(C)</bold>. Results shown were from the average of three independent experiments. Statistical analysis in each panel was performed by Student&#x2019;s <italic>t</italic> test.</p></caption>
-<graphic xlink:href="538182v2_fig2.tif"/>
+<graphic xlink:href="538182v3_fig2.tif"/>
 </fig>
 </sec>
 <sec id="s2c">
@@ -155,7 +155,7 @@
 <label>Fig. 3</label>
 <caption><title>Mutations in proteins involved in cell division bypass the requirement of Aeg1.</title>
 <p><bold>A.</bold> Isolation of two suppressor mutants that gained viability in the absence of Aeg1. Cells serially diluted with water were spotted onto LB agar with or without ara. Note that the &#x0394;<italic>aeg1</italic>(P<sub>BAD</sub>::Aeg1) strain (top row) cannot grow on medium without ara and the wild-type strain (2<sup>nd</sup> row) can grow on both conditions. Similar results were obtained in three independent experiments.</p><p><bold>B.</bold> The FtsA<sub>E202K</sub> mutant suppressed the requirement of Aeg1. Cells of strains derived from &#x0394;a<italic>eg1</italic>(P<sub>BAD</sub>::<italic>aeg1</italic>) that harbored the vector (I), pHA-Aeg1 (II), pHA-FtsA (III), or pHA-FtsA<sub>E202K</sub> (IV) were spotted onto LB agar containing ara (left) or IPTG (right), Images were acquired after 18 h incubation at 37&#x00B0;C <bold>(b, upper panels)</bold>. Expression of Aeg1, FtsA or FtsA<sub>E202K</sub> in these strains were detected by immunoblotting with the HA-specific antibody after lysates of IPTG-induced cells being resolved by SDS-PAGE. ICDH was probed as a loading control <bold>(b, lower panels)</bold>. Similar results were obtained in three independent experiments.</p><p><bold>C.</bold> The suppression mutants assumed normal cell morphology. Bacterial strains derived from &#x0394;a<italic>eg1</italic>(P<sub>BAD</sub>::<italic>aeg1</italic>) grown in LB broth containing ara for 6 h were diluted into fresh medium with the inducer and the cultures were induced with IPTG for 4 h prior to being processed for imaging. Images were representatives of three parallel cultures. Bar, 10 &#x00B5;m.</p><p><bold>D.</bold> Additional FtsA mutants bypassed the need of Aeg1. Mutant FtsA<sub>D124A</sub>, FtsA<sub>V144A</sub>, or FtsA<sub>Q28</sub><sub>5A</sub> expressed from the IPTG-inducible P<sub>TAC</sub> was introduced into strain &#x0394;<italic>aeg1</italic>(P<sub>BAD</sub>::Aeg1) and serially diluted cells of resulting strains were spotted onto LB agar supplemented with ara or IPTG. Images were acquired after incubation at 37&#x00B0;C for 18 h <bold>(upper panels)</bold>. Expression of Aeg1, FtsA<sub>D124A</sub>, FtsA<sub>V144A</sub>, and FtsA<sub>Q28</sub><sub>5A</sub> in these strains. Total protein of IPTG-induced cells resolved by SDS-PAGE and proteins transferred onto nitrocellulose membranes were detected by immunoblotting with the HA-specific antibody. ICDH was probed as a loading control <bold>(lower panels).</bold> Similar results were obtained in three independent experiments.</p><p><bold>E.</bold> The Aeg1-mCherry fusion localizes to division constrictions. Wild-type <italic>A. baumannii</italic> harboring P<sub>BAD</sub>::Aeg1-mCherry grown to the mid-log phase in LB broth containing 1&#x0025; ara were processed for imaging. Bar, 10 &#x00B5;m. Images are representative of three parallel cultures.</p></caption>
-<graphic xlink:href="538182v2_fig3.tif"/>
+<graphic xlink:href="538182v3_fig3.tif"/>
 </fig>
 <p>Because depletion of Aeg1 caused cell elongation, we first examined mutated genes whose functions are known to be involved in cell division. An E202K mutation caused by a G to A substitution in the first position of the codon was found in the cell division protein FtsA in both M1 and M2 (<bold><xref ref-type="table" rid="tbls2">Table S2</xref></bold>). We thus verified the suppression phenotype by introducing a plasmid expressing FtsA or FtsA<sub>E202K</sub> into strain &#x0394;<italic>aeg1</italic>(P<sub>BAD</sub>::Aeg1) and examined the growth of the resulting bacterial strains under different induction conditions. Expression of FtsA<sub>E202K</sub> allowed strain &#x0394;<italic>aeg1</italic>(P<sub>BAD</sub>::Aeg1) to gain the ability to grow in the absence of ara. In contrast, although the protein was expressed at a comparable level, FtsA cannot suppress the growth defect caused by Aeg1 depletion (<bold><xref rid="fig3" ref-type="fig">Fig. 3B</xref></bold>). Consistent with the growth phenotypes, expression of FtsA<sub>E202K</sub> in strain &#x0394;<italic>aeg1</italic>(P<sub>BAD</sub>::Aeg1) under conditions in which the complementation gene was not expressed displayed a morphology similar to that of wild-type bacteria (<bold><xref rid="fig3" ref-type="fig">Fig. 3C</xref></bold>).</p>
 <p>Previous studies have found that several mutations in FtsA bypassed the requirement of a number of essential cell division proteins in <italic>E. coli</italic>, including ZipA (<xref ref-type="bibr" rid="c30">30</xref>), FtsK (<xref ref-type="bibr" rid="c31">31</xref>), and FtsN (<xref ref-type="bibr" rid="c32">32</xref>). Among these, FtsA<sub>R286W</sub> (FtsA&#x002A;) was the first gain-of-function mutation found in <italic>E. coli</italic>, which allowed the survival of mutants lacking ZipA (&#x0394;<italic>zipA</italic>) or FtsK (&#x0394;<italic>ftsK</italic>) (<xref ref-type="bibr" rid="c30">30</xref>, <xref ref-type="bibr" rid="c31">31</xref>, <xref ref-type="bibr" rid="c33">33</xref>). Additionally, FtsA<sub>I143L</sub>(<xref ref-type="bibr" rid="c34">34</xref>) and FtsA<sub>E124A</sub>(<xref ref-type="bibr" rid="c32">32</xref>) weakly bypassed the requirement of FtsN. These mutations also rescued the FtsL<sub>L86F/E87K</sub> mutant when overexpressed (<xref ref-type="bibr" rid="c35">35</xref>). We thus examined whether similar mutations in FtsA of <italic>A. baumannii</italic> can bypass the need of Aeg1 by constructing substitution FtsA mutants D124A, V144L and Q285W, which correspond to E124A, I143L, and R286W in its <italic>E. coli</italic> counterpart, respectively (<bold><xref ref-type="fig" rid="figs3">Fig. S3</xref></bold>) and tested them in strain &#x0394;<italic>aeg1</italic>(P<sub>BAD</sub>::Aeg1). Whereas FtsA<sub>Q28</sub><sub>5W</sub> cannot detectably suppress Aeg1 depletion, expression of FtsA<sub>D124A</sub> or FtsA<sub>V144L</sub> partially resecured the growth of strain &#x0394;<italic>aeg1</italic>(P<sub>BAD</sub>::Aeg1) in medium without ara (<bold><xref rid="fig3" ref-type="fig">Fig. 3D</xref></bold>). Despite multiple attempts, we were unable to detect the expression of these FtsA mutants by immunoblotting using antibody specific to the Flag epitope fused to these alleles (<bold><xref rid="fig3" ref-type="fig">Fig. 3D</xref>, lower panels</bold>), suggesting that the low activity exhibited by these mutants may result from low protein levels.</p>
@@ -168,7 +168,7 @@
 <label>Fig. 4</label>
 <caption><title>Aeg1 interacts with multiple core proteins of the <italic>A. baumannii</italic> divisome.</title>
 <p><bold>A-B.</bold> Derivatives of strain <italic>E. coli</italic> BTH101 containing T18-Aeg1 and T25 fusion of the indicated proteins were spotted onto LB agar containing X-gal. Images were acquired after incubation for 18 h at 37&#x00B0;C <bold>(A)</bold>. Interactions determined by quantitative measurement of &#x03B2;-galactosidase activity <bold>(B)</bold>. Results shown were from three independent experiments. Statistical analysis was performed by Student&#x2019;s <italic>t</italic> test.</p><p><bold>C.</bold> Aeg1 colocalized with a set of core divisome proteins. GFP fusion of ZipA, FtsK, FtsL, FtsB, or FtsW was expressed in strain &#x0394;<italic>aeg1</italic>(pJL03::mCherry-Aeg1). Cells grown in LB broth without ara for 6 h were induced with IPTG to express the GFP fusions for 4 h prior to being processed for imaging. Red arrows indicate the sites of colocalization. Bar, 5 &#x00B5;m. Images are representative of three independent cultures.</p></caption>
-<graphic xlink:href="538182v2_fig4.tif"/>
+<graphic xlink:href="538182v3_fig4.tif"/>
 </fig>
 <p>We next analyzed the localization of Aeg1 and core divisome proteins during cell division of <italic>A. baumannii</italic> by taking advantage of the elongated morphology of Aeg1-depleted cells, which may allow better resolution of observation via fluorescence microscopy. To this end, we coexpressed the mCherry-Aeg1 fusion with GFP fusion of ZipA, FtsK, FtsL, FtsB, or FtsN in the &#x0394;<italic>aeg</italic>1 mutant from the ara- and IPTG-inducible promoter, respectively. Cultures of strains derived from &#x0394;<italic>aeg1</italic>(P<sub>BAD</sub>::mCherry-Aeg1) harboring the GFP fusions were induced by ara for 16 h, saturated bacterial cultures were then diluted into fresh LB broth without ara for 6 h to induce the elongation morphology. IPTG (0.25 mM) and ara (0.25&#x0025;) were added to induce the expression of fusion proteins for 4 h before samples were processed for microscopic analysis. Consistent with results from the protein interaction experiments using the bacterial two-hybrid assay, Aeg1 colocalized with ZipA, FtsK, FtsL, FtsB, and FtsW (<bold><xref rid="fig4" ref-type="fig">Fig. 4C</xref></bold>). Thus, Aeg1 interacts with multiple core cell divisome proteins of <italic>A. baumannii</italic>.</p>
 </sec>
@@ -179,7 +179,7 @@
 <label>Fig. 5</label>
 <caption><title>Aeg1 dictates the cellular localization of core divisome proteins.</title>
 <p><bold>A.</bold> Aeg1 deficiency prevented core divisome proteins from localizing to the middle cell. Cells of derivatives of strain &#x0394;<italic>aeg1</italic>(pJL03::mCherry-Aeg1) expressing GFP fusion of each of the divisome proteins from the P<sub>TAC</sub> promoter grown in medium with ara were processed for imaging. The red arrows representative examples of the inability of fusion proteins to target to the septal ring. Bar, 5 &#x00B5;m. Images are representative of three parallel cultures.</p><p><bold>B-D.</bold> A few dominant active mutants of FtsB and FtsW bypassed the need of Aeg1 by <italic>A. baumannii.</italic> Mutant FtsB<sub>E65A</sub> <bold>(B)</bold>, FtsB<sub>D68H</sub> <bold>(B)</bold>, FtsL<sub>Q70K</sub> <bold>(C)</bold>, FtsW<sub>M254I</sub> <bold>(D)</bold>, or FtsW<sub>S274G</sub> <bold>(D)</bold> was expressed from the IPTG-inducible promoter P<sub>TAC</sub> in strain &#x0394;<italic>aeg1</italic>(pJL03::Aeg1). Serially diluted cells were spotted onto LB agar containing ara or IPTG. Images were acquired after incubation at 37&#x00B0;C for 18 h <bold>(B-D)</bold>. Similar results were obtained in three independent experiments. The expression of the protein was probed with the HA-specific antibody after IPTG induction <bold>(B-D)</bold>. ICDH was probed as a loading control.</p></caption>
-<graphic xlink:href="538182v2_fig5.tif"/>
+<graphic xlink:href="538182v3_fig5.tif"/>
 </fig>
 <p>During the formation of the divisome, FtsN was believed to be the last protein being recruited to the septum where it converts FtsQLB and FtsA into their active forms, which subsequently activate the septal peptidoglycan synthase FtsWI (<xref ref-type="bibr" rid="c34">34</xref>, <xref ref-type="bibr" rid="c37">37</xref>). If the interaction between Aeg1 and FtsN is critical for the ability of the latter to switch on FtsQLB and FtsA, constitutively active mutants of FtsQLB or Fts A should suppress the need of Aeg1 for cell viability. To test this hypothesis, we expressed HA-FtsB<sub>E65A</sub> and HA-FtsL<sub>Q70K</sub> of <italic>A. baumannii</italic> (equivalent to mutants of their <italic>E. coli</italic> counterparts that allow the bypass of the requirement of FtsN) (<bold><xref ref-type="fig" rid="figs3">Fig. S3</xref></bold>) (<xref ref-type="bibr" rid="c34">34</xref>, <xref ref-type="bibr" rid="c38">38</xref>) in strain &#x0394;<italic>aeg1</italic>(P<sub>BAD</sub>::Aeg1) on medium without ara. Although the expression of HA-FtsB<sub>E65A</sub> was not detectable with the HA-specific antibody, induction of this mutant completely restored the growth of the &#x0394;<italic>aeg1</italic> mutant in the absence of Aeg1 (<bold><xref rid="fig5" ref-type="fig">Fig. 5B</xref></bold>). In contrast, a similarly constructed plasmid that directs the expression of HA-FtsB<sub>D68H</sub> cannot bypass the requirement of Aeg1 under the same conditions (<bold><xref rid="fig5" ref-type="fig">Fig. 5B</xref></bold>). Similarly expressed HA-FtsL<sub>Q70K</sub> detectably rescued bacterial growth without Aeg1 at a level considerably lower than that of FtsB<sub>E65A</sub> (<bold><xref rid="fig5" ref-type="fig">Fig. 5C</xref></bold>). The low or undetectable activity exhibited by FtsL<sub>Q70K</sub> and FtsB<sub>D68H</sub> may result from the low protein levels in strain &#x0394;<italic>aeg1</italic>(P<sub>BAD</sub>::Aeg1). Nevertheless, these results support our hypothesis that Aeg1 functions upstream of FtsN, probably by functioning as its activator or recruiting factor.</p>
 <p>It is known that expression of mutants FtsI<sub>K211I</sub>, FtsW<sub>M269I</sub>, and FtsW<sub>E289G</sub> driven by a strong promoter can bypass the need of FtsN in <italic>E. coli</italic> (<xref ref-type="bibr" rid="c39">39</xref>). The ability of FtsB<sub>E65A</sub> and FtsA<sub>E202K</sub> to suppress the growth defect of the &#x0394;<italic>aeg1</italic> mutant prompted us to examine whether constitutively active alleles of FtsW or FtsI have the same effects. Overexpression of FtsW<sub>M254I</sub> and FtsW<sub>S274G</sub> of <italic>A. baumannii</italic> detectably rescued the growth of the strain in which Aeg1 had been depleted (<bold><xref rid="fig5" ref-type="fig">Fig. 5D</xref></bold>). FtsI from <italic>A. baumannii</italic> does not have a residue corresponding to K211 of its <italic>E. coli</italic> counterpart (<bold><xref ref-type="fig" rid="figs3">Fig. S3</xref></bold>), we thus did not test the effect of this mutation. Therefore, our results demonstrate that Aeg1 may collaborate with FtsN to activate at least a part of FtsQLB and FtsA for subsequently activation of FtsWI during cell division. Together with results that the variant FtsA<sub>E202K</sub> suppressed the growth defect caused by <italic>aeg1</italic> depletion (<bold><xref rid="fig3" ref-type="fig">Fig. 3B</xref></bold>), these observations support a model in which the Aeg1-FtsN complex is involved in the activation of FtsQLB and FtsA.</p>
@@ -196,7 +196,7 @@
 <label>Fig. 6</label>
 <caption><title>A model for the function of Aeg1 in cell division of <italic>A. baumannii</italic>.</title>
 <p>In the early stages of Z-ring assembly, anchor proteins FtsA and ZipA tether FtsZ to the inner face of the plasma membrane. In the initial phase of cell division, a small amount of FtsN is recruited to the divisome in a FtsA-dependent manner <bold>(left, recruitment phase)</bold> (<xref ref-type="bibr" rid="c64">64</xref>). The Aeg1-ZipA-FtsN complex acts as a dynamic scaffold for recruiting downstream of Fts proteins. Once more FtsN is recruited to the divisome, it will activate both FtsA and the FtsQLB complex, which in turn activates FtsI in the periplasm (<xref ref-type="bibr" rid="c38">38</xref>). Note that constitutively active form of FtsA (FtsA&#x002A;) acts on FtsW in the cytoplasm (<xref ref-type="bibr" rid="c35">35</xref>) so did the hyperactive mutants FtsA<sub>E202K</sub>. These mutants all bypassed the need of Aeg1 <bold>(right, activation phase)</bold>. Constitutively active mutants were indicated by a star. The red arrows next to FtsA<sub>E202K</sub> or FtsB<sub>E65A</sub> indicate overexpression of these mutants.</p></caption>
-<graphic xlink:href="538182v2_fig6.tif"/>
+<graphic xlink:href="538182v3_fig6.tif"/>
 </fig>
 <p>It is worth noting that that although homologs of Aeg1 are present in many Gram-negative bacteria, including some recent isolate of <italic>E. coli,</italic> it appears to be absent in more extensively studied model strains such as K12 <bold>(<xref ref-type="fig" rid="figs2">Fig. S2</xref>).</bold> It is possible that in strain K12, its activity is conferred by a yet unidentified protein that employs a conserved mechanism in cell division. Future study aiming at elucidating the biochemical and structural basis of the activity of Aeg1 and its homologs, and their relationship with other components of the divisome may provide not only insights into the mechanism of bacterial cell division but also leads for the design of antibiotics with novel mechanism of action.</p>
 </sec>
@@ -220,7 +220,7 @@
 </sec>
 <sec id="s4d">
 <title>Ethyl methanesulfonate (EMS) mutagenesis</title>
-<p>The <italic>A. baumannii</italic> strain &#x0394;<italic>aeg1</italic>(P<sub>BAD</sub>::Aeg1) was grown in LB broth containing 1&#x0025; ara to saturation, cells from 2-mL culture collected by centrifugation were washed twice with cold buffer A [60 mM K<sub>2</sub>HPO<sub>4</sub>, 33 mM KH<sub>2</sub>PO<sub>4</sub>, 7.6 mM (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>, 1.7 mM sodium citrate, PH&#x003D;7]. Cells resuspended in 2 buffer A supplemented with 1.4&#x0025; EMS were incubated in a shaker (220 rpm) at 37&#x00B0;C for 15 min for 30 min, 45 min and 60 min, respectively. Treated cells harvested by centrifugation were washed twice with buffer A prior to being plated onto LB agar supplemented with 5&#x0025; glucose. Colonies appeared were purified and tested by spotting diluted cells onto LB agar with or without ara, respectively to confirm the ability to grown in the absence Aeg1. To eliminate the possibility that the ara-independent growth phenotype was due to mutations in the P<sub>BAD</sub> promoter, the plasmid from each mutant candidate was rescued and the promoter region was sequenced. Only mutants harboring an intact P<sub>BAD</sub> promoter were retained for further study.</p>
+<p>The <italic>A. baumannii</italic> strain &#x0394;<italic>aeg1</italic>(P<sub>BAD</sub>::Aeg1) was grown in LB broth containing 1&#x0025; ara to saturation, cells from 2-mL culture collected by centrifugation were washed twice with cold buffer A [60 mM K<sub>2</sub>HPO<sub>4</sub>, 33 mM KH<sub>2</sub>PO<sub>4</sub>, 7.6 mM (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>, 1.7 mM sodium citrate, PH&#x003D;7]. Cells resuspended in 2x buffer A supplemented with 1.4&#x0025; EMS were incubated in a shaker (220 rpm) at 37&#x00B0;C for 15 min for 30 min, 45 min and 60 min, respectively. Treated cells harvested by centrifugation were washed twice with buffer A prior to being plated onto LB agar supplemented with 5&#x0025; glucose. Colonies appeared were purified and tested by spotting diluted cells onto LB agar with or without ara, respectively to confirm the ability to grown in the absence Aeg1. To eliminate the possibility that the ara-independent growth phenotype was due to mutations in the P<sub>BAD</sub> promoter, the plasmid from each mutant candidate was rescued and the promoter region was sequenced. Only mutants harboring an intact P<sub>BAD</sub> promoter were retained for further study.</p>
 <p>Genome sequencing was performed by Suzhou Golden Wisdom Biological Technology Co., Ltd, and mutations were identified using the genome of the parent strain ATCC 17978 as reference (<xref ref-type="bibr" rid="c26">26</xref>).</p>
 </sec>
 <sec id="s4e">
@@ -322,63 +322,63 @@
 <fig id="figs1" position="float" orientation="portrait" fig-type="figure">
 <label>Fig. S1</label>
 <caption><p><italic>aeg1</italic> is essential for <italic>A. baumannii</italic> growth in the VBS medium. Strains were tested for growth by spotting serially diluted cells on medium with or without 1&#x0025; arabinose. Images were acquired after incubation at 37&#x00B0;C for 18 h. Similar results were obtained in at least three independent experiments.</p></caption>
-<graphic xlink:href="538182v2_figs1.tif"/>
+<graphic xlink:href="538182v3_figs1.tif"/>
 </fig>
 <fig id="figs2" position="float" orientation="portrait" fig-type="figure">
 <label>Fig. S2</label>
 <caption><title>Alignment of Aeg1 homologs from a few Gram-negative bacteria.</title>
 <p>Aeg1 of <italic>A. baumannii</italic> and its homologs from a member of the <italic>Moraxellaceae</italic> family, <italic>E. coli</italic> (strain s_6558), <italic>Klebsiella pneumoniae</italic> (strain 4300STDY7045912), and <italic>Salmonella enterica</italic> (strain 350627) were compared with Jalview. Homology from high to low was presented in dark red, orange, yellow, light yellow, or no highlight.</p></caption>
-<graphic xlink:href="538182v2_figs2.tif"/>
+<graphic xlink:href="538182v3_figs2.tif"/>
 </fig>
 <fig id="figs3" position="float" orientation="portrait" fig-type="figure">
 <label>Fig. S3</label>
 <caption><title>Alignment of Fts proteins between <italic>A. baumannii</italic> and <italic>E. coli</italic>.</title>
 <p>The FtsA, FtsB, FtsL, FtsW, and FtsI proteins from <italic>A. baumannii</italic> and <italic>E. coli</italic> were compared using Jalview. The residues highlighted by blue boxes indicate the site of dominant active sites in <italic>E. coli</italic> proteins, and corresponding mutations were made in their <italic>A. baumannii</italic> counterparts.</p></caption>
-<graphic xlink:href="538182v2_figs3.tif"/>
+<graphic xlink:href="538182v3_figs3.tif"/>
 </fig>
 <fig id="figs4" position="float" orientation="portrait" fig-type="figure">
 <label>Fig. S4</label>
 <caption><title>&#x0394;<italic>aeg1</italic>(P<sub>BAD</sub>::mCherry)strain unable to exhibit expression of Aeg1-mCherry after 6 h period without ara.</title>
 <p>Cells of derivatives of strain &#x0394;<italic>aeg1</italic>(P<sub>BAD</sub>::mCherry-Aeg1) expressing mCherry fusion of Aeg1 from the P<sub>BAD</sub> promoter grown in medium with ara were processed for imaging. Bar, 10 &#x00B5;m. Images are representative of three parallel cultures.</p></caption>
-<graphic xlink:href="538182v2_figs4.tif"/>
+<graphic xlink:href="538182v3_figs4.tif"/>
 </fig>
 <table-wrap id="tbls1" orientation="portrait" position="float">
 <label>Table S1</label><caption><title>candidate essential genes examined in this study</title></caption>
-<graphic xlink:href="538182v2_tbls1.tif"/>
+<graphic xlink:href="538182v3_tbls1.tif"/>
 </table-wrap>
 <table-wrap id="tbls2" orientation="portrait" position="float">
 <label>Table S2</label><caption><title>Substitution mutations and insertion-deletion (InDel) mutations of M1 and M2 compared with <italic>A. baumannii</italic> strain ATCC 17978 genome sequence</title></caption>
-<graphic xlink:href="538182v2_tbls2.tif"/>
-<graphic xlink:href="538182v2_tbls2a.tif"/>
-<graphic xlink:href="538182v2_tbls2b.tif"/>
-<graphic xlink:href="538182v2_tbls2c.tif"/>
-<graphic xlink:href="538182v2_tbls2d.tif"/>
-<graphic xlink:href="538182v2_tbls2e.tif"/>
-<graphic xlink:href="538182v2_tbls2f.tif"/>
-<graphic xlink:href="538182v2_tbls2g.tif"/>
-<graphic xlink:href="538182v2_tbls2h.tif"/>
-<graphic xlink:href="538182v2_tbls2i.tif"/>
-<graphic xlink:href="538182v2_tbls2j.tif"/>
-<graphic xlink:href="538182v2_tbls2k.tif"/>
-<graphic xlink:href="538182v2_tbls2l.tif"/>
-<graphic xlink:href="538182v2_tbls2m.tif"/>
-<graphic xlink:href="538182v2_tbls2n.tif"/>
-<graphic xlink:href="538182v2_tbls2o.tif"/>
-<graphic xlink:href="538182v2_tbls2p.tif"/>
-<graphic xlink:href="538182v2_tbls2q.tif"/>
-<graphic xlink:href="538182v2_tbls2r.tif"/>
-<graphic xlink:href="538182v2_tbls2s.tif"/>
+<graphic xlink:href="538182v3_tbls2.tif"/>
+<graphic xlink:href="538182v3_tbls2a.tif"/>
+<graphic xlink:href="538182v3_tbls2b.tif"/>
+<graphic xlink:href="538182v3_tbls2c.tif"/>
+<graphic xlink:href="538182v3_tbls2d.tif"/>
+<graphic xlink:href="538182v3_tbls2e.tif"/>
+<graphic xlink:href="538182v3_tbls2f.tif"/>
+<graphic xlink:href="538182v3_tbls2g.tif"/>
+<graphic xlink:href="538182v3_tbls2h.tif"/>
+<graphic xlink:href="538182v3_tbls2i.tif"/>
+<graphic xlink:href="538182v3_tbls2j.tif"/>
+<graphic xlink:href="538182v3_tbls2k.tif"/>
+<graphic xlink:href="538182v3_tbls2l.tif"/>
+<graphic xlink:href="538182v3_tbls2m.tif"/>
+<graphic xlink:href="538182v3_tbls2n.tif"/>
+<graphic xlink:href="538182v3_tbls2o.tif"/>
+<graphic xlink:href="538182v3_tbls2p.tif"/>
+<graphic xlink:href="538182v3_tbls2q.tif"/>
+<graphic xlink:href="538182v3_tbls2r.tif"/>
+<graphic xlink:href="538182v3_tbls2s.tif"/>
 </table-wrap>
 <table-wrap id="tbls3" orientation="portrait" position="float">
 <label>Table S3</label><caption><title>Bacterial strains, plasmids and primers used in this study</title></caption>
-<graphic xlink:href="538182v2_tbls3.tif"/>
-<graphic xlink:href="538182v2_tbls3a.tif"/>
-<graphic xlink:href="538182v2_tbls3b.tif"/>
-<graphic xlink:href="538182v2_tbls3c.tif"/>
-<graphic xlink:href="538182v2_tbls3d.tif"/>
-<graphic xlink:href="538182v2_tbls3e.tif"/>
-<graphic xlink:href="538182v2_tbls3f.tif"/>
-<graphic xlink:href="538182v2_tbls3g.tif"/>
+<graphic xlink:href="538182v3_tbls3.tif"/>
+<graphic xlink:href="538182v3_tbls3a.tif"/>
+<graphic xlink:href="538182v3_tbls3b.tif"/>
+<graphic xlink:href="538182v3_tbls3c.tif"/>
+<graphic xlink:href="538182v3_tbls3d.tif"/>
+<graphic xlink:href="538182v3_tbls3e.tif"/>
+<graphic xlink:href="538182v3_tbls3f.tif"/>
+<graphic xlink:href="538182v3_tbls3g.tif"/>
 </table-wrap>
 </sec>
 </back>
