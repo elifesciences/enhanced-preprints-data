@@ -280,19 +280,25 @@
 <p>All vestibular-specific tests were performed in a temperature-controlled room with all sources of light turned off except for computer screens. The turntable was further surrounded with a closed box to isolate the animal from remaining light, with a final luminance inside the box &#x003C;0.02 lux. Myosis was induced with topical 2&#x0025; pilocarpine applied 10 minutes before experimentation.</p>
 <p><italic>Vestibulo ocular reflex in dark (VORd) tests</italic> were performed in the dark with the mouse surrounded by an opaque black dome (Fig1.A). Sinusoidal angular rotations around the vertical axis were used to record the horizontal angular vestibulo-ocular reflex (aVOR), at different frequencies: 0.2, 0.5, 0.8; 1 and 2Hz at a peak velocity of 30&#x00B0;/s.</p>
 <p><italic>Angular vestibulo-ocular reflex</italic> analysis was similar to the one described in <xref ref-type="bibr" rid="c17">Carcaud et al. 2017</xref>. Segments of data with saccades were excluded from VOR slow-phase analysis. For horizontal sinusoidal rotations, at least 10 cycles were analyzed for each frequency. VOR gain and phase were determined by the least-squares optimization of the equation:
+<disp-quote/>
 <disp-formula>
 <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="535725v2_ueqn1.gif"/>
 </disp-formula>
+<disp-quote/>
 where EHv(t) is eye horizontal velocity, g (gain) is a constant value, HHv (t) is head horizontal velocity, td is the dynamic lag time (in msec) of the eye movement with respect to the head movement, and C<sup>te</sup> is an offset. The td was used to calculate the corresponding phase (&#x03C6;&#x00B0;) of eye velocity relative to head velocity. The Variance-Accounted-For (VAF) of each fit was computed as
+<disp-quote/>
 <disp-formula>
 <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="535725v2_ueqn2.gif"/>
 </disp-formula>
+<disp-quote/>
 where <italic>var</italic> represents variance, <italic>est</italic> represents the modeled eye velocity, and <italic>EHv</italic> represents the actual eye horizontal velocity. VAF values for VOR measures were typically between 0.70 &#x2013; 1 (&#x003E;95&#x0025; of recordings), where a VAF of 1 indicates a perfect fit to the data. For IDPN-treated mice, abnormally low (&#x003C;0.10) values of gain associated with VAF&#x003C;0.5 were nevertheless included in the gain statistical analysis but specifically reported in grey (<xref rid="fig2" ref-type="fig">Figure 2</xref> &#x0026; Figure 1 supplement). Corresponding phase values were not included in the statistical analysis of the aVOR phase.</p>
 <p><italic>Static Ocular Counter-roll reflex tests</italic> were performed as described in (<xref ref-type="bibr" rid="c81">Simon et al., 2021</xref>) by measuring the vertical eye movement generated in response to different roll angles. The table was moved from left to right in incremental steps of 10&#x00B0; (from 0 to 40&#x00B0;), with static periods of at least 10s between oscillations (Fig1.D) to record the stabilized eye elevation and declination. The OCR gain corresponds to the slope of the linear regression of the vertical eye angle <italic>vs.</italic> the head tilt angles (<xref ref-type="bibr" rid="c67">Oommen and Stahl, 2008</xref>).</p>
 <p><italic>Off vertical axis rotation (OVAR) tests</italic> were performed with the vestibular turntable tilted with a 17&#x00B0; off-axis angle following the methodology described in <xref ref-type="bibr" rid="c4">Beraneck et al., 2012</xref> &#x0026; <xref ref-type="bibr" rid="c46">Idoux et al., 2018</xref>. 50&#x00B0;/s continuous stimulations were performed in a counter-clockwise and then clockwise direction. OVAR generates a continuous change in the head tilt angle, compensated through a maculo-ocular reflex (MOR) by the generation of a horizontal nystagmus compensating for the table constant rotation. This oculomotor response was quantified following the methodology described in <xref ref-type="bibr" rid="c46">Idoux et al 2018</xref>. First, quick-phases were identified and removed. During rotations, the velocity of horizontal slow phases is modulated (modulation, &#x03BC;) around a constant bias (&#x03B2;). Both parameters (&#x03BC; and &#x03B2;) were calculated from the sinusoidal fit of eye horizontal slow-phase velocity using the least-squares optimization of the equation:
+<disp-quote/>
 <disp-formula id="eqn1">
 <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="535725v2_ueqn3.gif"/>
 </disp-formula>
+<disp-quote/>
 where SP(t) is slow-phase velocity, &#x03B2; is the steady-state bias slow phase velocity, &#x03BC; is the modulation of eye velocity, f<sub>0</sub> is the frequency of table rotation, t<sub>d</sub> is the dynamic lag time (in msec) of the eye movement with respect to the head movement. The bias (Maculo-ocular reflex Bias) is reported here as the main index of the MOR response (<xref ref-type="bibr" rid="c43">Hess and Dieringer, 1990</xref>; <xref ref-type="bibr" rid="c4">Beraneck et al., 2012</xref>).</p>
 </sec>
 <sec id="s4g">
