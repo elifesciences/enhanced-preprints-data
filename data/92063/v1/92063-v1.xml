@@ -222,17 +222,23 @@
 </disp-formula>
 <disp-quote/>
 <bold>H</bold> is the Hessian, a 3N &#x00D7; 3N matrix that can be constructed from 3-D atomic coordinate information and is composed of the second derivatives of the harmonic potential with respect to the components of the position&#x2019;s vectors of length 3N. The hessian inverse in this equation may be replaced with the covariance matrix <bold>G</bold> obtained from MD simulations as follows.
+<disp-quote/>
 <disp-formula id="eqn2">
 <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="557827v1_eqn2.gif"/>
 </disp-formula>
+<disp-quote/>
 MD simulations were used to obtain the DFI profiles of Omicron, Omicron XBB, and Omicron XBB 1.5. In order to obtain DFI, each position in the structure was perturbed sequentially to generate a Perturbation Response Matrix <bold><italic>A</italic></bold>
+<disp-quote/>
 <disp-formula id="eqn3">
 <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="557827v1_eqn3.gif"/>
 </disp-formula>
+<disp-quote/>
 where <inline-formula><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="557827v1_inline1.gif"/></inline-formula> is the magnitude of fluctuation response at position <italic>i</italic> due to perturbations at position <italic>j. T</italic>he DFI value of position <italic>i</italic> is then treated as the displacement response of position <italic>i</italic> relative to the net displacement response of the entire protein, which is calculated by sequentially perturbing each position in the structure.
+<disp-quote/>
 <disp-formula id="eqn4">
 <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="557827v1_eqn4.gif"/>
 </disp-formula>
+<disp-quote/>
 It is also often useful to quantify position flexibility relative to the flexibility ranges unique to individual structures. To that end, DFI can be presented as a percentile rank, &#x0025;DFI. All &#x0025;DFI calculations present in this work used the DFI value of every residue of the full spike structure for ranking. The DFI parameter can be considered a measure of a given amino acid position&#x2019;s ability to explore its local conformational space.</p>
 </sec>
 <sec id="s4b">
