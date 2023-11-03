@@ -216,9 +216,11 @@
 <sec id="s4a">
 <title>Dynamic Flexibility and Dynamic Coupling</title>
 <p>The Dynamic Flexibility Index utilizes a Perturbation Response Scanning technique that combines the Elas-tic Network Model (ENM) and Linear Response Theory (LRT) (<xref ref-type="bibr" rid="c37">Gerek and Ozkan 2011</xref>; <xref ref-type="bibr" rid="c94">Nevin Gerek, Z., Kumar, S., Banu Ozkan, S. 2013</xref>). In ENM, the protein is considered as a network of beads at C&#x03B1; positions interacting with each other via a harmonic spring potential. Using LRT, &#x0394;<bold>R</bold> is calculated as the fluctuation response vector of residue <italic>j</italic> due to unit force&#x2019;s <bold>F</bold> perturbation on residue <italic>i,</italic> averaged over multiple unit force directions to simulate an isotropic perturbation.
+<disp-quote/>
 <disp-formula id="eqn1">
 <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="557827v1_eqn1.gif"/>
 </disp-formula>
+<disp-quote/>
 <bold>H</bold> is the Hessian, a 3N &#x00D7; 3N matrix that can be constructed from 3-D atomic coordinate information and is composed of the second derivatives of the harmonic potential with respect to the components of the position&#x2019;s vectors of length 3N. The hessian inverse in this equation may be replaced with the covariance matrix <bold>G</bold> obtained from MD simulations as follows.
 <disp-formula id="eqn2">
 <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="557827v1_eqn2.gif"/>
