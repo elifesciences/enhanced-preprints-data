@@ -30,18 +30,17 @@
 <article-title>Effort cost of harvest affects decisions and movement vigor of marmosets during foraging</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7006-9877</contrib-id><name><surname>Hage</surname><given-names>Paul</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7006-9877</contrib-id><name><surname>Hage</surname><given-names>Paul</given-names></name><email>paulhage@jhu.edu</email><xref ref-type="aff" rid="aff1">1</xref></contrib>
 <contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1832-3743</contrib-id><name><surname>Jang</surname><given-names>In Kyu</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib>
 <contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9392-4178</contrib-id><name><surname>Looi</surname><given-names>Vivian</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib>
 <contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7741-8689</contrib-id><name><surname>Fakharian</surname><given-names>Mohammad Amin</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib>
 <contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6092-7228</contrib-id><name><surname>Orozco</surname><given-names>Simon P.</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib>
 <contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4036-2877</contrib-id><name><surname>Pi</surname><given-names>Jay S.</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib>
 <contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6732-1296</contrib-id><name><surname>Sedaghat-Nejad</surname><given-names>Ehsan</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib>
-<contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7686-2569</contrib-id><name><surname>Shadmehr</surname><given-names>Reza</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7686-2569</contrib-id><name><surname>Shadmehr</surname><given-names>Reza</given-names></name><email>shadmehr@jhu.edu</email><xref ref-type="aff" rid="aff1">1</xref></contrib>
 <aff id="aff1"><label>1</label>Laboratory for Computational Motor Control, Dept. of Biomedical Engineering Johns Hopkins School of Medicine, Baltimore, Maryland USA</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1"><bold>Correspondence:</bold> Paul Hage or Reza Shadmehr, Johns Hopkins School of Medicine, 410 Traylor Building, 720 Rutland Ave., Baltimore, MD 21205. Email: <email>paulhage@jhu.edu</email> or <email>shadmehr@jhu.edu</email></corresp>
 <fn id="n1" fn-type="equal"><p><bold>Author contributions:</bold> P.H., S.P.O., E.S., J.S.P. and R.S. conceived and performed experiments. P.H., I.K.J., V.L., M.A.F., E.S., and J.S.P. analyzed data, P.H. made figures and performed statistical analysis. R.S. and P.H. wrote the manuscript.</p></fn>
 <fn id="n2" fn-type="others"><p><bold>Competing interests:</bold> None.</p></fn>
 <fn id="n3" fn-type="others"><p><bold>Data availability:</bold> <ext-link ext-link-type="uri" xlink:href="https://osf.io/54JS6">https://osf.io/54JS6</ext-link></p></fn>
