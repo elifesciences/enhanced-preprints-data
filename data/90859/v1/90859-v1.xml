@@ -389,8 +389,8 @@ It is useful to re-express the above two equations in terms of actual time <ital
 <title>Acknowledgments</title>
 <p>We thank Shushruth, NaYoung So, and David Gruskin for comments on the manuscript, Cornel Duhaney and Brian Madeira for their assistance in the planning and execution of surgeries, animal training and general support, and we thank Columbia University&#x2019;s ICM for the quality of care they provide for our animals, especially during the pandemic and lockdown. We would further like to thank Tanya Tabachnik and her team at the Zuckerman Institute Advanced Instrumentation Core and Tim Harris, Wei-lung Sun, Jennifer Colonell, and Bill Karsh at HHMI Janelia for their continued support with Neuropixels1.0-NHP45 probes development and testing. This research was supported by the Howard Hughes Medical Institute&#x037E; an R01 grant from the NIH Brain Initiative (M.N.S., R01NS113113)&#x037E; a T32 and F31 grant from the National Eye Institute (G.M.S, T32 EY013933, F31 EY032791)&#x037E; the Grossman center&#x037E; and the Brain and Behavior Research Foundation.</p>
 </ack>
-<sec>
-<title>Author contributions</title>
+<sec><title>Author contributions</title>
+<p>Natalie A Steinemann and Gabriel M Stine contributed equally to this work. Ariel Zylberberg, Daniel M Wolpert, and Michael N Shadlen contributed equally to this work.</p>
 <p>G.M.S. and M.N.S. designed the experiment. N.A.S., G.M.S. and E.M.T. implemented the experimental set-up. G.M.S. collected the data. N.A.S., G.M.S., A.Z., D.M.W and M.N.S. analyzed the data. All authors wrote the manuscript.</p>
 </sec>
 <sec>
