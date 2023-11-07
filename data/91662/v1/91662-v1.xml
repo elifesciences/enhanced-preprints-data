@@ -258,16 +258,14 @@
 <back>
 <ack>
 <title>Acknowledgments</title>
-</ack>
 <sec id="s5">
 <title>Funding</title>
 <p>We acknowledge the generous support of the Washington Research Foundation Postdoctoral Fellowship to DB, the Research Scholarship from the Mary Gates Endowment for Students to KY, the Wellcome Trust (216324),</p>
 <p>Simons Foundation, and NIH Grant U19NS123716 to the IBL.</p>
-</sec>
-<sec id="s6">
+</sec><sec id="s6">
 <title>Acknowledgements</title>
 <p>We thank Kai Nylund for help designing an early prototype, the Steinmetz Lab and International Brain Laboratory for feedback on the user experience and interface, and Sensapex and New Scale Technologies for their assistance with SDK access to their hardware platforms.</p>
-</sec>
+</sec></ack>
 <sec id="s7">
 <title>Contributions</title>
 <p>DB -conceptualization, software, supervision, funding acquisition, visualization, methodology, project administration, writing -original draft &#x0026; review and editing, KY -software, visualization, SJ -formal analysis, methodology, BK -software, JS -software, writing -review and editing, YB -methodology, software, IBL -funding acquisition, writing -review and editing, NS -conceptualization, supervision, funding acquisition, writing -review and editing.</p>
