@@ -40,10 +40,7 @@
 <name><surname>Klipp</surname><given-names>Robert C.</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
-<contrib contrib-type="author">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8099-716X</contrib-id>
-<name><surname>Camenisch</surname><given-names>Abigail</given-names></name>
-</contrib>
+<contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8099-716X</contrib-id><name><surname>Camenisch</surname><given-names>Abigail</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib>
 <contrib contrib-type="author" corresp="yes">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9478-2335</contrib-id>
 <name><surname>Bankston</surname><given-names>John R.</given-names></name>
