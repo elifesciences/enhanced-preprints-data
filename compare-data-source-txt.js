@@ -43,7 +43,6 @@ async function iterateDirectory(directory) {
             }
         }
     }
-
 }
 
 iterateDirectory(SOURCE_FOLDER);
