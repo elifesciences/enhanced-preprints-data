@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const SOURCE_FOLDER = './data';
-const DEST_FOLDER = './data-new';
+const SOURCE_FOLDER = 'data';
+const DEST_FOLDER = 'data-new';
 const SOURCE_FILE_NAME = 'source.txt';
 
 function compare(source, dest) {
@@ -36,7 +36,14 @@ async function iterateDirectory(directory) {
                 if (isIdentical) {
                     console.log(`File ${fullPath} is identical to ${destPath}`);
                 } else {
-                    console.log(`File ${fullPath} is different from ${destPath}`);
+                    console.log({
+                        msg: `File ${fullPath} is different from ${destPath}`,
+                        source: fullPath,
+                        sourceContent: fs.readFileSync(fullPath, 'utf-8'),
+                        dest: destPath,
+                        destContent: fs.readFileSync(destPath, 'utf-8')
+                        },
+                    )    
                 }
             } else {
                 console.log(`Corresponding file does not exist at ${destPath}`);
