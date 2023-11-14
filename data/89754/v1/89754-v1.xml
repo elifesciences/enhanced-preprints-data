@@ -61,19 +61,8 @@
 <name><surname>Peng</surname><given-names>Yi</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
-<contrib contrib-type="author">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0437-4723</contrib-id>
-<name><surname>Hu</surname><given-names>Guang</given-names></name>
-<xref ref-type="aff" rid="a4">4</xref>
-<xref ref-type="corresp" rid="cor1">&#x0023;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3653-2389</contrib-id>
-<name><surname>Lin</surname><given-names>Jiaji</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="corresp" rid="cor1">&#x0023;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0437-4723</contrib-id><name><surname>Hu</surname><given-names>Guang</given-names></name><email>hug4@niehs.nih.gov</email><xref ref-type="aff" rid="a4">4</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3653-2389</contrib-id><name><surname>Lin</surname><given-names>Jiaji</given-names></name><email>jiaji90@outlook.com</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib>
 <aff id="a1"><label>1</label>Department of Neurology, The Second Affiliated Hospital of Air Force Medical University, Xi&#x2019;an, 710038, China</aff>
 <aff id="a2"><label>2</label>Basic Medical School, Air Force Medical University, Xi&#x2019;an, 710038, China</aff>
 <aff id="a3"><label>3</label>Integrative Bioinformatics Support Group, National Institute of Environmental Health Sciences, Research Triangle Park, North Carolina, 27709, USA</aff>
@@ -82,7 +71,6 @@
 <aff id="a6"><label>6</label>Epigenetics and Stem Cell Biology Laboratory, National Institute of Environmental Health Sciences, Research Triangle Park, North Carolina, 27709, USA</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1"><label>&#x0023;</label><bold>Correspondence to:</bold> Guang Hu, Ph.D., Epigenetics and Stem Cell Biology Laboratory, National Institute of Environmental Health Sciences, Research Triangle Park, North Carolina, 27709, USA. Tel: <phone>984-287-4144</phone>. E-mail: <email>hug4@niehs.nih.gov</email>; Jiaji Lin, Ph.D &#x0026; MD., Department of Neurology, The Second Affiliated Hospital of Air Force Medical University, No.596 Xinsi Road, Xi&#x2019;an, 710038, China. Tel: <phone>029-84777743</phone>. E-mail: <email>jiaji90@outlook.com</email></corresp>
 <fn id="n1" fn-type="supported-by"><p><bold>Funding:</bold> This work has been supported by internal foundation from Air Force Medical University (21QNPY084).</p></fn>
 <fn id="n2" fn-type="others"><p><bold>Competing interests:</bold> The authors report no competing interests or financial issues.</p></fn>
 </author-notes>
