@@ -46,19 +46,8 @@
 <xref ref-type="aff" rid="a1">1</xref>
 <xref ref-type="author-notes" rid="n2">&#x005E;</xref>
 </contrib>
-<contrib contrib-type="author">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-1496-919X</contrib-id>
-<name><surname>Upadhyaya</surname><given-names>Arpita</given-names></name>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="aff" rid="a3">3</xref>
-<xref ref-type="aff" rid="a4">4</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8795-8657</contrib-id>
-<name><surname>Song</surname><given-names>Wenxia</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-1496-919X</contrib-id><name><surname>Upadhyaya</surname><given-names>Arpita</given-names></name><email>arpitau@umd.edu</email><xref ref-type="aff" rid="a2">2</xref><xref ref-type="aff" rid="a3">3</xref><xref ref-type="aff" rid="a4">4</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8795-8657</contrib-id><name><surname>Song</surname><given-names>Wenxia</given-names></name><email>wenxsong@umd.edu</email><xref ref-type="aff" rid="a1">1</xref></contrib>
 <aff id="a1"><label>1</label>Department of Cell Biology and Molecular Genetics, University of Maryland, College Park, MD 20742, USA</aff>
 <aff id="a2"><label>2</label>Biophysics Program, University of Maryland, College Park, MD, 20742, USA</aff>
 <aff id="a3"><label>3</label>Department of Physics, University of Maryland, College Park, MD, 20742, USA. <email>arpitau@umd.edu</email></aff>
@@ -67,7 +56,6 @@
 <author-notes>
 <fn id="n1" fn-type="present-address"><label>&#x2020;</label><p>Department of Pharmacology, University of California, San Diego, CA, 92034, USA</p></fn>
 <fn id="n2" fn-type="present-address"><label>&#x005E;</label><p>AstraZeneca, Gaithersburg, MD 20878, United States</p></fn>
-<corresp id="cor1"><label>&#x002A;</label>Authors for correspondence: <email>wenxsong@umd.edu</email> and <email>arpitau@umd.edu</email></corresp>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.03.14.532631</elocation-id>
