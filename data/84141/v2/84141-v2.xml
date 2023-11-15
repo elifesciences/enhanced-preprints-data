@@ -46,15 +46,11 @@
 <name><surname>Perona</surname><given-names>Pietro</given-names></name>
 <xref ref-type="aff" rid="a2">2</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Meister</surname><given-names>Markus</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Meister</surname><given-names>Markus</given-names></name><email>meister@caltech.edu</email><xref ref-type="aff" rid="a1">1</xref></contrib>
 <aff id="a1"><label>1</label>Division of Biology and Biological Engineering, California Institute of Technology</aff>
 <aff id="a2"><label>2</label>Division of Engineering and Applied Science, California Institute of Technology</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1"><label>&#x002A;</label> Corresponding author; email: <email>meister@caltech.edu</email></corresp>
 <fn fn-type="others"><p>{<email>tonyzhang@caltech.edu</email>, <email>zjing@caltech.edu</email>, <email>perona@caltech.edu</email>, <email>meister@caltech.edu</email>}, <email>mhr3@princeton.edu</email></p></fn>
 </author-notes>
 <pub-date pub-type="epub">
