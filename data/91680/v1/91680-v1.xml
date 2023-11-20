@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2d1 20170631//EN" "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="article" dtd-version="1.2d1" specific-use="production" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">BIORXIV</journal-id>
+<journal-title-group>
+<journal-title>bioRxiv</journal-title>
+<abbrev-journal-title abbrev-type="publisher">bioRxiv</abbrev-journal-title>
+</journal-title-group>
+<publisher>
+<publisher-name>Cold Spring Harbor Laboratory</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1101/2022.03.16.484641</article-id>
+<article-version>1.2</article-version>
+<article-categories>
+<subj-group subj-group-type="author-type">
+<subject>Regular Article</subject>
+</subj-group>
+<subj-group subj-group-type="heading">
+<subject>New Results</subject>
+</subj-group>
+<subj-group subj-group-type="hwp-journal-coll">
+<subject>Biophysics</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Interface resistance of biomolecular condensates</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4587-6834</contrib-id>
+<name><surname>Zhang</surname><given-names>Yaojun</given-names></name>
+<xref ref-type="aff" rid="a1">1</xref>
+<xref ref-type="aff" rid="a2">2</xref>
+<xref ref-type="aff" rid="a3">3</xref>
+<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Pyo</surname><given-names>Andrew G.T.</given-names></name>
+<xref ref-type="aff" rid="a4">4</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Jiang</surname><given-names>Yoyo</given-names></name>
+<xref ref-type="aff" rid="a2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Brangwynne</surname><given-names>Clifford P.</given-names></name>
+<xref ref-type="aff" rid="a5">5</xref>
+<xref ref-type="aff" rid="a6">6</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Stone</surname><given-names>Howard A.</given-names></name>
+<xref ref-type="aff" rid="a7">7</xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7384-2821</contrib-id>
+<name><surname>Wingreen</surname><given-names>Ned S.</given-names></name>
+<xref ref-type="aff" rid="a8">8</xref>
+<xref ref-type="aff" rid="a9">9</xref>
+<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
+</contrib>
+<aff id="a1"><label>1</label>Center for the Physics of Biological Function, Princeton University, Princeton, United States</aff>
+<aff id="a2"><label>2</label>Department of Physics and Astronomy, Johns Hopkins University, Baltimore, United States</aff>
+<aff id="a3"><label>3</label>Department of Biophysics, Johns Hopkins University, Baltimore, United States</aff>
+<aff id="a4"><label>4</label>Department of Physics, Princeton University, Princeton, United States</aff>
+<aff id="a5"><label>5</label>Department of Chemical and Biological Engineering, Princeton University, Princeton, United States</aff>
+<aff id="a6"><label>6</label>Howard Hughes Medical Institute, Chevy Chase, United States</aff>
+<aff id="a7"><label>7</label>Department of Mechanical and Aerospace Engineering, Princeton University, Princeton, United States</aff>
+<aff id="a8"><label>8</label>Department of Molecular Biology, Princeton University, Princeton, United States</aff>
+<aff id="a9"><label>9</label>Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, United States</aff>
+</contrib-group>
+<author-notes>
+<corresp id="cor1"><label>&#x002A;</label><bold>For correspondence:</bold> <email>yaojunz@jhu.edu</email> (YZ); <email>wingreen@princeton.edu</email> (NSW)</corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<year>2023</year>
+</pub-date>
+<elocation-id>2022.03.16.484641</elocation-id>
+<history>
+<date date-type="received">
+<day>16</day>
+<month>3</month>
+<year>2022</year>
+</date>
+<date date-type="rev-recd">
+<day>18</day>
+<month>8</month>
+<year>2023</year>
+</date>
+<date date-type="accepted">
+<day>19</day>
+<month>8</month>
+<year>2023</year>
+</date>
+</history>
+<permissions>
+<copyright-statement>&#x00A9; 2023, Posted by Cold Spring Harbor Laboratory</copyright-statement>
+<copyright-year>2023</copyright-year>
+<license license-type="creative-commons" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><license-p>This pre-print is available under a Creative Commons License (Attribution-NonCommercial-NoDerivs 4.0 International), CC BY-NC-ND 4.0, as described at <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link></license-p></license>
+</permissions>
+<self-uri xlink:href="484641.pdf" content-type="pdf" xlink:role="full-text"/>
+<abstract>
+<title>Abstract</title>
+<p>A hallmark of biomolecular condensates formed via liquid-liquid phase separation is that they dynamically exchange materials with their surroundings, and this can be crucial to condensate function. How is this rate of exchange controlled? Intuitively, the rate can be limited by the flux from the dilute phase or by the mixing speed in the dense phase. Surprisingly, recent experiments suggest that the exchange rate can instead be limited by the dynamics of molecules at the droplet interface, implying the existence of an &#x201C;interface resistance&#x201D;. We combine theory and simulation to show that interface resistance can arise when incident molecules transiently touch the interface without bonding to the dense phase, i.e., the molecules &#x201C;bounce&#x201D; from the interface. This occurs when the molecules can adopt conformations that limit the accessibility of their sticky regions. Our work highlights the underappreciated role of interface resistance, with implications for both natural and synthetic condensates.</p>
+</abstract>
+<counts>
+<page-count count="21"/>
+</counts>
+</article-meta>
+<notes>
+<notes notes-type="competing-interest-statement">
+<title>Competing Interest Statement</title><p>The authors have declared no competing interest.</p></notes>
+<fn-group content-type="summary-of-updates">
+<title>Summary of Updates:</title>
+<fn fn-type="update"><p>The manuscript text has been revised for improved clarity. Figure 3F has been included, along with the addition of two Appendices and figures therein.</p></fn>
+</fn-group>
+</notes>
+</front>
+<body>
+<sec id="s1">
+<title>Introduction</title>
+<p>The interior of cells is organized in both space and time by biomolecular condensates, which form and dissolve as needed <bold><italic><xref ref-type="bibr" rid="c25">Shin and Brangwynne (2017</xref></italic></bold>); <bold><italic><xref ref-type="bibr" rid="c3">Banani et al. (2017</xref></italic></bold>). These condensates play key roles in processes ranging from transcription to translation, metabolism, signaling, and more <bold><italic><xref ref-type="bibr" rid="c1">An et al. (2008</xref></italic></bold>); <bold><italic><xref ref-type="bibr" rid="c26">Su et al. (2016</xref></italic></bold>); <bold><italic><xref ref-type="bibr" rid="c23">Sabari et al. (2018</xref></italic></bold>); <bold><italic><xref ref-type="bibr" rid="c10">Formicola et al. (2019</xref></italic></bold>). The complex interactions among their components endow condensates with distinct physical properties, including low surface tension, viscoelasticity, aging, etc. These distinct properties are crucial to the ability of condensates to carry out their unique biological functions. Here, we focus on one important physical property of condensates &#x2013; the rate of exchange of material between condensed and dilute phases. This rate of exchange can impact biochemical processes taking place in condensates by limiting the escape of completed products, such as ribosomes produced in nucleoli <bold><italic><xref ref-type="bibr" rid="c29">Yao et al. (2019</xref></italic></bold>), or limiting the availability of components or regulatory molecules (e.g., snoRNAs and ribosomal proteins entering nucleoli, or mRNAs entering P bodies or stress granules). The rate of exchange can also control the dynamical response of condensates to a changing environment, and, as exchange between dense and dilute phase is central to coarsening via Ostwald ripening, it can regulate the number, size, and location of condensates within the cell.</p>
+<p>The material exchange between a condensate and the surrounding dilute phase can be probed via FRAP experiments, a commonly used approach for measuring condensate fluidity and molecular diffusion coefficients. Exchange dynamics are thus readily measurable and have been reported for a variety of systems <bold><italic><xref ref-type="bibr" rid="c16">Li et al. (2012</xref></italic></bold>); <bold><italic><xref ref-type="bibr" rid="c18">Patel et al. (2015</xref></italic></bold>); <bold><italic><xref ref-type="bibr" rid="c7">Burke et al. (2015</xref></italic></bold>); <bold><italic><xref ref-type="bibr" rid="c4">Banani et al. (2016</xref></italic></bold>); <bold><italic><xref ref-type="bibr" rid="c12">Jain et al. (2016</xref></italic></bold>); <bold><italic><xref rid="c2" ref-type="bibr">Aumiller Jr et al. (2016</xref></italic></bold>). However, only a very limited number of studies <bold><italic><xref ref-type="bibr" rid="c27">Taylor et al. (2019</xref></italic></bold>); <bold><italic><xref ref-type="bibr" rid="c11">Hubatsch et al. (2021</xref></italic></bold>); <bold><italic><xref ref-type="bibr" rid="c5">Bo et al. (2021</xref></italic></bold>); <bold><italic><xref ref-type="bibr" rid="c9">Folkmann et al. (2021</xref></italic></bold>); <bold><italic><xref ref-type="bibr" rid="c15">Lee (2021</xref></italic></bold>) aimed to understand what controls the timescales of condensate component exchange. Briefly, Taylor <italic>et al</italic>. <bold><italic><xref ref-type="bibr" rid="c27">Taylor et al. (2019</xref></italic></bold>) combined FRAP experiments on condensates <italic>in vitro</italic> and <italic>in vivo</italic> with different theoretical models to examine the impact of model choice on the physical parameters derived from data fitting. Folkmann <italic>et al</italic>. <bold><italic><xref ref-type="bibr" rid="c9">Folkmann et al. (2021</xref></italic></bold>) and Lee <bold><italic><xref ref-type="bibr" rid="c15">Lee (2021</xref></italic></bold>) proposed that the rate of molecular absorption to the condensate can be &#x201C;conversion-limited&#x201D; instead of diffusion-limited and established a mathematical framework for the temporal evolution of droplet sizes in this limit. In all these cases, the modeling of interface resistance <bold><italic><xref ref-type="bibr" rid="c27">Taylor et al. (2019</xref></italic></bold>) or conversion-limited material transfer <bold><italic><xref ref-type="bibr" rid="c9">Folkmann et al. (2021</xref></italic></bold>); <bold><italic><xref ref-type="bibr" rid="c15">Lee (2021</xref></italic></bold>) was conducted at the phenomenological level, without aiming to understand the underlying physical mechanism that gives rise to interface resistance. Hubatsch <italic>et al</italic>. <bold><italic><xref ref-type="bibr" rid="c11">Hubatsch et al. (2021</xref></italic></bold>) and Bo <italic>et al</italic>. <bold><italic><xref ref-type="bibr" rid="c5">Bo et al. (2021</xref></italic></bold>) tackled the exchange dynamics problem by developing, respectively, a continuum theory of macroscopic phase separation and a stochastic Langevin equation of single-molecule trajectories. However, the mean-field approaches in <bold><italic><xref ref-type="bibr" rid="c11">Hubatsch et al. (2021</xref></italic></bold>) and <bold><italic><xref ref-type="bibr" rid="c5">Bo et al. (2021</xref></italic></bold>) neglect the potentially complex dynamics of molecules at the condensate interface, which can slow down material exchange significantly as shown by <bold><italic><xref ref-type="bibr" rid="c27">Taylor et al. (2019</xref></italic></bold>); <bold><italic><xref ref-type="bibr" rid="c9">Folkmann et al. (2021</xref></italic></bold>).</p>
+<p>In the following, we first derive an analytical expression for the timescale of condensate material exchange, which conveys a clear physical picture of what controls this timescale. We then utilize a &#x201C;sticker-spacer&#x201D; polymer model to investigate the mechanism of interface resistance. We find that a large interface resistance can occur when molecules bounce off the interface rather than being directly absorbed.</p>
+</sec>
+<sec id="s2">
+<title>Results</title>
+<sec id="s2a">
+<title>Mathematical formulation of exchange dynamics</title>
+<p>The exchange of molecules between a condensate and the dilute phase can be investigated through FRAP-type experiments in which, e.g., fluorescence is locally bleached and recovery as a function of time recorded (<xref rid="fig1" ref-type="fig">Figure 1A</xref> and <xref ref-type="fig" rid="fig1">B</xref>). Theoretically, the time evolution of the concentration profile <italic>c</italic>(<italic>r, t</italic>) of the molecules initially located in a spherical condensate of radius <italic>R</italic> (bleached population) can be described by the following continuum diffusion equations <bold><italic><xref ref-type="bibr" rid="c27">Taylor et al. (2019</xref></italic></bold>):
+<disp-formula id="eqn1">
+<graphic xlink:href="484641v2_eqn1.gif"/>
+</disp-formula>
+with the initial condition:
+<disp-formula id="eqn2">
+<graphic xlink:href="484641v2_eqn2.gif"/>
+</disp-formula>
+and boundary conditions:
+<disp-formula id="eqn3">
+<graphic xlink:href="484641v2_eqn3.gif"/>
+</disp-formula>
+where <italic>D</italic><sub>den</sub> and <italic>D</italic><sub>dil</sub> are the diffusion coefficients of molecules in the dense and dilute phases, and <italic>c</italic><sub>den</sub> and <italic>c</italic><sub>dil</sub> are the equilibrium concentrations in the dense and dilute phases. The second boundary condition corresponds to flux balance at the interface of the condensate. Specifically, the flux exiting the dense phase (left) equals the flux entering the dilute phase (middle) and also equals the flux passing through the interface (right).</p>
+<fig id="fig1" position="float" fig-type="figure">
+<label>Figure 1.</label>
+<caption><p>FRAP experiments on droplets. (A) Schematic of a FRAP experiment in which an entire droplet is photobleached and the recovery of fluorescence is recorded. Material exchange between the condensate and the surrounding dilute phase can be limited by the flux of unbleached molecules coming from the dilute phase, the speed of internal mixing in the dense phase, or the flux passing through the interface. (B) The recovery time <italic>&#x03C4;</italic> is defined as the time required for fluorescence to return 63&#x0025; (i.e., 1 <italic>&#x2212;</italic> 1<italic>/e</italic>) of the way back to its original level. (C) Experimental data from Ref. <bold><italic><xref ref-type="bibr" rid="c27">Taylor et al. (2019</xref></italic></bold>) in which a LAF-1 droplet of radius <italic>R</italic> = 1 <italic>&#x03BC;</italic>m recovers from photobleaching. (Left) Images before bleaching, immediately after bleaching of the entire droplet region, and at two subsequent times. (Right) Expected recovery time <italic>&#x03C4;</italic><sub>dil</sub> = <italic>c</italic><sub>den</sub><italic>R</italic><sup>2</sup><italic>/</italic>(3 <italic>c</italic><sub>dil</sub> <italic>D</italic><sub>dil</sub>) = 4 s and <italic>&#x03C4;</italic><sub>den</sub> = <italic>R</italic><sup>2</sup><italic>/</italic>(<italic>&#x03C0;</italic><sup>2</sup> <italic>D</italic><sub>den</sub>) = 60 s if the slowest recovery process was the flux from the dilute phase or diffusion within the droplet, respectively, with <italic>D</italic><sub>den</sub> = 0.0017 <italic>&#x03BC;</italic>m<sup>2</sup><italic>/</italic>s, <italic>D</italic><sub>dil</sub> = 94 <italic>&#x03BC;</italic>m<sup>2</sup><italic>/</italic>s, and <italic>c</italic><sub>den</sub><italic>/ c</italic><sub>dil</sub> = 1190 taken from <bold><italic><xref ref-type="bibr" rid="c27">Taylor et al. (2019</xref></italic></bold>). While the timescale associated with interface resistance <italic>&#x03C4;</italic><sub>int</sub> is unknown, the measured recovery time <italic>&#x03C4;</italic> &#x223C; 1 hour is much longer than <italic>&#x03C4;</italic><sub>dil</sub> and <italic>&#x03C4;</italic><sub>den</sub>, suggesting the recovery is limited by flux through the interface, with an interface conductance of <italic>&#x03BA;</italic> = <italic>R/</italic>(3<italic>&#x03C4;</italic>) &#x2243; 10<sup><italic>&#x2212;</italic>4</sup> <italic>&#x03BC;</italic>m<italic>/</italic>s.</p></caption>
+<graphic xlink:href="484641v2_fig1.tif"/>
+</fig>
+<p>To understand the physical origin of the last term in the second boundary condition in <xref ref-type="disp-formula" rid="eqn3">Equation (3)</xref>, we note that the net outward flux across the interface can be written as <italic>k</italic><sub>&#x2212;</sub><italic>c</italic>(<italic>R</italic><sub>&#x2212;</sub>, <italic>t</italic>) &#x2013; <italic>k</italic><sub>&#x002B;</sub> <italic>c</italic>(<italic>R</italic><sub>&#x002B;</sub>, <italic>t</italic>), where <italic>k</italic><sub>&#x002B;/&#x2212;</sub> denotes the entering/exiting rate of molecules at the interface and <italic>c</italic>(<italic>R</italic><sub>&#x002B;/&#x2212;</sub>, <italic>t</italic>) the concentration of bleached molecules immediately outside/inside of the boundary. At thermal equilibrium, this net flux goes to zero, i.e., <italic>k</italic><sub>&#x2212;</sub><italic>c</italic><sub>den</sub> = <italic>k</italic><sub>&#x002B;</sub><italic>c</italic><sub>dil</sub> so <italic>k</italic><sub>&#x002B;</sub>= <italic>k</italic><sub>&#x2212;</sub>(<italic>c</italic><sub>den</sub>/ <italic>c</italic><sub>dil</sub>). The net outward flux is therefore <italic>k</italic><sub>&#x2212;</sub>[<italic>c</italic>(<italic>R</italic><sub>&#x2212;</sub>, <italic>t</italic>) &#x2013; (<italic>c</italic><sub>den</sub>/<italic>c</italic><sub>dil</sub>) <italic>c</italic>(<italic>R</italic><sub>&#x002B;</sub>, <italic>t</italic>). The parameter <italic>&#x03BA;</italic> &#x2261; <italic>k</italic><sub>&#x2212;</sub> is a transfer coefficient that governs the magnitude of this net flux. When the ratio of the concentrations on the two sides of the interface deviates from the equilibrium ratio, a small <italic>&#x03BA;</italic> can kinetically limit the flux going through the interface. We therefore term <italic>&#x03BA;</italic> the interface conductance, the inverse of interface resistance.</p>
+<p>For the model described by <xref ref-type="disp-formula" rid="eqn1">Equations (1)</xref>&#x2013;<xref ref-type="disp-formula" rid="eqn3">(3)</xref>, the fraction of molecules in the condensate which are unbleached at time <italic>t</italic> is
+<disp-formula id="eqn4">
+<graphic xlink:href="484641v2_eqn4.gif"/>
+</disp-formula>
+Clearly, how quickly <italic>f</italic> (<italic>t</italic>) recovers from 0 to 1 quantifies the timescale of material exchange between the condensate and the surrounding dilute phase.</p>
+</sec>
+<sec id="s2b">
+<title>Timescale of condensate component exchange</title>
+<p>The authors of <bold><italic><xref ref-type="bibr" rid="c27">Taylor et al. (2019</xref></italic></bold>) derived an exact solution for <italic>f</italic> (<italic>t</italic>) in an integral form using Laplace transforms. However, it is not directly apparent from the integral expression what physics governs the timescale of fluorescence recovery. In addition, the lengthy integral form of the expression also presents an impediment to its practical experimental applications. To obtain a more intuitive and concise result, we note that diffusion of biomolecules in the dilute phase is typically much faster than diffusion in the dense phase, with measured <italic>D</italic><sub>dil</sub>/ <italic>D</italic><sub>den</sub> in the range of 10<sup>2</sup> <bold>&#x2013;</bold> 10<sup>5</sup> <bold><italic><xref ref-type="bibr" rid="c22">Rosenzweig et al. (2017</xref></italic></bold>); <bold><italic><xref ref-type="bibr" rid="c27">Taylor et al. (2019</xref></italic></bold>). We therefore employed the exact solution to derive an approximate solution in the parameter regime <italic>D</italic><sub>dil</sub> &#x226B; <italic>D</italic><sub>den</sub>:
+<disp-formula id="eqn5">
+<graphic xlink:href="484641v2_eqn5.gif"/>
+</disp-formula>
+where the timescale of fluorescence recovery is given by:
+<disp-formula id="eqn6">
+<graphic xlink:href="484641v2_eqn6.gif"/>
+</disp-formula>
+Please refer to <xref ref-type="app" rid="app1">Appendix 1</xref> for a detailed derivation. We note that, in practice, <italic>D</italic><sub>dil</sub> &#x003E; 20 <italic>D</italic><sub>den</sub> is sufficient for the validity of the approximation with the approximate <italic>&#x03C4;</italic> in <xref ref-type="disp-formula" rid="eqn6">Equation (6)</xref> always within 10&#x0025; of the exact value.</p>
+<p><xref ref-type="disp-formula" rid="eqn6">Equation (6)</xref> conveys a clear physical picture of what controls the timescale of condensate material exchange. First, for large condensates and slow internal diffusion, exchange is limited by the rate of mixing within the condensate, so that <italic>&#x03C4;</italic> &#x2243; <italic>R</italic><sup>2</sup>/(<italic>&#x03C0;</italic><sup>2</sup> <italic>D</italic><sub>den</sub>). Second, if instead diffusion in the dilute phase is sufficiently slow, or the concentration in the dilute phase is very low, then <inline-formula><inline-graphic xlink:href="484641v2_inline1.gif"/></inline-formula>, which is the time required to replace all molecules in the condensate if molecules incident from the dilute phase are immediately absorbed (see <xref ref-type="app" rid="app1">Appendix 1</xref>). Finally, if the interface conductance <italic>&#x03BA;</italic> is very small, the interfacial flux can be rate limiting for exchange, yielding <italic>&#x03C4;</italic> &#x2243; <italic>R</italic>/(3<italic>&#x03BA;</italic>).</p>
+</sec>
+<sec id="s2c">
+<title>Interface conductance <italic>&#x03BA;</italic> from mean-field theory is contradicted by experimental results</title>
+<p>What determines the magnitude of the interface conductance <italic>&#x03BA;</italic>? From a theoretical perspective, transitions between dense and dilute phases have been modeled both from the perspective of continuum theory <bold><italic><xref ref-type="bibr" rid="c11">Hubatsch et al. (2021</xref></italic></bold>) and by considering single-molecule trajectories <bold><italic><xref ref-type="bibr" rid="c5">Bo et al. (2021</xref></italic></bold>). However, for any particular systems, the magnitude of the interface conductance depends on microscopic features of the biomolecules, such as internal states, which may not be captured by Flory-Huggins and Cahn-Hilliard-type mean-field theories. Indeed, if we start with the continuum approach in <bold><italic><xref ref-type="bibr" rid="c11">Hubatsch et al. (2021</xref></italic></bold>), where the concentration of bleached components <italic>c</italic>(<bold><italic>r</italic></bold>, <italic>t</italic>) is governed by
+<disp-formula id="eqn7">
+<graphic xlink:href="484641v2_eqn7.gif"/>
+</disp-formula>
+with <italic>c</italic><sub>eq</sub>(<bold><italic>r</italic></bold>) the equilibrium concentration profile and <italic>D</italic>[<italic>c</italic><sub>eq</sub>(<bold><italic>r</italic></bold>)] the diffusion coefficient which depends on the local equilibrium concentration, one can obtain an expression for <italic>&#x03BA;</italic> (see <xref ref-type="app" rid="app1">Appendix 1</xref>):
+<disp-formula id="eqn8">
+<graphic xlink:href="484641v2_eqn8.gif"/>
+</disp-formula>
+where the integral is over the interface region. We would then conclude <italic>&#x03BA;</italic><sup>&#x2212;1</sup>&#x003C; <italic>&#x03B4;</italic>/ <italic>D</italic><sub>den</sub>&#x002B;<italic>&#x03B4; c</italic><sub>den</sub>/(<italic>c</italic><sub>dil</sub> <italic>D</italic><sub>dil</sub>), where <italic>&#x03B4;</italic> is the width of the interface. As the interface is typically narrow, this inequality would imply that in practice the interfacial term in <xref ref-type="disp-formula" rid="eqn6">Equation (6)</xref> would always be smaller than the sum of the other two terms, and thus could be neglected.</p>
+<p>However, a recent FRAP experiment on LAF-1 protein droplets <bold><italic><xref ref-type="bibr" rid="c27">Taylor et al. (2019</xref></italic></bold>) contradicts the above mean-field result. In the experiment, a micron-sized LAF-1 droplet (<italic>R</italic> = 1 <italic>&#x03BC;</italic>m) was bleached and fluorescence recovery measured as a function of time (<xref rid="fig1" ref-type="fig">Figure 1C</xref>). It was observed that recovery of that droplet occurs on a timescale of &#x223C; 1 hour. Given the measured parameters of the system, one can estimate the recovery time in the mean-field approach to be <italic>&#x03C4;</italic> = <italic>R</italic><sup>2</sup>/(<italic>&#x03C0;</italic><sup>2</sup> <italic>D</italic><sub>den</sub>) &#x002B; <italic>c</italic><sub>den</sub><italic>R</italic><sup>2</sup>/(3 <italic>c</italic><sub>dil</sub> <italic>D</italic><sub>dil</sub>) = 64 s, much shorter than the measured recovery time. A large interface resistance was proposed as a possible explanation for this discrepancy <bold><italic><xref ref-type="bibr" rid="c27">Taylor et al. (2019</xref></italic></bold>). However, the underlying mechanism that leads to such an unexpectedly large interface resistance remains unclear. More generally, how does interface resistance depend on the microscopic features of phase-separating molecules?</p>
+</sec>
+<sec id="s2d">
+<title>Coarse-grained simulation of &#x201C;sticker-spacer&#x201D; polymer phase separation</title>
+<p>Motivated by the question of what could give rise to interface resistance, we employed a &#x201C;sticker-spacer&#x201D; polymer model <bold><italic><xref ref-type="bibr" rid="c8">Choi et al. (2020</xref></italic></bold>); <bold><italic><xref ref-type="bibr" rid="c24">Semenov and Rubinstein (1998</xref></italic></bold>) to explore the exchange of molecules between a condensate and the dilute phase. The &#x201C;sticker-spacer&#x201D; model provides a conceptual framework for understanding biomolecular phase separation, wherein the &#x201C;stickers&#x201D; represent residues or larger domains that are capable of forming saturable bonds, while the &#x201C;spacers&#x201D; connect the stickers to form polymers. Specifically, we simulated polymers consisting of type A and type B stickers connected by implicit spacers in the form of stretchable bonds <bold><italic><xref ref-type="bibr" rid="c13">Kremer and Grest (1990</xref></italic></bold>) (<xref rid="fig2" ref-type="fig">Figure 2A</xref>):
+<disp-formula id="eqn9">
+<graphic xlink:href="484641v2_eqn9.gif"/>
+</disp-formula>
+where <italic>r</italic> is the distance between two stickers. One-to-one heterotypic bonds between A and B are implemented via an attractive potential:
+<disp-formula id="eqn10">
+<graphic xlink:href="484641v2_eqn10.gif"/>
+</disp-formula>
+while stickers of the same type interact through a repulsive potential to prevent many-to-one binding:
+<disp-formula id="eqn11">
+<graphic xlink:href="484641v2_eqn11.gif"/>
+</disp-formula></p>
+<p>We take <italic>k</italic> = 0.15 <italic>k</italic><sub>B</sub><italic>T</italic> /nm<sup>2</sup>, <italic>R</italic><sub>0</sub> = 10 nm, <italic>U</italic><sub>0</sub> = 14 <italic>k</italic><sub>B</sub><italic>T, r</italic><sub>0</sub> = 1 nm, <italic>&#x03C3;</italic> = 1 <italic>k</italic><sub>B</sub><italic>T, &#x03C3;</italic> = 2 nm, and <italic>r</italic><sub>c</sub> = 1.12<italic>&#x03C3;</italic> in all simulations, except in the simulations of <xref rid="fig3" ref-type="fig">Figure 3F</xref> where we vary <italic>U</italic><sub>0</sub> systematically from 13.5 to 15 <italic>k</italic><sub>B</sub><italic>T</italic>. For all simulation results we reported below, the standard error of the mean is smaller than the symbol size and therefore not shown.</p>
+<fig id="fig2" position="float" fig-type="figure">
+<label>Figure 2.</label>
+<caption><p>Coarse-grained molecular-dynamics simulations of multivalent phase-separating polymers. (A) Each polymer is composed of monomers (&#x201C;stickers&#x201D;) of type A (blue) or B (red), and modeled as a linear chain of spherical particles each with a diameter of 2 nm, connected by stretchable bonds with an equilibrium length of 3.9 nm. Stickers of different types have an attractive interaction, while stickers of the same type interact repulsively, ensuring one-to-one binding between the A and B stickers. (B) Snapshot of a simulation of 1000 A6B6 polymers in a 500 nm &#x00D7; 50 nm &#x00D7; 50 nm box with periodic boundary conditions. The system undergoes phase separation into a dense phase (middle region) and a dilute phase (two sides), driven by the one-to-one A-B bonds. (C) Polymer concentration profile for the simulation in (B) with the center of the dense phase aligned at <italic>x</italic> = 0 and averaged over time and over ten simulation repeats. (D) Average total polymer concentrations in the dense (top) and dilute (bottom) phases from simulations of the five types of polymers shown in (A). (E) Polymer diffusion coefficients in the dense (top) and dilute (bottom) phases. All simulations were performed and snapshots were obtained using LAMMPS <bold><italic><xref ref-type="bibr" rid="c19">Plimpton (1995</xref></italic></bold>). Please refer to <xref ref-type="app" rid="app2">Appendix 2</xref> for simulation details.</p></caption>
+<graphic xlink:href="484641v2_fig2.tif"/>
+</fig>
+<fig id="fig3" position="float" fig-type="figure">
+<label>Figure 3.</label>
+<caption><p>Determination of interface conductance from simulations. (A) Illustration of simulation protocol: At <italic>t</italic> = 0 only polymers in the dilute phase are &#x201C;labeled&#x201D; (solid balls), any polymer that enters the dense phase (forms an A-B bond lasting &#x003E;10 times the average bond lifetime of an isolated A-B pair) becomes permanently &#x201C;unlabeled&#x201D; (hollow balls). (B) Fraction of labeled polymers in the dilute phase as a function of time for simulations of the five types of polymers shown in <xref ref-type="fig" rid="fig2">Figure 2A</xref>. (C) Decay time of labeled polymers from exponential fits to curves in (B) (top), and corresponding calculated values of interface conductance <italic>&#x03BA;</italic> (bottom). (D) For all simulated polymers, interface conductance scaled by <italic>&#x03BA;</italic><sub>0</sub> [<xref ref-type="disp-formula" rid="eqn13">Equation (13)</xref>] is approximately a linear function of a parameter <italic>u</italic> which reflects the fraction of unbound stickers in the dense and dilute phases. Inset illustration: Polymers in the dilute phase with few or no unbound stickers may &#x201C;bounce&#x201D; off the dense phase, which contributes to the interface resistance. (E) Example of simulated trajectory in which a dilute-phase A6B6 polymer &#x201C;bounces&#x201D; multiple times before finally joining the dense phase. (F) Interface conductance <italic>&#x03BA;</italic> of A6B6 system as a function of binding strength <italic>U</italic><sub>0</sub> between A-B stickers.</p></caption>
+<graphic xlink:href="484641v2_fig3.tif"/>
+</fig>
+<p>For each of the five sequences shown in <xref rid="fig2" ref-type="fig">Figure 2A</xref>, we simulated 1000 polymers in a 500 nm &#x00D7; 50 nm &#x00D7; 50 nm box with periodic boundary conditions using Langevin dynamics (see <xref ref-type="app" rid="app2">Appendix 2</xref> for details). Simulations were performed using LAMMPS molecular-dynamics simulator <bold><italic><xref ref-type="bibr" rid="c19">Plimpton (1995</xref></italic></bold>). <xref rid="fig2" ref-type="fig">Figure 2B</xref> shows a snapshot of coexisting dense and dilute phases after equilibration of the A6B6 polymers (6 A stickers followed by 6 B stickers), while <xref rid="fig2" ref-type="fig">Figure 2C</xref> shows the time-averaged profile of the total polymer concentration. The five different polymer sequences we simulated were chosen to yield a range of dilute- and dense-phase sticker concentrations (<xref rid="fig2" ref-type="fig">Figure 2D</xref>) as well as a range of dilute- and dense-phase diffusion coefficients (<xref rid="fig2" ref-type="fig">Figure 2E</xref>). As found previously <bold><italic><xref ref-type="bibr" rid="c28">Weiner et al. (2021</xref></italic></bold>), polymers like A6B6 with long blocks of stickers of the same type have low dilute-phase concentrations. This follows because it is entropically unfavorable for these polymers to form multiple self-bonds, which favors the dense phase where these polymers can readily form multiple trans-bonds. These long-block polymers also have low dense-phase diffusion coefficients because of their large number of trans-bonds, which need to be repeatedly broken for the polymers to diffuse.</p>
+</sec>
+<sec id="s2e">
+<title>Interface conductance <italic>k</italic> from simulations</title>
+<p>Having determined the concentrations and diffusion coefficients in the dense and dilute phases, we are now in a position to extract the values of interface conductance from simulations. <xref rid="fig3" ref-type="fig">Figure 3</xref> depicts a simple protocol that allows us to infer <italic>&#x03BA;</italic> by applying the 1D, slab-geometry version of <xref ref-type="disp-formula" rid="eqn1">Equations (1)</xref>&#x2013;<xref ref-type="disp-formula" rid="eqn6">(6)</xref> to simulation results (see Appendices 1 and 2 for details): (i) All polymers in the dilute phase are initially considered &#x201C;labeled&#x201D;, (ii) any labeled polymer that forms a lasting A-B bond with a polymer in the dense phase becomes permanently unlabeled (<xref rid="fig3" ref-type="fig">Figure 3A</xref>), (iii) the remaining fraction of labeled dilute phase polymers is fit to an exponential decay (<xref rid="fig3" ref-type="fig">Figure 3B</xref>), and (iv) the resulting decay time constant <italic>&#x03C4;</italic> is used together with the known dense and dilute phase parameters to infer <italic>&#x03BA;</italic> from:
+<disp-formula id="eqn12">
+<graphic xlink:href="484641v2_eqn12.gif"/>
+</disp-formula>
+where <italic>d</italic> is the half-width of the dilute phase. As shown in <xref rid="fig3" ref-type="fig">Figure 3C</xref>, the resulting values of <italic>&#x03BA;</italic> span more than an order of magnitude for our selected polymer sequences, despite the fact that all five polymers can in principle form the same number (6) of self-bonds.</p>
+<p>We note that one can alternatively obtain <italic>&#x03BA;</italic> by directly measuring the flux of molecules that enter the dense phase. Mathematically, this flux equals <italic>k</italic><sub>&#x002B;</sub> <italic>c</italic><sub>dil</sub> = <italic>&#x03BA; c</italic><sub>den</sub>. We show in <xref ref-type="app" rid="app2">Appendix 2</xref> that the values of <italic>&#x03BA;</italic> found via this method are consistent with results reported in <xref rid="fig3" ref-type="fig">Figure 3C</xref>.</p>
+</sec>
+<sec id="s2f">
+<title>&#x201C;Bouncing&#x201D; of molecules can lead to large interface resistance</title>
+<p>What gives rise to the very different values of <italic>&#x03BA;</italic>? To address this question, we first consider the predicted interface conductance <italic>&#x03BA;</italic><sub>0</sub> if polymers incident from the dilute phase simply move through the interface region with a local diffusion coefficient that crosses over from <italic>D</italic><sub>dil</sub> to <italic>D</italic><sub>den</sub>. Then according to <xref ref-type="disp-formula" rid="eqn8">Equation (8)</xref> (see <xref ref-type="app" rid="app1">Appendix 1</xref>)
+<disp-formula id="eqn13">
+<graphic xlink:href="484641v2_eqn13.gif"/>
+</disp-formula>
+However, as shown in <xref rid="fig3" ref-type="fig">Figure 3D</xref>, the actual values of <italic>&#x03BA;</italic> in our simulations can be a factor of &#x223C; 50 smaller than <italic>&#x03BA;</italic><sub>0</sub>. This reduction can be traced to a &#x201C;bouncing&#x201D; effect. As shown schematically in the inset to <xref rid="fig3" ref-type="fig">Figure 3D</xref> and for an exemplary simulated trajectory in <xref rid="fig3" ref-type="fig">Figure 3E</xref> (more trajectories can be found in <xref ref-type="app" rid="app2">Appendix 2</xref>), molecules incident from the dilute phase may fail to form bonds with the dense phase, effectively &#x201C;bouncing&#x201D; off of the condensate. The differing extent of this bouncing effect for the five sequences we studied reflects differences in their numbers of free stickers in both their dilute- and dense-phase conformations. The fewer such available stickers, the fewer ways for a polymer incident from the dilute phase to bond with polymers at the surface of the dense phase, and thus the more likely the incident polymer is to bounce. In support of this picture, we find that all our simulation results for <italic>&#x03BA;</italic>/<italic>&#x03BA;</italic><sub>0</sub> collapse as a linear function of a lumped parameter
+<disp-formula id="eqn14">
+<graphic xlink:href="484641v2_eqn14.gif"/>
+</disp-formula>
+which expresses the availability of free stickers (see <xref ref-type="app" rid="app1">Appendix 1</xref>), where <italic>n</italic> is the number of monomers in a polymer, <italic>s</italic> is the global stoichiometry (i.e., <italic>c</italic><sub>A</sub>/ <italic>c</italic><sub>B</sub>), <italic>f</italic><sub>dilA/dilB</sub> and <italic>f</italic><sub>denA/denB</sub> are the fractions of unbound A/B monomers in the dilute and dense phases, all parameters are determined from simulations.</p>
+<p>Comparing sequences with unequal sticker stoichiometry A8B6 and A10B6 to their most closely related equal-stoichiometry sequence A6B6, we find that the extra A stickers substantially increase the interface conductance <italic>&#x03BA;</italic>. Intuitively, the excess As in both dense and dilute phases of A8B6 and A10B6 provide a pool of available stickers for any unbound B to bind to. By contrast, at equal stoichiometry, both free As and free Bs are rare which maximizes the bouncing effect. This reduction in potential binding partners at equal stoichiometry has also been observed experimentally <bold><italic><xref ref-type="bibr" rid="c6">Brassinne et al. (2017</xref></italic></bold>) and theoretically <bold><italic><xref ref-type="bibr" rid="c21">Ronceray et al. (2022</xref></italic></bold>) to cause an anomalous slowing of diffusion within condensates at equal stoichiometry in the regime of strong binding.</p>
+<p>Finally, we expect the interface resistance to increase approximately exponentially with the increase of binding strength <italic>U</italic><sub>0</sub> between A-B stickers, as the tighter the binding, the fewer available stickers, and hence the more bouncing of molecules at the interface. We demonstrate in <xref rid="fig3" ref-type="fig">Figure 3F</xref> that the interface conductance <italic>&#x03BA;</italic> of the A6B6 system indeed drops by a factor of 5 as the value of <italic>U</italic><sub>0</sub> increases from 13.5 to 15 <italic>k</italic><sub>B</sub><italic>T</italic>.</p>
+</sec>
+<sec id="s2g">
+<title>Signatures of interface resistance</title>
+<p>Under what circumstances is interface resistance experimentally measurable? If there were no bouncing effect, i.e., if all molecules incident from the dilute phase that touch the interface get immediately absorbed into the condensate, then interface resistance would never dominate the recovery time in FRAP-type experiments, making it very difficult to measure <italic>&#x03BA;</italic>. However, as shown in <xref rid="fig3" ref-type="fig">Figure 3</xref>, the bouncing effect can reduce <italic>&#x03BA;</italic> substantially. For such systems, the interface conductance can be inferred quantitatively from <xref ref-type="disp-formula" rid="eqn6">Equation (6)</xref> or by fitting FRAP recovery curves as in Taylor <italic>et al</italic>. <bold><italic><xref ref-type="bibr" rid="c27">Taylor et al. (2019</xref></italic></bold>), using the experimentally measured dense- and dilute-phase concentrations and diffusion coefficients.</p>
+<p>Even without knowing these parameters, one may still be able to infer the presence of a large interface resistance by observing the pattern of fluorescence recovery in droplets of different sizes. According to <xref ref-type="disp-formula" rid="eqn6">Equation (6)</xref> the recovery time associated with interface resistance increases linearly with radius <italic>R</italic> while the other terms increase as <italic>R</italic><sup>2</sup> (<xref rid="fig4" ref-type="fig">Figure 4A</xref>). Therefore, one expects a cross-over for the recovery from being interface-resistance dominated (small <italic>R</italic>) to being either dilute-phase-diffusion or dense-phase-mixing dominated (large <italic>R</italic>). In the latter case, the fluorescence profile during recovery will be notably different in large versus small droplets as shown in <xref rid="fig4" ref-type="fig">Figure 4B</xref> &#x2013; for large droplets progressive diffusion of fluorescence into the droplet will be apparent, whereas small droplets will recover uniformly as internal mixing will be fast compared to exchange with the surroundings. Thus observation of such a cross-over of the recovery pattern as a function of droplet size provides evidence for the presence of a large interface resistance, which can be followed up by more quantitative studies. For example, the uniform recovery of the LAF-1 droplet in <xref rid="fig1" ref-type="fig">Figure 1C</xref> is indicative of a large interface resistance, especially because the diffusion in the dilute phase is too fast to be rate limiting.</p>
+<fig id="fig4" position="float" fig-type="figure">
+<label>Figure 4.</label>
+<caption><p>FRAP recovery patterns for large versus small droplets can be notably different for condensates with a sufficiently large interface resistance. (A) Expected relaxation time as a function of droplet radius for <italic>in silico</italic> &#x201C;FRAP experiments&#x201D; on the A6B6 system. The interface resistance dominates recovery times for smaller droplets, whereas dense-phase diffusion dominates recovery times for larger droplets. Parameters matched to the simulated A6B6 system: <italic>c</italic><sub>den</sub> = 7.7 mM, <italic>c</italic><sub>dil</sub> = 0.05 mM, <italic>D</italic><sub>den</sub> = 0.013 <italic>&#x03BC;</italic>m<sup>2</sup>/s, <italic>D</italic><sub>dil</sub> = 17 <italic>&#x03BC;</italic>m<sup>2</sup>/s, and <italic>&#x03BA;</italic> = 0.14 <italic>&#x03BC;</italic>m/s. (B) Time courses of fluorescence profiles for A6B6 droplets of radius 1 <italic>&#x03BC;</italic>m (top) and 0.1 <italic>&#x03BC;</italic>m (bottom); red is fully bleached, green is fully recovered.</p></caption>
+<graphic xlink:href="484641v2_fig4.tif"/>
+</fig>
+</sec>
+</sec>
+<sec id="s3">
+<title>Discussion</title>
+<p>The dynamic exchange of condensate components with the surroundings is a key feature of membraneless organelles, and can significantly impact condensate biological function. In this work, we combined analytical theory and coarse-grained simulations to uncover physical mechanisms that can control this exchange dynamics. Specifically, we first derived an analytical expression for the exchange rate, which conveys the clear physical picture that this rate can be limited by the flux of molecules from the dilute phase, by the speed of mixing inside the dense phase, or by the dynamics of molecules at the droplet interface. Motivated by recent FRAP measurements <bold><italic><xref ref-type="bibr" rid="c27">Taylor et al. (2019</xref></italic></bold>) that the exchange rate of LAF-1 droplets is limited by interface resistance, which contradicts predictions of conventional mean-field theory, we investigated possible physical mechanisms underlying interface resistance using a &#x201C;sticker-spacer&#x201D; model. Specifically, we hypothesized that a large interface resistance could be caused by incident molecules and/or molecules at the interface adopting conformations that limit the accessibility of their sticky regions, and thus markedly slowing down bonding of incident molecules to the dense phase. We subsequently demonstrated via simulations a notable example in which incident molecules have formed all possible internal bonds, and thus bounce from the interface, giving rise to a large interface resistance. Finally, we discussed the signatures in FRAP recovery patterns of the presence of a large interface resistance.</p>
+<p>What are the microscopic features of phase-separating molecules that can lead to a significant interface resistance? The essential requirement is that molecules in the dilute phase and molecules at the interface should not present &#x201C;sticky&#x201D; surfaces to each other. Since these same molecules must be capable of sticking to each other in order to phase separate, a natural scenario is that these molecules assume non-sticky conformations due to the shielding of interacting regions, e.g., burial of hydrophobic residues in the core of a protein, or, in the scenario explored in the simulations, the saturation of sticker-like bonds. Examples of systems with strong enough bonds to allow bond saturation include SIM-SUMO <bold><italic><xref ref-type="bibr" rid="c4">Banani et al. (2016</xref></italic></bold>) and nucleic acids with strong intramolecular base-pairing. Interestingly, a recent coarse-grained simulation of RNA droplets of (CAG)<sub>47</sub> <bold><italic><xref ref-type="bibr" rid="c17">Nguyen et al. (2022</xref></italic></bold>) illustrated that a (CAG)<sub>47</sub> molecule in a closed hairpin conformation fails to integrate into a droplet but rather bounces off the droplet interface. In the case of LAF-1, we note that the values of interface conductance <italic>&#x03BA;</italic> obtained in our simulations are a factor of 10<sup>3</sup> to 10<sup>4</sup> higher than the experimentally measured <italic>&#x03BA;</italic> for the LAF-1 droplet. While we do not aim to specifically simulate the LAF-1 system in this work and the value of <italic>&#x03BA;</italic> in simulations can in principle be tuned by adjusting the bond strength <italic>U</italic><sub>0</sub>, the large disparity between simulation and experiment renders the mechanism responsible for the inferred large interface resistance in LAF-1 droplets unclear. Nevertheless, the current study suggests at least one possibility: LAF-1 proteins may adopt conformations that significantly slow down the attachment of incident proteins, leading to frequent bouncing of incident LAF-1s.</p>
+<p>Biologically, the bouncing effect may influence the coarsening of condensates. The same interface resistance that governs exchange between phases at equilibrium will control the flux of material from the dilute phase to the dense phase during coarsening, so that bouncing will slow down the coarsening process. Indeed, a recent theoretical study <bold><italic><xref ref-type="bibr" rid="c20">Ranganathan and Shakhnovich (2020</xref></italic></bold>) of coarsening via mergers of small polymer clusters found anomalously slow coarsening dynamics due to exhaustion of binding sites, paralleling the single-polymer bouncing effect explored here. Other mechanisms that may slow coarsening include the Pickering effect in which adsorbed particles partially cover the interface, reducing the area accessible for exchange and also reducing overall condensate surface tension <bold><italic><xref ref-type="bibr" rid="c9">Folkmann et al. (2021</xref></italic></bold>). In this same study, additional slow coarsening of PGL-3 condensates was attributed to a conversion-limited rather than a diffusion-limited flux of particles from the dilute phase into the dense phase, which we hypothesize could be a consequence of the bouncing effect. Interestingly, a conversion-limited flux has been shown to lead to qualitatively distinct scaling of condensate size with time <bold><italic><xref ref-type="bibr" rid="c15">Lee (2021</xref></italic></bold>). As many condensates dissolve and reform every cell cycle (or as needed) we anticipate that the bouncing effect may constitute an additional means of regulating condensate dynamics.</p>
+</sec>
+</body>
+<back>
+<ack>
+<title>Acknowledgments</title>
+<p>This work was supported in part by the National Science Foundation, through the Center for the Physics of Biological Function (PHY-1734030), NIH Grants R01 GM140032, U01 DA040601, the Howard Hughes Medical Institute, and the Air Force Office of Scientific Research (FA9550-20-1-0241 to CPB). YZ was partially supported by a startup fund at Johns Hopkins University. CPB and HAS were partially supported by Princeton University&#x2019;s Materials Research Science and Engineering Center DMR-1420541.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="c1"><mixed-citation publication-type="journal"><string-name><surname>An</surname> <given-names>S</given-names></string-name>, <string-name><surname>Kumar</surname> <given-names>R</given-names></string-name>, <string-name><surname>Sheets</surname> <given-names>ED</given-names></string-name>, <string-name><surname>Benkovic</surname> <given-names>SJ</given-names></string-name>. <article-title>Reversible compartmentalization of de novo purine biosynthetic complexes in living cells</article-title>. <source>Science</source>. <year>2008</year>; <volume>320</volume>():<fpage>103</fpage>&#x2013;<lpage>106</lpage>.</mixed-citation></ref>
+<ref id="c2"><mixed-citation publication-type="journal"><string-name><surname>Aumiller</surname> <suffix>Jr</suffix> <given-names>WM</given-names></string-name>, <string-name><surname>Pir Cakmak</surname> <given-names>F</given-names></string-name>, <string-name><surname>Davis</surname> <given-names>BW</given-names></string-name>, <string-name><surname>Keating</surname> <given-names>CD</given-names></string-name>. <article-title>RNA-based coacervates as a model for membraneless organelles: formation, properties, and interfacial liposome assembly</article-title>. <source>Langmuir</source>. <year>2016</year>; <volume>32</volume>():<fpage>10042</fpage>&#x2013;<lpage>10053</lpage>.</mixed-citation></ref>
+<ref id="c3"><mixed-citation publication-type="journal"><string-name><surname>Banani</surname> <given-names>SF</given-names></string-name>, <string-name><surname>Lee</surname> <given-names>HO</given-names></string-name>, <string-name><surname>Hyman</surname> <given-names>AA</given-names></string-name>, <string-name><surname>Rosen</surname> <given-names>MK</given-names></string-name>. <article-title>Biomolecular condensates: organizers of cellular biochemistry</article-title>. <source>Nat Rev Mol Cell Biol</source>. <year>2017</year>; <volume>18</volume>():<fpage>285</fpage>&#x2013;<lpage>298</lpage>.</mixed-citation></ref>
+<ref id="c4"><mixed-citation publication-type="journal"><string-name><surname>Banani</surname> <given-names>SF</given-names></string-name>, <string-name><surname>Rice</surname> <given-names>AM</given-names></string-name>, <string-name><surname>Peeples</surname> <given-names>WB</given-names></string-name>, <string-name><surname>Lin</surname> <given-names>Y</given-names></string-name>, <string-name><surname>Jain</surname> <given-names>S</given-names></string-name>, <string-name><surname>Parker</surname> <given-names>R</given-names></string-name>, <string-name><surname>Rosen</surname> <given-names>MK</given-names></string-name>. <article-title>Compositional control of phase-separated cellular bodies</article-title>. <source>Cell</source>. <year>2016</year>; <volume>166</volume>():<fpage>651</fpage>&#x2013;<lpage>663</lpage>.</mixed-citation></ref>
+<ref id="c5"><mixed-citation publication-type="journal"><string-name><surname>Bo</surname> <given-names>S</given-names></string-name>, <string-name><surname>Hubatsch</surname> <given-names>L</given-names></string-name>, <string-name><surname>Bauermann</surname> <given-names>J</given-names></string-name>, <string-name><surname>Weber</surname> <given-names>CA</given-names></string-name>, <string-name><surname>J&#x00FC;licher</surname> <given-names>F.</given-names></string-name> <article-title>Stochastic dynamics of single molecules across phase boundaries</article-title>. <source>Phys Rev Research</source>. <year>2021</year>; <volume>3</volume>():<elocation-id>043150</elocation-id>.</mixed-citation></ref>
+<ref id="c6"><mixed-citation publication-type="journal"><string-name><surname>Brassinne</surname> <given-names>J</given-names></string-name>, <string-name><surname>Cadix</surname> <given-names>A</given-names></string-name>, <string-name><surname>Wilson</surname> <given-names>J</given-names></string-name>, <string-name><surname>Van Ruymbeke</surname> <given-names>E.</given-names></string-name> <article-title>Dissociating sticker dynamics from chain relaxation in supramolecular polymer networks &#x2013; The importance of free partner!</article-title> <source>J Rheol</source>. <year>2017</year>; <volume>61</volume>():<fpage>1123</fpage>&#x2013;<lpage>1134</lpage>.</mixed-citation></ref>
+<ref id="c7"><mixed-citation publication-type="journal"><string-name><surname>Burke</surname> <given-names>KA</given-names></string-name>, <string-name><surname>Janke</surname> <given-names>AM</given-names></string-name>, <string-name><surname>Rhine</surname> <given-names>CL</given-names></string-name>, <string-name><surname>Fawzi</surname> <given-names>NL</given-names></string-name>. <article-title>Residue-by-residue view of in vitro FUS granules that bind the C-terminal domain of RNA polymerase II</article-title>. <source>Mol Cell</source>. <year>2015</year>; <volume>60</volume>():<fpage>231</fpage>&#x2013;<lpage>241</lpage>.</mixed-citation></ref>
+<ref id="c8"><mixed-citation publication-type="journal"><string-name><surname>Choi</surname> <given-names>JM</given-names></string-name>, <string-name><surname>Holehouse</surname> <given-names>AS</given-names></string-name>, <string-name><surname>Pappu</surname> <given-names>RV</given-names></string-name>. <article-title>Physical principles underlying the complex biology of intracellular phase transitions</article-title>. <source>Annu Rev Biophys</source>. <year>2020</year>; <volume>49</volume>:<fpage>107</fpage>&#x2013;<lpage>133</lpage>.</mixed-citation></ref>
+<ref id="c9"><mixed-citation publication-type="journal"><string-name><surname>Folkmann</surname> <given-names>AW</given-names></string-name>, <string-name><surname>Putnam</surname> <given-names>A</given-names></string-name>, <string-name><surname>Lee</surname> <given-names>CF</given-names></string-name>, <string-name><surname>Seydoux</surname> <given-names>G.</given-names></string-name> <article-title>Regulation of biomolecular condensates by interfacial protein clusters</article-title>. <source>Science</source>. <year>2021</year>; <volume>373</volume>():<fpage>1218</fpage>&#x2013;<lpage>1224</lpage>.</mixed-citation></ref>
+<ref id="c10"><mixed-citation publication-type="journal"><string-name><surname>Formicola</surname> <given-names>N</given-names></string-name>, <string-name><surname>Vijayakumar</surname> <given-names>J</given-names></string-name>, <string-name><surname>Besse</surname> <given-names>F.</given-names></string-name> <article-title>Neuronal ribonucleoprotein granules: dynamic sensors of localized signals</article-title>. <source>Traffic</source>. <year>2019</year>; <volume>20</volume>():<fpage>639</fpage>&#x2013;<lpage>649</lpage>.</mixed-citation></ref>
+<ref id="c11"><mixed-citation publication-type="journal"><string-name><surname>Hubatsch</surname> <given-names>L</given-names></string-name>, <string-name><surname>Jawerth</surname> <given-names>LM</given-names></string-name>, <string-name><surname>Love</surname> <given-names>C</given-names></string-name>, <string-name><surname>Bauermann</surname> <given-names>J</given-names></string-name>, <string-name><surname>Tang</surname> <given-names>TD</given-names></string-name>, <string-name><surname>Bo</surname> <given-names>S</given-names></string-name>, <string-name><surname>Hyman</surname> <given-names>AA</given-names></string-name>, <string-name><surname>Weber</surname> <given-names>CA</given-names></string-name>. <article-title>Quantitative theory for the diffusive dynamics of liquid condensates</article-title>. <source>eLife</source>. <year>2021</year>; <volume>10</volume>:<elocation-id>e68620</elocation-id>.</mixed-citation></ref>
+<ref id="c12"><mixed-citation publication-type="journal"><string-name><surname>Jain</surname> <given-names>S</given-names></string-name>, <string-name><surname>Wheeler</surname> <given-names>JR</given-names></string-name>, <string-name><surname>Walters</surname> <given-names>RW</given-names></string-name>, <string-name><surname>Agrawal</surname> <given-names>A</given-names></string-name>, <string-name><surname>Barsic</surname> <given-names>A</given-names></string-name>, <string-name><surname>Parker</surname> <given-names>R.</given-names></string-name> <article-title>ATPase-modulated stress granules contain a diverse proteome and substructure</article-title>. <source>Cell</source>. <year>2016</year>; <volume>164</volume>():<fpage>487</fpage>&#x2013;<lpage>498</lpage>.</mixed-citation></ref>
+<ref id="c13"><mixed-citation publication-type="journal"><string-name><surname>Kremer</surname> <given-names>K</given-names></string-name>, <string-name><surname>Grest</surname> <given-names>GS</given-names></string-name>. <article-title>Dynamics of entangled linear polymer melts: A molecular-dynamics simulation</article-title>. <source>J Chem Phys</source>. <year>1990</year>; <volume>92</volume>():<fpage>5057</fpage>&#x2013;<lpage>5086</lpage>.</mixed-citation></ref>
+<ref id="c14"><mixed-citation publication-type="journal"><string-name><surname>Langevin</surname> <given-names>P.</given-names></string-name> <article-title>Sur la th&#x00E9;orie du mouvement brownien [On the theory of Brownian motion]</article-title>. <source>C R Acad Sci Paris</source>. <year>1908</year>; <volume>146</volume>:<fpage>530</fpage>&#x2013;<lpage>533</lpage>.</mixed-citation></ref>
+<ref id="c15"><mixed-citation publication-type="journal"><string-name><surname>Lee</surname> <given-names>CF</given-names></string-name>. <article-title>Scaling law and universal drop size distribution of coarsening in conversion-limited phase separation</article-title>. <source>Phys Rev Research</source>. <year>2021</year>; <volume>3</volume>():<elocation-id>043081</elocation-id>.</mixed-citation></ref>
+<ref id="c16"><mixed-citation publication-type="journal"><string-name><surname>Li</surname> <given-names>P</given-names></string-name>, <string-name><surname>Banjade</surname> <given-names>S</given-names></string-name>, <string-name><surname>Cheng</surname> <given-names>HC</given-names></string-name>, <string-name><surname>Kim</surname> <given-names>S</given-names></string-name>, <string-name><surname>Chen</surname> <given-names>B</given-names></string-name>, <string-name><surname>Guo</surname> <given-names>L</given-names></string-name>, <string-name><surname>Llaguno</surname> <given-names>M</given-names></string-name>, <string-name><surname>Hollingsworth</surname> <given-names>JV</given-names></string-name>, <string-name><surname>King</surname> <given-names>DS</given-names></string-name>, <string-name><surname>Banani</surname> <given-names>SF</given-names></string-name>, <string-name><surname>et al.</surname></string-name> <article-title>Phase transitions in the assembly of multivalent signalling proteins</article-title>. <source>Nature</source>. <year>2012</year>; <volume>483</volume>():<fpage>336</fpage>&#x2013;<lpage>340</lpage>.</mixed-citation></ref>
+<ref id="c17"><mixed-citation publication-type="journal"><string-name><surname>Nguyen</surname> <given-names>HT</given-names></string-name>, <string-name><surname>Hori</surname> <given-names>N</given-names></string-name>, <string-name><surname>Thirumalai</surname> <given-names>D.</given-names></string-name> <article-title>Condensates in RNA repeat sequences are heterogeneously organized and exhibit reptation dynamics</article-title>. <source>Nat Chem</source>. <year>2022</year>; <volume>14</volume>():<fpage>775</fpage>&#x2013;<lpage>785</lpage>.</mixed-citation></ref>
+<ref id="c18"><mixed-citation publication-type="journal"><string-name><surname>Patel</surname> <given-names>A</given-names></string-name>, <string-name><surname>Lee</surname> <given-names>HO</given-names></string-name>, <string-name><surname>Jawerth</surname> <given-names>L</given-names></string-name>, <string-name><surname>Maharana</surname> <given-names>S</given-names></string-name>, <string-name><surname>Jahnel</surname> <given-names>M</given-names></string-name>, <string-name><surname>Hein</surname> <given-names>MY</given-names></string-name>, <string-name><surname>Stoynov</surname> <given-names>S</given-names></string-name>, <string-name><surname>Mahamid</surname> <given-names>J</given-names></string-name>, <string-name><surname>Saha</surname> <given-names>S</given-names></string-name>, <string-name><surname>Franzmann</surname> <given-names>TM</given-names></string-name>, <string-name><surname>et al.</surname></string-name> <article-title>A liquid-to-solid phase transition of the ALS protein FUS accelerated by disease mutation</article-title>. <source>Cell</source>. <year>2015</year>; <volume>162</volume>():<fpage>1066</fpage>&#x2013;<lpage>1077</lpage>.</mixed-citation></ref>
+<ref id="c19"><mixed-citation publication-type="journal"><string-name><surname>Plimpton</surname> <given-names>S.</given-names></string-name> <article-title>Fast parallel algorithms for short-range molecular dynamics</article-title>. <source>J Comput Phys</source>. <year>1995</year>; <volume>117</volume>():<fpage>1</fpage>&#x2013;<lpage>19</lpage>.</mixed-citation></ref>
+<ref id="c20"><mixed-citation publication-type="journal"><string-name><surname>Ranganathan</surname> <given-names>S</given-names></string-name>, <string-name><surname>Shakhnovich</surname> <given-names>EI</given-names></string-name>. <article-title>Dynamic metastable long-living droplets formed by sticker-spacer proteins</article-title>. <source>eLife</source>. <year>2020</year>; <volume>9</volume>:<elocation-id>e56159</elocation-id>.</mixed-citation></ref>
+<ref id="c21"><mixed-citation publication-type="journal"><string-name><surname>Ronceray</surname> <given-names>P</given-names></string-name>, <string-name><surname>Zhang</surname> <given-names>Y</given-names></string-name>, <string-name><surname>Liu</surname> <given-names>X</given-names></string-name>, <string-name><surname>Wingreen</surname> <given-names>NS</given-names></string-name>. <article-title>Stoichiometry controls the dynamics of liquid condensates of associative proteins</article-title>. <source>Phys Rev Lett</source>. <year>2022</year>; <volume>128</volume>():<elocation-id>038102</elocation-id>.</mixed-citation></ref>
+<ref id="c22"><mixed-citation publication-type="journal"><string-name><surname>Rosenzweig</surname> <given-names>ESF</given-names></string-name>, <string-name><surname>Xu</surname> <given-names>B</given-names></string-name>, <string-name><surname>Cuellar</surname> <given-names>LK</given-names></string-name>, <string-name><surname>Martinez-Sanchez</surname> <given-names>A</given-names></string-name>, <string-name><surname>Schaffer</surname> <given-names>M</given-names></string-name>, <string-name><surname>Strauss</surname> <given-names>M</given-names></string-name>, <string-name><surname>Cartwright</surname> <given-names>HN</given-names></string-name>, <string-name><surname>Ronceray</surname> <given-names>P</given-names></string-name>, <string-name><surname>Plitzko</surname> <given-names>JM</given-names></string-name>, <string-name><surname>F&#x00F6;rster</surname> <given-names>F</given-names></string-name>, <string-name><surname>et al.</surname></string-name> <article-title>The eukaryotic CO2-concentrating organelle is liquid-like and exhibits dynamic reorganization</article-title>. <source>Cell</source>. <year>2017</year>; <volume>171</volume>():<fpage>148</fpage>&#x2013;<lpage>162</lpage>.</mixed-citation></ref>
+<ref id="c23"><mixed-citation publication-type="journal"><string-name><surname>Sabari</surname> <given-names>BR</given-names></string-name>, <string-name><surname>Dall&#x2019;Agnese</surname> <given-names>A</given-names></string-name>, <string-name><surname>Boija</surname> <given-names>A</given-names></string-name>, <string-name><surname>Klein</surname> <given-names>IA</given-names></string-name>, <string-name><surname>Coffey</surname> <given-names>EL</given-names></string-name>, <string-name><surname>Shrinivas</surname> <given-names>K</given-names></string-name>, <string-name><surname>Abraham</surname> <given-names>BJ</given-names></string-name>, <string-name><surname>Hannett</surname> <given-names>NM</given-names></string-name>, <string-name><surname>Zamudio</surname> <given-names>AV</given-names></string-name>, <string-name><surname>Manteiga</surname> <given-names>JC</given-names></string-name>, <string-name><surname>et al.</surname></string-name> <article-title>Coactivator condensation at super-enhancers links phase separation and gene control</article-title>. <source>Science</source>. <year>2018</year>; <volume>361</volume>():<elocation-id>3958</elocation-id>.</mixed-citation></ref>
+<ref id="c24"><mixed-citation publication-type="journal"><string-name><surname>Semenov</surname> <given-names>AN</given-names></string-name>, <string-name><surname>Rubinstein</surname> <given-names>M.</given-names></string-name> <article-title>Thermoreversible gelation in solutions of associative polymers. 1. Statics</article-title>. <source>Macromolecules</source>. <year>1998</year>; <volume>31</volume>():<fpage>1373</fpage>&#x2013;<lpage>1385</lpage>.</mixed-citation></ref>
+<ref id="c25"><mixed-citation publication-type="journal"><string-name><surname>Shin</surname> <given-names>Y</given-names></string-name>, <string-name><surname>Brangwynne</surname> <given-names>CP</given-names></string-name>. <article-title>Liquid phase condensation in cell physiology and disease</article-title>. <source>Science</source>. <year>2017</year>; <volume>357</volume>():<elocation-id>eaaf4382</elocation-id>.</mixed-citation></ref>
+<ref id="c26"><mixed-citation publication-type="journal"><string-name><surname>Su</surname> <given-names>X</given-names></string-name>, <string-name><surname>Ditlev</surname> <given-names>JA</given-names></string-name>, <string-name><surname>Hui</surname> <given-names>E</given-names></string-name>, <string-name><surname>Xing</surname> <given-names>W</given-names></string-name>, <string-name><surname>Banjade</surname> <given-names>S</given-names></string-name>, <string-name><surname>Okrut</surname> <given-names>J</given-names></string-name>, <string-name><surname>King</surname> <given-names>DS</given-names></string-name>, <string-name><surname>Taunton</surname> <given-names>J</given-names></string-name>, <string-name><surname>Rosen</surname> <given-names>MK</given-names></string-name>, <string-name><surname>Vale</surname> <given-names>RD</given-names></string-name>. <article-title>Phase separation of signaling molecules promotes T cell receptor signal transduction</article-title>. <source>Science</source>. <year>2016</year>; <volume>352</volume>():<fpage>595</fpage>&#x2013;<lpage>599</lpage>.</mixed-citation></ref>
+<ref id="c27"><mixed-citation publication-type="journal"><string-name><surname>Taylor</surname> <given-names>NO</given-names></string-name>, <string-name><surname>Wei</surname> <given-names>MT</given-names></string-name>, <string-name><surname>Stone</surname> <given-names>HA</given-names></string-name>, <string-name><surname>Brangwynne</surname> <given-names>CP</given-names></string-name>. <article-title>Quantifying dynamics in phase-separated condensates using ?uorescence recovery after photobleaching</article-title>. <source>Biophys J</source>. <year>2019</year>; <volume>117</volume>():<fpage>1285</fpage>&#x2013;<lpage>1300</lpage>.</mixed-citation></ref>
+<ref id="c28"><mixed-citation publication-type="journal"><string-name><surname>Weiner</surname> <given-names>BG</given-names></string-name>, <string-name><surname>Pyo</surname> <given-names>AG</given-names></string-name>, <string-name><surname>Meir</surname> <given-names>Y</given-names></string-name>, <string-name><surname>Wingreen</surname> <given-names>NS</given-names></string-name>. <article-title>Motif-pattern dependence of biomolecular phase separation driven by specific interactions</article-title>. <source>PLoS Comput Biol</source>. <year>2021</year>; <volume>17</volume>():<elocation-id>e1009748</elocation-id>.</mixed-citation></ref>
+<ref id="c29"><mixed-citation publication-type="journal"><string-name><surname>Yao</surname> <given-names>RW</given-names></string-name>, <string-name><surname>Xu</surname> <given-names>G</given-names></string-name>, <string-name><surname>Wang</surname> <given-names>Y</given-names></string-name>, <string-name><surname>Shan</surname> <given-names>L</given-names></string-name>, <string-name><surname>Luan</surname> <given-names>PF</given-names></string-name>, <string-name><surname>Wang</surname> <given-names>Y</given-names></string-name>, <string-name><surname>Wu</surname> <given-names>M</given-names></string-name>, <string-name><surname>Yang</surname> <given-names>LZ</given-names></string-name>, <string-name><surname>Xing</surname> <given-names>YH</given-names></string-name>, <string-name><surname>Yang</surname> <given-names>L</given-names></string-name>, <string-name><surname>et al.</surname></string-name> <article-title>Nascent pre-rRNA sorting via phase separation drives the assembly of dense fibrillar components in the human nucleolus</article-title>. <source>Mol Cell</source>. <year>2019</year>; <volume>76</volume>():<fpage>767</fpage>&#x2013;<lpage>783</lpage>.</mixed-citation></ref>
+<ref id="c30"><mixed-citation publication-type="journal"><string-name><surname>Zhang</surname> <given-names>Y</given-names></string-name>, <string-name><surname>Xu</surname> <given-names>B</given-names></string-name>, <string-name><surname>Weiner</surname> <given-names>BG</given-names></string-name>, <string-name><surname>Meir</surname> <given-names>Y</given-names></string-name>, <string-name><surname>Wingreen</surname> <given-names>NS</given-names></string-name>. <article-title>Decoding the physical principles of two-component biomolecular phase separation</article-title>. <source>eLife</source>. <year>2021</year>; <volume>10</volume>:<elocation-id>e62403</elocation-id>.</mixed-citation></ref>
+</ref-list>
+<sec id="app1"><title>Appendix 1</title><sec id="s4">
+<title>Derivation of the FRAP recovery curve in <xref ref-type="disp-formula" rid="eqn5">Equations (5)</xref> and <xref ref-type="disp-formula" rid="eqn6">(6)</xref></title>
+<p>The exact solution for <italic>f</italic> (<italic>t</italic>) in <xref ref-type="disp-formula" rid="eqn4">Equation (4)</xref>, the fraction of molecules in a spherical condensate of radius <italic>R</italic> which are unbleached at time <italic>t</italic>, is derived by Taylor <italic>et al</italic>. in <bold><italic><xref ref-type="bibr" rid="c27">Taylor et al. (2019</xref></italic></bold>) in an integral form using Laplace transforms,
+<disp-formula id="eqn15">
+<graphic xlink:href="484641v2_eqn15.gif"/>
+</disp-formula>
+where
+<disp-formula id="eqn16">
+<graphic xlink:href="484641v2_eqn16.gif"/>
+</disp-formula>
+and <italic>&#x03BB;</italic> = <italic>D</italic><sub>dil</sub>/ <italic>D</italic><sub>den</sub>, <italic>&#x03B1;</italic> = <italic>c</italic><sub>den</sub>/ <italic>c</italic><sub>dil</sub>, <italic>t</italic><sup><italic>&#x2217;</italic></sup> = <italic>t D</italic><sub>den</sub>/<italic>R</italic><sup>2</sup>, and <italic>k</italic> = <italic>R&#x03BA;</italic>/ <italic>D</italic><sub>den</sub>, where <italic>&#x03BA;</italic> is the interface conductance.</p>
+<p>To obtain a more intuitive result, we first rearrange <italic>g</italic>(<italic>u, t</italic><sup><italic>&#x2217;</italic></sup>) as
+<disp-formula id="eqn17">
+<graphic xlink:href="484641v2_eqn17.gif"/>
+</disp-formula>
+We note that the diffusion of biomolecules in the dilute phase is typically much faster than diffusion in the dense phase, i.e., <italic>&#x03BB;</italic> = <italic>D</italic><sub>dil</sub>/ <italic>D</italic><sub>den</sub> &#x226B; 1. In this parameter regime, <italic>g</italic>(<italic>u, t</italic><sup><italic>&#x2217;</italic></sup>) is sharply peaked at the values of <italic>u</italic> where
+<disp-formula id="eqn18">
+<graphic xlink:href="484641v2_eqn18.gif"/>
+</disp-formula>
+i.e., when the second term in the denominator of <italic>g</italic>(<italic>u, t</italic><sup><italic>&#x2217;</italic></sup>) becomes 0. Representative <italic>g</italic>(<italic>u, t</italic><sup><italic>&#x2217;</italic></sup>) curves are shown in <xref rid="figA1_1" ref-type="fig">Appendix 1&#x2014;figure 1</xref>. We can therefore approximate <italic>g</italic>(<italic>u, t</italic><sup><italic>&#x2217;</italic></sup>) as
+<disp-formula id="eqn19">
+<graphic xlink:href="484641v2_eqn19.gif"/>
+</disp-formula>
+where <italic>u</italic><sub><italic>n</italic></sub> is the <italic>n</italic>-th solution of <xref ref-type="disp-formula" rid="eqn18">Equation (18)</xref> and <inline-formula><inline-graphic xlink:href="484641v2_inline2.gif"/></inline-formula> is the inverse of effective width of <italic>n</italic>-th peak of <italic>g</italic>(<italic>u, t</italic><sup><italic>&#x2217;</italic></sup>). Clearly, the prefactor of the delta function <italic>&#x03B4;</italic>(<italic>u</italic> &#x2013; <italic>u</italic><sub><italic>n</italic></sub>) in <xref ref-type="disp-formula" rid="eqn19">Equation (19)</xref> drops rapidly with increasing values of <italic>u</italic><sub><italic>n</italic></sub>. Consequently, the integral in <xref ref-type="disp-formula" rid="eqn15">Equation (15)</xref> is always dominated by the contribution from the first mode, and therefore
+<disp-formula id="eqn20">
+<graphic xlink:href="484641v2_eqn20.gif"/>
+</disp-formula>
+where
+<disp-formula id="eqn21">
+<graphic xlink:href="484641v2_eqn21.gif"/>
+</disp-formula>
+with <italic>u</italic><sub>1</sub> the first root of <xref ref-type="disp-formula" rid="eqn18">Equation (18)</xref>.</p>
+<fig id="figA1_1" position="float" fig-type="figure">
+<label>Appendix 1 Figure 1.</label>
+<caption><p>Representative curves of <italic>g</italic>(<italic>u, t</italic><sup><italic>&#x2217;</italic></sup>). Parameters matched to the simulated A6B6 system: <italic>c</italic><sub>den</sub> = 7.7 mM, <italic>c</italic><sub>dil</sub> = 0.05 mM, <italic>D</italic><sub>den</sub> = 0.013 <italic>&#x03BC;</italic>m<sup>2</sup>/s, <italic>D</italic><sub>dil</sub> = 17 <italic>&#x03BC;</italic>m<sup>2</sup>/s, and <italic>&#x03BA;</italic> = 0.14 <italic>&#x03BC;</italic>m/s. Droplet radius is <italic>R</italic> = 1 <italic>&#x03BC;</italic>m (top) and 0.1 <italic>&#x03BC;</italic>m (bottom). Inset: same plot with the <italic>y</italic>-axis in log scale.</p></caption>
+<graphic xlink:href="484641v2_figA1_1.tif"/>
+</fig>
+<p>At any given values of <italic>k, &#x03B1;</italic>, and <italic>&#x03BB;</italic>, the solutions of <xref ref-type="disp-formula" rid="eqn18">Equation (18)</xref> can be obtained numerically. Alternatively, we can obtain an approximate analytical solution by first rewriting <xref ref-type="disp-formula" rid="eqn18">Equation (18)</xref> as
+<disp-formula id="eqn22">
+<graphic xlink:href="484641v2_eqn22.gif"/>
+</disp-formula>
+We plot the combined parameter <italic>K</italic> = <italic>k</italic>/(1 &#x002B; <italic>k&#x03B1;</italic>/<italic>&#x03BB;</italic>) versus the first root <italic>u</italic><sub>1</sub> in <xref rid="figA1_2" ref-type="fig">Appendix 1&#x2014;figure 2</xref>. For small <italic>K</italic>, Taylor series expansion around <italic>u</italic> = 0 for the left side of <xref ref-type="disp-formula" rid="eqn22">Equation (22)</xref> yields
+<disp-formula id="eqn23">
+<graphic xlink:href="484641v2_eqn23.gif"/>
+</disp-formula>
+which yields <inline-formula><inline-graphic xlink:href="484641v2_inline3.gif"/></inline-formula>. For large <italic>K, u</italic><sub>1</sub> plateaus at <italic>&#x03C0;</italic>. We therefore approximate <italic>u</italic><sub>1</sub> as
+<disp-formula id="eqn24">
+<graphic xlink:href="484641v2_eqn24.gif"/>
+</disp-formula>
+This approximate solution is compared with the exact numerical solution of <italic>u</italic><sub>1</sub> in <xref rid="figA1_2" ref-type="fig">Appendix 1&#x2014; figure 2</xref>. The maximum error of about 5&#x0025; occurs at an intermediate value of <italic>K</italic> (<xref rid="figA1_2" ref-type="fig">Appendix 1&#x2014; figure 2</xref>, inset). The relaxation time <italic>&#x03C4;</italic> corresponding to the approximate solution in <xref ref-type="disp-formula" rid="eqn24">Equation (24)</xref> is
+<disp-formula id="eqn25">
+<graphic xlink:href="484641v2_eqn25.gif"/>
+</disp-formula>
+</p>
+<fig id="figA1_2" position="float" fig-type="figure">
+<label>Appendix 1 Figure 2.</label>
+<caption><p>Comparison of exact and approximate solutions of <xref ref-type="disp-formula" rid="eqn22">Equation (22)</xref>. Inset: percentage error of the approximate solution.</p></caption>
+<graphic xlink:href="484641v2_figA1_2.tif"/>
+</fig>
+</sec><sec id="s5">
+<title>Time required to replace all molecules in a spherical droplet in the absorbing boundary limit</title>
+<p>The time evolution of the spherically-symmetric concentration profile <italic>c</italic>(<italic>r, t</italic>) of molecules in the dilute phase around a droplet of radius <italic>R</italic> is given by
+<disp-formula id="eqn26">
+<graphic xlink:href="484641v2_eqn26.gif"/>
+</disp-formula>
+If molecules incident from the dilute phase are immediately and irreversibly absorbed into the dense phase, the boundary condition is then <italic>c</italic>(<italic>R, t</italic>) = 0. The steady-state solution of <xref ref-type="disp-formula" rid="eqn26">Equation (26)</xref> in this absorbing-boundary limit is
+<disp-formula id="eqn27">
+<graphic xlink:href="484641v2_eqn27.gif"/>
+</disp-formula>
+where <italic>c</italic><sub>dil</sub> is the concentration at <italic>r</italic> &#x2192; &#x221E;, which yields a total steady-state flux into the droplet of
+<disp-formula id="eqn28">
+<graphic xlink:href="484641v2_eqn28.gif"/>
+</disp-formula>
+It then takes a time
+<disp-formula id="eqn29">
+<graphic xlink:href="484641v2_eqn29.gif"/>
+</disp-formula>
+to replace all 4<italic>&#x03C0;R</italic><sup>3</sup> <italic>c</italic><sub>den</sub>/3 molecules in the droplet.</p>
+</sec><sec id="s6">
+<title>Derivation of the interface conductance in the continuum limit, yielding <xref ref-type="disp-formula" rid="eqn8">Equations (8)</xref> and <xref ref-type="disp-formula" rid="eqn13">(13)</xref></title>
+<p>To derive the interface conductance in the continuum limit (which neglects the bouncing effect), we start with the mean-field formulation developed in Hubatsch <italic>et al</italic>. <bold><italic><xref ref-type="bibr" rid="c11">Hubatsch et al. (2021</xref></italic></bold>), where the concentration of bleached components <italic>c</italic>(<bold><italic>r</italic></bold>, <italic>t</italic>) is governed by
+<disp-formula id="eqn30">
+<graphic xlink:href="484641v2_eqn30.gif"/>
+</disp-formula>
+with the flux
+<disp-formula id="eqn31">
+<graphic xlink:href="484641v2_eqn31.gif"/>
+</disp-formula>
+where <italic>c</italic><sub>eq</sub>(<bold><italic>r</italic></bold>) is the equilibrium concentration profile, and <italic>D</italic>[<italic>c</italic><sub>eq</sub>(<bold><italic>r</italic></bold>)] the diffusion coefficient which depends on the local equilibrium concentration.</p>
+<p>For a spherical condensate of radius <italic>R</italic>, if the interface width is narrow, we can assume that the flux going through the interface is uniform in space along the radial direction, i.e.,
+<disp-formula id="eqn32">
+<graphic xlink:href="484641v2_eqn32.gif"/>
+</disp-formula>
+where <inline-formula><inline-graphic xlink:href="484641v2_inline4.gif"/></inline-formula> denotes the unit vector in the radial direction. Therefore
+<disp-formula id="eqn33">
+<graphic xlink:href="484641v2_eqn33.gif"/>
+</disp-formula>
+The solution to the above equation is
+<disp-formula id="eqn34">
+<graphic xlink:href="484641v2_eqn34.gif"/>
+</disp-formula>
+We assume that the interface spans a width of <italic>&#x03B4;</italic> from <italic>R</italic><sub>&#x2212;</sub> to <italic>R</italic><sub>&#x002B;</sub> with <italic>R</italic><sub>&#x2212;</sub> = <italic>R</italic>&#x00B1;<italic>&#x03B4;</italic>/2, then <italic>c</italic><sub>eq</sub> (<italic>R</italic> &#x2013; <italic>&#x03B4;</italic>/2) = <italic>c</italic> (<italic>R</italic> &#x002B; <italic>&#x03B4;</italic>/2, <italic>t</italic>) <italic>c</italic><sub>den</sub> and <italic>c</italic><sub>eq</sub> (<italic>R</italic> &#x002B; <italic>&#x03B4;</italic>/2) = <italic>c</italic><sub>dil</sub>. Substituting <xref ref-type="disp-formula" rid="eqn34">Equation (34)</xref> into the second boundary condition in <xref ref-type="disp-formula" rid="eqn3">Equation (3)</xref>, we have
+<disp-formula id="eqn35">
+<graphic xlink:href="484641v2_eqn35.gif"/>
+</disp-formula>
+We then obtain an expression for the interface conductance <italic>&#x03BA;</italic>:
+<disp-formula id="eqn36">
+<graphic xlink:href="484641v2_eqn36.gif"/>
+</disp-formula>
+The equilibrium concentration <italic>c</italic><sub>eq</sub>(<italic>r</italic>) transitions from <italic>c</italic><sub>den</sub> to <italic>c</italic><sub>dil</sub> between <italic>R &#x2013;&#x03B4;</italic>/2 and <italic>R</italic>&#x002B;<italic>&#x03B4;</italic>/2, and the corresponding diffusion coefficient <italic>D</italic>(<italic>r</italic>) transitions from <italic>D</italic><sub>den</sub> to <italic>D</italic><sub>dil</sub>. Assuming a monotonic sigmoidal transition, along with <italic>D</italic><sub>den</sub> &#x226A; <italic>D</italic><sub>dil</sub> and <italic>c</italic><sub>den</sub> &#x226B; <italic>c</italic><sub>dil</sub>, we obtain
+<disp-formula id="eqn37">
+<graphic xlink:href="484641v2_eqn37.gif"/>
+</disp-formula>
+which leads to an interface conductance in the continuum limit
+<disp-formula id="eqn38">
+<graphic xlink:href="484641v2_eqn38.gif"/>
+</disp-formula>
+In the simulations in <xref rid="fig3" ref-type="fig">Figure 3</xref>, we are only interested in molecules that remain in the dilute phase without entering the dense phase, and the corresponding interface conductance in the continuum limit is then
+<disp-formula id="eqn39">
+<graphic xlink:href="484641v2_eqn39.gif"/>
+</disp-formula>
+</p>
+</sec><sec id="s7">
+<title>Derivation of the 1-dimensional, slab-geometry versions of <xref ref-type="disp-formula" rid="eqn1">Equations (1)</xref>&#x2013;<xref ref-type="disp-formula" rid="eqn6">(6)</xref></title>
+<p>For the case of a quasi-1D slab geometry, we consider the condensate to sit in the middle in the region &#x2013; <italic>l</italic> &#x003C; <italic>x</italic> &#x003C; <italic>l</italic> with the simulation box extending along the <italic>x</italic>-axis from &#x2013; <italic>L</italic> to <italic>L</italic>. The time evolution of the concentration profile <italic>c</italic>(<italic>x, t</italic>) of molecules initially located in the dense phase (bleached population) is then given by the 1D diffusion equations:
+<disp-formula id="eqn40">
+<graphic xlink:href="484641v2_eqn40.gif"/>
+</disp-formula>
+with the initial condition:
+<disp-formula id="eqn41">
+<graphic xlink:href="484641v2_eqn41.gif"/>
+</disp-formula>
+and boundary conditions:
+<disp-formula id="eqn42">
+<graphic xlink:href="484641v2_eqn42.gif"/>
+</disp-formula>
+<disp-formula id="eqn43">
+<graphic xlink:href="484641v2_eqn43.gif"/>
+</disp-formula>
+The general solution for the diffusion <xref ref-type="disp-formula" rid="eqn40">Equation (40)</xref> with the boundary condition in <xref ref-type="disp-formula" rid="eqn42">Equation (42)</xref> is:
+<disp-formula id="eqn44">
+<graphic xlink:href="484641v2_eqn44.gif"/>
+</disp-formula>
+Applying the boundary condition in <xref ref-type="disp-formula" rid="eqn43">Equation (43)</xref> to this general solution yields:
+<disp-formula id="eqn45">
+<graphic xlink:href="484641v2_eqn45.gif"/>
+</disp-formula>
+<disp-formula id="eqn46">
+<graphic xlink:href="484641v2_eqn46.gif"/>
+</disp-formula>
+which leads to
+<disp-formula id="eqn47">
+<graphic xlink:href="484641v2_eqn47.gif"/>
+</disp-formula>
+where <inline-formula><inline-graphic xlink:href="484641v2_inline5.gif"/></inline-formula> is the relaxation time of the <italic>n</italic>-th mode of the system. For given parameters <italic>c</italic><sub>dil</sub>, <italic>c</italic><sub>den</sub>, <italic>D</italic><sub>dil</sub>, <italic>D</italic><sub>den</sub>, <italic>l, L</italic>, and <italic>&#x03BA;, &#x03C4;</italic> can be obtained numerically using the above equation. In the regime where the interface conductance is small, we derive an analytical expression for the relaxation time
+<disp-formula id="eqn48">
+<graphic xlink:href="484641v2_eqn48.gif"/>
+</disp-formula>
+which resembles the corresponding relaxation time for a spherical droplet when interface conductance is small <italic>&#x03C4;</italic> = <italic>R</italic>/(3<italic>&#x03BA;</italic>).</p>
+<p>We note that, in principle, <xref ref-type="disp-formula" rid="eqn47">Equation (47)</xref> can be used to infer the value of <italic>&#x03BA;</italic> for a system using the relaxation time <italic>&#x03C4;</italic> from simulation. However, due to the relatively small simulation sizes, the interface regime can constitute a significant fraction of the dense-phase condensate. This can result in uncertainties in the determination of the dense phase width <italic>l</italic> and diffusion coefficient <italic>D</italic><sub>den</sub>, etc., leading to errors in the determination of the interface conductance using <xref ref-type="disp-formula" rid="eqn47">Equation (47)</xref>. Such errors can be significant when slow diffusion in the dense phase becomes rate-limiting for overall system relaxation. Therefore, instead of sticking to the &#x201C;FRAP protocol&#x201D;, we find it more convenient to track the molecules that remain in the dilute phase without ever entering the dense-phase (<xref rid="fig3" ref-type="fig">Figure 3A</xref>), as this minimizes the errors caused by any inaccuracies in dense-phase parameters. To relate <italic>&#x03BA;</italic> to the decay time of the dilute-phase molecules, we note that the time evolution of the concentration profile <italic>c</italic>(<italic>x, t</italic>) of the dilute-phase molecules which have never entered the dense phase is given by:
+<disp-formula id="eqn49">
+<graphic xlink:href="484641v2_eqn49.gif"/>
+</disp-formula>
+with the initial condition <italic>c</italic>(<italic>x</italic>, 0) = <italic>c</italic><sub>dil</sub> for <italic>l</italic> &#x003C; &#x007C;<italic>x</italic>&#x007C; &#x003C; <italic>L</italic> and boundary conditions:
+<disp-formula id="eqn50">
+<graphic xlink:href="484641v2_eqn50.gif"/>
+</disp-formula>
+<disp-formula id="eqn51">
+<graphic xlink:href="484641v2_eqn51.gif"/>
+</disp-formula>
+Going through a similar procedure as for <xref ref-type="disp-formula" rid="eqn44">Equations (44)</xref>&#x2013;<xref ref-type="disp-formula" rid="eqn47">(47)</xref>, we obtain
+<disp-formula id="eqn52">
+<graphic xlink:href="484641v2_eqn52.gif"/>
+</disp-formula>
+The interface conductance <italic>&#x03BA;</italic> for simulated systems in <xref rid="fig3" ref-type="fig">Figure 3C</xref> (bottom) is obtained from the relationship in <xref ref-type="disp-formula" rid="eqn52">Equation (52)</xref> using the measured relaxation time <italic>&#x03C4;</italic>, <xref rid="fig3" ref-type="fig">Figure 3C</xref> (top), of molecules that remain in the dilute phase without ever entering the dense phase.</p>
+</sec><sec id="s8">
+<title>Derivation of the unbound-sticker parameter <italic>u</italic> in <xref ref-type="disp-formula" rid="eqn14">Equation (14)</xref></title>
+<p>In the interface resistance dominated regime, the decay time <italic>&#x03C4;</italic> of the number of dilute-phase molecules that have not entered the dense phase can be obtained from <xref ref-type="disp-formula" rid="eqn52">Equation (52)</xref>:
+<disp-formula id="eqn53">
+<graphic xlink:href="484641v2_eqn53.gif"/>
+</disp-formula>
+In the slab geometry, this decay time is controlled by the flux per unit area <italic>j</italic> entering the dense phase
+<disp-formula id="eqn54">
+<graphic xlink:href="484641v2_eqn54.gif"/>
+</disp-formula>
+where <italic>V</italic> is the volume of the dilute phase, and <italic>A</italic> the cross-sectional area of the interface between the dilute and dense phases (the factor of 2 accounts for the two interfaces). Combining these two equations, we have
+<disp-formula id="eqn55">
+<graphic xlink:href="484641v2_eqn55.gif"/>
+</disp-formula>
+For our simulations of polymers with A and B type stickers, we can approximate <italic>j</italic> by assuming that a polymer incident from the dilute phase will join the dense phase if and only if an unbound monomer on the polymer binds to an unbound monomer in the dense phase somewhere in the interface region. To find an approximate formula for <italic>j</italic> we therefore need to estimate the rate of such binding events per unit area of the interface. To this end, we can use the formula for diffusion-limited monomer-monomer binding, but with some modifications: First, we can write the concentration of unbound monomers of type A in the dilute phase as
+<disp-formula id="eqn56">
+<graphic xlink:href="484641v2_eqn56.gif"/>
+</disp-formula>
+where <italic>n</italic><sub>A</sub> is the number of type A monomers per polymer and <italic>f</italic><sub>dilA</sub> is the fraction of these monomers that are unbound. This concentration implies a diffusion-limited binding flux onto each unbound dense-phase type B monomer in the interface region
+<disp-formula id="eqn57">
+<graphic xlink:href="484641v2_eqn57.gif"/>
+</disp-formula>
+where <italic>r</italic><sub>0</sub> is the sticker radius, and we have assumed that the diffusion rate is set by the whole polymer. Now we need an estimate for the areal density <italic>&#x03C1;</italic><sub>denB, unbound</sub> of available unbound B-type monomers in the dense-phase interface region, since each one will contribute the above flux [<xref ref-type="disp-formula" rid="eqn57">Equation (57)</xref>]. We can write
+<disp-formula id="eqn58">
+<graphic xlink:href="484641v2_eqn58.gif"/>
+</disp-formula>
+where <italic>&#x03B4;</italic> is the width of the interface region, <italic>n</italic><sub>B</sub> is the number of type B monomers per polymer, and <italic>f</italic><sub>denB</sub> is the fraction of unbound B monomers on dense-phase polymers in this region. Finally, we can combine the above equations, and include the binding of dilute-phase B-type monomers to dense-phase A type monomers, to obtain
+<disp-formula id="eqn59">
+<graphic xlink:href="484641v2_eqn59.gif"/>
+</disp-formula>
+Using this expression for <italic>j</italic>, we can then estimate the ratio between the true <italic>&#x03BA;</italic> and its continuum limit <italic>&#x03BA;</italic><sub>0</sub> to be
+<disp-formula id="eqn60">
+<graphic xlink:href="484641v2_eqn60.gif"/>
+</disp-formula>
+where <italic>n</italic> = <italic>n</italic><sub>A</sub> &#x002B; <italic>n</italic><sub>B</sub> is the length of a polymer and <italic>s</italic> = <italic>c</italic><sub>A</sub>/ <italic>c</italic><sub>B</sub> is the global stoichiometry. In practice, we find this approximation to be quite accurate up to a constant prefactor (<xref rid="fig3" ref-type="fig">Figure 3D</xref>).</p>
+</sec></sec><sec id="app2"><title>Appendix 2</title><sec id="s9">
+<title>Simulation procedures and data recording</title>
+<p>We perform coarse-grained molecular-dynamics simulations using LAMMPS <bold><italic><xref ref-type="bibr" rid="c19">Plimpton (1995</xref></italic></bold>) to simulate phase separation of &#x201C;sticker and spacer&#x201D; polymers. Individual polymers are modeled as linear chains of spherical stickers of types A and B connected by implicit spacers (<xref rid="fig2" ref-type="fig">Figure 2A</xref>) with the interaction potentials in <xref ref-type="disp-formula" rid="eqn9">Equations (9)</xref>&#x2013;<xref ref-type="disp-formula" rid="eqn11">(11)</xref>, which ensure one-to-one binding between A and B stickers.</p>
+<p>For each of the five selected sequences (<xref rid="fig2" ref-type="fig">Figure 2A</xref>), we simulate 1000 polymers in a 500 nm &#x00D7; 50 nm&#x00D7;50 nm box with periodic boundary conditions. Following the simulation procedures in <bold><italic><xref ref-type="bibr" rid="c30">Zhang et al. (2021</xref></italic></bold>), we first initialize the simulation by confining polymers in the region &#x2013; 90 nm &#x003C; <italic>x</italic> &#x003C; 90 nm to promote phase separation and ensure that only a single dense condensate is formed. The attractive interaction between A and B stickers [<xref ref-type="disp-formula" rid="eqn10">Equation (10)</xref>] is gradually switched on from <italic>U</italic><sub>0</sub> = 0 to 14 over 2.5 &#x00D7; 10<sup>7</sup> time steps. This annealing procedure leads to the formation of a dense phase close to its equilibrated concentration. The dense condensate is equilibrated at fixed <italic>U</italic><sub>0</sub> = 14 for another 2.5 &#x00D7; 10<sup>7</sup> steps and then the confinement is removed. The system is equilibrated for 2 &#x00D7; 10<sup>8</sup> more time steps to allow for the formation of a dilute phase and further relaxation of the dense phase. We then record the positions of all particles every 2.5 &#x00D7; 10<sup>5</sup> steps for 800 recordings.</p>
+<p>Through the entire simulation, we equilibrate the system using a Langevin thermostat implemented with LAMMPS commands fix nve and fix langevin, i.e., the system evolves according to <bold><italic><xref ref-type="bibr" rid="c14">Langevin (1908</xref></italic></bold>)
+<disp-formula id="eqn61">
+<graphic xlink:href="484641v2_eqn61.gif"/>
+</disp-formula>
+where <inline-formula><inline-graphic xlink:href="484641v2_inline6.gif"/></inline-formula> is the coordinate of particle <italic>i, m</italic> is its mass, <italic>&#x03B3;</italic> is the friction coefficient, <inline-formula><inline-graphic xlink:href="484641v2_inline7.gif"/></inline-formula> is random thermal noise, and the potential energy <inline-formula><inline-graphic xlink:href="484641v2_inline8.gif"/></inline-formula> contains all interactions between particles, including bonds and sticker-sticker interactions [<xref ref-type="disp-formula" rid="eqn9">Equations (9)</xref>&#x2013;<xref ref-type="disp-formula" rid="eqn11">(11)</xref>]. We take temperature <italic>T</italic> = 300 K, damping factor <italic>&#x03C4;</italic> = <italic>m</italic>/<italic>&#x03B3;</italic> = 10 ns, step size <italic>dt</italic> = 0.1 ns, and mass of particle <italic>m</italic> = 188.5 ag. These parameters give each sticker the correct diffusion coefficient <italic>D</italic> = <italic>k</italic><sub>B</sub><italic>T</italic> /(3<italic>&#x03C0;&#x03B7;d</italic>) where <italic>&#x03B7;</italic> is the water viscosity 0.001 kg/m/s and <italic>d</italic> = 2 nm is the sticker diameter.</p>
+<p>We perform 10 simulation replicates with different random seeds for each of the five selected polymer sequences. Consistency of results is checked across replicates and between the first and second halves of the recorded data.</p>
+</sec><sec id="s10">
+<title>Determining the dilute- and dense-phase concentrations</title>
+<p>To measure the dilute- and dense-phase concentrations, we first group polymers into connected clusters in each recording. Two stickers are considered connected if they are part of the same polymer, or if they are within the attraction distance <italic>r</italic><sub>0</sub> = 1 nm. Connected stickers are then grouped into clusters. In all simulations, we observe one large cluster which contains most of the polymers, and tens to hundreds of very small clusters (<xref rid="fig2" ref-type="fig">Figure 2B</xref>). We consider the large cluster to constitute the dense phase, and the smaller clusters to be constituents of the dilute phase.</p>
+<p>To find the concentrations of each phase, we identify the center of mass of the dense cluster in each recording, and recenter the simulation box to this center of mass. We then compute the polymer concentration histogram along the <italic>x</italic> axis with a bin size 1/50 of box length. The histogram of numbers of stickers per bin is averaged over all recordings and simulation replicates. The polymer concentration profile is derived as the sticker concentration profile divided by the number of stickers per polymer. The resulting polymer concentration profile has high values in the middle corresponding to the dense-phase concentration, and low values on the two sides corresponding to the dilute-phase concentration (<xref rid="fig2" ref-type="fig">Figure 2C</xref>). The dilute- and dense-phase concentrations in <xref rid="fig2" ref-type="fig">Figure 2D</xref> are calculated by averaging the concentration profile over the regions (<italic>x</italic> &#x2264; &#x2013;150 nm or <italic>x</italic> &#x2265; 150 nm) and (&#x2013; 10 nm &#x2264; <italic>x</italic> &#x2264; 10 nm), respectively.</p>
+</sec><sec id="s11">
+<title>Determining the dilute- and dense-phase diffusion coefficients</title>
+<p>To measure the dilute- and dense-phase diffusion coefficients, we perform simulations with a pure dilute phase or dense phase, i.e., with polymers at the measured dilute- and dense-phase concentrations. Specifically, for the dilute-phase case, we simulate 750 (A2B2)<sub>3</sub>, 285 (A3B3)<sub>2</sub>, 101 A6B6, 104 A8B6, and 180 A10B6 polymers, each in a 150 nm &#x00D7; 150 nm &#x00D7; 150 nm box with periodic boundary conditions. For the dense-phase case, we simulate 1000 polymers for all selected sequences in an <italic>W</italic> nm &#x00D7; 50 nm &#x00D7; 50 nm box with periodic boundary conditions, where <italic>W</italic> = 116.1 for (A2B2)<sub>3</sub>, 96.5 for (A3B3)<sub>2</sub>, 85.8 for A6B6, 136.5 for A8B6, and 234.2 for A10B6. To equilibrate the system, the attractive interaction between A and B stickers [<xref ref-type="disp-formula" rid="eqn10">Equation (10)</xref>] is gradually switched on from <italic>U</italic><sub>0</sub> = 0 to 14 <italic>k</italic><sub>B</sub><italic>T</italic> over 2.5 &#x00D7; 10<sup>7</sup> time steps and equilibrated at fixed <italic>U</italic><sub>0</sub> = 14 <italic>k</italic><sub>B</sub><italic>T</italic> for 2 &#x00D7; 10<sup>8</sup> more time steps. We then record the displacement of all particles every 2.5 &#x00D7; 10<sup>5</sup> steps for 400 recordings. 5 simulation replicates with different random seeds are performed for each selected sequence.</p>
+<p>To find the diffusion coefficients, we compute the time-averaged mean squared displacement (MSD) for each polymer as a function of the lag time <italic>t</italic><sub>lag</sub>, and average over all polymers in a simulation box and over 5 replicates. The time- and ensemble-averaged MSD is then linearly fit to MSD = 6 <italic>Dt</italic><sub>lag</sub> to extract the diffusion coefficient.</p>
+<fig id="figA2_1" position="float" fig-type="figure">
+<label>Appendix 2 Figure 1.</label>
+<caption><p>Interface conductance inferred from average survival time of particles initially in the dilute phase for different criteria for having &#x201C;joined&#x201D; the dense phase (cf. <xref rid="fig3" ref-type="fig">Figure 3</xref>). The interface conductance is shown for three criteria: a polymer is considered to have joined the dense phase if it is in the dense-phase cluster for a continuous duration of <italic>&#x03C4;</italic>, 10<italic>&#x03C4;</italic>, or 20<italic>&#x03C4;</italic>, where <italic>&#x03C4;</italic> is the average bond lifetime of an isolated A-B sticker pair.</p></caption>
+<graphic xlink:href="484641v2_figA2_1.tif"/>
+</fig>
+</sec><sec id="s12">
+<title>Determining the interface conductance</title>
+<p>To measure the interface conductance <italic>&#x03BA;</italic>, we follow the simple protocol depicted in <xref rid="fig3" ref-type="fig">Figure 3A</xref>. This scheme, based on the rate that particles in the dilute phase join the dense phase, is both computationally efficient and allows us to infer the interface conductance even when slow diffusion in the dense phase is rate-limiting for overall system relaxation. Specifically, in this protocol we first define a &#x201C;survival&#x201D; variable <italic>S</italic> for each polymer as a function of time: <italic>S</italic> = 1 if the polymer belongs to any dilute-phase cluster (including a solo cluster), and <italic>S</italic> = 0 if the polymer is in the dense-phase cluster. Next, for all polymers starting with <italic>S</italic> = 1 (i.e., in the dilute phase), we check if there is a period of time (chosen here to be 10 times the average bond lifetime of an isolated A-B pair) for which its <italic>S</italic> value is always 0 (i.e., the polymer has joined the dense-phase cluster). If yes, we set <italic>S</italic> = 1 at the time points before the joining event and <italic>S</italic> = 0 at all times afterward. If not, we set <italic>S</italic> = 1 for this polymer for all time points. We then average <italic>S</italic>(<italic>t</italic>) over all polymers starting with <italic>S</italic> = 1 and over the 10 simulation replicates. The obtained <italic>S</italic>(<italic>t</italic>) is the average survival probability of polymer in the dilute-phase polymer that have never entered the dense phase. We fit <italic>S</italic>(<italic>t</italic>) to a decaying exponential to extract the decay time <italic>&#x03C4;</italic>. The interface conductance <italic>&#x03BA;</italic> is then calculated using <xref ref-type="disp-formula" rid="eqn52">Equation (52)</xref> with the measured decay time and dilute- and dense-phase parameters.</p>
+<p>In <xref rid="fig3" ref-type="fig">Figure 3</xref>, we set the criterion for a polymer to have entered the dense phase as being continuously connected to the dense-phase cluster for a duration longer than 10<italic>&#x03C4;</italic> where <italic>&#x03C4;</italic> is the average bond lifetime of an isolated A-B sticker pair. In <xref rid="figA2_1" ref-type="fig">Appendix 2&#x2014;figure 1</xref>, we compare the results for the interface conductance <italic>&#x03BA;</italic> using alternative durations, &#x003E; <italic>&#x03C4;</italic> and &#x003E; 20<italic>&#x03C4;</italic>, as criteria for joining the dense phase. The value of <italic>&#x03BA;</italic> changes very little between the 10<italic>&#x03C4;</italic> and 20<italic>&#x03C4;</italic> criteria, suggesting that the results in <xref rid="fig3" ref-type="fig">Figure 3</xref> are robust to the definition of &#x201C;joining&#x201D; the dense phase, provided very short-lived bonds are neglected.</p>
+<p>As an alternative approach, we calculated <italic>&#x03BA;</italic> by directly measuring the flux <italic>j</italic> of molecules that enter the dense phase and then using <italic>&#x03BA;</italic> = <italic>j</italic>/ <italic>c</italic><sub>den</sub> [<xref ref-type="disp-formula" rid="eqn55">Equation (55)</xref>]. To find this flux, we first define an entering event as occurring when a molecule starting from the dilute phase joins the dense-phase cluster and stays for a duration longer than 10 times the average bond lifetime for an isolated A-B sticker pair. We count the number of total entering events <italic>N</italic> in a simulation (note that some molecule can enter the dense phase multiple times), and the flux is then <italic>N</italic>/(2<italic>AT</italic>), where <italic>A</italic> is the cross-sectional area of the interface and <italic>T</italic> is the duration of the simulation. We show in <xref rid="figA2_2" ref-type="fig">Appendix 2&#x2014;figure 2</xref> that the values of <italic>&#x03BA;</italic> obtained via this method are consistent with the results reported in <xref rid="fig3" ref-type="fig">Figure 3C</xref>.</p>
+<fig id="figA2_2" position="float" fig-type="figure">
+<label>Appendix 2 Figure 2.</label>
+<caption><p>Comparison of interface conductance <italic>&#x03BA;</italic> obtained with the flux method and with <xref ref-type="disp-formula" rid="eqn52">Equation (52)</xref> as reported in <xref rid="fig3" ref-type="fig">Figure 3C</xref>.</p></caption>
+<graphic xlink:href="484641v2_figA2_2.tif"/>
+</fig>
+<p>We show in <xref rid="figA2_3" ref-type="fig">Appendix 2&#x2014;figure 3</xref> a few representative trajectories of A6B6 (top) and A10B6 (bottom) polymers &#x201C;bouncing&#x201D; off the interface between dilute and dense phases. More bouncing events per unit time are observed in the A6B6 system compared to A10B6 system, consistent with the presence of a larger interface resistance in the A6B6 system.</p>
+<fig id="figA2_3" position="float" fig-type="figure">
+<label>Appendix 2 Figure 3.</label>
+<caption><p>Representative trajectories of molecules &#x201C;bouncing&#x201D; multiple times at the interface of the A6B6 system (top) and A10B6 system (bottom).</p></caption>
+<graphic xlink:href="484641v2_figA2_3.tif"/>
+</fig>
+</sec></sec>
+</back>
+</article>
