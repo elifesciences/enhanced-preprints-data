@@ -51,28 +51,14 @@
 <xref ref-type="aff" rid="a2">&#x2021;</xref>
 <xref ref-type="aff" rid="a3">&#x00B6;</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Willard</surname><given-names>Adam P.</given-names></name>
-<xref ref-type="aff" rid="a1">&#x2020;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Zhang</surname><given-names>Xin</given-names></name>
-<xref ref-type="aff" rid="a2">&#x2021;</xref>
-<xref ref-type="aff" rid="a3">&#x00B6;</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3685-7503</contrib-id>
-<name><surname>Zhang</surname><given-names>Bin</given-names></name>
-<xref ref-type="aff" rid="a1">&#x2020;</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author"><name><surname>Willard</surname><given-names>Adam P.</given-names></name><xref ref-type="aff" rid="a1">&#x2020;</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Zhang</surname><given-names>Xin</given-names></name><email>zhangxin@westlake.edu.cn</email><xref ref-type="aff" rid="a2">&#x2021;</xref><xref ref-type="aff" rid="a3">&#x00B6;</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3685-7503</contrib-id><name><surname>Zhang</surname><given-names>Bin</given-names></name><email>binz@mit.edu</email><xref ref-type="aff" rid="a1">&#x2020;</xref></contrib>
 <aff id="a1"><label>&#x2020;</label>Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA 02139</aff>
 <aff id="a2"><label>&#x2021;</label>Department of Chemistry, School of Science and Research Center for Industries of the Future, Westlake University, 600 Dunyu Road, Hangzhou 310030, Zhejiang Province, China</aff>
 <aff id="a3"><label>&#x00B6;</label>Westlake Laboratory of Life Sciences and Biomedicine, 18 Shilongshan Road, Hangzhou 310024, Zhejiang Province, China</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1"><label>&#x002A;</label>E-mail: <email>zhangxin@westlake.edu.cn</email>; <email>binz@mit.edu</email> Phone: 617-258-0848</corresp>
 <fn id="n1" fn-type="equal"><label>&#x00A7;</label><p>These authors contributed equally to this work</p></fn>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
