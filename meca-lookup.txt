@@ -171,3 +171,4 @@
 10.48550/arXiv.2309.03194=s3://prod-elife-epp-meca/92595-v1-meca.zip
 10.21203/rs.3.rs-3026480/v1=s3://prod-elife-epp-meca/91771-v1-meca.zip
 10.1101/2022.06.17.496574=s3://transfers-elife/biorxiv_Current_Content/September_2023/28_Sep_23_Batch_1748/443c6e0e-72cf-1014-8eec-cc54354275d7.meca
+10.1101/2023.06.06.543964[2]=s3://transfers-elife/biorxiv_Current_Content/October_2023/15_Oct_23_Batch_1765/50947699-6f3f-1014-8cdc-e7ccdb2e2571.meca
