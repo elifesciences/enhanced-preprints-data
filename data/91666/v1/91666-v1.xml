@@ -30,11 +30,7 @@
 <article-title>FBXO24 modulates mRNA alternative splicing and MIWI degradation and is required for normal sperm formation and piRNA production</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Li</surname><given-names>Zhiming</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Li</surname><given-names>Zhiming</given-names></name><email>lzmleo@hust.edu.cn</email><xref ref-type="aff" rid="a1">1</xref></contrib>
 <contrib contrib-type="author">
 <name><surname>Liu</surname><given-names>Xingping</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
@@ -47,25 +43,11 @@
 <name><surname>Li</surname><given-names>Yuanyuan</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9332-9408</contrib-id>
-<name><surname>Zhou</surname><given-names>Liquan</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-1460-7682</contrib-id>
-<name><surname>Yuan</surname><given-names>Shuiqiao</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9332-9408</contrib-id><name><surname>Zhou</surname><given-names>Liquan</given-names></name><email>zhouliquan@hust.edu.cn</email><xref ref-type="aff" rid="a1">1</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-1460-7682</contrib-id><name><surname>Yuan</surname><given-names>Shuiqiao</given-names></name><email>shuiqiaoyuan@hust.edu.cn</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib>
 <aff id="a1"><label>1</label>Institute of Reproductive Health, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China</aff>
 <aff id="a2"><label>2</label>Laboratory of Animal Center, Huazhong University of Science and Technology, Wuhan 430030, China</aff>
 </contrib-group>
-<author-notes>
-<corresp id="cor1"><label>&#x002A;</label>Co-correspondence authors. Correspondence and requests for materials should be addressed to Dr. Shuiqiao Yuan Dr. Liquan Zhou, and Dr. Zhiming Li at Institute Reproductive Health, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, 430030, China Emails: <email>shuiqiaoyuan@hust.edu.cn</email>; <email>zhouliquan@hust.edu.cn</email>; <email>lzmleo@hust.edu.cn</email> Fax: &#x002B;86 02783692651</corresp>
-</author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.10.01.560355</elocation-id>
 <history>
