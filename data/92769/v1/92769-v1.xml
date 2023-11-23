@@ -50,23 +50,9 @@
 <name><surname>Geng</surname><given-names>Xin-Yan</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
-<contrib contrib-type="author">
-<name><surname>Yang</surname><given-names>Yi-Hong</given-names></name>
-<xref ref-type="aff" rid="a4">4</xref>
-<xref ref-type="aff" rid="a5">5</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author">
-<name><surname>Shen</surname><given-names>Ying</given-names></name>
-<xref ref-type="aff" rid="a3">3</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9337-5412</contrib-id>
-<name><surname>Chen</surname><given-names>Su-Ren</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Yang</surname><given-names>Yi-Hong</given-names></name><email>yyhpumc@foxmail.com</email><xref ref-type="aff" rid="a4">4</xref><xref ref-type="aff" rid="a5">5</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Shen</surname><given-names>Ying</given-names></name><email>yingcaishen01@163.com</email><xref ref-type="aff" rid="a3">3</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9337-5412</contrib-id><name><surname>Chen</surname><given-names>Su-Ren</given-names></name><email>chensr@bnu.edu.cn</email><xref ref-type="aff" rid="a1">1</xref></contrib>
 <aff id="a1"><label>1</label>Key Laboratory of Cell Proliferation and Regulation Biology, Ministry of Education, Department of Biology, College of Life Sciences, Beijing Normal University, Beijing 100875, China</aff>
 <aff id="a2"><label>2</label>Department of Pediatrics, West China Second University Hospital, Sichuan University, Chengdu 610041, China</aff>
 <aff id="a3"><label>3</label>Key Laboratory of Obstetrics and Gynecologic and Pediatric Diseases and Birth Defects of the Ministry of Education, Sichuan University, Chengdu, 610041, China</aff>
@@ -74,7 +60,6 @@
 <aff id="a5"><label>5</label>NHC Key Laboratory of Chronobiology, Sichuan University, Chengdu 610041, China</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1"><label>&#x002A;</label><bold>For correspondence:</bold> <email>yyhpumc@foxmail.com</email> (Y-HY); <email>yingcaishen01@163.com</email> (YS); <email>chensr@bnu.edu.cn</email> (S-RC)</corresp>
 <fn id="n1" fn-type="equal"><label>&#x2020;</label><p>These authors contributed equally to this work</p></fn>
 <fn id="n2" fn-type="others"><p><bold>Competing interests:</bold> The authors declare that no competing interests exist.</p></fn>
 </author-notes>
