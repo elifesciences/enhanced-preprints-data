@@ -39,26 +39,12 @@
 <name><surname>Hugonnet</surname><given-names>Jean-Emmanuel</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes" equal-contrib="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-1822-0397</contrib-id>
-<name><surname>Rusconi</surname><given-names>Filippo</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="author-notes" rid="n1">a</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes" equal-contrib="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-1007-636X</contrib-id>
-<name><surname>Arthur</surname><given-names>Michel</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="author-notes" rid="n1">a</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes" equal-contrib="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-1822-0397</contrib-id><name><surname>Rusconi</surname><given-names>Filippo</given-names></name><email>filippo.rusconi@universite-paris-saclay.fr</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref><xref ref-type="author-notes" rid="n1">a</xref></contrib>
+<contrib contrib-type="author" corresp="yes" equal-contrib="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-1007-636X</contrib-id><name><surname>Arthur</surname><given-names>Michel</given-names></name><email>michel.arthur@crc.jussieu.fr</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="author-notes" rid="n1">a</xref></contrib>
 <aff id="a1"><label>1</label>Centre de Recherche des Cordeliers, Sorbonne Universit&#x00E9;, INSERM, Universit&#x00E9; de Paris, F-75006, Paris, France</aff>
 <aff id="a2"><label>2</label>GQE-Le Moulon/PA, Universit&#x00E9; Paris-Saclay, INRAE, CNRS, AgroParisTech, IDEEV ; 12, route 128 ; F-91272 Gif-sur-Yvette, France</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1"><label>&#x002A;</label>Corresponding authors, email: <email>michel.arthur@crc.jussieu.fr</email></corresp>
 <fn id="n1" fn-type="equal"><label>a</label><p>Equal contribution</p></fn>
 </author-notes>
 <pub-date pub-type="epub">
