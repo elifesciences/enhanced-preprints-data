@@ -90,8 +90,8 @@
 <title>Competing Interest Statement</title><p>The authors have declared no competing interest.</p></notes>
 <fn-group content-type="summary-of-updates">
 <title>Summary of Updates:</title>
-<fn fn-type="update"><p>We have introduced two new figures that offer a deeper understanding of our research findings: 
-In new Figure 7, we present the analysis of the difference in onset times between motion and flash responses. This figure also includes a simple illustration elucidating the origins of these differences, highlighting the varying engagement of receptive fields by these stimuli. The data presented in this figure were initially featured in the main text of the original manuscript. 
+<fn fn-type="update"><p>We have introduced two new figures that offer a deeper understanding of our research findings:
+In new Figure 7, we present the analysis of the difference in onset times between motion and flash responses. This figure also includes a simple illustration elucidating the origins of these differences, highlighting the varying engagement of receptive fields by these stimuli. The data presented in this figure were initially featured in the main text of the original manuscript.
 Figure 11 offers a detailed comparison of the temporal and spatial characteristics of the synthetic presynaptic signals driving optimal DS in SACs. We compare these characteristics with the properties extracted from recorded glutamate release. Our analysis suggests that the sluggish dynamics observed in biological signals impede effective directional integration.
 </p></fn>
 </fn-group>
@@ -258,25 +258,35 @@ Figure 11 offers a detailed comparison of the temporal and spatial characteristi
 <p>The SAC received innervation from 200 BC inputs, which were randomly distributed across proximal dendrites (within a distance of &#x003C;110 &#x00B5;m from the soma). Each synapse was assumed to be associated with a single BC, and the RF center of the BC was aligned with the postsynaptic position. The BC RFs consisted of Gaussian-shaped components for the center and surround regions.</p>
 <p>Stimuli were presented within a 1 mm-wide arena, matching the experimentally presented stimuli (see below). To determine RF activation, the spatial overlap between the Gaussian functions describing the center and surround RF components and the shape of the stimulus was computed separately for each time step (&#x0394;t &#x003D; 1 ms).</p>
 <p><italic>Area<sub>t</sub></italic> corresponds to the normalized fraction of the stimulated RF area at time <italic>t</italic>, computed for each component. For full-field static flashes, the entire center and surround were activated when the stimulus was presented. For moving stimuli, <italic>area<sub>t</sub></italic> was the sum of the area of the Gaussian function describing the center or surround RF component that spatially overlapped with the stimulus:
+<disp-quote/>
 <disp-formula>
 <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="551732v2_ueqn1.gif"/>
 </disp-formula>
+<disp-quote/>
 Where <italic>width</italic> is the FWHM of the corresponding RF component. Subsequently, RF center and surround responses at time <italic>t</italic> were determined from the following equations:
+<disp-quote/>
 <disp-formula>
 <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="551732v2_ueqn2.gif"/>
 </disp-formula>
+<disp-quote/>
 The integration of center and surround RFs was calculated in a conductance-based model of synaptic integration, determined from the excitatory and inhibitory driving forces:
+<disp-quote/>
 <disp-formula>
 <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="551732v2_ueqn3.gif"/>
 </disp-formula>
+<disp-quote/>
 Where <italic>R<sub>in</sub></italic> is the input resistance. Because the magnitude of RF activation depended on its size, <italic>R<sub>in</sub></italic> was set to be proportional to the spatial extent of the center.
+<disp-quote/>
 <disp-formula>
 <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="551732v2_ueqn4.gif"/>
 </disp-formula>
+<disp-quote/>
 RF activation in each BC was temporally adjusted based on stimulus velocity and the spatial position:
+<disp-quote/>
 <disp-formula>
 <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="551732v2_ueqn5.gif"/>
 </disp-formula>
+<disp-quote/>
 The following constraints were imposed: RF amplitude, surround strength and reversal were permitted to vary between 0 and 1; rise / decay times and RF widths were positive. Overall, <italic>RF<sub>full</sub></italic> was expressed in unitless units in the [0,1] interval, with values closer to one signifying strong activation.</p>
 </sec>
 <sec id="s4b">
@@ -285,13 +295,17 @@ The following constraints were imposed: RF amplitude, surround strength and reve
 <p>For each generation, a total of 16 bipolar-SAC models were executed simultaneously on a Dell Precision 5820 workstation, with one model per processor thread. In the first generation, random values were assigned to seed each network model. A separate RF description was instantiated with random values within the specified limits for the two BC populations.</p>
 <p>Likewise, random initial values were chosen for passive conductance (ranging from 1e to 1e S/cm), axial resistance (constrained between 50 and 300 &#x2126;cm), N-type calcium conductance and voltage offset (limits &#x003D; &#x00B1;30 mV), as well as synaptic conductance (limits &#x003D; 0.01 &#x2013; 1 nS). All models were presented with the same stimuli, consisting of bars moving from left to right and from right to left at five different speeds: 0.25, 0.5, 1, 2 and 4 mm/s. The height of the bar was 1 mm, its duration was 2 seconds. The intensity of the stimuli was set to 1 and the background was set to zero (AU).</p>
 <p>Calcium signals were recorded from SAC sites located on the distal dendrites, specifically those within proximity of less than 30 &#x00B5;m from the horizontal axis. When a single branch was stimulated, only sites on that dendrites were included in the analysis. For each stimulation speed (comprising two different stimulation directions), we computed the DS index of each site as follows:
+<disp-quote/>
 <disp-formula>
 <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="551732v2_ueqn6.gif"/>
 </disp-formula>
+<disp-quote/>
 Where <italic>R<sub>Outward</sub></italic> and <italic>R<sub>Inward</sub></italic> are the peak calcium levels recorded for the outward and inward directions from the perspective of the dendrite. To minimize extreme calcium signals, we computed the directional metric:
+<disp-quote/>
 <disp-formula>
 <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="551732v2_ueqn7.gif"/>
 </disp-formula>
+<disp-quote/>
 Where <italic>Ca<sub>opt</sub></italic> was the optimal calcium level in the outward direction, set to 500 nM.</p>
 <p>Subsequently, the models were ranked based on the average directional metric calculated over the five stimulation speeds. The two best-performing models were retained without any changes, while the parameters of the rest of the models were randomly selected to match either the best or second-best- performing models and then mutated as follows: For each parameter describing the presynaptic RF and postsynaptic SAC properties, a Gaussian distribution with a mean of 1 and a standard deviation of 5&#x0025; was used to determine a scaling factor. This scaling factor was multiplied with the parameter value and combined with a random value drawn from a uniform distribution ranging from -0.015 to 0.015. These modified (mutated) models constituted the next generation of candidate solutions. Typically, we evolved the model over 100 generations, as empirical evidence has shown that increasing the number of generations beyond this point does not yield significantly improved results.</p>
 </sec>
@@ -299,9 +313,11 @@ Where <italic>Ca<sub>opt</sub></italic> was the optimal calcium level in the out
 <title>RF estimation from recorded glutamate waveforms</title>
 <p>To estimate the RF that could mediate the recorded glutamate waveforms presented in <xref rid="fig7" ref-type="fig">Figures 7</xref> and <xref rid="fig7" ref-type="fig">7</xref>- S1, we employed an evolutionary algorithm for training RF models to match the shape of experimentally observed glutamate release clusters. Each cluster was considered separately during the analysis.</p>
 <p>The model contained a single RF, and its parameters were described using the same parameter set as mentioned earlier. It is important to note that the fluorescent signal produced by iGluSnFR represents a temporally filtered version of the original glutamatergic drive (<xref ref-type="bibr" rid="c2">Armbruster et al., 2020</xref>; <xref ref-type="bibr" rid="c24">Hain &#x0026; Moser, 2023</xref>; <xref ref-type="bibr" rid="c56">Srivastava et al., 2022</xref>). In order to mimic the iGluSnFR waveforms in the models, we applied a filtering process to the output of the simulation. On each time step <italic>t0</italic>, we convolved the value of the simulated response with a wavelet described as the difference between two exponential functions:
+<disp-quote/>
 <disp-formula>
 <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="551732v2_ueqn8.gif"/>
 </disp-formula>
+<disp-quote/>
 Where <italic>F<sub>rise</sub></italic> &#x003D; 10 ms, <italic>F<sub>decay</sub></italic> &#x003D;50 ms are the rise and decay times of the filter, respectively. The resulting vectors starting at time <italic>t0</italic> and lasting till the end of simulation duration, were combined to produce the filtered version of the full response.</p>
 <p>Following the initial random instantiation, simulated RF responses were calculated for the five different speeds. The fitness of each model was then evaluated based on the mean square error between the simulated waveforms and the experimentally recorded waveforms. The next generation was formed by introducing potentially mutated offspring of models that exhibited the lowest errors. These mutations were performed according to the methodology described above.</p>
 </sec>
@@ -331,9 +347,11 @@ Where <italic>F<sub>rise</sub></italic> &#x003D; 10 ms, <italic>F<sub>decay</sub
 <p>In the second step, we combined individual ROIs from multiple scan fields and mice into functional clusters. This process was separate for ON- and OFF-SACs. For each ROI, we computed the mean motion response shape by aligning the motion responses to both directions of stimulation by the half-maximum rise time. The alignment procedure produced a single trace, whose half-maximum rise time was exactly in between the rise times for the responses to the two directions. The rise time of the aligned signal does not depend on the position of the RF (<xref ref-type="bibr" rid="c21">Gaynes et al., 2022</xref>), allowing us to compare the waveforms of glutamate response across different locations and recordings. Secondary hierarchical clustering was performed in R v3.6 (R foundation for statistical computing). Motion responses to 0.5 mm/s stimuli were first converted to data frames in R. The traces were smoothed with a combination of a Butterworth (filter order &#x003D; 1, critical frequency &#x003D; 0.1) and rolling average filters, baseline subtracted and normalized to the peak amplitude. For the ON responses, we discarded time points with variance less than 0.5 as this aided with convergence to biologically plausible clusters. To quantify the number of functional clusters, we used within cluster variance (<xref ref-type="bibr" rid="c64">Warren Liao, 2005</xref>). Within cluster variance is computed by finding the sum of the squared differences of each observation in a proposed cluster and the mean of that cluster. We used automated assessment of the elbow plots (within-cluster variance as a function of the number of clusters) to identify optimal cluster numbers for a grid search of distance computations and clustering algorithms available in base R and the dynamic time warping library. We then used expert assessment to identify the most plausible clustering from this small set of options (<xref rid="fig6" ref-type="fig">Figure 6</xref>-S1). Empirically, we found that the ward.D2 hierarchical clustering method, available in the base R &#x2018;hclust&#x2019; function, provides the clearest cluster separation. We used the Euclidean and maximum distances for the ON- and OFF-SAC datasets, respectively.</p>
 <p>Tests of statistical significance were performed in Igor Pro using built-in functions.</p>
 <p>RF mapping was determined from a two-dimensional Gaussian fit to the responses to the oriented bars, as described previously (<xref ref-type="bibr" rid="c28">Johnston et al., 2014</xref>; <xref ref-type="bibr" rid="c50">Poleg-Polsky et al., 2018</xref>). The FWHM of the RF was calculated along the axis of motion from the spatial time constant generated by the fit (&#x03C3;<sub>x</sub>) as follows:
+<disp-quote/>
 <disp-formula>
 <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="551732v2_ueqn9.gif"/>
 </disp-formula>
+<disp-quote/>
 The transiency index (TI) was calculated as the ratio between the peak and the mean of the response within the stimulation window. TI&#x003D;1 indicates a sharp and transient response, TI close to zero is produced by sustained plateaus.</p>
 <p>IPL depth was measured from the transmitted light channel extracted from the z-stack taken of the entire width of the retina that accompanied all functional recordings. The curvature of the retina was corrected by measuring the height of the inner limiting membrane at the four corners and the center of the image stack and fitting a curved plane that crossed these 5 points.</p>
 </sec>
