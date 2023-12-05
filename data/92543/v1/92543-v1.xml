@@ -30,12 +30,7 @@
 <article-title>Systemic pharmacological suppression of neural activity reverses learning impairment in a mouse model of Fragile X syndrome</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3776-3699</contrib-id>
-<name><surname>Shakhawat</surname><given-names>Amin Md</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3776-3699</contrib-id><name><surname>Shakhawat</surname><given-names>Amin Md</given-names></name><email>amins@stanford.edu</email><xref ref-type="aff" rid="a1">1</xref></contrib>
 <contrib contrib-type="author">
 <name><surname>Foltz</surname><given-names>Jacqueline G</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
@@ -47,17 +42,9 @@
 <name><surname>Bhateja</surname><given-names>Jaydev</given-names></name>
 <xref ref-type="aff" rid="a1">1</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8145-747X</contrib-id>
-<name><surname>Raymond</surname><given-names>Jennifer L</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8145-747X</contrib-id><name><surname>Raymond</surname><given-names>Jennifer L</given-names></name><email>jenr@stanford.edu</email><xref ref-type="aff" rid="a1">1</xref></contrib>
 <aff id="a1"><label>1</label>Department of Neurobiology, Stanford University, Stanford, California 94305-5125</aff>
 </contrib-group>
-<author-notes>
-<corresp id="cor1"><label>&#x002A;</label>Correspondence should be addressed to <email>amins@stanford.edu</email> or <email>jenr@stanford.edu</email></corresp>
-</author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.10.05.561013</elocation-id>
 <history>
