@@ -62,13 +62,13 @@
 </name>
 <xref ref-type="aff" rid="a1">1</xref>
 <xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-<email>viallonv@iarc.who.int</email>
+<email xlink:href="mailto:viallonv@iarc.who.int">viallonv@iarc.who.int</email>
 </contrib>
 </contrib-group>
 <aff id="a1"><label>1</label>Nutrition and Metabolism Branch, International Agency for Research on Cancer, Lyon, France</aff>
 <aff id="a2"><label>2</label>Massachusetts Institute of Technology, Department of Mathematics, Cambridge MA, United States</aff>
 <author-notes>
-<corresp id="cor1"><label>&#x002A;</label><bold>For correspondence:</bold> <email>viallonv@iarc.who.int</email> (VV)</corresp>
+<corresp id="cor1"><label>&#x002A;</label><bold>For correspondence:</bold> <email xlink:href="mailto:viallonv@iarc.who.int">viallonv@iarc.who.int</email> (VV)</corresp>
 <fn id="fn1"><label>&#x2020;</label><p>These authors contributed equally to this work and are joint first authors</p></fn>
 </author-notes>
 <pub-date pub-type="epub"><day>13</day><month>09</month><year>2023</year></pub-date>
@@ -319,7 +319,7 @@
 <title>Constraint on <italic>m</italic>/<italic>z</italic> ratios</title>
 <p>Matched metabolic features must have compatible <italic>m</italic>/<italic>z</italic> so we enforce that &#x220F;<sub><italic>ij</italic></sub> = 0 when <inline-formula id="ID29">
 <inline-graphic xlink:href="2306.03218v2_ieq29.tif"/>
-</inline-formula> where <italic>m</italic><sub>gap</sub> is a user-specified threshold. Based on prior literature <italic><bold><xref ref-type="bibr" rid="c24">Loftfield et al. (2021)</xref></bold></italic>; <bold><italic><xref ref-type="bibr" rid="c19">Hsu et al. (2019)</xref></italic></bold>; <italic><bold><xref ref-type="bibr" rid="c11">Climaco Pinto et al. (2022)</xref></bold></italic>; <italic><bold><xref ref-type="bibr" rid="c18">Habra et al. (2021)</xref></bold></italic>; <italic><bold><xref ref-type="bibr" rid="c9">Chen et al. (2021)</xref></bold></italic> we set <italic>m</italic><sub>gap</sub> = 0.01ppm. Note that <italic>m</italic><sub>gap</sub> is not explicitly used in (10) but is rather enforced in each iteration of our alternating minimization algorithm for the UGW objective (<xref ref-type="appendix" rid="app1">Appendix 1</xref>).</p>
+</inline-formula> <italic>m</italic><sub>gap</sub> where <italic>m</italic><sub>gap</sub> is a user-specified threshold. Based on prior literature <italic><bold><xref ref-type="bibr" rid="c24">Loftfield et al. (2021)</xref></bold></italic>; <bold><italic><xref ref-type="bibr" rid="c19">Hsu et al. (2019)</xref></italic></bold>; <italic><bold><xref ref-type="bibr" rid="c11">Climaco Pinto et al. (2022)</xref></bold></italic>; <italic><bold><xref ref-type="bibr" rid="c18">Habra et al. (2021)</xref></bold></italic>; <italic><bold><xref ref-type="bibr" rid="c9">Chen et al. (2021)</xref></bold></italic> we set <italic>m</italic><sub>gap</sub> = 0.01ppm. Note that <italic>m</italic><sub>gap</sub> is not explicitly used in (10) but is rather enforced in each iteration of our alternating minimization algorithm for the UGW objective (<xref ref-type="appendix" rid="app1">Appendix 1</xref>).</p>
 <p>Unlike the <italic>m</italic>/<italic>z</italic> ratios discussed above, RTs often exhibit a non-linear deviation (drift) between studies so we cannot enforce compatibility of RTs directly in our optimization. Instead, in the following step of our pipeline we ensure matched metabolite pairs have compatible RTs by estimating the drift function and subsequently using it to filter out metabolite matches whose RT values are inconsistent with the estimated drift.</p>
 </sec>
 <sec id="s4a3">
@@ -336,9 +336,9 @@
 <label>(11)</label>
 </disp-formula>
 </p>
-<p>where <italic>B<sub>n,k</sub></italic> is the set of <italic>n</italic>-order B-splines with <italic>k</italic> knots. All pairs (<inline-formula id="ID32">
+<p>where <italic>B<sub>n,k</sub></italic> is the set of <italic>n</italic>-order B-splines with <italic>k</italic> knots. All pairs <inline-formula id="ID32">
 <inline-graphic xlink:href="2306.03218v2_ieq32.tif"/>
-</inline-formula>) in objective (11) are weighted by the coefficients of <inline-formula id="ID33">
+</inline-formula> in objective (11) are weighted by the coefficients of <inline-formula id="ID33">
 <inline-graphic xlink:href="2306.03218v2_ieq33.tif"/>
 </inline-formula> so that larger weights are given to pairs identified with high confidence in the first step of our procedure. The order of the B-splines was set to <italic>n</italic> = 3 by default, while the number of knots <italic>k</italic> was selected by 10-fold cross-validation.</p>
 <p>Pairs identified as incompatible with the estimated RT drift are then discarded from the coupling matrix. To do this, we first take the estimated RT drift <inline-formula id="ID34">
@@ -579,11 +579,14 @@
 </inline-formula>.</p><sec id="s5a">
 <title>Correlations and distances between metabolomic features</title>
 <p>Features cannot be aligned based on their <italic>m</italic>/<italic>z</italic> and RT alone as they are often too inconsistent across studies. Our method is based on the idea that, in addition to their <italic>m</italic>/<italic>z</italic> and RT being compatible, the signal intensities of metabolites measured in two different studies should exhibit similar correlation structures, or more generally exhibit similar distances between their intensity vectors. In other words, if feature intensity vectors <inline-formula id="ID61">
-<inline-graphic xlink:href="2306.03218v2_ieq61.tif"/>
+<inline-graphic xlink:href="2306.03218v2_ieq61.tif"/></inline-formula>, <inline-formula id="ID157">
+<inline-graphic xlink:href="2306.03218v2_ieq157.tif"/>
 </inline-formula> correspond to the same underlying feature (<inline-formula id="ID62">
 <inline-graphic xlink:href="2306.03218v2_ieq62.tif"/>
 </inline-formula>) and similarly if <inline-formula id="ID63">
 <inline-graphic xlink:href="2306.03218v2_ieq63.tif"/>
+</inline-formula>, <inline-formula id="ID158">
+<inline-graphic xlink:href="2306.03218v2_ieq158.tif"/>
 </inline-formula> correspond to the same feature (<inline-formula id="ID64">
 <inline-graphic xlink:href="2306.03218v2_ieq64.tif"/>
 </inline-formula>), then we expect that
@@ -689,7 +692,7 @@
 <p>When <italic>d</italic>(<italic>u, v</italic>) is Euclidean, this OT distance is also referred to as the <italic>L</italic><sup>1</sup> optimal transport distance, the Wasserstein 1-distance, or the Earth mover&#x2019;s distance. As formulated, the computation of the optimal transport objective involves an optimization over coupling matrices n which can be solved by linear programming <italic><bold>Peyr&#x00E9; et al. (2019)</bold></italic>. The OT optimization problem becomes time consuming for problems with many points <italic>p</italic><sub>1</sub> ,<italic>p</italic><sub>2</sub> &#x226B; 1. We show in the next section how augmenting this distance with a regularization term leads to a more efficient algorithm for learning the optimal coupling &#x220F;.</p>
 </sec><sec id="s5c">
 <title>Entropic regularization</title>
-<p>Define the Kullback-Leibler (KL) divergence between two positive vectors <inline-formula id="ID79">
+<p>Define the Kullback-Leibler (KL) divergence between two positive vectors &#x03BC;, <inline-formula id="ID79">
 <inline-graphic xlink:href="2306.03218v2_ieq79.tif"/>
 </inline-formula> as
 <disp-formula id="FD29">
@@ -734,7 +737,7 @@
 </inline-formula> which is not necessarily a distance matrix. The introduction of the regularizer <italic>&#x03B5;</italic>D<sub>KL</sub>(&#x220F;, <italic>a</italic> &#x2297; <italic>b</italic>) gives us an efficient iterative algorithm known as the <italic>Sinkhorn algorithm</italic> for optimizing &#x220F; which we describe in the following sections.</p>
 </sec><sec id="s5d">
 <title>Unbalanced optimal transport</title>
-<p>Before we introduce the Sinkhorn algorithm, we introduce a final modification to our optimal transport distance that allows us to learn couplings between distributions <inline-formula id="ID84">
+<p>Before we introduce the Sinkhorn algorithm, we introduce a final modification to our optimal transport distance that allows us to learn couplings between distributions <italic>a</italic>, <inline-formula id="ID84">
 <inline-graphic xlink:href="2306.03218v2_ieq84.tif"/>
 </inline-formula> that do not preserve mass. In other words, the coupling &#x220F; is not required to perfectly satisfy the marginal constraints <inline-formula id="ID85">
 <inline-graphic xlink:href="2306.03218v2_ieq85.tif"/>
@@ -748,6 +751,8 @@
 </p>
 <p>where we have added two KL terms with regularization parameter <italic>&#x03C1;</italic> to enforce that the marginals of the coupling <inline-formula id="ID87">
 <inline-graphic xlink:href="2306.03218v2_ieq87.tif"/>
+</inline-formula>, <inline-formula id="ID159">
+<inline-graphic xlink:href="2306.03218v2_ieq159.tif"/>
 </inline-formula> are approximately close to the prescribed marginals <italic>a,b</italic> respectively. We have also kept the smoothness/entropy regularizer <italic>&#x03B5;</italic>D<sub>KL</sub>(&#x220F;, <italic>a</italic> &#x2297; <italic>b</italic>) from the previous section.</p>
 </sec><sec id="s5e">
 <title>Unbalanced Sinkhorn algorithm</title>
@@ -758,6 +763,8 @@
 </p>
 <p>The inner minimization can be solved exactly by introducing dual variables <inline-formula id="ID88">
 <inline-graphic xlink:href="2306.03218v2_ieq88.tif"/>
+</inline-formula>, <inline-formula id="ID160">
+<inline-graphic xlink:href="2306.03218v2_ieq160.tif"/>
 </inline-formula> and writing out the Lagrange dual problem
 <disp-formula id="FD36">
 <graphic xlink:href="2306.03218v2_eqn36.tif"/>
@@ -846,7 +853,7 @@
 <caption><title>UnbalancedSinkhorn</title></caption>
 <graphic xlink:href="2306.03218v2_tbl6.tif"/>
 </table-wrap>
-<p>The final output of the Sinkhorn algorithm optimization is a real-valued coupling matrix <inline-formula id="ID92">
+<p>The final output of the Sinkhorn algorithm optimization is a real-valued coupling matrix &#x220F; &#x2208; <inline-formula id="ID92">
 <inline-graphic xlink:href="2306.03218v2_ieq92.tif"/>
 </inline-formula>. In some cases, it is desirable to transform the coupling matrix into a binary-valued matching matrix <inline-formula id="ID93">
 <inline-graphic xlink:href="2306.03218v2_ieq93.tif"/>
@@ -855,6 +862,8 @@
 <title>Gromov-Wasserstein</title>
 <p>Now that we have introduced the general formulation of unbalanced optimal transport and its corresponding Sinkhorn algorithm, we can extend this formulation to matching problems between distributions of points that live in different dimensional spaces. In our metabolomics setting, we aim to match two datasets of <italic>p</italic><sub>1</sub> and <italic>p</italic><sub>2</sub> metabolic features respectively where each feature in a dataset is associated with a feature intensity vector <inline-formula id="ID94">
 <inline-graphic xlink:href="2306.03218v2_ieq94.tif"/>
+</inline-formula> and <inline-formula id="ID161">
+<inline-graphic xlink:href="2306.03218v2_ieq161.tif"/>
 </inline-formula> respectively across samples. We assume that there exists a true matching matrix <inline-formula id="ID95">
 <inline-graphic xlink:href="2306.03218v2_ieq95.tif"/>
 </inline-formula> with at most one nonzero entry in each row and column such that two metabolites (<italic>i,j</italic>) are matched if <inline-formula id="ID96">
@@ -880,6 +889,8 @@
 <inline-graphic xlink:href="2306.03218v2_ieq99.tif"/>
 </inline-formula> and <inline-formula id="ID100">
 <inline-graphic xlink:href="2306.03218v2_ieq100.tif"/>
+</inline-formula> <inline-formula id="ID162">
+<inline-graphic xlink:href="2306.03218v2_ieq162.tif"/>
 </inline-formula> we would like to infer the true matching matrix <italic>M</italic>* by solving an optimization problem.</p>
 <p>Consider the following objective function
 <disp-formula id="FD54">
@@ -957,9 +968,9 @@
 <label>(44)</label>
 </disp-formula>
 </p>
-<p>Before we expand this cost, we introduce the notation <italic>m</italic>(<italic>&#x03C0;</italic>) to denote the sum of the elements of <italic>&#x03C0;</italic> which can be a vector, matrix or tensor. In general, for four positive distributions <inline-formula id="ID114">
+<p>Before we expand this cost, we introduce the notation <italic>m</italic>(<italic>&#x03C0;</italic>) to denote the sum of the elements of <italic>&#x03C0;</italic> which can be a vector, matrix or tensor. In general, for four positive distributions <italic>&#x03C0;</italic>, <inline-formula id="ID114">
 <inline-graphic xlink:href="2306.03218v2_ieq114.tif"/>
-</inline-formula> and <inline-formula id="ID115">
+</inline-formula> and <italic>&#x03B3;</italic>, <inline-formula id="ID115">
 <inline-graphic xlink:href="2306.03218v2_ieq115.tif"/>
 </inline-formula> we have that the KL satisfies the tensorization property
 <disp-formula id="FD61">
@@ -974,8 +985,9 @@
 </disp-formula>
 </p>
 <p>This allows us to write for the marginal constraints <inline-formula id="ID116">
-<inline-graphic xlink:href="2306.03218v2_ieq116.tif"/>
-</inline-formula> and couplings <inline-formula id="ID117">
+<inline-graphic xlink:href="2306.03218v2_ieq116.tif"/></inline-formula>, <inline-formula id="ID163">
+<inline-graphic xlink:href="2306.03218v2_ieq163.tif"/>
+</inline-formula> and couplings &#x220F;, <inline-formula id="ID117">
 <inline-graphic xlink:href="2306.03218v2_ieq117.tif"/>
 </inline-formula> that
 <disp-formula id="FD63">
@@ -1023,6 +1035,8 @@
 </inline-formula> leads to mass equality <italic>m</italic>(&#x220F;) = <italic>m</italic>(&#x0393;) and also stabilizes the convergence of the algorithm.</p>
 <p>Returning to our metabolomics matching problem, we further guide our UGW optimization procedure by discouraging it from matching metabolic feature pairs whose mass-to-charge ratios are incompatible. Namely, we choose a value <italic>m</italic><sub>gap</sub> such that for all pairs (<italic>i,j</italic>) with <italic>i</italic> &#x2208; [<italic>p</italic><sub>1</sub>],<italic>j</italic> &#x2208; [<italic>p</italic><sub>2</sub>] and mass-to-charge ratios <inline-formula id="ID126">
 <inline-graphic xlink:href="2306.03218v2_ieq126.tif"/>
+</inline-formula>, <inline-formula id="ID164">
+<inline-graphic xlink:href="2306.03218v2_ieq164.tif"/>
 </inline-formula> we enforce that
 <disp-formula id="FD68">
 <graphic xlink:href="2306.03218v2_eqn68.tif"/>
@@ -1099,7 +1113,9 @@
 <inline-graphic xlink:href="2306.03218v2_ieq142.tif"/>
 </inline-formula> to still contain coefficients of very small magnitude. As an optional postprocessing step, we discard these coefficients by setting all entries smaller than <inline-formula id="ID143">
 <inline-graphic xlink:href="2306.03218v2_ieq143.tif"/>
-</inline-formula> to zero for some scaling constant <italic>&#x03C4;</italic> &#x2208; [0, 1]. Lastly, a feature from either study could have multiple possible matches, since &#x220F; can have more than one non-zero coefficient per row or column. Although reporting multiple matches can be helpful in an exploratory context, for the sake of simplicity in our analysis, the final output of GromovMatcher returns a one-to-one matching. Consequently, we only keep those metabolite pairs (<italic>i,j</italic>) where the entry <inline-formula id="ID144">
+</inline-formula> to zero for some scaling constant <italic>&#x03C4;</italic> &#x2208; [0, 1]. Lastly, a feature from either study could have multiple possible matches, since <inline-formula id="ID165">
+<inline-graphic xlink:href="2306.03218v2_ieq165.tif"/>
+</inline-formula> can have more than one non-zero coefficient per row or column. Although reporting multiple matches can be helpful in an exploratory context, for the sake of simplicity in our analysis, the final output of GromovMatcher returns a one-to-one matching. Consequently, we only keep those metabolite pairs (<italic>i,j</italic>) where the entry <inline-formula id="ID144">
 <inline-graphic xlink:href="2306.03218v2_ieq144.tif"/>
 </inline-formula> is largest in its corresponding row and column. All nonzero entries of <inline-formula id="ID145">
 <inline-graphic xlink:href="2306.03218v2_ieq145.tif"/>
