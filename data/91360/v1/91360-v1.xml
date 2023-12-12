@@ -401,14 +401,18 @@ where <italic>I</italic><sub><italic>k</italic></sub> is the K &#x00D7;1 vector 
 <p><italic>Setting 1</italic>. We simulated quantitative trait values as i.i.d. samples from normal distribution with mean 0 and variance 1. In this setting, simulated trait values were independent from genotype data.</p>
 <p><italic>Setting 2</italic>. We simulated quantitative trait values based on an additive random effect model commonly used in heritability estimation [<xref ref-type="bibr" rid="c39">39</xref>]. We fixed heritability to be 0.1. In this setting, the simulated trait is associated with SNPs, but is not directly related to PRS of UK biobank traits.</p>
 <p><italic>Setting 3</italic>. We selected 100 traits from 1,738 UK-Biobank traits to calculate PRS on GERA data. For each of these 100 PRS, we simulated a quantitative trait by summing up the effect of PRS, a polygenic genetic background, and a noise term.
+<disp-quote/>
 <disp-formula id="ueqn24">
 <graphic xlink:href="468306v3_ueqn24.gif"/>
 </disp-formula>
+<disp-quote/>
 Here, <italic>X</italic> denotes the genotype of samples; <italic>&#x03B2;</italic> is the effect size of each variant; <italic>P</italic> is the PRS of one of the selected traits; <italic>&#x03C1;</italic> is the effect size of PRS; and <italic>&#x03B5;</italic> is the error term following a standard normal distribution. The polygenic background and random noise (i.e.<italic>X &#x03B2;</italic> &#x002B; <italic>&#x03B5;</italic>) were simulated using the same model described in setting 2. This term and the PRS were normalized separately. The standardized effect size (i.e. <italic>&#x03C1;</italic>) was set as 0.02, 0.015, 0.01, 0.008, and 0.005 in our simulations. In this setting, simulated traits are directly associated with SNPs and PRS. For each value of <italic>&#x03C1;</italic>, statistical power was calculated as the proportion of significant results (p&#x003C;0.05) out of 100 traits.</p>
 <p><italic>Setting 4</italic>. We simulated 100 quantitative traits <italic>T</italic><sub>1</sub>,&#x2026;, <italic>T</italic><sub>100</sub> based on an additive random effect model commonly used with heritability fixed as 0.1. And the response traits <italic>Y</italic><sub>1</sub>,&#x2026;, <italic>Y</italic><sub>100</sub> were simulated by adding a noise term to <italic>T</italic>.
+<disp-quote/>
 <disp-formula id="ueqn25">
 <graphic xlink:href="468306v3_ueqn25.gif"/>
 </disp-formula>
+<disp-quote/>
 Where <italic>&#x03B3;</italic><sub><italic>i</italic></sub> &#x223C;<italic>N</italic>(0,2), and <italic>&#x03B5;</italic><sub><italic>i</italic></sub> &#x223C;<italic>N</italic>(0,<italic>Var</italic>(<italic>T</italic><sub><italic>i</italic></sub>)) The data set was split into two subsets, one with 31,162 (subset 1) and another with 31,163 samples (subset 2). Marginal summary statistics correspond to <italic>T</italic><sub><italic>i</italic></sub>&#x2019;s and <italic>Y</italic><sub><italic>i</italic></sub>&#x2019;s were derived using subset 1 and subset 2, respectively. We applied LDpred to jointly estimate all SNPs&#x2019; effects using marginal summary statistics from subset 1.</p>
 <p>Then, we ran BADGERS to identify associations between 100 pairs of <italic>Y</italic><sub><italic>i</italic></sub> and <italic>T</italic><sub><italic>i</italic></sub> using two methods to impute <italic>T</italic><sub><italic>i</italic></sub>&#x2019;s (i.e. marginal PRS and LDpred).</p>
 </sec>
