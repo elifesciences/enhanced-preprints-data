@@ -48,23 +48,14 @@
 <name><surname>Nir</surname><given-names>Ben-Tal</given-names></name>
 <xref ref-type="aff" rid="a4">4</xref>
 </contrib>
-<contrib contrib-type="author">
-<name><surname>Turkan</surname><given-names>Haliloglu</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Oded</surname><given-names>Lewinson</given-names></name>
-<xref ref-type="aff" rid="a3">3</xref>
-<xref ref-type="corresp" rid="cor1">&#x2020;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Turkan</surname><given-names>Haliloglu</given-names></name><email>halilogt@boun.edu.tr</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Oded</surname><given-names>Lewinson</given-names></name><email>lewinson@technion.ac.il</email><xref ref-type="aff" rid="a3">3</xref></contrib>
 <aff id="a1"><label>1</label>Department of Chemical Engineering, Bogazici University, 34342 Istanbul, Turkey</aff>
 <aff id="a2"><label>2</label>Polymer Research Center, Bogazici University, 34342 Istanbul, Turkey</aff>
 <aff id="a3"><label>3</label>Department of Molecular Microbiology, Bruce and Ruth Rappaport Faculty of Medicine, Technion-Israel Institute of Technology</aff>
 <aff id="a4"><label>4</label>Department of Biochemistry and Molecular Biology, Faculty of Life Sciences, Tel-Aviv University, Tel-Aviv, Israel</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1"><label>&#x2020;</label> Corresponding author; email: <email>lewinson@technion.ac.il</email></corresp>
 <fn id="n1" fn-type="equal"><label>&#x002A;</label><p>Equal contribution</p></fn>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
