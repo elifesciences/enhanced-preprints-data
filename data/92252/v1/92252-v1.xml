@@ -89,19 +89,8 @@
 <name><surname>Rao</surname><given-names>Yanxia</given-names></name>
 <xref ref-type="aff" rid="a3">3</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-2834-2876</contrib-id>
-<name><surname>Shu</surname><given-names>Yousheng</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4183-5939</contrib-id>
-<name><surname>Peng</surname><given-names>Bo</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a4">4</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-2834-2876</contrib-id><name><surname>Shu</surname><given-names>Yousheng</given-names></name><email>yousheng@fudan.edu.cn</email><xref ref-type="aff" rid="a1">1</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4183-5939</contrib-id><name><surname>Peng</surname><given-names>Bo</given-names></name><email>peng@fudan.edu.cn</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a4">4</xref></contrib>
 <aff id="a1"><label>1</label>Department of Neurosurgery, Huashan Hospital, Institute for Translational Brain Research, State Key Laboratory of Medical Neurobiology, MOE Frontiers Center for Brain Science, Innovative Center for New Drug Development of Immune Inflammatory Diseases, Ministry of Education, Fudan University, Shanghai 200040, China</aff>
 <aff id="a2"><label>2</label>School of Basic Medical Sciences, Jinzhou Medical University, Jinzhou, Liaoning 121001, China</aff>
 <aff id="a3"><label>3</label>Department of Neurology, Zhongshan Hospital, Department of Laboratory Animal Science, MOE Frontiers Center for Brain Science, Fudan University, Shanghai 200032, China</aff>
@@ -109,7 +98,6 @@
 </contrib-group>
 <author-notes>
 <fn fn-type="others" id="n1"><label>&#x0023;</label><p>Co-first authors</p></fn>
-<corresp id="cor1"><label>&#x002A;</label><bold>Correspondence should be addressed to:</bold> Dr. Yousheng Shu, Fudan University, Shanghai, China. E-mail: <email>yousheng@fudan.edu.cn</email>; Dr. Bo Peng, Fudan University, Shanghai, China. E-mail: <email>peng@fudan.edu.cn</email></corresp>
 </author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.10.06.561235</elocation-id>
