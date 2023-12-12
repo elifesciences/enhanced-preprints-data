@@ -30,7 +30,6 @@
 <surname>Malkin</surname>
 <given-names>James</given-names>
 </name>
-<email>james.malkin@bristol.ac.uk</email>
 <xref ref-type="aff" rid="a1">1</xref>
 <xref ref-type="corresp" rid="CR1">*</xref>
 </contrib>
@@ -60,7 +59,7 @@
 <aff id="a1"><label>1</label>Faculty of Engineering, University of Bristol, Bristol, UK</aff>
 <aff id="a2"><label>2</label>Intelligent Systems Research Centre, School of Computing, Engineering, and Intelligent Systems, Ulster University, Derry/Londonderry, UK</aff>
 <author-notes>
-<corresp id="CR1"><label>*</label><bold>For correspondence:</bold> <email>james.malkin@bristol.ac.uk</email> (JM)</corresp>
+<corresp id="CR1"><label>*</label><bold>For correspondence:</bold> <email xlink:href="mailto:james.malkin@bristol.ac.uk">james.malkin@bristol.ac.uk</email> (JM)</corresp>
 </author-notes>
 <pub-date pub-type="epub"><day>06</day><month>09</month><year>2023</year></pub-date>
 <permissions>
@@ -93,32 +92,32 @@
 <sec id="s2a">
 <title>Biophysical costs</title>
 <p>Here, we seek to understand the biophysical energetic costs of synaptic transmission, and how those costs relate to the reliability of transmission (<xref ref-type="fig" rid="fig1">Fig. 1a</xref>). We start by considering the underlying mechanisms of synaptic transmission. In particular, synaptic transmission begins with the arrival of a spike at the axon terminal. This triggers a large influx of calcium ions into the axon terminal. The increase in calcium concentration causes the release of neurotransmitter-filled vesicles docked at axonal release sites. The neurotransmitter diffuses across the synaptic cleft to the postsynaptic dendritic membrane. There, the neurotransmitter binds with ligand-gated ion channels causing a change in voltage, i.e. a postsynaptic potential. This process is often quantified using the <bold><italic><xref ref-type="bibr" rid="c36">Katz and Miledi (1965</xref></italic></bold>) quantal model of neurotransmitter release. Under this model, for each connection between two cells, there are <italic>n</italic> docked, readily releasable vesicles. When the presynaptic cell spikes, each docked vesicle releases with probability <italic>p</italic> and each released vesicle causes a postsynaptic potential of size <italic>q</italic>. Thus, the mean, <italic>&#x03BC;</italic>, and variance, <italic>&#x03C3;</italic><sup>2</sup>, of the PSP can be written (see <xref ref-type="fig" rid="fig1">Fig. 1b</xref>),</p>
-<disp-formula id="FD1">
-<graphic xlink:href="2309.03194v1_eqn1.tif"/>
-<label>(1)</label>
-</disp-formula>
-<p>We considered four biophysical costs associated with improving the reliability of synaptic transmission, while keeping the mean fixed, and derived the associated scaling of the energetic cost with PSP variance.</p>
 <fig id="fig1" position="float" fig-type="figure">
 <label>Figure 1.</label>
 <caption><title>Physiological reliability costs</title>
 <p><bold>a.</bold> Physiological processes that influence PSP precision. <bold>b.</bold> A binomial model of vesicle release. For fixed PSP mean, increasing <italic>p</italic> or <italic>n</italic> decreases PSP variance. We have substituted <italic>q</italic> &#x221E; <italic>r</italic><sup>3</sup> to reflect that vesicle volume scales quantal size (<bold><italic><xref ref-type="bibr" rid="c35">Karunanithi et al., 2002</xref></italic></bold>). <bold>c.</bold> Four different biophysical costs of reliable synaptic transmission. <bold>I</bold>) Calcium pumps reverse the calcium influx that triggers vesicle release. A high probability of vesicle release requires a large influx of calcium, and extruding this calcium is costly. <bold>II</bold>) An equivalent volume of neurotransmitter can be stored in few large vesicles or shared between many smaller vesicles. Sharing a fixed volume of neurotransmitter among many small vesicles reduces PSP variability but increases vesicle surface area, creating greater demand for phospholipid metabolism and hence greater energetic costs. <bold>III</bold>) Actin filament support the structure of vesicle clusters at the terminal. Many and large vesicles require more actin and higher rates of ATP dependent actin turnover. <bold>IV</bold>) There are biophysical costs that scale with the number of vesicles (<bold><italic><xref ref-type="bibr" rid="c45">Laughlin et al., 1998</xref></italic></bold>; <bold><italic><xref ref-type="bibr" rid="c4">Attwell and Laughlin, 2001</xref></italic></bold>) e.g. vesicle trafficking driven by myosin-V active transport along actin filaments.</p></caption>
 <graphic xlink:href="2309.03194v1_fig1.tif"/>
 </fig>
+<disp-formula id="FD1">
+<graphic xlink:href="2309.03194v1_eqn1.tif"/>
+<label>(1)</label>
+</disp-formula>
+<p>We considered four biophysical costs associated with improving the reliability of synaptic transmission, while keeping the mean fixed, and derived the associated scaling of the energetic cost with PSP variance.</p>
 <sec id="s2a1">
 <title>Calcium efflux.</title>
-<p>Reliability is higher when the probability of vesicle release, <italic>p</italic>, is higher. As vesicle release is triggered by an increase in intracellular calcium, greater calcium concentration implies higher release probability. However, increased calcium concentration implies higher energetic costs. In particular, calcium that enters the synaptic bouton will subsequently need to be pumped out. We take the cost of pumping out calcium ions to be proportional to the calcium concentration, and take the relationship between release probability and calcium concentration to be governed by a Hill Equation, following <bold><italic><xref ref-type="bibr" rid="c65">Sakaba and Neher (2001</xref></italic></bold>). The resulting relationship between energetic costs and reliability is cost &#x221D; <italic>&#x03C3;</italic><sup>&#x2212;1/2</sup> (<xref ref-type="fig" rid="fig1">Fig. 1c</xref> (I); see Appendix - Reliability costs for further details).</p>
+<p>Reliability is higher when the probability of vesicle release, <italic>p</italic>, is higher. As vesicle release is triggered by an increase in intracellular calcium, greater calcium concentration implies higher release probability. However, increased calcium concentration implies higher energetic costs. In particular, calcium that enters the synaptic bouton will subsequently need to be pumped out. We take the cost of pumping out calcium ions to be proportional to the calcium concentration, and take the relationship between release probability and calcium concentration to be governed by a Hill Equation, following <bold><italic><xref ref-type="bibr" rid="c65">Sakaba and Neher (2001</xref></italic></bold>). The resulting relationship between energetic costs and reliability is cost &#x221D; <italic>&#x03C3;</italic><sup>&#x2212;1/2</sup> (<xref ref-type="fig" rid="fig1">Fig. 1c</xref> (I); see <xref ref-type="app" rid="app1">Appendix - Reliability costs</xref> for further details).</p>
 </sec>
 <sec id="s2a2">
 <title>Vesicle membrane surface area.</title>
-<p>There may also be energetic costs associated with producing and maintaining a large amount of vesicle membrane. <bold><italic><xref ref-type="bibr" rid="c60">Purdon et al. (2002</xref></italic></bold>) argues that phospholipid metabolism may take a considerable proportion of the brain&#x2019;s energy budget. Additionally, costs associated with membrane surface area may arise because of leakage of hydrogen ions across vesicles (<bold><italic><xref ref-type="bibr" rid="c59">Pulido and Ryan, 2021</xref></italic></bold>). Importantly, a cost for vesicle surface area is implicitly a cost on reliability. In particular, we could obtain highly reliable synaptic release by releasing many small vesicles, such that stochasticity in individual vesicle release events averages out. However, the resulting many small vesicles have a far larger surface area than a single large vesicle, with the same mean PSP. Thus, a cost on surface area implies a relationship between energetic costs and reliability; in particular cost &#x221D; <italic>&#x03C3;</italic><sup>&#x2212;2/3</sup> (<xref ref-type="fig" rid="fig1">Fig. 1c</xref> (II); see Appendix - Reliability costs for further details).</p>
+<p>There may also be energetic costs associated with producing and maintaining a large amount of vesicle membrane. <bold><italic><xref ref-type="bibr" rid="c60">Purdon et al. (2002</xref></italic></bold>) argues that phospholipid metabolism may take a considerable proportion of the brain&#x2019;s energy budget. Additionally, costs associated with membrane surface area may arise because of leakage of hydrogen ions across vesicles (<bold><italic><xref ref-type="bibr" rid="c59">Pulido and Ryan, 2021</xref></italic></bold>). Importantly, a cost for vesicle surface area is implicitly a cost on reliability. In particular, we could obtain highly reliable synaptic release by releasing many small vesicles, such that stochasticity in individual vesicle release events averages out. However, the resulting many small vesicles have a far larger surface area than a single large vesicle, with the same mean PSP. Thus, a cost on surface area implies a relationship between energetic costs and reliability; in particular cost &#x221D; <italic>&#x03C3;</italic><sup>&#x2212;2/3</sup> (<xref ref-type="fig" rid="fig1">Fig. 1c</xref> (II); see <xref ref-type="app" rid="app1">Appendix - Reliability costs</xref> for further details).</p>
 </sec>
 <sec id="s2a3">
 <title>Actin.</title>
-<p>Another cost for small but numerous vesicles arises from a demand for structural organisation of the vesicles pool by filaments such as actin (<bold><italic><xref ref-type="bibr" rid="c15">Cingolani and Goda, 2008</xref></italic></bold>; <bold><italic><xref ref-type="bibr" rid="c23">Gentile et al., 2022</xref></italic></bold>). Critically, there are physical limits to the number of vesicles that can be attached to an actin filament of a given length. In particular, if vesicles are smaller we can attach more vesicles to a given length of actin, but at the same time, the total vesicle volume (and hence the total quantity of neurotransmitter) will be smaller (<xref ref-type="fig" rid="fig1">Fig. 1c</xref> (III)). A fixed cost per unit length of actin thus implies a relationship between energetic costs and reliability of, cost &#x221D; <italic>&#x03C3;</italic><sup>&#x2212;4/3</sup> (see Appendix - Reliability costs).</p>
+<p>Another cost for small but numerous vesicles arises from a demand for structural organisation of the vesicles pool by filaments such as actin (<bold><italic><xref ref-type="bibr" rid="c15">Cingolani and Goda, 2008</xref></italic></bold>; <bold><italic><xref ref-type="bibr" rid="c23">Gentile et al., 2022</xref></italic></bold>). Critically, there are physical limits to the number of vesicles that can be attached to an actin filament of a given length. In particular, if vesicles are smaller we can attach more vesicles to a given length of actin, but at the same time, the total vesicle volume (and hence the total quantity of neurotransmitter) will be smaller (<xref ref-type="fig" rid="fig1">Fig. 1c</xref> (III)). A fixed cost per unit length of actin thus implies a relationship between energetic costs and reliability of, cost &#x221D; <italic>&#x03C3;</italic><sup>&#x2212;4/3</sup> (see <xref ref-type="app" rid="app1">Appendix - Reliability costs</xref>).</p>
 </sec>
 <sec id="s2a4">
 <title>Trafficking.</title>
-<p>A final class of costs is proportional to the number of vesicles (<bold><italic><xref ref-type="bibr" rid="c45">Laughlin et al., 1998</xref></italic></bold>). One potential biophysical mechanism by which such a cost might emerge is from active transport of vesicles along actin filaments or microtubles to release sites (<bold><italic><xref ref-type="bibr" rid="c14">Chenouard et al., 2020</xref></italic></bold>). In particular, vesicles are transported by ATP-dependent myosin-V motors (<bold><italic><xref ref-type="bibr" rid="c12">Bridgman, 1999</xref></italic></bold>), so more vesicles require a greater energetic cost for trafficking. Any such cost proportional to the number of vesicles gives rise to a relationship between energetic cost and PSP variance of the form, cost &#x221E; <italic>&#x03C3;</italic><sup>&#x2212;2</sup> (<xref ref-type="fig" rid="fig1">Fig. 1c</xref> (IV); see Appendix - Reliability costs).</p>
+<p>A final class of costs is proportional to the number of vesicles (<bold><italic><xref ref-type="bibr" rid="c45">Laughlin et al., 1998</xref></italic></bold>). One potential biophysical mechanism by which such a cost might emerge is from active transport of vesicles along actin filaments or microtubles to release sites (<bold><italic><xref ref-type="bibr" rid="c14">Chenouard et al., 2020</xref></italic></bold>). In particular, vesicles are transported by ATP-dependent myosin-V motors (<bold><italic><xref ref-type="bibr" rid="c12">Bridgman, 1999</xref></italic></bold>), so more vesicles require a greater energetic cost for trafficking. Any such cost proportional to the number of vesicles gives rise to a relationship between energetic cost and PSP variance of the form, cost &#x221E; <italic>&#x03C3;</italic><sup>&#x2212;2</sup> (<xref ref-type="fig" rid="fig1">Fig. 1c</xref> (IV); see <xref ref-type="app" rid="app1">Appendix - Reliability costs</xref>).</p>
 </sec>
 <sec id="s2a5">
 <title>Costs related to PSP mean/magnitude</title>
@@ -332,7 +331,7 @@
 <ref id="c73"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Yang</surname> <given-names>Y</given-names></string-name>, <string-name><surname>Li</surname> <given-names>P.</given-names></string-name></person-group> <article-title>Synaptic Dynamics Realize First-order Adaptive Learning and Weight Symmetry</article-title>. <source>arXiv preprint arXiv:221209440</source>. <year>2022</year>;.</mixed-citation></ref>
 <ref id="c74"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Yu</surname> <given-names>L</given-names></string-name>, <string-name><surname>Zhang</surname> <given-names>C</given-names></string-name>, <string-name><surname>Liu</surname> <given-names>L</given-names></string-name>, <string-name><surname>Yu</surname> <given-names>Y.</given-names></string-name></person-group> <article-title>Energy-efficient population coding constrains network size of a neuronal array system</article-title>. <source>Scientific reports</source>. <year>2016</year>; <volume>6</volume>():<elocation-id>19369</elocation-id>.</mixed-citation></ref>
 </ref-list>
-<sec id="s5"><title>Appendix 1</title><sec id="s5a">
+<sec id="app1"><title>Appendix 1</title><sec id="s5a">
 <title>Reliability costs</title>
 <p>The difficulty in determining reliability costs is that <italic>&#x03C3;</italic> depends on three variables: <italic>n</italic>, the number of vesicles, <italic>p</italic> the probability of release and <italic>q</italic>, the quantal size, which measures the amount of neurotransmitter in each vesicle:
 <disp-formula id="FD8">
@@ -416,7 +415,7 @@
 </p>
 <p>which, is, again, of the form cost&#x221D; <italic>&#x03C3;</italic><sup>-<italic>&#x03C1;</italic></sup> provided <italic>p</italic> is small. For larger <italic>p</italic>, however, it depends on exactly how <italic>p</italic> changes as <italic>np</italic> changes.</p>
 <p>Generally, throughout these calculation we have supposed that <italic>q</italic> is a compensatory variable and that either <italic>p</italic> or <italic>n</italic> changes in the process that changes the cost at a synapse. The benefit of this is that we are able to model costs directly in terms of reliability; in the future, though, it might be interesting to consider models which use <italic>n</italic>, <italic>p</italic> and <italic>q</italic> instead of <italic>&#x03BC;</italic> and <italic>&#x03C3;</italic>; this would certainly be convenient for the sort of comparisons we are making here and interesting, although two formulations seem equivalent, this does not mean that the learning dynamics will be the same.</p>
-</sec></sec><sec id="s6"><title>Appendix 2</title><sec id="s6a">
+</sec></sec><sec id="app2"><title>Appendix 2</title><sec id="s6a">
 <title>High input rates and high precision at important synapses</title>
 <p>Using a generalised linear model, we demonstrate that synapse variability optimised under the performancereliability cost tradeoff depends on the input rate and the Hessian. To do this, consider a set of predictor-response pairs (<italic><bold>y</bold><sub>a</sub>, <bold>x</bold><sub>a</sub></italic>) where <italic>a</italic> labels the data points, and each data point <italic><bold>x</bold><sub>a</sub></italic> is a vector over features we label with index <italic>i</italic>. Logistic regression is an attempt to approximate <italic><bold>y</bold><sub>a</sub></italic> as a function of <italic><bold>x</bold><sub>a</sub></italic>:
 <disp-formula id="FD19">
@@ -517,7 +516,7 @@
 <label>(33)</label>
 </disp-formula>
 </p>
-</sec></sec><sec id="s7"><title>Appendix 3</title><sec id="s7a">
+</sec></sec><sec id="app3"><title>Appendix 3</title><sec id="s7a">
 <title>Synapse importance and gradient magnitudes</title>
 <p>In our ANN simulations we train synaptic weights using the most established adaptive optimisation scheme, Adam (<italic><bold><xref ref-type="bibr" rid="c38">Kingma and Ba, 2014</xref></bold></italic>); which has recently been realised using biologically plausible mechanisms (<italic><bold><xref ref-type="bibr" rid="c73">Yang and Li, 2022</xref></bold></italic>). Adam uses a synapse-specific learning rate, <italic>&#x03B7;<sub>i</sub></italic>, which decreases in response to high gradients at that synapse,
 <disp-formula id="FD34">
@@ -535,7 +534,7 @@
 </disp-formula>
 </p>
 <p>Of course, in practice, the data is not drawn from the model, so the relationship between the squared gradients and the Hessian computed for real data is only approximate. But it is close enough to induce a relationship between synapse importance (measured as the diagonal of the Hessian) and learning rates (which are inversely proportional to the root-mean-square gradients) in our simulations.</p>
-</sec></sec><sec id="s8"><title>Appendix 4</title><sec id="s8a">
+</sec></sec><sec id="app4"><title>Appendix 4</title><sec id="s8a">
 <title>Energy efficient noise and variational-Bayes for neural network weights</title>
 <sec id="s8a1">
 <title>Introduction to Variational Bayes for neural network weights</title>
@@ -684,7 +683,7 @@
 </p>
 <p>as the first term in <xref ref-type="disp-formula" rid="FD47">Eq. 47</xref> cancels. However, <italic>s</italic> cannot be set individually across synapses, but is instead roughly constant, with a value set by underlying biological constraints. In particular, <italic>s</italic> can be written as a function of <italic>&#x03C1;</italic> and <italic>c</italic> (<xref ref-type="disp-formula" rid="FD51">Eq. 51</xref>), and <italic>&#x03C1;</italic> and <italic>c</italic> are quantities that are roughly constant across synapses, with their values set by biological constraints. Thus, biological implications of a tightening bound as <italic>s</italic> tends to <italic>&#x03C3;<sub>i</sub></italic> are not clear.</p>
 </sec>
-</sec></sec><sec id="s9"><title>Appendix 5</title><sec id="s9a">
+</sec></sec><sec id="app5"><title>Appendix 5</title><sec id="s9a">
 <title>Analytic predictions for <italic>&#x03C3;<sub>i</sub></italic></title>
 <p>At various points in the main text, we note a connection between the Hessian, synapse importance and optimal variability. To develop a formal understanding of these connections, we perform a second-order Taylor expansion of the performance cost and magnitude cost, considering only the quadratic term, as that is the only term that depends on the variances (the other terms are incorporated in const),
 <disp-formula id="FD57">
@@ -771,7 +770,7 @@
 <p>The green dots show simulated synapses, and the grey line is fitted to these simulated points. The blue line is from our analytic predictions, while the red dashed line is from experimental data (<xref ref-type="fig" rid="fig6">Fig. 6</xref>).</p></caption>
 <graphic xlink:href="2309.03194v1_fig9.tif"/>
 </fig>
-</sec></sec><sec id="s10"><title>Appendix 6</title><fig id="fig10" position="float" fig-type="figure">
+</sec></sec><sec id="app6"><title>Appendix 6</title><fig id="fig10" position="float" fig-type="figure">
 <label>Appendix 6&#x2014;figure 1.</label>
 <caption><title>Patterns of synapse variability for the remaining layers of the neural network used to provide our results.</title>
 <p>In <xref ref-type="fig" rid="fig5">Fig. 5</xref> we showed the heterogeneous patterns of synapse variability for the synapses connecting the two hidden layers of our ANN. Here we exhibit the equivalent plots for the other synapses, those between the input and the first hidden layer (layer 1) and the from the final hidden layer to the output layer (layer 3). As in <xref ref-type="fig" rid="fig5">Fig. 5</xref> we show the relationship between synaptic variance and <bold>a.</bold> the Hessian; <bold>b.</bold> learning rate; and <bold>c.</bold> input rate. The patterns do not appear substantially different from layer to layer.</p></caption>
