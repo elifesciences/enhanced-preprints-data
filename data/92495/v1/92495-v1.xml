@@ -47,25 +47,14 @@
 <name><surname>Okun</surname><given-names>Michael</given-names></name>
 <xref ref-type="aff" rid="a4">4</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Charles</surname><given-names>Adam</given-names></name>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-6289-4439</contrib-id>
-<name><surname>Harris</surname><given-names>Timothy</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Charles</surname><given-names>Adam</given-names></name><email>adamsc@jhu.edu</email><xref ref-type="aff" rid="a2">2</xref></contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-6289-4439</contrib-id><name><surname>Harris</surname><given-names>Timothy</given-names></name><email>harrist@janelia.hhmi.org</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib>
 <aff id="a1"><label>1</label>Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA</aff>
 <aff id="a2"><label>2</label>Department of Biomedical Engineering, Center for Imaging Science, Kavli Neuroscience Discovery Institute, Johns Hopkins University, Baltimore, MD, USA</aff>
 <aff id="a3"><label>3</label>Sainsbury Wellcome Centre, University College London, London, UK</aff>
 <aff id="a4"><label>4</label>Department of Psychology and Neuroscience Institute, University of Sheffield, Sheffield, UK</aff>
 </contrib-group>
 <author-notes>
-<corresp id="cor1"><label>&#x002A;</label>Corresponding author(s). E-mail(s): <email>adamsc@jhu.edu</email>; <email>harrist@janelia.hhmi.org</email>;</corresp>
 <fn fn-type="con"><p>Contributing authors: <email>yuanx@janelia.hhmi.org</email>; <email>colonellj@janelia.hhmi.org</email>; <email>anna.lebedeva.17@ucl.ac.uk</email>; <email>m.okun@sheffield.ac.uk</email>;</p></fn>
 </author-notes>
 <pub-date pub-type="epub">
