@@ -330,20 +330,26 @@ where &#x003C9;<sub><italic>MN</italic>&#x0023;</sub> is the weight of the given
 <p><italic>Recruitment Time</italic> (<italic>t</italic><sub><italic>rec</italic></sub>): Recruitment time is the time of the first instantaneous discharge rate of a given motorneuron.</p>
 <p><italic>De-Recruitment Time</italic> (<italic>t</italic><sub><italic>drec</italic></sub>): De-Recruitment time is the time of the last instantaneous discharge of a given motoneuron.</p>
 <p><italic>Activation Duration</italic> (<italic>t</italic><sub><italic>dur</italic></sub>): Activation duration is the difference between de-recruitment time and recruitment time:
+<disp-quote/>
 <disp-formula id="eqn7">
 <graphic xlink:href="519818v3_eqn7.gif"/>
 </disp-formula>
+<disp-quote/>
 </p>
 <p><italic>Recruitment Range</italic> (<italic>t</italic><sub><italic>range</italic></sub>): The recruitment range is the difference between the recruitment time of the last and the first motorneuron in the motorpool.</p>
 <p><italic>Firing Rate Saturation</italic> (&#x03B1;<sub><italic>sat</italic></sub>): The motorneuron firing rate is characterized by an initial acceleration phase that lasts about 1s followed by partial saturation of firing rate. The degree of this saturation is quantified by calculating the rate of firing rate increase from 1 sec after recruitment to the target peak (11 s):
+<disp-quote/>
 <disp-formula id="eqn8">
 <graphic xlink:href="519818v3_eqn8.gif"/>
 </disp-formula>
+<disp-quote/>
 where <italic>f</italic><sub>3</sub> is the firing rate at 11 s, <italic>f</italic><sub>2</sub> is the firing rate 1 s post recruitment (<italic>t</italic><sub><italic>rec</italic></sub>), <italic>t</italic><sub>3</sub> is time at target peak 11 s and <italic>t</italic><sub>2</sub> is 1 s post recruitment.</p>
 <p><italic>Firing Rate Hysteresis</italic> (&#x00394;<italic>F</italic>): A motorneuron rate hysteresis can be quantified using the &#x00394;<italic>F</italic> measure introduced by Gorassini and colleagues (<xref ref-type="bibr" rid="c18">Gorassini et al., 2002</xref>). &#x00394;<italic>F</italic> is defined as the difference in the smoothed firing rate of a lower threshold reporter motorneuron (<xref rid="fig7" ref-type="fig">Figure 7</xref> - bottom) at the onset (<italic>t</italic><sub><italic>rec</italic></sub>, <italic>f</italic><sub>0</sub>) and offset (<italic>t</italic><sub><italic>drec</italic></sub>, <italic>f</italic><sub>1</sub>) of the higher threshold motorneuron (<xref rid="fig7" ref-type="fig">Figure 7</xref> - top):
+<disp-quote/>
 <disp-formula id="eqn9">
 <graphic xlink:href="519818v3_eqn9.gif"/>
 </disp-formula>
+<disp-quote/>
 </p>
 <p><italic>brace&#x2013;height</italic> (<italic>brace</italic> &#x2212; &#x210E;<italic>eig</italic>&#x210E;<italic>t</italic>): Brace height is a measure of the non-linear portion of the rising phase of the firing rate of the motoneuron (see <xref rid="fig7" ref-type="fig">Figure 7</xref> - top trace). It is the maximum perpendicular distance from the line linking the firing rates at recruitment time (<italic>t</italic><sub><italic>rec</italic></sub>) to <italic>t</italic><sub>3</sub>, the time at which the triangular &#x201C;Reference&#x201D; reaches its maximum (11 s). This distance is calculate by solving the geometric problem of finding the &#x201C;Distance from a point to a line&#x201D;. This analysis is further detailed by <xref ref-type="bibr" rid="c5">Beauchamp et al. (2023)</xref>.</p>
 <p>We restricted the calculation to motorneuron pairs for which the recruitment time difference between the two was more than 1 s. This restriction was imposed to ensure that PIC activation in the reporter unit had reached near steady state, so that further changes in reporter discharge rate primarily reflected changes in synaptic drive (cf. <italic>Powers et al.</italic> (2008)).</p>
