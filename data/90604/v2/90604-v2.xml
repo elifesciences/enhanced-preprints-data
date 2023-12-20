@@ -33,44 +33,41 @@
 <contrib contrib-type="author">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6940-9005</contrib-id>
 <name><surname>Hernandez-Hernandez</surname><given-names>Gonzalo</given-names></name>
-</contrib>
+<xref ref-type="aff" rid="a1"/></contrib>
 <contrib contrib-type="author">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5334-9984</contrib-id>
 <name><surname>O&#x2019;Dwyer</surname><given-names>Samantha C.</given-names></name>
-</contrib>
+<xref ref-type="aff" rid="a1"/></contrib>
 <contrib contrib-type="author">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5370-1156</contrib-id>
 <name><surname>Matsumoto</surname><given-names>Collin</given-names></name>
-</contrib>
+<xref ref-type="aff" rid="a1"/></contrib>
 <contrib contrib-type="author">
 <name><surname>Tieu</surname><given-names>Mindy</given-names></name>
-</contrib>
+<xref ref-type="aff" rid="a1"/></contrib>
 <contrib contrib-type="author">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0521-0088</contrib-id>
 <name><surname>Fong</surname><given-names>Zhihui</given-names></name>
-</contrib>
+<xref ref-type="aff" rid="a1"/></contrib>
 <contrib contrib-type="author">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5753-1131</contrib-id>
 <name><surname>Yang</surname><given-names>Pei-Chi</given-names></name>
-</contrib>
+<xref ref-type="aff" rid="a1"/></contrib>
 <contrib contrib-type="author">
 <name><surname>Lewis</surname><given-names>Timothy J.</given-names></name>
-<xref ref-type="aff" rid="a2">&#x0026;</xref>
-</contrib>
+<xref ref-type="aff" rid="a1"/><xref ref-type="aff" rid="a3">&#x0026;</xref></contrib>
 <contrib contrib-type="author" corresp="yes">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4297-8029</contrib-id>
 <name><surname>Santana</surname><given-names>L. Fernando</given-names></name>
 <xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<xref ref-type="aff" rid="a1"/></contrib>
 <contrib contrib-type="author" corresp="yes">
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6849-4885</contrib-id>
 <name><surname>Clancy</surname><given-names>Colleen E.</given-names></name>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-<xref ref-type="aff" rid="a1">&#x005E;</xref>
-</contrib>
-<aff id="a1"><label>&#x005E;</label>Department of Physiology &#x0026; Membrane Biology, Center for Precision Medicine and Data Science, University of California School of Medicine, Davis, California, 95616</aff>
-<aff id="a2"><label>&#x0026;</label>Department of Mathematics, University of California, Davis, California, 95616</aff>
-</contrib-group>
+<xref ref-type="aff" rid="a1"/><xref ref-type="aff" rid="a2">&#x0026;</xref></contrib>
+<aff id="a1">Department of Physiology &#x0026; Membrane Biology, University of California School of Medicine, Davis, California, 95616</aff>
+<aff id="a2"><label>&#x005E;</label>Center for Precision Medicine and Data Science, University of California School of Medicine, Davis, California, 95616</aff>
+<aff id="a3"><label>&#x0026;</label>Department of Mathematics, University of California, Davis, California, 95616</aff></contrib-group>
 <author-notes>
 <corresp id="cor1"><label>&#x002A;</label><bold>Correspondence to:</bold> <email>ceclancy@ucdavis.edu</email> and <email>lfsantana@ucdavis.edu</email></corresp>
 </author-notes>

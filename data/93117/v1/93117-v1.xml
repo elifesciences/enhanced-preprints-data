@@ -30,13 +30,7 @@
 <article-title>UGGT1/2-mediated reglucosylation of <italic>N</italic>-glycan competes with ER-associated degradation of unstable and misfolded glycoproteins</article-title>
 </title-group>
 <contrib-group>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8005-4716</contrib-id>
-<name><surname>Ninagawa</surname><given-names>Satoshi</given-names></name>
-<xref ref-type="aff" rid="a1">1</xref>
-<xref ref-type="aff" rid="a2">2</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8005-4716</contrib-id><name><surname>Ninagawa</surname><given-names>Satoshi</given-names></name><email>sninagawa@harbor.kobe-u.ac.jp</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib>
 <contrib contrib-type="author">
 <name><surname>Matsuo</surname><given-names>Masaki</given-names></name>
 <xref ref-type="aff" rid="a2">2</xref>
@@ -90,11 +84,7 @@
 <xref ref-type="aff" rid="a8">8</xref>
 <xref ref-type="aff" rid="a9">9</xref>
 </contrib>
-<contrib contrib-type="author" corresp="yes">
-<name><surname>Mori</surname><given-names>Kazutoshi</given-names></name>
-<xref ref-type="aff" rid="a3">3</xref>
-<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
-</contrib>
+<contrib contrib-type="author" corresp="yes"><name><surname>Mori</surname><given-names>Kazutoshi</given-names></name><email>mori.kazutoshi.8r@kyoto-u.ac.jp</email><xref ref-type="aff" rid="a3">3</xref></contrib>
 <aff id="a1"><label>1</label>Biosignal Research center, KOBE University, Kobe 657-8501, Japan</aff>
 <aff id="a2"><label>2</label>Department of Bioresource Science, Graduate School of Agricultural Science, Kobe University, Kobe 657-8501, Japan</aff>
 <aff id="a3"><label>3</label>Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan</aff>
@@ -105,9 +95,6 @@
 <aff id="a8"><label>8</label>Exploratory Research Center on Life and Living Systems (ExCELLS), National Institutes of Natural Sciences, Okazaki 444-0864, Japan</aff>
 <aff id="a9"><label>9</label>Institute for Molecular Science (IMS), National Institutes of Natural Sciences, Okazaki 444-0864, Japan</aff>
 </contrib-group>
-<author-notes>
-<corresp id="cor1"><label>&#x002A;</label>Corresponding author; email: <email>sninagawa@harbor.kobe-u.ac.jp</email></corresp>
-</author-notes>
 <pub-date pub-type="epub"><year>2023</year></pub-date>
 <elocation-id>2023.10.18.562958</elocation-id>
 <history>
