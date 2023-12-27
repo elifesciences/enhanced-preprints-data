@@ -362,7 +362,11 @@ Newton&#x2019;s method still allows to resolve numerically the equation and find
 <graphic xlink:href="483978v3_eqn8.gif"/>
 </disp-formula>
 A precise characterization of the set &#x1D4B1; is given in <xref ref-type="statement" rid="lem2_4">Lemma 2.4</xref>. In <xref rid="fig1" ref-type="fig">Figure 1</xref>, we represent the set &#x1D4B1; for <italic>i</italic><sub><italic>b</italic></sub> =1.5 and <italic>i</italic><sub><italic>d</italic></sub> = 2.</p>
-<p><italic><xref rid="fig1" ref-type="fig">Figure 1</xref>:</italic> <bold><italic>The set</italic></bold> <inline-formula><inline-graphic xlink:href="483978v3_inline13.gif"/></inline-formula><bold><italic>is the convex set delimited by the is the convex set delimited by the black curve with equation</italic></bold> <italic>R(x</italic><sub><italic>b</italic></sub>, <italic>x</italic><sub><italic>d</italic></sub>)= 1.</p>
+<fig id="fig1a" position="float" fig-type="figure">
+<label>Figure 1:</label>
+<caption><title><italic>The set</italic> <inline-formula><inline-graphic xlink:href="483978v4_inline50.gif"/></inline-formula> <italic>is the convex set delimited by the black curve with equation R</italic>(<italic>x</italic><sub><italic>b</italic></sub>, <italic>x</italic><sub><italic>d) =</italic></sub> 1.</title></caption>
+<graphic xlink:href="483978v4_fig1a.tif"/>
+</fig>
 <statement id="lem2_4">
 <label>Lemma 2.4.</label>
 <p><italic>We have:</italic>
@@ -468,8 +472,12 @@ It describes the strength of selection at ages <italic>x</italic><sub><italic>b<
 <graphic xlink:href="483978v3_eqn13.gif"/>
 </disp-formula>
 The set &#x1D4B1; is the set of traits that admit a positive stable monomorphic equilibrium <inline-formula><inline-graphic xlink:href="483978v3_inline30.gif"/></inline-formula> in a such way that <inline-formula><inline-graphic xlink:href="483978v3_inline31.gif"/></inline-formula> equals the birth rate of a mutant (see <xref ref-type="statement" rid="pro3_1">Proposition 3.1</xref>); <italic>&#x03C3;</italic><sup>2</sup> is the variance of the mutations and 1&#x2212;<italic>z (y, x)</italic> is the invasion fitness. Computing these parameters gives (11). &#x25A1;</p>
-<p>In <xref rid="fig2" ref-type="fig">Figure 2</xref>, we present a simulation of a solution of (11). We observe that the traits</p>
-<p><italic><xref rid="fig2" ref-type="fig">Figure 2</xref>:</italic> <bold><italic>Simulation of the canonical equation with</italic></bold> <italic>x</italic><sup>0</sup> &#x002B; (3.5, 1.3) <bold><italic>and</italic></bold> <italic>i</italic><sub><italic>b</italic></sub> = <italic>i</italic><sub><italic>d</italic></sub><italic>=</italic>1. <italic>(a): Dynamics of x</italic><sub><italic>b</italic></sub>. <italic>(b): Dynamics of x</italic><sub><italic>d</italic></sub>. <italic>(c): Dynamics of x</italic><sub><italic>b</italic></sub> <italic>&#x2212;x</italic><sub><italic>d</italic></sub>, <italic>the black curve has equation y</italic> =log (3) /2.</p>
+<p>In <xref rid="fig2a" ref-type="fig">Figure 2</xref>, we present a simulation of a solution of (11). We observe that the traits</p>
+<fig id="fig2a" position="float" fig-type="figure">
+<label>Figure 2:</label>
+<caption><title><italic>Simulation of the canonical equation with x</italic><sup>0</sup> = (3.5, 1.3) <italic>and i</italic><sub><italic>b</italic></sub> = <italic>i</italic><sub><italic>d</italic></sub> = 1.</title>
+<p><italic>(a): Dynamics of x</italic><sub><italic>b</italic></sub>. <italic>(b): Dynamics of x</italic><sub><italic>d</italic></sub>. <italic>(c): Dynamics of x</italic><sub><italic>b</italic></sub> &#x2212; <italic>x</italic><sub><italic>d</italic></sub>, <italic>the black curve has equation y</italic> = log(3)/2.</p></caption>
+<graphic xlink:href="483978v4_fig2a.tif"/></fig>
 <p><italic>x</italic><sub><italic>b</italic></sub> and <italic>x</italic><sub><italic>d</italic></sub> increase with time (cf. <xref rid="fig2" ref-type="fig">Figure 2 (a),(b)</xref>), with decreasing speed tending to zero. The trait <italic>x</italic><sub><italic>b</italic></sub> <italic>(t) &#x2212;x</italic><sub><italic>d</italic></sub> <italic>(t)</italic> converges to some positive number (cf. <xref rid="fig2" ref-type="fig">Figure 2 (c)</xref>) that we can rigorously compute. That is the aim of the next section.</p>
 </sec>
 <sec id="s6d3">
@@ -534,7 +542,7 @@ that we rewrite
 <disp-formula id="ueqn26">
 <graphic xlink:href="483978v3_ueqn26.gif"/>
 </disp-formula>
-and <italic>&#x03BB;</italic><sup>&#x002A;</sup> = <italic>i</italic><sub><italic>b</italic></sub> that concludes the proof. &#x25A1;</p>
+and <italic>&#x03BB;</italic><sup>&#x002A;</sup> = <italic>i</italic><sub><italic>b</italic></sub> that concludes the proof.</p>
 <statement id="the4_4a">
 <label>Proof of Theorem 4.4.</label>
 <p>By <xref ref-type="statement" rid="lem4_5">Lemma 4.5</xref> (i), we assume without loss of generality that (<italic>x</italic>(<italic>t</italic>), <italic>t</italic> &#x2A7E; 0) &#x2282; <italic>U</italic><sub>2</sub> &#x2208; &#x210B;, i.e that for all <italic>t</italic> &#x2A7E; <italic>x</italic><sub><italic>b</italic></sub>(<italic>t</italic>)0&#x2212; <italic>x</italic><sub><italic>d</italic></sub>(<italic>t</italic>) &#x2A7E;0. We recall that Equality (14) gives:
@@ -587,11 +595,12 @@ By (17), we conclude that for all <italic>&#x03F5;</italic> &#x003E;; 0:
 <disp-formula id="ueqn36">
 <graphic xlink:href="483978v3_ueqn36.gif"/>
 </disp-formula>
-that concludes the proof.&#x25A1;</p>
-<fig id="ufig1" position="float" fig-type="figure">
-<graphic xlink:href="483978v3_ufig1.tif"/>
+that concludes the proof.</p>
+<fig id="fig3a" position="float" fig-type="figure">
+<label>Figure 3:</label>
+<caption><title>Optimal configurations as x<sub>b</sub> and x<sub>d</sub> tend to infinity</title></caption>
+<graphic xlink:href="483978v4_fig3a.tif"/>
 </fig>
-<p><italic><xref rid="fig3" ref-type="fig">Figure 3</xref>:</italic> <bold><italic>Optimal configurations as</italic></bold> <italic>x</italic><sub><italic>b</italic></sub> <bold><italic>and</italic></bold> <italic>x</italic><sub><italic>d</italic></sub> <bold><italic>tend to infinity</italic></bold>.</p>
 </sec>
 </sec>
 <sec id="s6e">
