@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2d1 20170631//EN" "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="article" dtd-version="1.2d1" specific-use="production" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">BIORXIV</journal-id>
+<journal-title-group>
+<journal-title>bioRxiv</journal-title>
+<abbrev-journal-title abbrev-type="publisher">bioRxiv</abbrev-journal-title>
+</journal-title-group>
+<publisher>
+<publisher-name>Cold Spring Harbor Laboratory</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1101/2023.04.01.535040</article-id>
+<article-version>1.2</article-version>
+<article-categories>
+<subj-group subj-group-type="author-type">
+<subject>Regular Article</subject>
+</subj-group>
+<subj-group subj-group-type="heading">
+<subject>Contradictory Results</subject>
+</subj-group>
+<subj-group subj-group-type="hwp-journal-coll">
+<subject>Neuroscience</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Avoiding false discoveries: Revisiting an Alzheimer&#x2019;s disease snRNA-Seq dataset</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-2487-8753</contrib-id>
+<name><surname>Murphy</surname><given-names>Alan E</given-names></name>
+<xref ref-type="aff" rid="a1">1</xref>
+<xref ref-type="aff" rid="a2">2</xref>
+<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Fancy</surname><given-names>Nurun Nahar</given-names></name>
+<xref ref-type="aff" rid="a1">1</xref>
+<xref ref-type="aff" rid="a2">2</xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-6807-3180</contrib-id>
+<name><surname>Skene</surname><given-names>Nathan G</given-names></name>
+<xref ref-type="aff" rid="a1">1</xref>
+<xref ref-type="aff" rid="a2">2</xref>
+<xref ref-type="corresp" rid="cor1">&#x002A;</xref>
+</contrib>
+<aff id="a1"><label>1</label>UK Dementia Research Institute at Imperial College London, London W12 0BZ, UK</aff>
+<aff id="a2"><label>2</label>Department of Brain Sciences, Imperial College London, London W12 0BZ, UK</aff>
+</contrib-group>
+<author-notes>
+<corresp id="cor1"><label>&#x002A;</label>Correspondence should be addressed to A.M. (email: Alan Murphy: <email>a.murphy@imperial.ac.uk</email>) and N.S. (email: Nathan Skene: <email>n.skene@imperial.ac.uk</email>).</corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<year>2023</year>
+</pub-date>
+<elocation-id>2023.04.01.535040</elocation-id>
+<history>
+<date date-type="received">
+<day>01</day>
+<month>4</month>
+<year>2023</year>
+</date>
+<date date-type="rev-recd">
+<day>14</day>
+<month>6</month>
+<year>2023</year>
+</date>
+<date date-type="accepted">
+<day>14</day>
+<month>6</month>
+<year>2023</year>
+</date>
+</history>
+<permissions>
+<copyright-statement>&#x00A9; 2023, Posted by Cold Spring Harbor Laboratory</copyright-statement>
+<copyright-year>2023</copyright-year>
+<license license-type="creative-commons" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><license-p>This pre-print is available under a Creative Commons License (Attribution-NonCommercial-NoDerivs 4.0 International), CC BY-NC-ND 4.0, as described at <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link></license-p></license>
+</permissions>
+<self-uri xlink:href="535040.pdf" content-type="pdf" xlink:role="full-text"/>
+<abstract>
+<title>Abstract</title>
+<sec>
+<title>Arising From</title>
+<p>Mathys, H. <italic>et al</italic>. Nature (2019). <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41586-019-1195-2">https://doi.org/10.1038/s41586-019-1195-2</ext-link> Mathys <italic>et al</italic>., conducted the first single-nucleus RNA-Seq study (snRNA-Seq) of Alzheimer&#x2019;s disease (AD)<sup><xref ref-type="bibr" rid="c1">1</xref></sup>. The authors profiled the transcriptomes of approximately 80,000 cells from the prefrontal cortex, collected from 48 individuals &#x2013; 24 of which presented with varying degrees of AD pathology. With bulk RNA-Seq, changes in gene expression across cell types can be lost, potentially masking the differentially expressed genes (DEGs) across different cell types. Through the use of single-cell techniques, the authors benefitted from increased resolution with the potential to uncover cell type-specific DEGs in AD for the first time<sup><xref ref-type="bibr" rid="c2">2</xref></sup>. However, there were limitations in both their data processing and quality control and their differential expression analysis. Here, we correct these issues with best-practice approaches to snRNA-Seq processing and differential expression, resulting 892 times fewer differentially expressed genes at a false discovery rate (FDR) of 0.05.</p></sec>
+</abstract>
+<counts>
+<page-count count="11"/>
+</counts>
+</article-meta>
+<notes>
+<notes notes-type="competing-interest-statement">
+<title>Competing Interest Statement</title><p>The authors have declared no competing interest.</p></notes>
+<fn-group content-type="summary-of-updates">
+<title>Summary of Updates:</title>
+<fn fn-type="update"><p>Updated data availability information</p></fn>
+</fn-group>
+<fn-group content-type="external-links">
+<fn fn-type="dataset"><p>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.6084/m9.figshare.21882855">https://doi.org/10.6084/m9.figshare.21882855</ext-link>
+</p></fn>
+</fn-group>
+</notes>
+</front>
+<body>
+<sec id="s1">
+<title>Main</title>
+<p>Our questions of Mathys <italic>et al</italic>.,<sup><xref ref-type="bibr" rid="c1">1</xref></sup> focus around their data processing and their differential expression analysis. Firstly, in relation to their processing approach, the authors discussed the high percentages of mitochondrial reads and low number of reads per cell present in their data. This is indicative of low cell quality<sup><xref ref-type="bibr" rid="c3">3</xref></sup> however, we believe the authors&#x2019; quality control (QC) approach did not capture all of these low quality cells. Moreover, the authors did not integrate the cells from different individuals to account for batch effects. As the field has matured since the author&#x2019;s work was published, dataset integration has become a standard step in single-cell RNA-Seq protocols<sup><xref ref-type="bibr" rid="c4">4</xref></sup>. To address these issues, we used scFlow<sup><xref ref-type="bibr" rid="c4">4</xref></sup> to reprocess the author&#x2019;s data. This pipeline included the removal of empty droplets, nuclei with low read counts and doublets followed by embedding and integration of cells from separate samples and cell typing. See Supplementary Note 1 for a detailed explanation of these steps. Re-processing resulted in 50,831 cells passing QC, approximately 20,000 less the authors&#x2019; post-processing set. Additionally, we found different cell type proportions to the authors (<xref rid="fig1" ref-type="fig">Fig. 1a</xref>) which could be due to accounting for batch effects.</p>
+<fig id="fig1" position="float" fig-type="figure">
+<label>Fig 1:</label>
+<caption><p><bold>a</bold> shows the proportion of cells left after quality control (QC) from the author&#x2019;s original work (Mathys et al.) and our reanalysis (Our analysis). <bold>b, c</bold> highlights the log2 fold change and -log10 false discovery rate (FDR) of the differentially expressed genes. In <bold>c</bold>, we have marked an FDR of 5&#x00D7;10<sup>&#x2212;7</sup>, dashed grey line, to highlight how small the p-values from Mathys et al.&#x2019;s analysis are. <bold>d, e, f, g</bold> show the Pearson correlation between the cell counts after QC and the number of DEGs identified. The different cell types are astrocytes (Astro), excitatory neurons (Exc), inhibitory neurons (Inh), microglia (Micro), oligodendrocytes (Oligo) and oligodendrocyte precursor cells (OPC).</p></caption>
+<graphic xlink:href="535040v2_fig1.tif"/>
+</fig>
+<p>Our second question of Mathys <italic>et al</italic>.,<sup><xref ref-type="bibr" rid="c1">1</xref></sup> is their differential expression approach. The authors conducted a differential expression analysis between the controls and the patients with AD pathology, concentrating on six neuronal and glial cell types; excitatory neurons, inhibitory neurons, astrocytes, microglia, oligodendrocytes and oligodendrocyte precursor cells, derived from the Allen Brain Atlas<sup><xref ref-type="bibr" rid="c5">5</xref></sup>. They performed downstream analysis on their identified DEGs and investigated some of the most compelling genes in more detail. Therefore, all findings put forward by their paper were based upon the validity of their differential expression approach. However, for this approach, the authors conducted a two-part, cell and patient level analysis. The cell-level analysis took each cell as an independent replicate and the results of which were compared for consistency in directionality and rank of their DEGs against their patient level analysis, a Poisson mixed model. The authors identified 1,031 DEGs using this combinatorial approach &#x2013; DEGs requiring an FDR &#x003C;0.01 in the cell-level and an FDR&#x003C;0.05 in the patient level analysis. It is important to note that this cell-level differential expression approach, also known as pseudoreplication, over-estimates the confidence in DEGs due to the statistical dependence between cells from the same patient not being considered<sup><xref ref-type="bibr" rid="c6">6</xref>,<xref ref-type="bibr" rid="c7">7</xref>,<xref ref-type="bibr" rid="c8">8</xref></sup>. When we inspect all DEGs identified at an FDR of 0.05 from the authors&#x2019; cell-level analysis, this number increases to 14,274. Pseudobulk differential expression (DE) analysis has recently been proven to give optimal performance compared to both mixed models and pseudoreplication approaches<sup><xref ref-type="bibr" rid="c6">6</xref>,<xref ref-type="bibr" rid="c9">9</xref></sup>. It aggregates counts to individuals thus accounting for the dependence between an individual&#x2019;s cells.</p>
+<p>Here, we apply a pseudobulk DE approach, sum aggregation and edgeR LRT<sup><xref ref-type="bibr" rid="c10">10</xref></sup>, to the reprocessed data. We found 16 unique DEGs when considering the six cell types used by the authors (Supplementary Table 1). This was 892 times fewer DEGs than that reported originally at an FDR of 0.05. When we compare these DEGs, we can see that the absolute log2 fold change (LFC) of our DEGs is over 20 times larger than the authors&#x2019;; median LFC of 3.33 and 0.16, despite the authors&#x2019; DEGs having an FDR score 76,000 times smaller; median FDR of 2.89&#x00D7;10<sup>&#x2212;7</sup> and 0.02 (<xref rid="fig1" ref-type="fig">Fig. 1b-c</xref>). We can show that this stark contrast in these DEGs is just an artefact of the authors taking cells as independent replicates by considering the Pearson correlation between the number of DEGs found and the cell counts (<xref rid="fig1" ref-type="fig">Fig. 1d-f</xref>). There is a near perfect correlation for the authors DEGs, whether we consider the DEGs from the pseudoreplication analysis (<xref rid="fig1" ref-type="fig">Fig. 1d</xref>) or the 1,031 genes from the authors&#x2019; combinatorial approach (<xref rid="fig1" ref-type="fig">Fig. 1e</xref>) which is not present in our re-analysis (<xref rid="fig1" ref-type="fig">Fig. 1f</xref>).</p>
+<p>Although it has been proven that pseudoreplication approaches result in false positives by artificially inflating the confidence from non-independent samples, we wanted to investigate the effect of the approach on the authors&#x2019; dataset. We ran the same cell-level analysis approach &#x2013; a Wilcoxon rank-sum test and FDR multiple-testing correction, 100 times whilst randomly permuting the patient identifiers (<xref rid="fig1" ref-type="fig">Fig. 1g</xref>). We would expect not to find any differential expressed genes with this approach given the random mixing of case and control patients. However, this pseudoreplication approach consistently found high numbers of DEGs and we observe the same correlation between the number of cells and number of DEGs as with the authors results. As a result, we conclude that integrating this pseudoreplication approach with a mixed model like the authors proposed just artificially inflates the test confidence for a random sample of the genes resulting in more false discoveries in cell types with bigger counts.</p>
+</sec>
+<sec id="s2">
+<title>Conclusion</title>
+<p>In conclusion, the authors&#x2019; analysis has been highly influential in the field with numerous studies undertaken based on their results, something we show has uncertain foundations. However, we would like to highlight that the use of pseudoreplication in neuroscience research is not isolated to the author&#x2019;s work, others have used this approach<sup><xref ref-type="bibr" rid="c11">11</xref>,<xref ref-type="bibr" rid="c12">12</xref>,<xref ref-type="bibr" rid="c13">13</xref></sup> and their results should be similarly scrutinised. Here, we provide our processed count matrix with metadata and also, the DEGs identified using an independently validated, differential expression approach so that other researchers can use this rich dataset without relying on pseudoreplication approaches. While the number of DEGs found here are significantly lower, much greater confidence can be had that these are AD relevant genes. The low number of DEGs found may also cause concern given the sample size and cost of collection and sequencing of such datasets. However, the increasing number of snRNA-Seq studies being conducted for AD, creates the opportunity to conduct differential meta-analyses to increase power. Further work is required in the field to develop methods to conduct such analysis, integrating studies and accounting for their the heterogeneity, similar to that which has been done for bulk RNA-Seq<sup><xref ref-type="bibr" rid="c14">14</xref></sup>. Some such approaches have already been made in COVID-19 research which could be leveraged for neurodegenerative diseases<sup><xref ref-type="bibr" rid="c15">15</xref></sup>.</p>
+</sec>
+</body>
+<back>
+<sec id="s3">
+<title>Data availability</title>
+<p>The differentially expressed genes and processed count matrix from the original study are available with their manuscript. The source data underlying <xref rid="fig1" ref-type="fig">Figure 1</xref> is provided as a Source Data file. All other relevant data supporting the key findings of this study are available within the article and its Supplementary Information files or from the corresponding author upon reasonable request. Source data are provided with this paper.</p>
+</sec>
+<sec id="s4">
+<title>Code availability</title>
+<p>The differential expression analysis pipeline is available at: <ext-link ext-link-type="uri" xlink:href="https://github.com/neurogenomics/reanalysis_Mathys_2019">https://github.com/neurogenomics/reanalysis_Mathys_2019</ext-link>. This is a general use pipeline which can be run for any single-nucleus or single-cell transcriptomic dataset. The config file containing all the parameters used for the scFlow run is also available in this repository.</p>
+</sec>
+<ref-list>
+<title>References</title>
+<ref id="c1"><label>1.</label><mixed-citation publication-type="journal"><string-name><surname>Mathys</surname>, <given-names>H.</given-names></string-name> <string-name><surname>et al.</surname></string-name> <article-title>Single-cell transcriptomic analysis of Alzheimer&#x2019;s disease</article-title>. <source>Nature</source> <volume>570</volume>, <fpage>332</fpage>&#x2013;<lpage>337</lpage> (<year>2019</year>).</mixed-citation></ref>
+<ref id="c2"><label>2.</label><mixed-citation publication-type="journal"><string-name><surname>De Strooper</surname>, <given-names>B.</given-names></string-name> &#x0026; <string-name><surname>Karran</surname>, <given-names>E.</given-names></string-name> <article-title>The Cellular Phase of Alzheimer&#x2019;s Disease</article-title>. <source>Cell</source> <volume>164</volume>, <fpage>603</fpage>&#x2013;<lpage>615</lpage> (<year>2016</year>).</mixed-citation></ref>
+<ref id="c3"><label>3.</label><mixed-citation publication-type="journal"><string-name><surname>Ilicic</surname>, <given-names>T.</given-names></string-name> <string-name><surname>et al.</surname></string-name> <article-title>Classification of low quality cells from single-cell RNA-seq data</article-title>. <source>Genome Biol</source>. <volume>17</volume>, <elocation-id>29</elocation-id> (<year>2016</year>).</mixed-citation></ref>
+<ref id="c4"><label>4.</label><mixed-citation publication-type="website"><string-name><surname>Khozoie</surname>, <given-names>C.</given-names></string-name> <string-name><surname>et al.</surname></string-name> <source>scFlow: A Scalable and Reproducible Analysis Pipeline for Single-Cell RNA Sequencing Data</source>. 2021.08.16.456499 Preprint at <pub-id pub-id-type="doi">10.1101/2021.08.16.456499</pub-id> (<year>2021</year>).</mixed-citation></ref>
+<ref id="c5"><label>5.</label><mixed-citation publication-type="journal"><string-name><surname>Tasic</surname>, <given-names>B.</given-names></string-name> <string-name><surname>et al.</surname></string-name> <article-title>Shared and distinct transcriptomic cell types across neocortical areas</article-title>. <source>Nature</source> <volume>563</volume>, <fpage>72</fpage>&#x2013;<lpage>78</lpage> (<year>2018</year>).</mixed-citation></ref>
+<ref id="c6"><label>6.</label><mixed-citation publication-type="journal"><string-name><surname>Murphy</surname>, <given-names>A. E.</given-names></string-name> &#x0026; <string-name><surname>Skene</surname>, <given-names>N. G.</given-names></string-name> <article-title>A balanced measure shows superior performance of pseudobulk methods in single-cell RNA-sequencing analysis</article-title>. <source>Nat. Commun</source>. <volume>13</volume>, <elocation-id>7851</elocation-id> (<year>2022</year>).</mixed-citation></ref>
+<ref id="c7"><label>7.</label><mixed-citation publication-type="journal"><string-name><surname>Zimmerman</surname>, <given-names>K. D.</given-names></string-name>, <string-name><surname>Espeland</surname>, <given-names>M. A.</given-names></string-name> &#x0026; <string-name><surname>Langefeld</surname>, <given-names>C. D.</given-names></string-name> <article-title>A practical solution to pseudoreplication bias in single-cell studies</article-title>. <source>Nat. Commun</source>. <volume>12</volume>, <elocation-id>738</elocation-id> (<year>2021</year>).</mixed-citation></ref>
+<ref id="c8"><label>8.</label><mixed-citation publication-type="journal"><string-name><surname>Lazic</surname>, <given-names>S. E.</given-names></string-name> <article-title>The problem of pseudoreplication in neuroscientific studies: is it affecting your analysis?</article-title> <source>BMC Neurosci</source>. <volume>11</volume>, <elocation-id>5</elocation-id> (<year>2010</year>).</mixed-citation></ref>
+<ref id="c9"><label>9.</label><mixed-citation publication-type="journal"><string-name><surname>Squair</surname>, <given-names>J. W.</given-names></string-name> <string-name><surname>et al.</surname></string-name> <article-title>Confronting false discoveries in single-cell differential expression</article-title>. <source>Nat. Commun</source>. <volume>12</volume>, <elocation-id>5692</elocation-id> (<year>2021</year>).</mixed-citation></ref>
+<ref id="c10"><label>10.</label><mixed-citation publication-type="journal"><string-name><surname>Chen</surname>, <given-names>Y.</given-names></string-name>, <string-name><surname>Lun</surname>, <given-names>A. T. L.</given-names></string-name> &#x0026; <string-name><surname>Smyth</surname>, <given-names>G. K.</given-names></string-name> <article-title>From reads to genes to pathways: differential expression analysis of RNA-Seq experiments using Rsubread and the edgeR quasilikelihood pipeline</article-title>. <source>F1000Research</source> <volume>5</volume>, <elocation-id>1438</elocation-id> (<year>2016</year>).</mixed-citation></ref>
+<ref id="c11"><label>11.</label><mixed-citation publication-type="journal"><string-name><surname>Fernandes</surname>, <given-names>H. J. R.</given-names></string-name> <string-name><surname>et al.</surname></string-name> <article-title>Single-Cell Transcriptomics of Parkinson&#x2019;s Disease Human In Vitro Models Reveals Dopamine Neuron-Specific Stress Responses</article-title>. <source>Cell Rep</source>. <volume>33</volume>, (<year>2020</year>).</mixed-citation></ref>
+<ref id="c12"><label>12.</label><mixed-citation publication-type="journal"><string-name><surname>Lui</surname>, <given-names>J. H.</given-names></string-name> <string-name><surname>et al.</surname></string-name> <article-title>Differential encoding in prefrontal cortex projection neuron classes across cognitive tasks</article-title>. <source>Cell</source> <volume>184</volume>, <fpage>489</fpage>-<lpage>506</lpage>.e26 (<year>2021</year>).</mixed-citation></ref>
+<ref id="c13"><label>13.</label><mixed-citation publication-type="journal"><string-name><surname>Wakhloo</surname>, <given-names>D.</given-names></string-name> <string-name><surname>et al.</surname></string-name> <article-title>Functional hypoxia drives neuroplasticity and neurogenesis via brain erythropoietin</article-title>. <source>Nat. Commun</source>. <volume>11</volume>, <elocation-id>1313</elocation-id> (<year>2020</year>).</mixed-citation></ref>
+<ref id="c14"><label>14.</label><mixed-citation publication-type="journal"><string-name><surname>Rau</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Marot</surname>, <given-names>G.</given-names></string-name> &#x0026; <string-name><surname>Jaffr&#x00E9;zic</surname>, <given-names>F.</given-names></string-name> <article-title>Differential meta-analysis of RNA-seq data from multiple studies</article-title>. <source>BMC Bioinformatics</source> <volume>15</volume>, <elocation-id>91</elocation-id> (<year>2014</year>).</mixed-citation></ref>
+<ref id="c15"><label>15.</label><mixed-citation publication-type="journal"><string-name><surname>Garg</surname>, <given-names>M.</given-names></string-name> <string-name><surname>et al.</surname></string-name> <article-title>Meta-analysis of COVID-19 single-cell studies confirms eight key immune responses</article-title>. <source>Sci. Rep</source>. <volume>11</volume>, <elocation-id>20833</elocation-id> (<year>2021</year>).</mixed-citation></ref>
+</ref-list>
+<ack>
+<title>Acknowledgements</title>
+<p>This work was supported by a UKDRI Future Leaders Fellowship [grant number MR/T04327X/1] and the UK Dementia Research Institute, which receives its funding from UK DRI Ltd, funded by the UK Medical Research Council, Alzheimer&#x2019;s Society and Alzheimer&#x2019;s Research UK.</p>
+</ack>
+<sec id="s5">
+<title>Authors&#x2019; Contributions</title>
+<p>A.E.M and N.G.S jointly conceived and executed the study. N.N.F conducted the quality control and processing of the data and wrote up these steps. A.E.M wrote the manuscript which was reviewed by N.N.F and N.G.S.</p>
+</sec>
+<sec id="s6">
+<title>Competing interests</title>
+<p>The authors declare no competing interests.</p>
+</sec>
+</back>
+</article>
