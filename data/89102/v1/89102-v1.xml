@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2d1 20170631//EN" "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="article" dtd-version="1.2d1" specific-use="production" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">BIORXIV</journal-id>
+<journal-title-group>
+<journal-title>bioRxiv</journal-title>
+<abbrev-journal-title abbrev-type="publisher">bioRxiv</abbrev-journal-title>
+</journal-title-group>
+<publisher>
+<publisher-name>Cold Spring Harbor Laboratory</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1101/2023.06.01.543133</article-id>
+<article-version>1.1</article-version>
+<article-categories>
+<subj-group subj-group-type="author-type">
+<subject>Regular Article</subject>
+</subj-group>
+<subj-group subj-group-type="heading">
+<subject>New Results</subject>
+</subj-group>
+<subj-group subj-group-type="hwp-journal-coll">
+<subject>Evolutionary Biology</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>241,000 to 335,000 Years Old Rock Engravings Made by <italic>Homo naledi</italic> in the Rising Star Cave system, South Africa</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0367-7629</contrib-id><name><surname>Berger</surname><given-names>Lee R.</given-names></name><email>lrberger@ngs.org</email><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref><xref ref-type="aff" rid="a3">3</xref><xref ref-type="author-notes" rid="n1">&#x002A;</xref></contrib>
+<contrib contrib-type="author">
+<name><surname>Hawks</surname><given-names>John</given-names></name>
+<xref ref-type="aff" rid="a4">4</xref>
+<xref ref-type="aff" rid="a2">2</xref>
+<xref ref-type="author-notes" rid="n1">&#x002A;</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Fuentes</surname><given-names>Agustin</given-names></name>
+<xref ref-type="aff" rid="a5">5</xref>
+<xref ref-type="aff" rid="a2">2</xref>
+<xref ref-type="author-notes" rid="n1">&#x002A;</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>van Rooyen</surname><given-names>Dirk</given-names></name>
+<xref ref-type="aff" rid="a2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Tsikoane</surname><given-names>Mathabela</given-names></name>
+<xref ref-type="aff" rid="a2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Ramalepa</surname><given-names>Maropeng</given-names></name>
+<xref ref-type="aff" rid="a2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Nkwe</surname><given-names>Samuel</given-names></name>
+<xref ref-type="aff" rid="a2">2</xref>
+</contrib>
+<contrib contrib-type="author"><name><surname>Molopyane</surname><given-names>Keneiloe</given-names></name><xref ref-type="aff" rid="a2">2</xref><xref ref-type="author-notes" rid="n1">&#x0023;</xref></contrib>
+<aff id="a1"><label>1</label>The National Geographic Society, 1145 17<sup>th</sup> St NW, Washington DC, 20036</aff>
+<aff id="a2"><label>2</label>Centre for the Exploration of the Deep Human Journey, School of Anatomical Sciences, University of the Witwatersrand; Private Bag 3, Wits 2050, South Africa</aff>
+<aff id="a3"><label>3</label>The Carnegie Institution for Science, 5241 Broad Branch Road NW Washington D.C. 20015</aff>
+<aff id="a4"><label>4</label>Department of Anthropology, University of Wisconsin, Madison; 5240 Sewell Social Sciences Building, 1180 Observatory Drive, Madison, WI, USA 53706</aff>
+<aff id="a5"><label>5</label>Department of Anthropology, Princeton University; 123 Aaron Burr Hall, Princeton USA 08455</aff>
+<aff id="a6"><label>6</label>Department of Archaeology, University of York; The King&#x2019;s Manor, York, UK, YO1 7EP</aff>
+</contrib-group>
+<author-notes>
+<fn id="n1" fn-type="equal"><label>&#x002A;</label><p>These authors contributed equally</p></fn>
+</author-notes>
+<pub-date pub-type="epub"><year>2023</year></pub-date>
+<elocation-id>2023.06.01.543133</elocation-id>
+<history>
+<date date-type="received">
+<day>01</day>
+<month>6</month>
+<year>2023</year>
+</date>
+<date date-type="rev-recd">
+<day>01</day>
+<month>6</month>
+<year>2023</year>
+</date>
+<date date-type="accepted">
+<day>05</day>
+<month>6</month>
+<year>2023</year>
+</date>
+</history>
+<permissions>
+<copyright-statement>&#x00A9; 2023, Posted by Cold Spring Harbor Laboratory</copyright-statement>
+<copyright-year>2023</copyright-year>
+<license license-type="creative-commons" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><license-p>This pre-print is available under a Creative Commons License (Attribution-NonCommercial-NoDerivs 4.0 International), CC BY-NC-ND 4.0, as described at <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link></license-p></license>
+</permissions>
+<self-uri xlink:href="543133.pdf" content-type="pdf" xlink:role="full-text"/>
+<abstract>
+<title>Abstract</title><p>The production of painted, etched or engraved designs on cave walls or other surfaces is recognized as a major cognitive step in human evolution. Such intentional designs, which are widely interpreted as signifying, recording, and transmitting information in a durable manner were once considered exclusive to Late Pleistocene <italic>Homo sapiens</italic>. Recent work has demonstrated that other hominin groups also made such marks, including Neanderthals (<xref ref-type="bibr" rid="c23">Rodr&#x00ED;guez-Vidal et al., 2014</xref>; Hoffmann et al., 2018), and possibly Middle-Pleistocene <italic>Homo erectus</italic> (<xref ref-type="bibr" rid="c12">Joordens et al., 2015</xref>). Such durable signs indicate an intentionality characteristic of meaning-making (<xref ref-type="bibr" rid="c14">Kissel and Fuentes 2018</xref>) which has been argued to require significant levels of cognitive abilities not found in species with smaller brain sizes (<xref ref-type="bibr" rid="c19">Parkington, 2010</xref>). In fact, the evolution of such meaning-making symbols is thought to be a core aspect of what it means to be &#x201C;human&#x201D; (<xref ref-type="bibr" rid="c10">Henshilwood, 2009</xref>). Here we present the first known example of abstract patterns and shapes engraved within the Dinaledi subsystem of the Rising Star Cave in South Africa. We identified markings incised into the dolomitic limestone walls of the cave. The engravings described here are deeply impressed cross-hatchings and other geometric shapes. The surfaces bearing these engravings appear to have been prepared and smoothed. In some areas there is residue that creates a sheen on the surface possibly indicating repeated handling or rubbing of the rock, and there is evidence of the application of dirt or sand to the surface by non-natural processes. <italic>Homo naledi</italic> entered this part of the cave system and buried bodies within the both the Dinaledi Chamber and adjacent Hill Antechamber between 241 and 335 ka (<xref ref-type="bibr" rid="c4">Dirks et al., 2017</xref>; <xref ref-type="bibr" rid="c22">Robbins et al., 2021</xref>, <xref ref-type="bibr" rid="c1">Berger et al, 2023a</xref>). The engravings described here are found on a pillar in the Hill Antechamber that extends into the natural fissure corridor that links the two chambers and we associate them with <italic>H. naledi</italic>.</p>
+</abstract>
+<counts>
+<page-count count="33"/>
+</counts>
+</article-meta>
+<notes>
+<notes notes-type="competing-interest-statement">
+<title>Competing Interest Statement</title><p>The authors have declared no competing interest.</p></notes>
+</notes>
+</front>
+<body>
+<sec id="s1">
+<title>Introduction</title>
+<p>The Rising Star cave system, South Africa, is located within a small promontory situated to the south and east of the course of the Blaaubankspruit stream. The cave system is situated within the dolomitic limestone of the Malmani Subgroup, a Precambrian marine rock bedded with chert bands and containing abundant stromatolite fossils (Dirks et al. 2015; Eriksson et al. 2006). The system includes more than 3 km of mapped passages comprising multiple levels within a west-dipping dolomite horizon. Abundant remains of <italic>Homo naledi</italic> (Berger et al., 2015) occur within several localities in the system, including the Dinaledi subsystem, which lies at a depth of &#x223C;30 m below the present surface and &#x223C;120 m through the cave system from the nearest present entrance (Hawks et al, Elliot et al., 2019). Here, burials and other remains of <italic>H. naledi</italic> have been recovered and excavated from the Dinaledi Chamber, Hill Antechamber, and adjacent spaces and fissures (Berger et al. 2015; Berger et al. 2023; Brophy et al. 2021). These spaces are challenging to enter and navigate, and exploration of them is ongoing (Elliott et al. 2021).</p>
+<p>On July 28, 2022, during a survey of the Dinaledi Subsystem, we identified what appear to be engraved markings on the southern and northern faces of a natural pillar that forms the entrance and exit of a passage connecting the Hill Antechamber with the Dinaledi Chamber (<xref rid="fig1" ref-type="fig">Figure 1</xref>). Most of these marks are linear features between &#x223C;5 and &#x223C;15 cm in length. Many of these intersect to form geometric patterns such as squares, triangles, crosses, and X&#x2019;s, while some are isolated lines. The engravings are located on three dolomitic panels, which we have labelled <italic>A, B</italic> and <italic>C</italic>. Seen as a triptych, these engravings are in a location where they can be viewed during access and egress to the Dinaledi Chamber when entering the system from the Hill Antechamber. The Hill Antechamber is the likely point of access by <italic>Homo naledi</italic> to the entire subsystem, and the passage is the natural linkage between the two main chambers of the subsystem (See <xref rid="fig1" ref-type="fig">Figure 1</xref>, also Elliott et al. 2021).</p>
+<fig id="fig1" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 1</label>
+<caption><p>A photogrammetric map of the Dinaledi Subsystem of the Rising Star Cave system, South Africa. Orange bars mark the positions of the Engravings panels on the walls of the cave. Red boxes outline areas where excavations have been undertaken in the floor of the chambers. The green box outlines the area enlarged and colorized.</p></caption>
+<graphic xlink:href="543133v1_fig1.tif"/>
+</fig>
+<p>In this paper, we describe detailed observations of Panel A within the passage linking the two main chambers. We present illustrations of Panels B and C within the Hill Antechamber and discuss their contextual relationship with Panel A, while recognizing that identifying all engraved lines within these panels will require further study in this difficult to access space. We also provide additional contextual data demonstrating the attribution of these etchings and engravings to <italic>H. naledi</italic>, hypothesise how the Panel A etchings and engravings were created, and discuss implications of our findings for <italic>H. naledi</italic> culture and cognition. We have not carried out any invasive or destructive sampling of these panels. This description is intended to document the discovery and provide spatial and contextual information prior to any further analyses that may require invasive sampling.</p>
+</sec>
+<sec id="s2">
+<title>Panel A</title>
+<p>Panel A is found on the southern face of the natural pillar that forms the southern edge of the entry from the Hill Antechamber into the southern of two passages leading to the Dinaledi Chamber (<xref rid="fig1" ref-type="fig">Figures 1</xref>, <xref rid="fig2" ref-type="fig">2</xref>). The panel is notable as an area of discoloured rock that appears to have been smoothed by both percussive blows by a hard object, as is evidenced by micro and macro pitting of the surface alien to the adjacent natural rock surfaces (<xref rid="fig3" ref-type="fig">Figures 3</xref> and <xref rid="fig4" ref-type="fig">4</xref>) and by the possible application of sand and grit both before and after etchings and engravings were made (<xref rid="fig5" ref-type="fig">Figures 5</xref> and <xref rid="fig6" ref-type="fig">6</xref>). The adhering sediment and polishing of the surface of all three panels is unique to these surfaces relative to other surfaces in the chambers, and we thus hypothesize that it may result from intentional action. This sediment or pigment may have been used either as a material to create visual contrast on the grey dolomite, to abrade the surface as a form of polish, to enhance or obscure some aspects of the engraved lines, or all of these. This material is present on the surface as a micro-layer and is evident within some of the grooves of the lines, indicating its application after some of the marks were made. The appearance of time-ordering between engraved lines and the surface treatment may imply an origin of the engravings in multiple episodes (<xref rid="fig6" ref-type="fig">Figure 6</xref>).</p>
+<fig id="fig2" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 2</label>
+<caption><p>Engraving Panel A (Images A and B) and Engraving Panel B (Images C and D). Image A is taken with a polarizing filter as described in methods. Image B taken using only LED lights and approximates natural coloration. Image C shows the results of increasing contrast while lowering light on Panel B while Image D illustrates Panel B under LED lighting.</p></caption>
+<graphic xlink:href="543133v1_fig2.tif"/>
+</fig>
+<fig id="fig3" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 3</label>
+<caption><p>Crosshatched etchings in Panel B. The white circle outlines areas of the engraving that may indicate hammer blows or pounding marks as evidenced by pitting not seen on other surfaces.</p></caption>
+<graphic xlink:href="543133v1_fig3.tif"/>
+</fig>
+<fig id="fig4" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 4</label>
+<caption><p>Crosshatched etching comparing polarized images (bottom) with non-polarized imaging of the same area highlighting pitting marks that appear to be non-natural in origin.</p></caption>
+<graphic xlink:href="543133v1_fig4.tif"/>
+</fig>
+<fig id="fig5" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 5</label>
+<caption><p>Closeup of non-geometric figure at the top of Panel B. Note the cross like etching to the left of the figure as well as the X etched to the right. The non-geometric figure uses in part a natural fracture as an extension of the line beneath it before an inverted Y is etched at the terminus of this line. The material causing discoloration of the surface has not been analysed.</p></caption>
+<graphic xlink:href="543133v1_fig5.tif"/>
+</fig>
+<fig id="fig6" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 6</label>
+<caption><p>Evidence for sediment covering lines on Panel A. Image 1 shows lines 2,3 and 4 of Panel A (See Figure X for map). Note small sediment granules in base of lines to the left of the image, while line rising to the upper right shows penetration to the native underlying rock by the carving action. Image 2 illustrates a position slightly lower on the crosshatch marks on Panel A imaging lines 3,4,6,11 and 13. Note the difference between etching marks on the lower part and right of the image of this section of the engraving showing the difference between highly etched lines versus one presumably covered by a light layer of sediment post their creation. Note also likely pitting or presumed hammerstone marks in the central part of Image 2 between the carved lines. Image 3 illustrates lines 6, 17 and 18. Note the sharply carved lines on the right and the lines on the left that appear to be obscured by a light application of coarse sediment. Image 4 illustrates a wider shot of Panel B showing the discoloration of the area containing the engravings compared to the native rock with no sediment visible in the upper left of the image.</p></caption>
+<graphic xlink:href="543133v1_fig6.tif"/>
+</fig>
+<fig id="fig7" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 7</label>
+<caption><p>Boc like etchings on Panel B seen under ultraviolet light. Note the slight white appearance of the etched lines indicating the presence of a reflective or slightly fluorescing material in the engraved lines similar to the fluorescence of pure CaCO3.</p></caption>
+<graphic xlink:href="543133v1_fig7.tif"/>
+</fig>
+<fig id="fig8" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 8</label>
+<caption><p>The Dinaledi Subsystem etched crosshatch found on Panel A between the Hill Antechamber and Dinaledi Chamber (Top) compared to the crosshatch engravings found on the cave floor of Gorham&#x2019;s Cave, Gibraltar and attributed to manufacture by a neanderthal circa 60k years ago.</p></caption>
+<graphic xlink:href="543133v1_fig8.tif"/>
+</fig>
+<fig id="fig9" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 9</label>
+<caption><p>Line tracing of the Panel A Dinaledi Subsystem engraving (top in grey), compared to a line tracing of the Gorham&#x2019;s Cave engraving (bottom in black). Tracings not to scale.</p></caption>
+<graphic xlink:href="543133v1_fig9.tif"/>
+</fig>
+<p>The most visible engraved lines, when viewed together are crosshatched, give the impression of a rough hashtag figure (<xref rid="fig10" ref-type="fig">Figures 10</xref> and <xref rid="fig11" ref-type="fig">11</xref>). The lines appear to have been made by repeatedly and carefully passing a pointed or sharp lithic fragment or tool into the grooves. This excludes the possibility of an unintentional or utilitarian origin. In addition, there are scratches that fall outside of identifiable designs, which may either be mistakes, unfinished designs, or form part of the design not interpretable by us. Several of the grooves overlap geological features native to the rock including fossil stromatolites (<xref rid="fig12" ref-type="fig">Figures 12</xref> and <xref rid="fig13" ref-type="fig">13</xref>). In many instances, it is possible to identify which lines were made first by examining the point where they cross another line (e.g. <xref rid="fig14" ref-type="fig">Figures 14</xref> and <xref rid="fig15" ref-type="fig">15</xref>). As has been interpreted for other discoveries of early geometric shapes etched or engraved by larger-brained species, this discovery demonstrates the capacity of <italic>H. naledi</italic> for expression through the use of geometric forms.</p>
+<fig id="fig10" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 10</label>
+<caption><p>Non-polarized (left) and polarized (right) image of the crosshatched engraving on Panel A, Dinaledi Subsystem. Scale in millimeters.</p></caption>
+<graphic xlink:href="543133v1_fig10.tif"/>
+</fig>
+<fig id="fig11" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 11</label>
+<caption><p>Polarized image of the Panel A engraving (left) with the most visible lines (interpreted as the most recent etchings) traced (right). Scale in millimeters.</p></caption>
+<graphic xlink:href="543133v1_fig11.tif"/>
+</fig>
+<fig id="fig12" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 12</label>
+<caption><p>LED light images of the Panel A primary engravings. Scales in millimetres.</p></caption>
+<graphic xlink:href="543133v1_fig12.tif"/>
+</fig>
+<fig id="fig13" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 13</label>
+<caption><p>Lines 2,6,11, 14, 15,16,18, 21,25,27,33,38,39 and 40. Note that etching 18 overcuts line 17 and line 30 overcuts line 25 indicating an order of creation. Note also that all line engraved on the left side of the image cut through the fossil stromatolite visible as horizontal wavy lines in the rock.</p></caption>
+<graphic xlink:href="543133v1_fig13.tif"/>
+</fig>
+<fig id="fig14" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 14</label>
+<caption><p>Magnified views of Lines 6, 17 and 18. The bottom image is a slightly higher magnification of the top image. It is clear from these images that the engraving of line 17 preceded the engraving of line 18. Scale at bottom in millimetres.</p></caption>
+<graphic xlink:href="543133v1_fig14.tif"/>
+</fig>
+<fig id="fig15" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 15</label>
+<caption><p>Magnified views of lines 16, 25 and 30. Note it is clear line 25 was etched first, followed by line 30. The lateral edge of line 31 can be seen at bottom left and the left edge of line 15 at top right. Note also the deep incision through the stromatolites layers by all lines. Scale in millimeters.</p></caption>
+<graphic xlink:href="543133v1_fig15.tif"/>
+</fig>
+<p>We identify at least 46 non-natural engraved marks on panel A (See <xref rid="fig16" ref-type="fig">Figure 16</xref>). The most prominent markings on Panel A are a series of intersecting lines (<xref rid="fig10" ref-type="fig">Figures 10</xref>,<xref rid="fig11" ref-type="fig">11</xref> and <xref rid="fig12" ref-type="fig">12</xref>). There appears to be a temporal span involved in the creation of the engraved lines as some seem more recently engraved and show clean etching, while others have been obscured either by slight weathering or by the application of sediment. The most easily identifiable engravings, based on their clarity, are Lines L2, L6, L9, L11, L16, L17, L27, L30 and L31 (<xref rid="fig16" ref-type="fig">Figure 16</xref>). While the existing lines may have been created in older etchings, or been created over multiple interactions, the final etchings of the lines based on which lines overlap can be interpreted as follows: horizontal Lines 11 &#x0026; 25 were created after vertical Line 2. Vertical Line 6 was created after L11. Vertical Line 18 was created after horizontal Line 17. Line 30 was created after horizontal Line 25, but before horizontal Line 31.</p>
+<fig id="fig16" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 16</label>
+<caption><p>A conservative map of non-natural engravings observed on Panel A. Non-natural engravings are traced in white lines and given yellow numbers references in the text.</p></caption>
+<graphic xlink:href="543133v1_fig16.tif"/>
+</fig>
+</sec>
+<sec id="s3">
+<title>Evidence of hominin manufacture of engravings on Panel A</title>
+<p>Dolomite is known for a pattern of natural weathering that results in patterns of recessed linear features on its surface. Artificial markings can be distinguished from this natural weathering pattern in several ways. Natural fissures and erosional features in weathered dolomite surfaces are characteristically deeper than several millimeters and they follow natural fracture planes within the rock. Artificial lines are limited in depth and extent due to the natural hardness of dolomite. This hardness means that any substantial artificial marking requires multiple parallel incisions with a hard tool. Natural erosional features in dolomite may have variable cross-sections, ranging from bevelled to U-shaped to rectangular in cross section, but do not have multiple parallel striations visible within them. Where artificial engraved markings intersect, they often exhibit an ordering in which one was completed before the other; this kind of feature is not typical of natural weathering. In previous work, researchers have noted the limited depth of artificial lines, their composition from multiple parallel striations, and their association into a clear arrangement or pattern as evidence of hominin manufacture (Fernandez-Jalvo et al. 2014).</p>
+<p>The engraved lines in Panel A have each of these features. They can clearly be distinguished from natural weathering of the surrounding dolomite walls, which can be seen adjacent to the panel within 20 cm of the nearest artificial marks (<xref rid="fig18" ref-type="fig">Figure 18</xref>). The features produced by natural weathering are deeper than 10 mm, in particular deep relative to the feature width, they maintain a consistency of size and depth across substantially undulating or rugged surfaces, they expand from natural cracks and fissures. In contrast, even the widest of the engraved lines that constitute Panel A have a relatively shallow depth. High-resolution macro-photography shows micro-striations constituting several of these engraved lines, in which roughly parallel incisions sometimes overlap with each other (See <xref rid="fig6" ref-type="fig">Figures 6</xref>, <xref rid="fig13" ref-type="fig">13</xref>, <xref rid="fig14" ref-type="fig">14</xref>, <xref rid="fig15" ref-type="fig">15</xref> and <xref rid="fig17" ref-type="fig">17</xref>). Many of the lines also fall out of the direction of natural fracture features in the country rock, although it should be recognised that there are multiple places on this panel where natural lines and features of the rock may have been enhanced by artificial engraving. <xref rid="fig13" ref-type="fig">Figures 13</xref>, <xref rid="fig14" ref-type="fig">14</xref>, and <xref rid="fig15" ref-type="fig">15</xref> show examples of ordering where engraved lines intersect, one having been completed clearly before the other.</p>
+<fig id="fig17" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 17</label>
+<caption><p>Magnified images of etchings 41 through 46 numbered from left to right. Scale in millimeters.</p></caption>
+<graphic xlink:href="543133v1_fig17.tif"/>
+</fig>
+<fig id="fig18" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 18</label>
+<caption><p>Image of dolomite above and right of Panel A. The top of the crosshatched etchings can be seen in the lower left of the image. Note the smoothing and alteration of the Panel&#x2019;s surface compared to natural, non-altered dolomitic surfaces above and right of the Panel typical of unaltered surfaces throughout the system.</p></caption>
+<graphic xlink:href="543133v1_fig18.tif"/>
+</fig>
+<p>In addition to the engraving depth, composition, and ordering, there are two additional aspects of Panel A engraved lines that distinguish them from natural weathering. The dolomitic bedrock of the Malmani Formation includes fossil stromatolites, which manifest as curving linear banded striations visible in the rock. Panel A includes these layered stromatolitic bands, and all engraved lines that pass below the bottom of Line 14 cross over this fossil feature (See <xref rid="fig13" ref-type="fig">Figures 13</xref> and <xref rid="fig15" ref-type="fig">15</xref>). Where engraved lines cross over this feature, they retain direction and in some cases the multiple striations slightly diverge, suggesting that maintaining a linear engraving over this irregular surface may have been challenging. Second, the engraved markings are, in places, covered wholly or partially in sediment or some other substance. This coating on the walls of the cave does not occur in other areas of the chambers where there are no engravings. Thus it does not appear this covering sediment can be explained by geological or other non-organic processes.</p>
+<p>The means of manufacture of these engraved lines would have required an implement of equal or greater hardness as the native dolomitic limestone. At present, only one possible lithic artifact has been recovered in direct association with <italic>H. naledi</italic> remains (<xref ref-type="bibr" rid="c1">Berger et al. 2023a</xref>). This tool-shaped rock does resemble tools from other contexts of more recent age in southern Africa, such as a silcrete tool with abstract ochre designs on it that was recovered from Blombos Cave (Henshilwood et al. 2018) (<xref rid="fig19" ref-type="fig">Figure 19</xref>). Dolomite rocks of appropriate size and morphology to mark the cave walls have been recovered from surface contexts within the Dinaledi Subsystem, as have many chert fragments.</p>
+<fig id="fig19" position="float" orientation="portrait" fig-type="figure">
+<label>Figure 19</label>
+<caption><p>The tool-shaped artefact described in <xref ref-type="bibr" rid="c1">Berger et al, 2023a</xref> (top) recovered from the Hill Antechamber burial immediately below Panels B and C compared to the artefact from Blombos cave, South Africa attributed by Henshilwood et al 2009 as having symbolic markings in ochre made by <italic>Homo sapiens</italic> circa 78k years ago.</p></caption>
+<graphic xlink:href="543133v1_fig19.tif"/>
+</fig>
+</sec>
+<sec id="s4">
+<title>Panels B and C</title>
+<p>Panels B and C are located on the northern wall within two meters of the Hill Antechamber burial feature described in Berger et al. (2023). Panel B is situated lower and to the right (West) of Panel C. Both panels appear to have been prepared in a similar way to Panel A, with possible use of cave sediment applied to the surface, giving the surfaces of these panels an obvious textural difference to adjacent walls of the chambers (<xref rid="fig2" ref-type="fig">Figures 2c &#x0026; b</xref> and <xref rid="fig5" ref-type="fig">Figure 5</xref>) A number of obvious etchings and engravings can be seen, some in the form of geometric figures, crosses, X&#x2019;s and one possible non-linear geometric figure (<xref rid="fig5" ref-type="fig">Figure 5</xref>). It appears, in softer visible light, that a foreign substance has been applied to part of the panel. As was noted the purpose of this paper is not to describe these complex panels and the many etchings and engravings on them, but to simply note their presence in the Hill Antechamber. Future work in this difficult space is planned to sample the possible residues and map the non-natural etchings, attempt to date the etchings and we will conduct experimental work on native dolomite in controlled experiments.</p>
+</sec>
+<sec id="s5">
+<title>Discussion and Conclusions</title>
+<p>The attribution of engraved or painted markings to Neandertals, <italic>Homo erectus</italic>, or other hominin groups has generally attracted debate. Critics have emphasized the need to establish clearly the intentionality of possible markings in contrast to natural processes. Skepticism has also frequently surrounded methods to establish the geological age of engraved or painted markings (<italic>e.g.,</italic> <xref ref-type="bibr" rid="c21">Pons-Branchu et al. 2020</xref>; <xref ref-type="bibr" rid="c27">White et al. 2020</xref>). Some have emphasized that while singular occurrences may indicate intentionality, only repeated evidence from multiple sites can provide evidence of possible symbolic or representational intent (<xref ref-type="bibr" rid="c3">Davidson 2020</xref>).</p>
+<p>Geochronological evidence can be extremely difficult to obtain for markings on natural rock surfaces. The engraved panels in the Dinaledi subsystem are not overlain by sediments, and we have not identified any calcite formation overlapping the engraved features. This makes it challenging to assess whether the engravings are contemporary with the <italic>Homo naledi</italic> burial evidence from only a few meters away (Berger et al. 2023). At present we have no evidence limiting the time period across which <italic>H. naledi</italic> was active in the cave system. The maximum age constraint reported by <xref ref-type="bibr" rid="c4">Dirks et al. (2017)</xref> on <italic>H. naledi</italic> skeletal material (335 kyr BP) in Dinaledi is the highest 95&#x0025; confidence limit of a direct ESR-US date on <italic>H. naledi</italic> teeth; while the minimum age constraint (241 kyr BP) is based on U-Th on a flowstone that formed in part around a bone fragment (Wiersma et al. 2020). These dates do not necessarily pertain to skeletal material from other parts of the cave system, nor do they exclude earlier or later access to the cave system by <italic>H. naledi</italic> individuals. The duration of <italic>H. naledi</italic> cultural activity within the cave system is therefore not presently known.</p>
+<p>It is unlikely that any other hominin population made these engravings. No physical or cultural evidence of any other hominin population occurs within this part of the cave system, and there is no evidence that recent humans or earlier hominins ever entered any adjacent area of the cave until surveys by human cave explorers during the last 40 years. The number of modern cavers and archaeologists who have entered the Dinaledi subsystem is extremely limited (<xref rid="tbl1" ref-type="table">Table 1</xref>). There is no evidence of modern cavers altering cave walls in such a manner in the Dinaledi subsystem, or elsewhere in Rising Star system. The evidence that these engravings were created in multiple events over time further makes it unlikely that historic humans were involved in their creation. The available evidence is most compatible with the extinct species <italic>Homo naledi</italic> as the creator of these markings.</p>
+<table-wrap id="tbl1" orientation="portrait" position="float">
+<label>Table 1</label>
+<caption><p>Known humans who have entered the Dinaledi System</p></caption>
+<graphic xlink:href="543133v1_tbl1.tif"/>
+<graphic xlink:href="543133v1_tbl1a.tif"/>
+</table-wrap>
+<p>The evidence of burials and associated mortuary practices by <italic>H. naledi</italic> near the engravings reinforces that assertion this species carried out repeated complex patterns of behaviour in this deep cave setting (<xref ref-type="bibr" rid="c1">Berger et al. 2023a</xref>, <xref ref-type="bibr" rid="c6">Fuentes et al. 2023</xref>). The engravings are located in a distinctive position, on the left-hand wall as seen when entering the system from the North, and interior left hand pillar that forms the entrance archway to the tunnel linking the Hill Antechamber burial area with the larger Dinaledi Chamber burial area. This is the only place engravings have been discovered so far within the Dinaledi subsystem. The evidence that Panel A was marked in multiple episodes, possibly separated by substantial time, suggests that the selection of this location was not random, and that an individual or individuals returned to this location to carry out a similar pattern of activity on multiple occasions.</p>
+<p>The main engravings on Panel A appear similar to other engravings found in the later Pleistocene. The shapes of the engravings on panels A,B and C also appear to include the following geometric forms identified by <xref ref-type="bibr" rid="c26">Von Petzinger (2017)</xref>: crosshatch, cruciform, line, flabellifrom, scalariform, open angle and oval. However, further analytic and comparative work must be conducted to confirm exactly how much similarity and overlap there is between the Dinaledi engravings and the engravings at other Pleistocene sites where such designs are found. As a specific observation however, the engravings in panel A give the impression of overlapping crosses and lines and are remarkably similar in appearance to the engraving from Gorham&#x2019;s Cave, Gibraltar (Rodriguez-Vidal et al. 2014). This engraving was dated to greater than 39 kyr cal BP and has been attributed to Neandertals. Other geometric patterns made with lines occur in several contexts are reported for some later Pleistocene sites in southern Africa and elsewhere (e.g. <xref ref-type="bibr" rid="c26">Von Petzinger, 2017</xref>). These include ochre lines, engraved bones, and engraved ochre chunks from Blombos Cave (<xref ref-type="bibr" rid="c2">d&#x2019;Errico et al. 2001</xref>; <xref ref-type="bibr" rid="c7">Henshilwood et al. 2002</xref>; Henshilwood et al. 2018), engravings from Wonderwerk Cave (Thackeray et al. 1981) and lines impressed within sand features that were later lithified into aeolianites (<xref ref-type="bibr" rid="c8">Helm et al. 2021</xref>). There are also a few other engravings from sites in Europe at similar time depth (<xref ref-type="bibr" rid="c26">Von Petzinger, 2017</xref>; <xref ref-type="bibr" rid="c15">Kissel and Fuentes 2017</xref>, <xref ref-type="bibr" rid="c14">2018</xref>), as well as geometric lines on a freshwater mussel shell from Trinil Java, attributed geochronologically to <italic>H. erectus</italic> (<xref ref-type="bibr" rid="c12">Joordens et al. 2015</xref>). The engravings from the Dinaledi Subsystem share similarities with many of these geometric expressions from other sites and geographic regions. The Blombos artifacts also include some surfaces that appear to have been prepared or smoothed prior to engraving possibly similar to the processes involved in the smoothing of Dinaledi Panel A.</p>
+<p>Many of these examples of engraved lines from later Pleistocene sites appear to be nonrandomly placed on an object or surface. <xref ref-type="bibr" rid="c9">Henshilwood and Dubreuil (2011)</xref> have suggested that one should be less focused on the specifics of the designs and rather concentrate on the underlying cause of their creation. Those and other authors suggest symbolic implications for such engravings and associated them with the emergence of contemporary <italic>Homo sapiens</italic>. However, the recent identification of engravings and other forms of material meaning making in a range of other-than-<italic>Homo sapiens</italic> hominins over the latter portions of the Pleistocene (<xref ref-type="bibr" rid="c14">Kissel and Fuentes 2018</xref>, <xref ref-type="bibr" rid="c13">2021</xref>) suggests that such activity, be it &#x201C;symbolic&#x201D; or not, is not exclusive to <italic>Homo sapiens</italic>. With the engravings reported here we add to this growing dataset by providing additional evidence of later Pleistocene engravings associated with a non-<italic>Homo sapiens</italic> hominin. We also add to the complexity involved in examining and understanding the implications of such engravings by reporting that the most likely creator of these engravings was the small-brained <italic>Homo naledi</italic>. This has implications for the evolution of biological intelligence among hominins and the association with encephalization with cognitive complexity.</p>
+</sec>
+<sec id="s6">
+<title>Methods</title>
+<p>The etchings and engraving markings were examined using high resolution photography and magnification of lines and markings. Polarizing filters were also used to enhance relief and this is indicated when used.</p>
+<p>Cross-polarisation was employed for control of specular highlights/reflections in order to limit artefacts when generating the 3D-depth map for photogrammetry purposes. A circular polariser was used on the camera lens in conjunction with a linear polarising gel placed over the two speed lights (electronic flash heads) used as the light source. The different minerals/material on the dolomite are reflecting/absorbing the cross-polarised light emphasising the &#x201C;bright&#x201D; striations visible in images.</p>
+<p>Images were shot with a 50mm (Polariser fitted) at f/11 unless otherwise stated.</p>
+<p>The light source used (twin speed lights with polarised gel attached) were placed as close to the Lens axis as possible so that the angles of incidence approximate the reflected angles limiting shadow. This assisted us in building the 3D mesh for photogrammetry purposes. The cross-polarisation also removed specular highlights that create artefacts.</p>
+<p>We used Metashape 1.8.1 (Agisoft, Inc.) to generate three-dimensional models of panels A and B based on photographs taken with the parameters reported above. Generation of cross-sections and measurements from these models were performed with MeshLab 2021.20. Resolution of the three-dimensional surface is estimated to be accurate to 0.2 mm.</p>
+</sec>
+</body>
+<back>
+<ack>
+<title>Acknowledgements</title>
+<p>Permits to conduct research in the Rising Star Cave system are provided by the South African National Research Foundation (LRB). Permission to work in the Rising Star cave is given by the LRB Foundation for Research and Exploration. The Authors would like to acknowledge the funders of the various expeditions and documentation of the engravings including the National Geographic Society (LRB), the Lyda Hill Foundation (LRB) and the National Research Foundation of South Africa (LRB). Laboratory work and travel was funded by the National Geographic Society (LRB), the Lyda Hill Foundation (LRB), the Fulbright Scholar Program (JH), the University of Wisconsin (JH) and Princeton University (AF).</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="c1"><label>1.</label><mixed-citation publication-type="journal"><string-name><surname>Berger</surname></string-name>, <string-name><surname>et al</surname></string-name>, (<year>2023</year>a) <article-title>Evidence for deliberate burial of the dead by Homo naledi</article-title>, <source>bioRxiv</source>, DOI pending</mixed-citation></ref>
+<ref id="c2"><label>2.</label><mixed-citation publication-type="journal"><string-name><surname>d&#x2019;Errico</surname>, <given-names>Francesco</given-names></string-name>, <string-name><given-names>Christopher</given-names> <surname>Henshilwood</surname></string-name>, and <string-name><given-names>Peter</given-names> <surname>Nilssen</surname></string-name>. &#x201C;<article-title>An engraved bone fragment from c. 70,000-year-old Middle Stone Age levels at Blombos Cave, South Africa: implications for the origin of symbolism and language</article-title>.&#x201D; <source>Antiquity</source> <volume>75</volume>. (<year>2001</year>): <fpage>309</fpage>&#x2013;<lpage>318</lpage>.</mixed-citation></ref>
+<ref id="c3"><label>3.</label><mixed-citation publication-type="journal"><string-name><surname>Davidson</surname>, <given-names>Iain</given-names></string-name>. &#x201C;<article-title>Marks, pictures and art: their contribution to revolutions in communication</article-title>.&#x201D; <source>Journal of Archaeological Method and Theory</source> <volume>27</volume>, no.  (<year>2020</year>): <fpage>745</fpage>&#x2013;<lpage>770</lpage>.</mixed-citation></ref>
+<ref id="c4"><label>4.</label><mixed-citation publication-type="journal"><string-name><surname>Dirks</surname>, <given-names>Paul HGM</given-names></string-name>, <string-name><surname>et al.</surname></string-name> &#x201C;<article-title>The age of Homo naledi and associated sediments in the Rising Star Cave, South Africa</article-title>.&#x201D; <source>Elife</source> <volume>6</volume> (<year>2017</year>): <elocation-id>e24231</elocation-id>.</mixed-citation></ref>
+<ref id="c5"><label>5.</label><mixed-citation publication-type="journal"><string-name><surname>Dusseldorp</surname>, <given-names>Gerrit L.</given-names></string-name>, and <string-name><given-names>Marlize</given-names> <surname>Lombard</surname></string-name>. &#x201C;<article-title>Constraining the likely technological niches of late Middle Pleistocene hominins with <italic>Homo naledi</italic> as case study</article-title>.&#x201D; <source>Journal of Archaeological Method and Theory</source> <volume>28</volume>. (<year>2021</year>): <fpage>11</fpage>&#x2013;<lpage>52</lpage>.</mixed-citation></ref>
+<ref id="c6"><label>6.</label><mixed-citation publication-type="journal"><string-name><surname>Fuentes</surname></string-name>, <string-name><surname>et al.</surname></string-name> (<year>2023</year>) <article-title>Burials and engravings in a small-brained hominin, <italic>Homo naledi</italic>, from the late Pleistocene: contexts and evolutionary implications</article-title>, <source>bioRxiv</source>, DOI pending</mixed-citation></ref>
+<ref id="c7"><label>7.</label><mixed-citation publication-type="journal"><string-name><surname>Henshilwood</surname>, <given-names>Christopher S.</given-names></string-name>, <string-name><surname>et al.</surname></string-name> &#x201C;<article-title>Emergence of modern human behavior: Middle Stone Age engravings from South Africa</article-title>.&#x201D; <source>Science</source> <volume>295</volume>. (<year>2002</year>): <fpage>1278</fpage>-<lpage>1280</lpage>.</mixed-citation></ref>
+<ref id="c8"><label>8.</label><mixed-citation publication-type="journal"><string-name><surname>Helm</surname>, <given-names>Charles W.</given-names></string-name>, <string-name><surname>et al.</surname></string-name> &#x201C;<article-title>Large geometric patterns from the Middle Stone Age in aeolianites on the Cape south coast, South Africa</article-title>.&#x201D; <source>Rock Art Research: The Journal of the Australian Rock Art Research Association (AURA</source><italic>)</italic> <volume>38</volume>. (<year>2021</year>): <fpage>10</fpage>&#x2013;<lpage>22</lpage>.</mixed-citation></ref>
+<ref id="c9"><label>9.</label><mixed-citation publication-type="journal"><string-name><surname>Henshilwood</surname>, <given-names>Christopher Stuart</given-names></string-name>, and <string-name><given-names>Beno&#x00EE;t</given-names> <surname>Dubreuil</surname></string-name>. &#x201C;<article-title>The Still Bay and Howiesons Poort, 77&#x2013;59 ka: symbolic material culture and the evolution of the mind during the African Middle Stone Age</article-title>.&#x201D; <source>Current anthropology</source> <volume>52</volume>. (<year>2011</year>): <fpage>361</fpage>&#x2013;<lpage>400</lpage>.</mixed-citation></ref>
+<ref id="c10"><label>10.</label><mixed-citation publication-type="book"><string-name><surname>Henshilwood</surname>, <given-names>Christopher S.</given-names></string-name> &#x201C;<chapter-title>The origins of symbolism, spirituality and shamans: exploring Middle Stone Age material culture in South Africa</chapter-title>.&#x201D; <source>Becoming Human: Innovation in Prehistoric Material and Spiritual Cultures</source>. <publisher-name>Cambridge University Press</publisher-name>, <publisher-loc>Cambridge</publisher-loc> (<year>2009</year>): <fpage>29</fpage>&#x2013;<lpage>49</lpage>.</mixed-citation></ref>
+<ref id="c11"><label>11.</label><mixed-citation publication-type="journal"><string-name><surname>Henshilwood</surname>, <given-names>Christopher S.</given-names></string-name>, <string-name><surname>et al.</surname></string-name> &#x201C;<article-title>An abstract drawing from the 73,000-year-old levels at Blombos Cave, South Africa</article-title>.&#x201D; <source>Nature</source> <volume>562</volume>.7725 (<year>2018</year>): <fpage>115</fpage>&#x2013;<lpage>118</lpage>.</mixed-citation></ref>
+<ref id="c12"><label>12.</label><mixed-citation publication-type="journal"><string-name><surname>Joordens</surname>, <given-names>Josephine CA</given-names></string-name>, <string-name><surname>et al.</surname></string-name> &#x201C;<article-title>Homo erectus at Trinil on Java used shells for tool production and engraving</article-title>.&#x201D; <source>Nature</source> <volume>518</volume>.7538 (<year>2015</year>): <fpage>228</fpage>&#x2013;<lpage>231</lpage>.</mixed-citation></ref>
+<ref id="c13"><label>13.</label><mixed-citation publication-type="journal"><string-name><surname>Kissel</surname>, <given-names>M.</given-names></string-name> and <string-name><surname>Fuentes</surname>, <given-names>A.</given-names></string-name> (<year>2021</year>) <article-title>The Ripples of Modernity: how we can Extend Paleoanthropology with the Extended Evolutionary Synthesis</article-title> <source>Evolutionary Anthropology</source> <volume>30</volume>():<fpage>84</fpage>-<lpage>98</lpage> <ext-link ext-link-type="uri" xlink:href="https://onlinelibrary.wiley.com/doi/full/10.1002/evan.21883">https://onlinelibrary.wiley.com/doi/full/10.1002/evan.21883</ext-link></mixed-citation></ref>
+<ref id="c14"><label>14.</label><mixed-citation publication-type="journal"><string-name><surname>Kissel</surname>, <given-names>M.</given-names></string-name> and <string-name><surname>Fuentes</surname>, <given-names>A.</given-names></string-name> (<year>2018</year>) <article-title>Semiosis in the Pleistocene</article-title> <source>Cambridge Archaeological Journal</source> <volume>27</volume>(): <fpage>1</fpage>-<lpage>16</lpage> doi:<pub-id pub-id-type="doi">10.1017/S0959774317000014</pub-id></mixed-citation></ref>
+<ref id="c15"><label>15.</label><mixed-citation publication-type="journal"><string-name><surname>Kissel</surname>, <given-names>M.</given-names></string-name> and <string-name><surname>Fuentes</surname>, <given-names>A.</given-names></string-name> (<year>2017</year>) <article-title>A Database of Archaeological Evidence for Representational Behavior</article-title> <source>Evolutionary Anthropology</source> <volume>26</volume>():<elocation-id>1490150</elocation-id> DOI: <pub-id pub-id-type="doi">10.1002/evan.21525</pub-id></mixed-citation></ref>
+<ref id="c16"><label>16.</label><mixed-citation publication-type="journal"><string-name><surname>Kissel</surname>, <given-names>Marc</given-names></string-name>, and <string-name><given-names>Agust&#x00ED;n</given-names> <surname>Fuentes</surname></string-name>. &#x201C;<article-title>&#x2018;Behavioral modernity&#x2019;as a process, not an event, in the human niche</article-title>.&#x201D; <source>Time and Mind</source> <volume>11</volume>. (<year>2018</year>): <fpage>163</fpage>&#x2013;<lpage>183</lpage>.</mixed-citation></ref>
+<ref id="c17"><label>17.</label><mixed-citation publication-type="journal"><string-name><surname>Kissel</surname>, <given-names>Marc</given-names></string-name>, and <string-name><given-names>Agust&#x00CD;n</given-names> <surname>Fuentes</surname></string-name>. <article-title>&#x201C;The ripples of modernity: How we can extend paleoanthropology with the extended evolutionary synthesis.&#x201D; <italic>Evolutionary Anthropology: Issues</italic></article-title>, <source>News, and Reviews</source> <volume>30</volume>. (<year>2021</year>): <fpage>84</fpage>&#x2013;<lpage>98</lpage>.</mixed-citation></ref>
+<ref id="c18"><label>18.</label><mixed-citation publication-type="journal"><string-name><surname>Nel</surname>, <given-names>Charn&#x00E9;</given-names></string-name>, <string-name><surname>et al.</surname></string-name> &#x201C;<article-title>Taphonomic study of a modern baboon sleeping site at Misgrot, South Africa: implications for large-bodied primate taphonomy in karstic deposits</article-title>.&#x201D; <source>Journal of Paleolithic Archaeology</source> <volume>4</volume> (<year>2021</year>): <fpage>1</fpage>&#x2013;<lpage>31</lpage>.</mixed-citation></ref>
+<ref id="c19"><label>19.</label><mixed-citation publication-type="journal"><string-name><surname>Parkington</surname>, <given-names>John</given-names></string-name>. &#x201C;<article-title>Coastal diet, encephalization, and innovative behaviors in the late Middle Stone Age of southern Africa</article-title>.&#x201D; <source>Human brain evolution: The influence of freshwater and marine food resources</source> (<year>2010</year>): <fpage>189</fpage>&#x2013;<lpage>202</lpage>.</mixed-citation></ref>
+<ref id="c20"><label>20.</label><mixed-citation publication-type="journal"><string-name><surname>Pettitt</surname>, <given-names>Paul</given-names></string-name>. <article-title>&#x201C;Did Homo naledi dispose of their dead in the Rising Star Cave system?</article-title>.&#x201D; <source>South African Journal of Science</source> <volume>118</volume>.<fpage>11</fpage>&#x2013;<lpage>12</lpage> (<year>2022</year>): 1-3.</mixed-citation></ref>
+<ref id="c21"><label>21.</label><mixed-citation publication-type="journal"><string-name><surname>Pons-Branchu</surname>, <given-names>Edwige</given-names></string-name>, <string-name><given-names>Jos&#x00E9; Luis</given-names> <surname>Sanchidri&#x00E1;n</surname></string-name>, <string-name><given-names>Michel</given-names> <surname>Fontugne</surname></string-name>, <string-name><given-names>M&#x00AA; &#x00C1;ngeles</given-names> <surname>Medina-Alcaide</surname></string-name>, <string-name><given-names>Anita</given-names> <surname>Quiles</surname></string-name>, <string-name><given-names>Fran&#x00E7;ois</given-names> <surname>Thil</surname></string-name>, and <string-name><given-names>H&#x00E9;l&#x00E8;ne</given-names> <surname>Valladas</surname></string-name>. &#x201C;<article-title>U-series dating at Nerja cave reveal open system. Questioning the Neanderthal origin of Spanish rock art</article-title>.&#x201D; <source>Journal of Archaeological Science</source> <volume>117</volume> (<year>2020</year>): <elocation-id>105120</elocation-id>.</mixed-citation></ref>
+<ref id="c22"><label>22.</label><mixed-citation publication-type="journal"><string-name><surname>Robbins</surname>, <given-names>Jessie L.</given-names></string-name>, <string-name><surname>et al.</surname></string-name> &#x201C;<article-title>Providing context to the Homo naledi fossils: Constraints from flowstones on the age of sediment deposits in Rising Star Cave, South Africa</article-title>.&#x201D; <source>Chemical Geology</source> <volume>567</volume> (<year>2021</year>): <elocation-id>120108</elocation-id>.</mixed-citation></ref>
+<ref id="c23"><label>23.</label><mixed-citation publication-type="journal"><string-name><surname>Rodr&#x00ED;guez-Vidal</surname>, <given-names>Joaqu&#x00ED;n</given-names></string-name>, <string-name><surname>et al.</surname></string-name> &#x201C;<article-title>A rock engraving made by Neanderthals in Gibraltar</article-title>.&#x201D; <source>Proceedings of the National Academy of Sciences</source> <volume>111</volume>. (<year>2014</year>): <fpage>13301</fpage>&#x2013;<lpage>13306</lpage>.</mixed-citation></ref>
+<ref id="c24"><label>24.</label><mixed-citation publication-type="journal"><string-name><surname>Thackeray</surname>, <given-names>Francis</given-names></string-name>. &#x201C;<article-title>How tiny black spots shed light on part of the Homo naledi mystery: paleaoanthropology</article-title>.&#x201D; <source>Quest</source> <volume>12</volume>. (<year>2016</year>): <fpage>24</fpage>&#x2013;<lpage>25</lpage>.</mixed-citation></ref>
+<ref id="c25"><label>25.</label><mixed-citation publication-type="journal"><string-name><surname>Val</surname>, <given-names>Aurore</given-names></string-name>. <article-title>&#x201C;Deliberate body disposal by hominins in the Dinaledi Chamber, Cradle of Humankind, South Africa?</article-title>.&#x201D; <source>Journal of Human Evolution</source> <volume>96</volume> (<year>2016</year>): <fpage>145</fpage>&#x2013;<lpage>148</lpage>.</mixed-citation></ref>
+<ref id="c26"><label>26.</label><mixed-citation publication-type="journal"><string-name><surname>Von Petzinger</surname>, <given-names>G.</given-names></string-name> <source>The first signs: Unlocking the mysteries of the world&#x2019;s oldest symbols. Simon and Schuster</source>; <year>2017</year> Mar 28.</mixed-citation></ref>
+<ref id="c27"><label>27.</label><mixed-citation publication-type="journal"><string-name><surname>White</surname>, <given-names>Randall</given-names></string-name>, <string-name><given-names>Gerhard</given-names> <surname>Bosinski</surname></string-name>, <string-name><given-names>Rapha&#x00EB;lle</given-names> <surname>Bourrillon</surname></string-name>, <string-name><given-names>Jean</given-names> <surname>Clottes</surname></string-name>, <string-name><given-names>Margaret W.</given-names> <surname>Conkey</surname></string-name>, <string-name><given-names>Soledad Corch&#x00F3;n</given-names> <surname>Rodriguez</surname></string-name>, <string-name><given-names>Miguel</given-names> <surname>Cort&#x00E9;s-S&#x00E1;nchez</surname></string-name> <string-name><surname>et al.</surname></string-name> &#x201C;<source>Still no archaeological evidence that Neanderthals created Iberian cave art</source>.&#x201D; (<year>2020</year>): <volume>102640</volume>.</mixed-citation></ref>
+</ref-list>
+<sec id="s7">
+<title>Competing interest declaration</title>
+<p>The authors declare that they have no competing interests with the production or publication of this research.</p>
+</sec>
+</back>
+</article>
